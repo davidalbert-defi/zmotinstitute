@@ -49,8 +49,22 @@ export default {
         version: 2,     // Version
         size: "normal"        // Size: 'compact', 'normal', 'invisible' (v2)
       }
-    ]
+    ],
+    '@nuxtjs/robots',
+    // '@nuxtjs/gtm'
   ],
+
+  //Google Tag Manager Configuration (https://www.npmjs.com/package/@nuxtjs/gtm)
+  // gtm: {
+  //   id: "GTM-K3SW4XN",
+  //   pageTracking: true
+  // },
+
+  //ROBOTS configuration (https://www.npmjs.com/package/@nuxtjs/robots)
+  robots: {
+    UserAgent: '*',
+    Disallow: ''
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
