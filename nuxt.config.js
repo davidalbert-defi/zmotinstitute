@@ -1,7 +1,9 @@
+const axios = require('axios')
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'zmotinstitute',
+    title: process.env.npm_package_name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -32,7 +34,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    "nuxt-compress",
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -51,6 +54,7 @@ export default {
       }
     ],
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
     // '@nuxtjs/gtm'
   ],
 
@@ -66,10 +70,82 @@ export default {
     Disallow: ''
   },
 
+  //Nuxt compress Configuration (https://www.npmjs.com/package/nuxt-compress)
+  "nuxt-compress": {
+    gzip: {
+      cache: true
+    },
+    brotli: {
+      threshold: 10240
+    }
+  },
+
+  //Sitemap Configuration (https://www.npmjs.com/package/@nuxtjs/sitemap)
+  sitemap: {
+    hostname: 'https://zmotinstitute.com',
+    // gzip: false,
+    // i18n:true
+    i18n: {
+      defaultLocale: 'en',
+      locales: ['en', 'es', 'pt-br'],
+      routesNameSeparator: '___'
+    },
+
+    routes: async () => {
+      const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
+      return data.map((blog) => ({
+        url:`/blog/${blog.slug}`,
+        links: [
+          { lang: 'en', url: blog.slug },
+          { lang: 'es', url: `es/${blog.slug}` },
+          { lang: 'pt-br', url: `pt-br/${blog.slug}` }
+        ]
+      }))
+    }
+  },
+
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    transpile: [
+      'bootstrap-vue'
+    ],
+    extend (config, { isDev }) {
+      config.module.rules.unshift({
+        test: /\.jpe?g$/,
+        use: {
+          loader: 'responsive-loader',
+          options: {
+            name: 'images/[hash:hex:7]_[width]x.[ext]',
+            min: 320,
+            max: 2880,
+            steps: 9,
+            quality: 80,
+            placeholder: true,
+            placeholderSize: 32,
+            adapter: require('responsive-loader/sharp')
+          }
+        }
+      })
+
+      config.module.rules.unshift({
+        test: /\.png$/,
+        use: {
+          loader: 'responsive-loader',
+          options: {
+            name: 'images/[hash:hex:7]_[width]x.[ext]',
+            min: 320,
+            max: 2880,
+            steps: 9,
+            quality: 80,
+            placeholder: true,
+            placeholderSize: 32,
+            adapter: require('responsive-loader/sharp')
+          }
+        }
+      })
+    }
   }
 }

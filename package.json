@@ -13,12 +13,17 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/recaptcha": "^0.6.2",
     "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "nuxt-compress": "^4.1.0",
+    "responsive-loader": "^2.2.1",
+    "sharp": "^0.26.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
