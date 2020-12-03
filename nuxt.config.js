@@ -1,6 +1,10 @@
 import axios from 'axios'
 
 export default {
+  server: {
+    host: '0.0.0.0',
+    port: 3000
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: process.env.npm_package_name,

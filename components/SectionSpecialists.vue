@@ -1,6 +1,6 @@
 <template>
   <section
-    class="specialists pt-4 mb-12"
+    class="specialists bg-white pt-4 mb-12"
     data-aos="fade-down"
     data-aos-easing="linear"
     data-aos-once="true"
@@ -8,19 +8,19 @@
   >
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center">
-        'homepage.specialist.header'
+        The Experts
       </h2>
       <p class="text-center">
-        'homepage.specialist.text'
+        ZMOT is a real BIG thing. Take a look at what leading experts in Digital Marketing have been talking about, and why you should start using it as well.
       </p>
-      <div class="specialist__items overflow-hidden">
+      <div class="specialist__items">
         <client-only placeholder="Loading...">
           <agile :options="agileOptions">
             <div class="slide slide--1">
-              <div class="overflow-hidden spec__card">
-                <div>
-                  <div>
-                    “'homepage.specialist.slide_1_text'”
+              <div class="card overflow-hidden spec__card">
+                <div class="card-body">
+                  <div class="card-text text-black text-xl font-light leading-7">
+                    “Consumers search the information on the Internet before buying”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -30,7 +30,7 @@
                         :srcset="require('~/assets/img/Specialist/NeilPatel.jpg').srcSet"
                         :blank-src="require('~/assets/img/Specialist/NeilPatel.jpg').placeholder"
                         alt="Neil Patel Photo"
-                      />
+                      >
                     </div>
                     <div class="spec__card-meta-details">
                       <div class="name">
@@ -45,10 +45,10 @@
               </div>
             </div>
             <div class="slide slide--2">
-              <div class="overflow-hidden spec__card">
-                <div>
-                  <div>
-                    “'homepage.specialist.slide_2_text'”
+              <div class="card overflow-hidden spec__card">
+                <div class="card-body">
+                  <div class="card-text text-black text-xl font-light leading-7">
+                    “That's how consumers live, learn and make decisions today”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -58,7 +58,7 @@
                         :srcset="require('~/assets/img/Specialist/Jim_Lecinsk.jpeg').srcSet"
                         :blank-src="require('~/assets/img/Specialist/Jim_Lecinsk.jpeg').placeholder"
                         alt="Jim Lecinsk Photo"
-                      />
+                      >
                     </div>
                     <div class="spec__card-meta-details">
                       <div class="name">
@@ -73,10 +73,10 @@
               </div>
             </div>
             <div class="slide slide--3">
-              <div class="overflow-hidden spec__card">
-                <div>
-                  <div>
-                    “'homepage.specialist.slide_3_text'”
+              <div class="card overflow-hidden spec__card">
+                <div class="card-body">
+                  <div class="card-text text-black text-xl font-light leading-7">
+                    “Digital Marketing is about delivering the right content at the right time”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -86,7 +86,7 @@
                         :srcset="require('~/assets/img/Specialist/David_Meerman_Scott.png').srcSet"
                         :blank-src="require('~/assets/img/Specialist/David_Meerman_Scott.png').placeholder"
                         alt="David Meerman Scott Photo"
-                      />
+                      >
                     </div>
                     <div class="spec__card-meta-details">
                       <div class="name">
@@ -101,10 +101,10 @@
               </div>
             </div>
             <div class="slide slide--4">
-              <div class="overflow-hidden spec__card">
-                <div>
-                  <div>
-                    “'homepage.specialist.slide_4_text'”
+              <div class="card overflow-hidden spec__card">
+                <div class="card-body">
+                  <div class="card-text text-black text-xl font-light leading-7">
+                    “No matter what you do you can do it cheaper, faster and more efficiently on the web”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -114,7 +114,7 @@
                         :srcset="require('~/assets/img/Specialist/avinash_kaushik.png').srcSet"
                         :blank-src="require('~/assets/img/Specialist/avinash_kaushik.png').placeholder"
                         alt="Avinash Kaushik Photo"
-                      />
+                      >
                     </div>
                     <div class="spec__card-meta-details">
                       <div class="name">
@@ -129,10 +129,10 @@
               </div>
             </div>
             <div class="slide slide--5">
-              <div class="overflow-hidden spec__card">
-                <div>
-                  <div>
-                    “'homepage.specialist.slide_5_text'”
+              <div class="card overflow-hidden spec__card">
+                <div class="card-body">
+                  <div class="card-text text-black text-xl font-light leading-7">
+                    “Our jobs as marketers are to understand how the customer wants to buy and help them”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -142,7 +142,7 @@
                         :srcset="require('~/assets/img/Specialist/bryan_eisenberg.png').srcSet"
                         :blank-src="require('~/assets/img/Specialist/bryan_eisenberg.png').placeholder"
                         alt="Bryan Eisenberg Photo"
-                      />
+                      >
                     </div>
                     <div class="spec__card-meta-details">
                       <div class="name">
@@ -158,10 +158,18 @@
             </div>
 
             <template slot="prevButton">
-              <font-awesome-icon :icon="['fas', 'arrow-left']" />
+              <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
+                <g>
+                  <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z "/>
+                </g>
+              </svg>
             </template>
             <template slot="nextButton">
-              <font-awesome-icon :icon="['fas', 'arrow-right']" />
+              <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
+                <g>
+                  <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
+                </g>
+              </svg>
             </template>
           </agile>
         </client-only>
@@ -174,7 +182,6 @@
 export default {
   name: 'SectionSpecialists',
   data: () => ({
-    testimonial_avatar: { blank: false, width: 36, height: 36, class: 'm-1' },
     specialist_avatar: { blank: false, width: 85, height: 85, class: 'm-2' },
     agileOptions: {
       autoplay: true,

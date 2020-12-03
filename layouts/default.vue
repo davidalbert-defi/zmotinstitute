@@ -1,16 +1,13 @@
 <template>
-  <div>
-    <Header />
+  <div class="leading-normal tracking-normal bg-primary">
+    <menu-header />
     <Nuxt />
-    <Footer />
+    <menu-footer />
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header'
-import Footer from '~/components/Footer'
 export default {
-  components: { Footer, Header },
   mounted () {
     /* let scrollpos = window.scrollY
     const header = document.getElementById('header')
@@ -87,14 +84,8 @@ export default {
   },
   head: {
     bodyAttrs: {
-      class: 'leading-normal tracking-normal bg-primary'
+      class: ''
     }
   }
 }
 </script>
-
-<style>
-  .gradient {
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-  }
-</style>
