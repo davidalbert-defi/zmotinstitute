@@ -118,6 +118,16 @@ export default {
     isOpen: false
   }),
   computed: {
+    localeToLang () {
+      return 'English'
+      // let lang = this.$i18n.locale
+      // if (lang == 'en')
+      //   return 'English';
+      // else if (lang == 'pt-br')
+      //   return 'Português';
+      // else if (lang == 'es')
+      //   return 'Español';
+    },
     flagVisible () {
       // const lang = this.$i18n.locale
       // if (lang === 'en') { return 1 } else if (lang === 'pt-br') { return 2 } else if (lang === 'es') { return 3 }

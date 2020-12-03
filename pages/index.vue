@@ -1,5 +1,10 @@
 <template>
   <div>
+    <section-banner />
+
+    <section-whyzmot />
+
+    <section-specialists />
     <!--Hero-->
     <div class="pt-24">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -654,5 +659,6 @@
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>

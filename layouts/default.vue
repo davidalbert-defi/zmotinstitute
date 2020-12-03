@@ -12,7 +12,7 @@ import Footer from '~/components/Footer'
 export default {
   components: { Footer, Header },
   mounted () {
-    let scrollpos = window.scrollY
+    /* let scrollpos = window.scrollY
     const header = document.getElementById('header')
     const navcontent = document.getElementById('nav-content')
     const navaction = document.getElementById('navAction')
@@ -20,12 +20,10 @@ export default {
     const toToggle = document.querySelectorAll('.toggleColour')
 
     document.addEventListener('scroll', function () {
-      /* Apply classes for slide in bar */
+      /!* Apply classes for slide in bar *!/
       scrollpos = window.scrollY
 
       if (scrollpos > 10) {
-        // header.classList.add('bg-white')
-        // navaction.classList.remove('bg-white')
         navaction.classList.add('primary')
         navaction.classList.remove('text-gray-800')
         navaction.classList.add('text-white')
@@ -39,7 +37,6 @@ export default {
         navcontent.classList.add('bg-white')
       } else {
         header.classList.remove('bg-white')
-        // navaction.classList.remove('primary')
         navaction.classList.add('bg-white')
         navaction.classList.remove('text-white')
         navaction.classList.add('text-gray-800')
@@ -53,7 +50,7 @@ export default {
         navcontent.classList.remove('bg-white')
         navcontent.classList.add('bg-gray-100')
       }
-    })
+    }) */
 
     const navMenuDiv = document.getElementById('nav-content')
     const navMenu = document.getElementById('nav-toggle')
@@ -90,7 +87,7 @@ export default {
   },
   head: {
     bodyAttrs: {
-      class: 'leading-normal tracking-normal text-white bg-primary'
+      class: 'leading-normal tracking-normal bg-primary'
     }
   }
 }
