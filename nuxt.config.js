@@ -1,4 +1,4 @@
-const axios = require('axios')
+import axios from 'axios'
 
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -19,13 +19,14 @@ export default {
   loading: { color: '#fff' },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '@assets/scss/style.scss'
+    '@assets/scss/style.scss',
+    '@assets/scss/tailwind.scss'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~/plugins/aos', ssr: false },
-    { src: '~/plugins/components', ssr: false },
+    { src: '~/plugins/components', ssr: false }
   ],
 
   // Rendering Configuration
@@ -48,7 +49,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/moment',
-    "nuxt-compress",
+    'nuxt-compress'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -61,30 +62,37 @@ export default {
       '@nuxtjs/recaptcha', {
         /* reCAPTCHA options */
         hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
-        siteKey: "6LdXyQEVAAAAAD5ECL2PFXuM39YFgpUpUY05_loV",
-        version: 2,     // Version
-        size: "normal"        // Size: 'compact', 'normal', 'invisible' (v2)
+        siteKey: '6LdXyQEVAAAAAD5ECL2PFXuM39YFgpUpUY05_loV',
+        version: 2, // Version
+        size: 'normal' // Size: 'compact', 'normal', 'invisible' (v2)
       }
     ],
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+    'nuxt-lazy-load'
     // '@nuxtjs/gtm'
   ],
 
-  //Google Tag Manager Configuration (https://www.npmjs.com/package/@nuxtjs/gtm)
+  // Tailwindcss Configuration
+  tailwindcss: {
+    configPath: '~/tailwind.config.js',
+    cssPath: '~/assets/scss/tailwind.css'
+  },
+
+  // Google Tag Manager Configuration (https://www.npmjs.com/package/@nuxtjs/gtm)
   // gtm: {
   //   id: "GTM-K3SW4XN",
   //   pageTracking: true
   // },
 
-  //ROBOTS configuration (https://www.npmjs.com/package/@nuxtjs/robots)
+  // ROBOTS configuration (https://www.npmjs.com/package/@nuxtjs/robots)
   robots: {
     UserAgent: '*',
     Disallow: ''
   },
 
-  //Nuxt compress Configuration (https://www.npmjs.com/package/nuxt-compress)
-  "nuxt-compress": {
+  // Nuxt compress Configuration (https://www.npmjs.com/package/nuxt-compress)
+  'nuxt-compress': {
     gzip: {
       cache: true
     },
@@ -93,7 +101,7 @@ export default {
     }
   },
 
-  //Sitemap Configuration (https://www.npmjs.com/package/@nuxtjs/sitemap)
+  // Sitemap Configuration (https://www.npmjs.com/package/@nuxtjs/sitemap)
   sitemap: {
     hostname: 'https://zmotinstitute.com',
     // gzip: false,
@@ -106,8 +114,8 @@ export default {
 
     routes: async () => {
       const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
-      return data.map((blog) => ({
-        url:`/blog/${blog.slug}`,
+      return data.map(blog => ({
+        url: `/blog/${blog.slug}`,
         links: [
           { lang: 'en', url: blog.slug },
           { lang: 'es', url: `es/${blog.slug}` },
@@ -122,9 +130,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    transpile: [
-      'bootstrap-vue'
-    ],
     extend (config, { isDev }) {
       config.module.rules.unshift({
         test: /\.jpe?g$/,

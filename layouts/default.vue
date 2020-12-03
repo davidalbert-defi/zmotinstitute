@@ -1,62 +1,103 @@
 <template>
   <div>
+    <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
+<script>
+import Header from '~/components/Header'
+import Footer from '~/components/Footer'
+export default {
+  components: { Footer, Header },
+  mounted () {
+    let scrollpos = window.scrollY
+    const header = document.getElementById('header')
+    const navcontent = document.getElementById('nav-content')
+    const navaction = document.getElementById('navAction')
+    // const brandname = document.getElementById('brandname')
+    const toToggle = document.querySelectorAll('.toggleColour')
+
+    document.addEventListener('scroll', function () {
+      /* Apply classes for slide in bar */
+      scrollpos = window.scrollY
+
+      if (scrollpos > 10) {
+        // header.classList.add('bg-white')
+        // navaction.classList.remove('bg-white')
+        navaction.classList.add('primary')
+        navaction.classList.remove('text-gray-800')
+        navaction.classList.add('text-white')
+        // Use to switch toggleColour colours
+        for (let i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add('text-gray-800')
+          toToggle[i].classList.remove('text-white')
+        }
+        header.classList.add('shadow')
+        navcontent.classList.remove('bg-gray-100')
+        navcontent.classList.add('bg-white')
+      } else {
+        header.classList.remove('bg-white')
+        // navaction.classList.remove('primary')
+        navaction.classList.add('bg-white')
+        navaction.classList.remove('text-white')
+        navaction.classList.add('text-gray-800')
+        // Use to switch toggleColour colours
+        for (let i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add('text-white')
+          toToggle[i].classList.remove('text-gray-800')
+        }
+
+        header.classList.remove('shadow')
+        navcontent.classList.remove('bg-white')
+        navcontent.classList.add('bg-gray-100')
+      }
+    })
+
+    const navMenuDiv = document.getElementById('nav-content')
+    const navMenu = document.getElementById('nav-toggle')
+
+    document.onclick = check
+    function check (e) {
+      const target = (e && e.target) || (event && event.srcElement)
+
+      // Nav Menu
+      if (!checkParent(target, navMenuDiv)) {
+        // click NOT on the menu
+        if (checkParent(target, navMenu)) {
+          // click on the link
+          if (navMenuDiv.classList.contains('hidden')) {
+            navMenuDiv.classList.remove('hidden')
+          } else {
+            navMenuDiv.classList.add('hidden')
+          }
+        } else {
+          // click both outside link and outside menu, hide menu
+          navMenuDiv.classList.add('hidden')
+        }
+      }
+    }
+    function checkParent (t, elm) {
+      while (t.parentNode) {
+        if (t === elm) {
+          return true
+        }
+        t = t.parentNode
+      }
+      return false
+    }
+  },
+  head: {
+    bodyAttrs: {
+      class: 'leading-normal tracking-normal text-white bg-primary'
+    }
+  }
+}
+</script>
+
 <style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .gradient {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  }
 </style>
