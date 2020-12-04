@@ -14,7 +14,7 @@
         Take a look at what real life people who got in contact with us have to say about what they have learned.
       </p>
       <div class="testimonial-list">
-        <div class="flex flex-wrap flex-col md:flex-row -mx-3 testimonial-item-wrapper">
+        <div class="flex flex-wrap flex-col md:flex-row  testimonial-item-wrapper">
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="testimonial-item mt-4">
               <blockquote class="testimonial-item__quote">

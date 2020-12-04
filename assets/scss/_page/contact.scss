@@ -1,0 +1,31 @@
+.contact-form {
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  input, textarea {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #cad5e2;
+    margin: 2rem 0;
+    transition: all .3s ease;
+  }
+  input:focus, textarea:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #e46c38;
+    box-shadow: none;
+  }
+  textarea.form-control {
+    height: auto;
+  }
+}

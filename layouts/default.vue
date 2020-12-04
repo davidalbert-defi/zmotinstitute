@@ -1,5 +1,5 @@
 <template>
-  <div class="leading-normal tracking-normal bg-primary">
+  <div class="leading-normal tracking-normal bg-white">
     <menu-header />
     <Nuxt />
     <menu-footer />

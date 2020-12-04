@@ -17,6 +17,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  // Environment Variables
+  env: {
+    hubSpotAPIKey: process.env.hubSpotAPIKey,
+    hubSpotPortalId: process.env.hubSpotPortalId,
+    hubSpotFormGuid: process.env.hubSpotFormGuid,
+    contactFormGuid: process.env.contactFormGuid
+  },
   /*
   ** Customize the progress-bar color
   */
@@ -73,7 +80,14 @@ export default {
     ],
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    [
+      'vue-sweetalert2/nuxt',
+      {
+        confirmButtonColor: '#41b882',
+        cancelButtonColor: '#ff7674'
+      }
+    ]
     // '@nuxtjs/gtm'
   ],
 

@@ -1,5 +1,9 @@
 @import "_layout/card";
 @import "_page/home";
+@import "_page/contact";
+
+@import '~sweetalert2/src/variables';
+@import '~sweetalert2/src/sweetalert2';
 
 section {
   h1 {

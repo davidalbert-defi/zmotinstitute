@@ -25,7 +25,7 @@
           alt="women persona using cell phone, sitting on a side of a big cell phone with an ecommerce website. There is a nice landscape with plants"
         />
       </div>
-      <div class="w-full flex flex-wrap -mx-3 overflow-hidden pt-12">
+      <div class="w-full flex flex-wrap overflow-hidden pt-12">
         <div class="my-3 px-3 w-1/4 overflow-hidden">
           <img
             :src="require('~/assets/img/logos/google-white-logo.png').src"
