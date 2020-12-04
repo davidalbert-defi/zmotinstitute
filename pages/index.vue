@@ -1,18 +1,32 @@
 <template>
   <div class="bg-white">
-    <section-banner />
+    <lazy-hydrate when-visible>
+      <section-banner />
+    </lazy-hydrate>
 
-    <section-whyzmot />
+    <lazy-hydrate when-visible>
+      <section-whyzmot />
+    </lazy-hydrate>
 
-    <section-specialists />
+    <lazy-hydrate when-visible>
+      <section-specialists />
+    </lazy-hydrate>
 
-    <section-services />
+    <lazy-hydrate when-visible>
+      <section-services />
+    </lazy-hydrate>
 
-    <section-sayaboutus />
+    <lazy-hydrate when-visible>
+      <section-sayaboutus />
+    </lazy-hydrate>
   </div>
 </template>
 
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 export default {
+  components: {
+    LazyHydrate
+  }
 }
 </script>
