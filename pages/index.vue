@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white">
     <section-banner />
 
     <section-whyzmot />

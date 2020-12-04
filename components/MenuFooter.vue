@@ -1,100 +1,148 @@
 <template>
-  <footer class="bg-white">
-    <div class="container mx-auto px-8">
-      <div class="w-full flex flex-col md:flex-row py-6">
-        <div class="flex-1 mb-6 text-black">
-          <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-            <!--Icon from: http://www.potlabicons.com/ -->
-            <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-              <rect
-                fill="#2a2a31"
-                x="16.539"
-                y="425.626"
-                width="479.767"
-                height="50.502"
-                transform="matrix(1,0,0,1,0,0)"
-              />
-              <path
-                class="plane-take-off"
-                d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-              />
-            </svg>
-            LANDING
-          </a>
-        </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">
-            Links
+  <div class="app-footer bg-primary py-6 text-white">
+    <div class="container mx-auto px-2 lg:px-4">
+      <div class="row flex flex-wrap -mx-2 overflow-hidden">
+        <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
+          <img
+            v-bind="footerLogo"
+            :src="require('~/assets/img/zmot-logo.png').src"
+            :srcset="require('~/assets/img/zmot-logo.png').srcSet"
+            :blank-src="require('~/assets/img/zmot-logo.png').placeholder"
+            class="footer-new-holder-right-holder__brand footer-logo"
+            alt="Zmot Logo"
+          />
+          <p class="mt-8 text-white">
+            We are here to help you to understand consumers and grow your business.
           </p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
-            </li>
-          </ul>
         </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">
-            Legal
-          </p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
-            </li>
-          </ul>
+        <div class="my-2 px-2 lg:w-2/3 overflow-hidden w-full">
+          <div class="row flex flex-wrap -mx-2 overflow-hidden mt-3">
+            <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
+              <h5 class="text-xl text-white font-semibold uppercase">Services</h5>
+              <ul class="pl-0">
+                <li>
+                  <nuxt-link to="/#zmot-audit">
+                    ZMOT Audit
+                  </nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/#lectures">
+                    Lectures & Events
+                  </nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/#courses">
+                    Online courses
+                  </nuxt-link>
+                </li>
+              </ul>
+            </div>
+            <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
+              <h5 class="text-xl text-white font-semibold uppercase">Knowledge</h5>
+              <ul>
+                <li>
+                  <nuxt-link to="/">
+                    Blog
+                  </nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/#newsletter">Newsletter</nuxt-link>
+                </li>
+              </ul>
+            </div>
+            <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
+              <h5 class="text-xl text-white font-semibold uppercase">Legal</h5>
+              <ul>
+                <li>
+                  <nuxt-link to="/">
+                    Privacy Policy
+                  </nuxt-link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">
-            Social
-          </p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">
-            Company
-          </p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
-            </li>
-          </ul>
+        <div class="my-2 px-2 lg:w-1/6 overflow-hidden w-full">
+          <div class="social-links flex mt-3">
+            <a
+              href='https://www.linkedin.com/company/zmot-institute'
+              class="flex items-center justify-center text-white mx-2 w-8 h-8 text-2xl rounded"
+              target='_blank'
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="fill-current" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <a
+              href='https://www.facebook.com/ZMOT-Institute-110524633996597'
+              class="flex items-center justify-center text-white mx-2 w-8 h-8 text-2xl rounded"
+              target='_blank'
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="fill-current" viewBox="0 0 24 24">
+                <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
-  </footer>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  data: () => ({
+    footerLogo: { blank: false, width: 300, class: 'm-2' }
+  })
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+  .app-footer {
+      border-top: 1px solid #EAEAEA;
+      padding: 25px 0;
+      ul {
+          list-style: none;
+      }
+      .container {
+          margin: 0 20px;
+          max-width: calc(100% - 40px);
+          .row {
+              ul {
+                  li {
+                    margin-top: 5px;
+                  }
+                  a {
+                      color: white;
+                  }
+              }
+              p {
+                  margin-top: 2rem;
+                  color: white;
+              }
+              .social-links {
+                  display: flex;
+                  a {
+                      color: white;
+                      margin: 0 0.5rem;
+                      width: 2rem;
+                      height: 2rem;
+                      font-size: 1.5rem;
+                      border-radius: 5px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                  }
+              }
+          }
+      }
+  }
 
+  @media (max-width: 992px) {
+      .footer-logo {
+          width: 90%;
+          max-width: 300px;
+      }
+  }
 </style>

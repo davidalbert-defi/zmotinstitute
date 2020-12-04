@@ -14,14 +14,14 @@
         Take a look at what real life people who got in contact with us have to say about what they have learned.
       </p>
       <div class="testimonial-list">
-        <div class="flex flex-wrap flex-col md:flex-row testimonial-item-wrapper">
-          <div class="lg:w-1/2 w-full overflow-hidden">
-            <div class="testimonial-item">
+        <div class="flex flex-wrap flex-col md:flex-row -mx-3 testimonial-item-wrapper">
+          <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
+            <div class="testimonial-item mt-4">
               <blockquote class="testimonial-item__quote">
                 Thank you for sharing this content with the community. From now on I will pay more attention to what was
                 exposed in the text.
               </blockquote>
-              <span class="testimonial-item__author">
+              <span class="flex items-center testimonial-item__author">
                 <img
                   v-bind="testimonial_avatar"
                   :src="require('~/assets/img/Testominal/paulo-gomes.jpeg').src"
@@ -33,13 +33,13 @@
               </span>
             </div>
           </div>
-          <div class="lg:w-1/2 w-full overflow-hidden">
-            <div class="testimonial-item">
+          <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
+            <div class="testimonial-item mt-6">
               <blockquote class="testimonial-item__quote">
                 Better to start implementing ZMOT as soon as possible ... Congratulations for sharing your knowledge and
                 helping us to improve.
               </blockquote>
-              <span class="testimonial-item__author">
+              <span class="flex items-center testimonial-item__author">
                 <img
                   v-bind="testimonial_avatar"
                   :src="require('~/assets/img/Testominal/elvissilva.jpeg').src"
@@ -54,11 +54,11 @@
         </div>
         <div class="flex flex-wrap flex-col md:flex-row testimonial-item-wrapper justify-center">
           <div class="lg:w-1/2 w-full overflow-hidden">
-            <div class="testimonial-item">
+            <div class="testimonial-item mt-3">
               <blockquote class="testimonial-item__quote">
                 Very good content, thank you for sharing it.
               </blockquote>
-              <span class="testimonial-item__author">
+              <span class="flex items-center testimonial-item__author">
                 <img
                   v-bind="testimonial_avatar"
                   :src="require('~/assets/img/Testominal/Eduardo-Moiolli-Congresso-Apdespbr-2.png').src"
@@ -91,7 +91,7 @@ export default {
     background-color: #f8f9fa;
 
     .testimonial-list {
-      margin-top: 5rem;
+      margin-top: 2rem;
 
       .testimonial-item-wrapper {
         margin: 1.5rem 1.5rem 2rem;
