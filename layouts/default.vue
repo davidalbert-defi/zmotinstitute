@@ -1,13 +1,16 @@
 <template>
   <div class="leading-normal tracking-normal bg-white">
-    <menu-header />
+    <menu-header v-if="visibleHeaderFooter" />
     <Nuxt />
-    <menu-footer />
+    <menu-footer v-if="visibleHeaderFooter" />
   </div>
 </template>
 
 <script>
 export default {
+  data: () => ({
+    visibleHeaderFooter: true
+  }),
   mounted () {
     /* let scrollpos = window.scrollY
     const header = document.getElementById('header')
@@ -81,11 +84,15 @@ export default {
       }
       return false
     }
-  },
-  head: {
-    bodyAttrs: {
-      class: ''
-    }
+
+    // Event Bus listener
+    this.$bus.$on('hide-header-footer', () => {
+      this.visibleHeaderFooter = false
+    })
+
+    this.$bus.$on('show-header-footer', () => {
+      this.visibleHeaderFooter = true
+    })
   }
 }
 </script>

@@ -12,18 +12,18 @@
           <div class="my-3 px-3 lg:w-3/4 mx-auto overflow-hidden w-full justify-center">
             <div>
               <div class="flex flex-wrap overflow-hidden">
-                <div class="my-3 px-3 lg:w-1/3 overflow-hidden w-full xl:w-1/3">
+                <div class="my-3 lg:px-3 px-1 lg:w-1/3 overflow-hidden w-full xl:w-1/3">
                   <input v-model="name" class="form-control" type="text" required placeholder="Name">
                 </div>
-                <div class="my-3 px-3 lg:w-1/3 overflow-hidden w-full xl:w-1/3">
+                <div class="my-3 lg:px-3 px-1 lg:w-1/3 overflow-hidden w-full xl:w-1/3">
                   <input v-model="surname" class="form-control" type="text" required placeholder="Surname">
                 </div>
-                <div class="my-3 px-3 lg:w-1/3 overflow-hidden w-full xl:w-1/3">
+                <div class="my-3 lg:px-3 px-1 lg:w-1/3 overflow-hidden w-full xl:w-1/3">
                   <input v-model="email" class="form-control" type="email" required placeholder="Email">
                 </div>
               </div>
               <div class="flex flex-wrap overflow-hidden">
-                <div class="w-full overflow-hidden">
+                <div class="w-full lg:px-3 px-1 overflow-hidden">
                   <textarea v-model="message" class="form-control" rows="5" required placeholder="Message" />
                 </div>
               </div>
@@ -43,7 +43,6 @@
                   />
                 </div>
                 <div class="md:w-1/2 hidden lg:block md:block sm:hidden">
-                  <!-- <b-button type="submit"  class="rounded-pill" variant="orange">{{$t('contact.form.send_email')}}</b-button> -->
                   <button
                     id="FormSendEmail"
                     type="submit"
@@ -105,17 +104,20 @@ export default {
           ]
         }
 
-        await this.$axios.post(
-          `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${contactFormGuid}`,
-          data
-        )
-        this.loading = false
-        this.showSuccessToast()
+        try {
+          await this.$axios.post(
+            `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${contactFormGuid}`,
+            data
+          )
+          this.loading = false
+          this.showSuccessToast()
+        } catch (e) {
+          this.loading = false
+          this.showErrorToast()
+        }
 
         await this.$recaptcha.reset()
       } catch (err) {
-        this.loading = false
-        this.showErrorToast()
         console.log(err)
       }
     },

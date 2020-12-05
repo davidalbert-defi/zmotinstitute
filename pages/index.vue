@@ -27,6 +27,9 @@ import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: {
     LazyHydrate
+  },
+  mounted () {
+    this.$bus.$emit('show-header-footer')
   }
 }
 </script>

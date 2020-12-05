@@ -3,9 +3,7 @@
     <div class="container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 w-1/2 md:w-auto">
         <nuxt-link to="/" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
-          <!--Icon from: http://www.potlabicons.com/ -->
           <img
-            v-lazy-load
             v-bind="logoProp"
             :src="require('~/assets/img/zmot-logo.png').src"
             :srcset="require('~/assets/img/zmot-logo.png').srcSet"
