@@ -112,7 +112,7 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link to="/">
+                <nuxt-link to="/online-courses">
                   <a
                     id="CheckServicePage"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"

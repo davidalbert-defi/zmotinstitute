@@ -1,10 +1,10 @@
 <template>
-  <div class="lectures-events-page px-4 bg-primary pb-12 min-h-screen">
+  <div class="zmot-audit-page">
     <lazy-hydrate when-visible>
       <section-lecture-banner />
     </lazy-hydrate>
-    <lazy-hydrate when-visisble>
-      <section-lecture-content />
+    <lazy-hydrate when-visible>
+      <section-zmot-audit />
     </lazy-hydrate>
   </div>
 </template>
