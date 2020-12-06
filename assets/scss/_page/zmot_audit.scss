@@ -1,3 +1,32 @@
 .zmot-audit-page {
+  .vue-tel-input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
 
+  .vti__dropdown {
+    background-color: white;
+    outline: none;
+    //height: 38px;
+    border: 0;
+    margin-bottom: 2rem;
+    border-radius: 100px 0 0 100px;
+    border-bottom: 2px solid #cad5e2;
+  }
+
+  .vti__input {
+    height: 38px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
+    line-height: 1.5;
+    color: #495057;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    border-radius: 0 100px 100px 0;
+  }
+
+  input {
+    padding: 1.5rem;
+  }
 }

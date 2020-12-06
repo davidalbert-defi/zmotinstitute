@@ -1,5 +1,5 @@
 <template>
-  <div class="zmot-audit-page">
+  <div class="zmot-audit-page px-4 bg-primary pb-12 min-h-screen">
     <lazy-hydrate when-visible>
       <section-lecture-banner />
     </lazy-hydrate>

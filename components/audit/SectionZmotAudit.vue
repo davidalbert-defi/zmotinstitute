@@ -1,55 +1,174 @@
 <template>
   <div>
     <section>
-      <b-container>
-        <b-row class="zmot-audit-wrapper">
-          <b-col md="6" sm="12">
-            <h1>{{$t('zmot_audit.header')}}</h1>
-            <p>{{$t('zmot_audit.text_1')}}</p>
-            <p>{{$t('zmot_audit.text_2')}}</p>
-            <p>{{$t('zmot_audit.text_3')}}</p>
-          </b-col>
+      <div class="container mx-auto">
+        <div class="zmot-audit-wrapper flex flex-wrap overflow-hidden justify-between">
+          <div class="w-full lg:w-1/2">
+            <h1 class="text-51xl font-semibold text-white leading-tight mt-8 mb-12">
+              Boost Your Resuts with ZMOT
+            </h1>
+            <p class="text-white font-medium text-justify mb-4">
+              ZMOT is a Framework designed by Google to describe how people behave during the Buying Journey.
+            </p>
+            <p class="text-white font-medium text-justify mb-4">
+              Sucessful business understand their customer needs and solve their problems. Knowing how your consumer search for information, do comparisons, do bargain and make the purchase decision, you can send the right message, at the right time.
+            </p>
+            <p class="text-white font-medium text-justify mb-4">
+              ZMOT INSTITUTE experts will help you to track your consumer's digital footprints and create a masterplan with the most efficient Digital Marketing strategies used by the fastest growing companies in the world.
+            </p>
+          </div>
 
-          <b-col md="5" sm="12">
-            <b-form @submit.prevent="onSubmit">
-              <b-form-group>
-                <b-form-input :type="'email'" v-model="email" required v-bind:placeholder="$t('placeholder.email')"></b-form-input>
-                <b-form-input :type="'text'" v-model="name" required v-bind:placeholder="$t('placeholder.name')"></b-form-input>
-                <b-form-input :type="'text'" v-model="surname" required v-bind:placeholder="$t('placeholder.surname')"></b-form-input>
-                <vue-tel-input v-model="phone" v-bind="bindProps" v-on:country-changed="countryChanged" required v-bind:placeholder="$t('placeholder.phone')"></vue-tel-input>
+          <div class="w-full lg:w-5/12">
+            <form class="w-full" @submit.prevent="onSubmit">
+              <div>
+                <input v-model="email" class="form-control rounded-full" type="email" required :placeholder="'Email'">
+                <input v-model="name" class="form-control rounded-full" type="text" required :placeholder="'Name'">
+                <input v-model="surname" class="form-control rounded-full" type="text" required :placeholder="'Surname'">
+                <vue-tel-input v-model="phone" v-bind="telInputOption" required :placeholder="'Phone Number'" @country-changed="countryChanged"></vue-tel-input>
                 <recaptcha
                   @error="onError"
                   @success="onSuccess"
                   @expired="onExpired"
                 />
-                <div class="button-wrapper">
+                <div class="flex justify-center">
                   <button
-                    type='submit'
                     id="SubmitLeadForm"
+                    type="submit"
+                    class="bg-mpurple py-15sm px-3 text-13xl font-bold rounded-full text-white"
                   >
-                    {{$t('zmot_audit.submit')}}
+                    I Want To Get a Contact
                   </button>
                 </div>
-              </b-form-group>
-            </b-form>
-          </b-col>
-        </b-row>
-      </b-container>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
-    <div id="page-submitting" v-if="submitting">
+    <div v-if="submitting" class="flex content-center justify-center min-h-screen w-full z-100 absolute top-0 left-0 bg-white bg-opacity-30 pt-45vh">
       <loading
         :active.sync="submitting"
         :can-cancel="false"
         :is-full-page="true"
         color="white"
-      >
-      </loading>
+      />
     </div>
   </div>
 </template>
 
 <script>
+import Loading from 'vue-loading-overlay'
+import { mapGetters } from 'vuex'
 export default {
-  name: 'SectionZmotAudit'
+  name: 'SectionZmotAudit',
+  components: {
+    Loading
+  },
+  data: () => ({
+    email: '',
+    name: '',
+    surname: '',
+    phone: '',
+    country: '',
+    submitting: false
+  }),
+  computed: {
+    ...mapGetters(['telInputOption'])
+  },
+  methods: {
+    countryChanged (country) {
+      this.country = country.dialCode
+      this.phone = '+' + country.dialCode + ' '
+    },
+    async onSubmit () {
+      try {
+        const token = await this.$recaptcha.getResponse()
+        const hubSpotPortalId = process.env.hubSpotPortalId
+        const hubSpotFormGuid = process.env.hubSpotFormGuid
+        console.log('ReCaptcha token:', token)
+        const url = window.location.href
+        this.submitting = true
+        const data = {
+          fields: [
+            {
+              name: 'email',
+              value: this.email
+            },
+            {
+              name: 'firstname',
+              value: this.name
+            },
+            {
+              name: 'lastname',
+              value: this.surname
+            },
+            {
+              name: 'phone',
+              value: this.phone
+            },
+            {
+              name: 'service_interest',
+              value: 'online-courses'
+            },
+            {
+              name: 'form_url',
+              value: url
+            }
+          ]
+        }
+        try {
+          await this.$axios.post(
+            `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${hubSpotFormGuid}`,
+            data
+          )
+          this.submitting = false
+          this.showSuccessToast()
+        } catch (err) {
+          this.submitting = false
+          if (err.response.data.errors[0].message.includes('phone')) {
+            this.showPhoneNumberErrorToast()
+          } else {
+            this.showErrorToast()
+          }
+        }
+        await this.$recaptcha.reset()
+      } catch (error) {
+        console.log('error:', error)
+      }
+    },
+    showSuccessToast () {
+      this.$swal({
+        title: this.$t('online_courses.thank_you_title'),
+        text: this.$t('online_courses.thank_you_message'),
+        icon: 'success',
+        button: 'OK'
+      })
+    },
+    showErrorToast () {
+      this.$swal({
+        title: 'Submit Failed',
+        text: 'Something went wrong with your submission.',
+        icon: 'error',
+        button: 'OK'
+      })
+    },
+    showPhoneNumberErrorToast () {
+      this.$swal({
+        title: 'Submit Failed',
+        text: 'Your phone number is not valid, please try to use correct one.',
+        icon: 'error',
+        button: 'OK'
+      })
+    },
+    onError (error) {
+      console.log('Error happened:', error)
+    },
+    onSuccess (token) {
+      console.log('Succeeded:', token)
+    },
+    onExpired () {
+      console.log('Expired')
+    }
+  }
 }
 </script>
