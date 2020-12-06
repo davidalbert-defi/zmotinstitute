@@ -1,4 +1,7 @@
 module.exports = {
+  purge: {
+    mode: 'layers'
+  },
   theme: {
     extend: {
       padding: {
