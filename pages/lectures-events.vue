@@ -13,8 +13,6 @@
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: { LazyHydrate },
-  mounted () {
-    this.$bus.$emit('hide-header-footer')
-  }
+  layout: 'noheader'
 }
 </script>

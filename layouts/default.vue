@@ -1,8 +1,8 @@
 <template>
   <div class="leading-normal tracking-normal bg-white">
-    <menu-header v-if="visibleHeaderFooter" />
+    <menu-header />
     <Nuxt />
-    <menu-footer v-if="visibleHeaderFooter" />
+    <menu-footer />
   </div>
 </template>
 
@@ -12,46 +12,6 @@ export default {
     visibleHeaderFooter: true
   }),
   mounted () {
-    /* let scrollpos = window.scrollY
-    const header = document.getElementById('header')
-    const navcontent = document.getElementById('nav-content')
-    const navaction = document.getElementById('navAction')
-    // const brandname = document.getElementById('brandname')
-    const toToggle = document.querySelectorAll('.toggleColour')
-
-    document.addEventListener('scroll', function () {
-      /!* Apply classes for slide in bar *!/
-      scrollpos = window.scrollY
-
-      if (scrollpos > 10) {
-        navaction.classList.add('primary')
-        navaction.classList.remove('text-gray-800')
-        navaction.classList.add('text-white')
-        // Use to switch toggleColour colours
-        for (let i = 0; i < toToggle.length; i++) {
-          toToggle[i].classList.add('text-gray-800')
-          toToggle[i].classList.remove('text-white')
-        }
-        header.classList.add('shadow')
-        navcontent.classList.remove('bg-gray-100')
-        navcontent.classList.add('bg-white')
-      } else {
-        header.classList.remove('bg-white')
-        navaction.classList.add('bg-white')
-        navaction.classList.remove('text-white')
-        navaction.classList.add('text-gray-800')
-        // Use to switch toggleColour colours
-        for (let i = 0; i < toToggle.length; i++) {
-          toToggle[i].classList.add('text-white')
-          toToggle[i].classList.remove('text-gray-800')
-        }
-
-        header.classList.remove('shadow')
-        navcontent.classList.remove('bg-white')
-        navcontent.classList.add('bg-gray-100')
-      }
-    }) */
-
     const navMenuDiv = document.getElementById('nav-content')
     const navMenu = document.getElementById('nav-toggle')
 
@@ -84,15 +44,6 @@ export default {
       }
       return false
     }
-
-    // Event Bus listener
-    this.$bus.$on('hide-header-footer', () => {
-      this.visibleHeaderFooter = false
-    })
-
-    this.$bus.$on('show-header-footer', () => {
-      this.visibleHeaderFooter = true
-    })
   }
 }
 </script>
