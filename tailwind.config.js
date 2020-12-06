@@ -13,7 +13,8 @@ module.exports = {
         '13xl': '1.3rem',
         '51xl': '3.2rem',
         '55xl': '3.5rem',
-        '45xl': '2.625rem'
+        '45xl': '2.625rem',
+        '44xl': '2.5rem'
       },
       height: {
         '125px': '3.125rem'
