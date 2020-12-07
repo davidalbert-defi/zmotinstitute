@@ -1,0 +1,82 @@
+<template>
+  <div>
+    <div v-if="!isLoading" class="blog">
+      <div class="container mx-auto px-2 lg:px-4">
+        <div class="row flex flex-wrap">
+          <div class="col w-full md:w-3/4">
+            <div class="blog-main">
+              <div class="blog-media">
+                <img :src="post && post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url" alt="Post Image" />
+              </div>
+              <header class="blog-header">
+                <h1 class="blog-title" v-html="post && post.title.rendered" />
+              </header>
+              <div class="blog-info ">
+                <div class="blog-date">
+                  <time datetime="2019-03-08T17:10:45-03:00">Publicado em {{ $moment(post && post.date).format('DD/MM/YYYY') }}</time>
+                </div>
+              </div>
+              <div class="blog-content" v-html="post && post.content.rendered" />
+            </div>
+          </div>
+          <div class="col w-full md:w-1/4">
+            <div class="sidebar-content">
+              <div class="search">
+                <h3 class="title">
+                  Pesquisar
+                </h3>
+                <input v-model="text" class="form-control" placeholder="Search here" />
+              </div>
+            </div>
+          </div>
+          <author
+            :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
+          />
+          <comment-list
+            :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
+            :replies="post && post._embedded && post._embedded.replies && post._embedded.replies.length > 0 && post._embedded.replies[0]"
+            :post-id="post && post.id"
+          />
+          <add-comment :post-id="post && post.id" :comment-id="0" />
+        </div>
+      </div>
+    </div>
+    <div v-else class="container mx-auto min-h-80">
+      <loading
+        :active.sync="isLoading"
+        :can-cancel="false"
+        :is-full-page="fullPage"
+        :color="color"
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  async asyncData ({ params, $axios }) {
+    const { data } = await $axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed=1`)
+    console.log(data[0])
+    return { post: data[0] }
+  },
+  data: () => ({
+    text: '',
+    post: null,
+    isLoading: true,
+    fullPage: true,
+    color: '#ff6600'
+  }),
+  mounted () {
+    this.$nextTick(() => {
+      this.getPost()
+    })
+  },
+  methods: {
+    async getPost () {
+      const result = await this.$axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${this.$route.params.slug}&_embed=1`)
+      this.post = result.data[0]
+      this.isLoading = false
+    }
+  }
+}
+</script>

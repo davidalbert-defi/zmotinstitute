@@ -64,7 +64,7 @@
             </nuxt-link>
           </li>
           <li class="mr-3 my-6 text-center">
-            <nuxt-link to="/home" class="inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
+            <nuxt-link to="/blog" class="inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               BLOG
             </nuxt-link>
           </li>
