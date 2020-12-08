@@ -1,8 +1,8 @@
 <template>
   <div class="blog-index-page pt-20">
-    <lazy-hydrate when-visible>
+    <client-only>
       <section-blog />
-    </lazy-hydrate>
+    </client-only>
 
     <lazy-hydrate when-visible>
       <news-letter />

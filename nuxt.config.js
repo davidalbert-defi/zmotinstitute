@@ -36,6 +36,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    '~/plugins/bus',
     { src: '~/plugins/aos', ssr: false },
     { src: '~/plugins/components', ssr: false }
   ],

@@ -6,7 +6,7 @@
           v-for="post of posts"
           id="blog-card"
           :key="post.id"
-          :to="localePath({
+          :to="({
             name: 'blog-slug',
             params: { slug: post.slug }
           })"
@@ -61,8 +61,10 @@ export default {
     try {
       const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts')
       this.totalNum = result.data.length / 10 + 1
+      this.isLoading = false
     } catch (e) {
       this.totalNum = 0
+      this.isLoading = false
     } finally {
       this.initializeBlogContents()
     }

@@ -63,13 +63,9 @@
 </template>
 
 <script>
-import Loading from 'vue-loading-overlay'
 import { mapGetters } from 'vuex'
 export default {
   name: 'SectionCoursesContent',
-  components: {
-    Loading
-  },
   data: () => ({
     email: '',
     name: '',

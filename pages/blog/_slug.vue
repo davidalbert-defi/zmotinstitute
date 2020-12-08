@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="!isLoading" class="blog">
+    <div v-if="!isLoading" class="blog pt-20 m-20">
       <div class="container mx-auto px-2 lg:px-4">
         <div class="row flex flex-wrap">
           <div class="col w-full md:w-3/4">
