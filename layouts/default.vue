@@ -3,6 +3,7 @@
     <menu-header />
     <Nuxt />
     <menu-footer />
+    <cookie />
   </div>
 </template>
 

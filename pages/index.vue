@@ -19,6 +19,10 @@
     <lazy-hydrate when-visible>
       <section-sayaboutus />
     </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <news-letter />
+    </lazy-hydrate>
   </div>
 </template>
 

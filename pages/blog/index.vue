@@ -3,6 +3,10 @@
     <lazy-hydrate when-visible>
       <section-blog />
     </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <news-letter />
+    </lazy-hydrate>
   </div>
 </template>
 
