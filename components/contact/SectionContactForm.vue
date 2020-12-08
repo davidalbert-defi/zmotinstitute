@@ -52,7 +52,7 @@
                   </button>
                 </div>
                 <div class="text-center w-full md:text-left md:hidden lg:hidden sm:block">
-                  <button type="submit" class="font-semibold text-2xl mt-4 border bg-white py-15sm px-3 text-white bg-mpurple no-underline">
+                  <button type="submit" class="font-semibold text-2xl mt-4 border bg-white py-15sm px-3 text-white rounded-full bg-mpurple no-underline">
                     Send E-mail
                   </button>
                 </div>

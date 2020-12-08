@@ -1,6 +1,6 @@
 <template>
   <div id="privacy-policy-page" class="privacy-policy-page pt-20 pb-12 my-20">
-    <section>
+    <section class="px-4">
       <div id="intro" class="container mx-auto mb-3">
         <h1 class="text-black text-center pb-8 text-44xl">
           Privacy Policy for zmotinstitute.com

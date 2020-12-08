@@ -23,17 +23,17 @@
               </h5>
               <ul class="pl-0">
                 <li>
-                  <nuxt-link to="/#zmot-audit">
+                  <nuxt-link to="/zmot-audit">
                     ZMOT Audit
                   </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/#lectures">
+                  <nuxt-link to="/lectures-events">
                     Lectures & Events
                   </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/#courses">
+                  <nuxt-link to="/online-courses">
                     Online courses
                   </nuxt-link>
                 </li>
