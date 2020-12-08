@@ -29,13 +29,10 @@
             </div>
           </div>
         </nuxt-link>
-        <b-pagination-nav
+        <pagination
           v-model="currentPage"
-          size="lg"
-          :link-gen="linkGen"
-          :number-of-pages="totalNum"
-          base-url="#"
-          use-router
+          :records="totalNum"
+          @paginate="gotoPage"
         />
       </section>
 
@@ -55,8 +52,10 @@
 </template>
 
 <script>
+import Pagination from 'vue-pagination-2'
 export default {
   name: 'SectionBlog',
+  components: { Pagination },
   async fetch () {
     this.isLoading = true
     try {
@@ -88,6 +87,9 @@ export default {
   methods: {
     linkGen (pageNum) {
       return pageNum === 1 ? '?page=1' : `?page=${pageNum}`
+    },
+    gotoPage () {
+      this.$fetch()
     },
     async initializeBlogContents () {
       this.isLoading = true
