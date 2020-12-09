@@ -34,11 +34,17 @@
       </div>
       <div class="row flex flex-wrap">
         <div class="w-full">
-          <input
-            type="checkbox"
-            v-model="save_checked"
-            value="Save"
-          />
+          <div class="custom-control custom-checkbox">
+            <input
+              v-model="save_checked"
+              class="custom-control-input"
+              type="checkbox"
+              value="true"
+            />
+            <label class="custom-control-label">
+              Save my name, email, and website in this browser for the next time I comment
+            </label>
+          </div>
         </div>
       </div>
       <div class="row flex flex-wrap">
@@ -47,6 +53,7 @@
             <textarea
               id="textarea-rows"
               v-model="comment"
+              class="form-control"
               placeholder="Comment"
               required
               rows="8"
@@ -56,7 +63,7 @@
       </div>
       <div class="row flex flex-wrap">
         <div class="w-full md:w-5/12">
-          <button type="submit" class="btn-submit">
+          <button type="submit" class="btn-submit uppercase">
             Submit
           </button>
         </div>
@@ -131,8 +138,6 @@ export default {
       font-size: 100%
       line-height: 1.5
       color: #444
-    .row
-      margin-top: 30px
     .submit-input
       input
         border-radius: 0
@@ -141,16 +146,45 @@ export default {
           border-color: #e46c38
       input::placeholder
         color: #ced4da
-      textarea
-        border-radius: 0
-        &:focus
-          box-shadow: none
-          border-color: #e46c38
-      textarea::placeholder
-        color: #ced4da
-    .btn-submit
-      background-color: #3D3D3D
-      border-radius: 0
-      color: white
-      margin-bottom: 30px
+  .row
+    margin-top: 30px
+  textarea
+    border-radius: 0
+    &:focus
+      box-shadow: none
+      border-color: #e46c38
+  textarea::placeholder
+    color: #ced4da
+  .btn-submit
+    padding: 6px 12px
+    border: 1px solid #6c757d
+    background-color: #3D3D3D
+    border-radius: 0
+    color: white
+    margin-bottom: 30px
+  .form-control
+    border: 1px solid #ced4da
+    margin: 0
+  .custom-control
+    position: relative
+    display: block
+    min-height: 1.5rem
+    padding-left: 1.5rem
+    z-index: 1
+    .custom-control-input
+      position: absolute
+      left: 0
+      z-index: 2
+      width: 1rem
+      height: 1.25rem
+      /*opacity: 0*/
+      margin: 0
+    .custom-control-label
+      position: relative
+      margin-bottom: 0
+      vertical-align: top
+    /*.custom-control-input:checked~ .custom-control-label:before
+      color: #fff
+      border-color: #007bff
+      background-color: #007bff*/
 </style>

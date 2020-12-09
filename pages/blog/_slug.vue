@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-if="!isLoading" class="blog pt-20 m-20">
-      <div class="container mx-auto px-2 lg:px-4">
+    <div v-if="!isLoading" class="blog pt-20 my-20 lg:m-20">
+      <div class="container mx-auto px-4 lg:px-4">
         <div class="row flex flex-wrap">
           <div class="col w-full md:w-3/4">
             <div class="blog-main">
@@ -19,13 +19,13 @@
               <div class="blog-content" v-html="post && post.content.rendered" />
             </div>
           </div>
-          <div class="col w-full md:w-1/4">
-            <div class="sidebar-content">
+          <div class="col w-full md:w-1/4 mt-4 md:mt-0">
+            <div class="sidebar-content pl-0 lg:pl-8">
               <div class="search">
                 <h3 class="title">
                   Pesquisar
                 </h3>
-                <input v-model="text" class="form-control" placeholder="Search here" />
+                <input v-model="text" class="form-control border border-solid m-0" placeholder="Search here" style="border-color: #ced4da;" />
               </div>
             </div>
           </div>
@@ -56,8 +56,10 @@
 export default {
   async asyncData ({ params, $axios }) {
     const { data } = await $axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed=1`)
-    console.log(data[0])
-    return { post: data[0] }
+    return {
+      post: data[0],
+      isLoading: false
+    }
   },
   data: () => ({
     text: '',
@@ -65,18 +67,6 @@ export default {
     isLoading: true,
     fullPage: true,
     color: '#ff6600'
-  }),
-  mounted () {
-    this.$nextTick(() => {
-      this.getPost()
-    })
-  },
-  methods: {
-    async getPost () {
-      const result = await this.$axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${this.$route.params.slug}&_embed=1`)
-      this.post = result.data[0]
-      this.isLoading = false
-    }
-  }
+  })
 }
 </script>
