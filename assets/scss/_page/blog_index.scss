@@ -17,14 +17,19 @@
           padding: 3rem 2rem;
 
           .card-title {
-            color: white;
             transition: color .25s ease-out;
-            background-color: $primary;
             padding: 0.2rem 0.5rem;
+            line-height: 1.2;
           }
 
           .card-text {
             color: black;
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              margin-bottom: 1rem;
+              font-weight: 400;
+            }
           }
 
           .card-meta {
@@ -62,6 +67,15 @@
           color: #fff;
           background-color: $shinny_orange;
         }
+      }
+    }
+  }
+
+  div.pagination {
+    li.active {
+      a {
+        background-color: #f60;
+        color: white !important;
       }
     }
   }

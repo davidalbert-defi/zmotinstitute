@@ -1,9 +1,9 @@
 <template>
   <div>
     <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4">
-      <section v-if="!!totalNum" id="blogs" class="blogs m-20">
+      <section v-if="!!totalNum" id="blogs" class="blogs my-20 lg:m-20">
         <nuxt-link
-          v-for="post of posts"
+          v-for="post of pageOfItems"
           id="blog-card"
           :key="post.id"
           :to="({
@@ -19,7 +19,10 @@
                 <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none" />
               </div>
               <div class="w-full md:w-2/3">
-                <div class="card-body" :title="post.title.rendered">
+                <div class="card-body">
+                  <div class="card-title text-white bg-primary text-2xl mb-3 font-medium">
+                    {{ post.title.rendered }}
+                  </div>
                   <div class="card-text" v-html="post.excerpt.rendered" />
                   <!-- <div class="card-meta">
                     Mais de 2.000 profissionais de marketing já leram esse conteúdo
@@ -29,11 +32,16 @@
             </div>
           </div>
         </nuxt-link>
-        <pagination
-          v-model="currentPage"
-          :records="totalNum"
-          @paginate="gotoPage"
-        />
+        <client-only>
+          <div class="text-center pagination">
+            <jw-pagination
+              :items="posts"
+              :labels="customLabels"
+              :styles="customStyles"
+              @changePage="gotoPage"
+            />
+          </div>
+        </client-only>
       </section>
 
       <section v-else id="blog" class="blog pt-20 m-20">
@@ -52,15 +60,15 @@
 </template>
 
 <script>
-import Pagination from 'vue-pagination-2'
+import JwPagination from 'jw-vue-pagination'
 export default {
   name: 'SectionBlog',
-  components: { Pagination },
+  components: { JwPagination },
   async fetch () {
     this.isLoading = true
     try {
       const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts')
-      this.totalNum = result.data.length / 10 + 1
+      this.totalNum = result.data.length
       this.isLoading = false
     } catch (e) {
       this.totalNum = 0
@@ -71,15 +79,32 @@ export default {
   },
   data: () => ({
     rows: 100,
-    currentPage: 1,
+    currentPage: 0,
     totalNum: 0,
     posts: [],
+    pageOfItems: [],
     baseUrl: 'https://thezmot.com/wp-json/wp/v2/',
     perPage: 9,
     pages: [],
     fullPage: true,
     isLoading: true,
-    color: '#ff6600'
+    color: '#ff6600',
+    customLabels: {
+      first: '«',
+      last: '»',
+      previous: '‹',
+      next: '›'
+    },
+    customStyles: {
+      li: {
+      },
+      a: {
+        color: '#fc642e',
+        margin: '0 .8rem',
+        padding: '.3rem 1rem',
+        'border-radius': '5px'
+      }
+    }
   }),
   watch: {
     '$route.query.page' (value) {
@@ -90,8 +115,9 @@ export default {
     linkGen (pageNum) {
       return pageNum === 1 ? '?page=1' : `?page=${pageNum}`
     },
-    gotoPage () {
-      this.$fetch()
+    gotoPage (pageItems) {
+      this.pageOfItems = pageItems
+      // this.$fetch()
     },
     async initializeBlogContents () {
       this.isLoading = true
@@ -100,7 +126,7 @@ export default {
         return
       }
       try {
-        const result = await this.$axios.get(`https://thezmot.com/wp-json/wp/v2/posts?per_page=10&page=${this.currentPage}&_embed=1`)
+        const result = await this.$axios.get(`https://thezmot.com/wp-json/wp/v2/posts?per_page=10&page=${this.currentPage + 1}&_embed=1`)
         this.posts = result &&
           result.data &&
           result.data.sort((post1, post2) => {
@@ -122,3 +148,7 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+
+</style>
