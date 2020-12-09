@@ -66,7 +66,7 @@ export default {
   methods: {
     getGDPR () {
       if (process.browser) {
-        return localStorage.getItem('GDPR:accepted', true)
+        return localStorage.getItem('GDPR:accepted')
       }
     },
     accept (event) {

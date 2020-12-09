@@ -37,6 +37,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~/plugins/bus',
+    { src: '~/plugins/GoogleAnalytics', ssr: false },
     { src: '~/plugins/aos', ssr: false },
     { src: '~/plugins/components', ssr: false }
   ],
@@ -74,7 +75,7 @@ export default {
       '@nuxtjs/recaptcha', {
         /* reCAPTCHA options */
         hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
-        siteKey: '6LdXyQEVAAAAAD5ECL2PFXuM39YFgpUpUY05_loV',
+        siteKey: process.env.RECAPTCHA_SITE_KEY,
         version: 2, // Version
         size: 'normal' // Size: 'compact', 'normal', 'invisible' (v2)
       }
