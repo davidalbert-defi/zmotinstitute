@@ -73,8 +73,6 @@
 </template>
 
 <script>
-import axios from 'axios'
-
 export default {
   name: 'AddComment',
   components: {},
@@ -120,7 +118,7 @@ export default {
       }
 
       try {
-        await axios.post('https://thezmot.com/wp-comments-post.php', commentData)
+        await this.$axios.post('https://thezmot.com/wp-comments-post.php', commentData)
       } catch (e) {
         console.log(e)
       }
