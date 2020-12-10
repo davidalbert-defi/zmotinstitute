@@ -45,7 +45,7 @@
               </h5>
               <ul>
                 <li>
-                  <nuxt-link to="/">
+                  <nuxt-link to="/blog">
                     Blog
                   </nuxt-link>
                 </li>

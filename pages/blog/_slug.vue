@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="blog-slug-page">
     <div v-if="!isLoading" class="blog pt-20 my-20 lg:m-20">
       <div class="container mx-auto px-4 lg:px-4">
         <div class="row flex flex-wrap">
