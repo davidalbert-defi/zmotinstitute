@@ -33,17 +33,17 @@
         <button v-if="isOpen" @click="isOpen = false" class="fixed inset-0 h-full w-full bg-black opacity-0" tabindex="-1"></button>
         <div v-if="isOpen" class="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu1">
-            <nuxt-link to="#" class="inline-flex block text-primary px-4 py-2">
-              <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="EN Flag" />
+            <nuxt-link :to="switchLocalePath('en')" class="inline-flex block text-primary px-4 py-2">
+              <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="USA Flag" />
               English
             </nuxt-link>
-            <nuxt-link to="#" class="inline-flex block text-primary px-4 py-2">
-              <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="EN Flag" />
-              English
+            <nuxt-link :to="switchLocalePath('pt-br')" class="inline-flex block text-primary px-4 py-2">
+              <img data-not-lazy src="~/assets/img/svg/br.svg" width="25" alt="Brazillian Flag" />
+              Português
             </nuxt-link>
-            <nuxt-link to="#" class="inline-flex block text-primary px-4 py-2">
-              <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="EN Flag" />
-              English
+            <nuxt-link :to="switchLocalePath('es')" class="inline-flex block text-primary px-4 py-2">
+              <img data-not-lazy src="~/assets/img/svg/es.svg" width="25" alt="Spanish Flag" />
+              Español
             </nuxt-link>
           </div>
         </div>
@@ -95,17 +95,17 @@
           <button v-if="isOpen" @click="isOpen = false" class="fixed inset-0 h-full w-full bg-black opacity-0" tabindex="-1"></button>
           <div v-if="isOpen" class="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
             <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-              <nuxt-link to="#" class="inline-flex block text-primary px-4 py-2">
-                <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="EN Flag" />
+              <nuxt-link :to="switchLocalePath('en')" class="inline-flex block text-primary px-4 py-2">
+                <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="USA Flag" />
                 English
               </nuxt-link>
-              <nuxt-link to="#" class="inline-flex block text-primary px-4 py-2">
-                <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="EN Flag" />
-                English
+              <nuxt-link :to="switchLocalePath('pt-br')" class="inline-flex block text-primary px-4 py-2">
+                <img data-not-lazy src="~/assets/img/svg/br.svg" width="25" alt="Brazillian Flag" />
+                Português
               </nuxt-link>
-              <nuxt-link to="#" class="inline-flex block text-primary px-4 py-2">
-                <img data-not-lazy src="~/assets/img/svg/en.svg" width="25" alt="EN Flag" />
-                English
+              <nuxt-link :to="switchLocalePath('es')" class="inline-flex block text-primary px-4 py-2">
+                <img data-not-lazy src="~/assets/img/svg/es.svg" width="25" alt="Spanish Flag" />
+                Español
               </nuxt-link>
             </div>
           </div>

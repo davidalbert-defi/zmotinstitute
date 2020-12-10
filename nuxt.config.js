@@ -89,7 +89,42 @@ export default {
         confirmButtonColor: '#41b882',
         cancelButtonColor: '#ff7674'
       }
-    ]
+    ],
+    ['nuxt-i18n', {
+      baseUrl: 'https://zmotinstitute.com', // need to change it when HTTPS
+      seo: false,
+      strategy: 'prefix_except_default',
+      locales: [
+        {
+          name: 'English',
+          code: 'en',
+          iso: 'en-US'
+        },
+        {
+          name: 'Português',
+          code: 'pt-br',
+          iso: 'pt-BR'
+        },
+        {
+          name: 'Español',
+          code: 'es',
+          iso: 'es-ES'
+        }
+      ],
+      defaultLocale: 'en',
+      detectBrowserLanguage: {
+        useCookie: true,
+        alwaysRedirect: true
+      },
+      vueI18n: {
+        fallbackLocale: 'en',
+        messages: {
+          en: require('./locales/en.json'),
+          'pt-br': require('./locales/pt-br.json'),
+          es: require('./locales/es.json')
+        }
+      }
+    }]
     // '@nuxtjs/gtm'
   ],
 

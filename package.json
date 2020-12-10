@@ -25,6 +25,7 @@
     "jw-vue-pagination": "^1.0.3",
     "nuxt": "^2.14.6",
     "nuxt-compress": "^4.1.0",
+    "nuxt-i18n": "^6.16.0",
     "nuxt-lazy-load": "^1.2.4",
     "responsive-loader": "^2.2.1",
     "sharp": "^0.26.3",

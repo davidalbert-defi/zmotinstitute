@@ -7,12 +7,12 @@
         </div>
         <div class="p-2">
           <h1 class="text-51xl font-semibold text-white leading-tight break-words mb-12">
-            ZMOT: the key to Digital Transformation
+            {{ $t('homepage.banner.header') }}
           </h1>
         </div>
         <div class="p-2">
           <p class="text-3xl text-white font-light leading-relaxed mb-16">
-            A Framework to Hack Consumer Behavior with Digital Marketing
+            {{ $t('homepage.banner.text') }}
           </p>
         </div>
       </div>

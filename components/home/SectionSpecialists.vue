@@ -8,10 +8,10 @@
   >
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center">
-        The Experts
+        {{ $t('homepage.specialist.header') }}
       </h2>
       <p class="text-center mb-4">
-        ZMOT is a real BIG thing. Take a look at what leading experts in Digital Marketing have been talking about, and why you should start using it as well.
+        {{ $t('homepage.specialist.text') }}
       </p>
       <div class="specialist__items">
         <client-only placeholder="Loading...">
@@ -20,7 +20,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “Consumers search the information on the Internet before buying”
+                    “{{ $t('homepage.specialist.slide_1_text') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -48,7 +48,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “That's how consumers live, learn and make decisions today”
+                    “{{ $t('homepage.specialist.slide_2_text') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -76,7 +76,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “Digital Marketing is about delivering the right content at the right time”
+                    “{{ $t('homepage.specialist.slide_3_text') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -104,7 +104,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “No matter what you do you can do it cheaper, faster and more efficiently on the web”
+                    “{{ $t('homepage.specialist.slide_4_text') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -132,7 +132,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “Our jobs as marketers are to understand how the customer wants to buy and help them”
+                    “{{ $t('homepage.specialist.slide_5_text') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">

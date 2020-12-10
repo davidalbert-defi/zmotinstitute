@@ -29,6 +29,43 @@
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
+  head () {
+    return {
+      title: this.$t('homepage.seo.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('homepage.seo.description')
+        },
+        {
+          hid: 'twitter-card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.$t('homepage.seo.title')
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: this.$t('homepage.seo.description')
+        },
+        {
+          hid: 'og-image',
+          property: 'og:image',
+          content: '../assets/img/header-zmot.jpg'
+        },
+        {
+          hid: 'og-url',
+          property: 'og:url',
+          content: this.$route.path
+        }
+      ]
+    }
+  },
   components: {
     LazyHydrate
   }

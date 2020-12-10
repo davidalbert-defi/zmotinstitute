@@ -2,14 +2,14 @@
   <section class="why-zmot bg-white pt-20">
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center">
-        Why do you need ZMOT?
+        {{ $t('homepage.why_do_you_need_ZMOT.header') }}
       </h2>
       <p class="text-center">
-        Understanding your
-        <strong>Consumer Behavior</strong>
-        and helping them to achieve their goals during the
-        <strong>Customer Journey </strong>
-        should be your top priority. As a marketer or entrepreneur, once you master some principles you'll have a way more effective communication.
+        {{ $t('homepage.why_do_you_need_ZMOT.text1') }}
+        <strong>{{ $t('homepage.why_do_you_need_ZMOT.text2') }}</strong>
+        {{ $t('homepage.why_do_you_need_ZMOT.text3') }}
+        <strong>{{ $t('homepage.why_do_you_need_ZMOT.text4') }}</strong>
+        {{ $t('homepage.why_do_you_need_ZMOT.text5') }}
       </p>
       <div class="feature__list mt-20">
         <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
@@ -25,10 +25,10 @@
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="feature__item-content">
               <h3 class="my-8 font-bold text-center text-4xl">
-                Relevance
+                {{ $t('homepage.why_do_you_need_ZMOT.category_1_header') }}
               </h3>
               <p class="text-justify px-4">
-                The modern consumer uses Google as the main tool to search for informations about products, prices and other people opinions. According Statcounter, 92% of all searches worldwide are performed through Google Search. To rank #1 should be your obsession, as you'll be present in the exactly moment people are interested in your product or service.
+                {{ $t('homepage.why_do_you_need_ZMOT.category_1_text') }}
               </p>
             </div>
           </div>
@@ -38,10 +38,10 @@
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="feature__item-content text-right">
               <h3 class="my-8 font-bold text-center text-4xl">
-                Reviews
+                {{ $t('homepage.why_do_you_need_ZMOT.category_2_header') }}
               </h3>
               <p class="text-justify px-4">
-                Online Reviews are the new Word of Mount. Because of internet it spreads faster, and to much more people. Digital Word of Mount is a one-to-million conversation rather than one-to-one as before. The experience of other people influences your decision to buy, or not to buy.
+                {{ $t('homepage.why_do_you_need_ZMOT.category_2_text') }}
               </p>
             </div>
           </div>
@@ -68,10 +68,10 @@
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="feature__item-content">
               <h3 class="my-8 font-bold text-center text-4xl">
-                Mobile
+                {{ $t('homepage.why_do_you_need_ZMOT.category_3_header') }}
               </h3>
               <p class="text-justify px-4">
-                Consumers have full control, they find and share information in their own way and time. Smartphones are our daily tool for connectivity, productivity, entertainment, and guess what, for shopping. If you do not have a lightning fast loading, and mobile friendly website, you're no one.
+                {{ $t('homepage.why_do_you_need_ZMOT.category_3_text') }}
               </p>
             </div>
           </div>

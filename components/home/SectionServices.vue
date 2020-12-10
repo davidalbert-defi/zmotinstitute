@@ -2,10 +2,10 @@
   <section class="services my-20 bg-white" data-aos="fade-zoom" data-aos-once="true">
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center">
-        How can we help you?
+        {{ $t('homepage.services.header') }}
       </h2>
       <p id="zmot-audit" class="text-center">
-        We are here to help you to understand ZMOT and implement it to your day to day game. No matter the size of your pocket, or time availability, we will always have a solution to help you.
+        {{ $t('homepage.services.sub_header') }}
       </p>
       <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
         <div class="lg:w-1/2 w-full overflow-hidden">
@@ -21,12 +21,12 @@
             <div class="card-body">
               <div class="card-text">
                 <h2 class="h3 mb-4">
-                  ZMOT Audit
+                  {{ $t('homepage.services.service_1_header') }}
                 </h2>
                 <div>
                   <p class="mb-5 text-justify">
                     <span>
-                      Are you interested about ZMOT and Consumer Behavior but have no idea how to start? Or maybe just need an expert opinion to speed things up? Just let us know your website and we'll surprise you with a masterplan to boost you Digital Business.
+                      {{ $t('homepage.services.service_1_description') }}
                     </span>
                   </p>
                 </div>
@@ -38,7 +38,7 @@
                     tabindex="0"
                   >
                     <span>
-                      Get in Touch
+                      {{ $t('homepage.services.get_a_quote') }}
                     </span>
                   </a>
                 </nuxt-link>
@@ -54,12 +54,12 @@
             <div class="card-body">
               <div class="card-text">
                 <h2 class="h3 mb-4">
-                  Lectures & Events
+                  {{ $t('homepage.services.service_2_header') }}
                 </h2>
                 <div>
                   <p class="mb-5 text-justify">
                     <span>
-                      Wish to delight your audience with innovative & dynamic content that will make people clap standing? Our storytelling performance based presentations drive people to action & results you could have considered impossible before.
+                      {{ $t('homepage.services.service_2_description') }}
                     </span>
                   </p>
                 </div>
@@ -71,7 +71,7 @@
                     tabindex="0"
                   >
                     <span>
-                      Get in Touch
+                      {{ $t('homepage.services.get_a_quote') }}
                     </span>
                   </a>
                 </nuxt-link>
@@ -103,12 +103,12 @@
             <div class="card-body">
               <div class="card-text">
                 <h2 class="h3 mb-4">
-                  Online courses
+                  {{ $t('homepage.services.service_3_header') }}
                 </h2>
                 <div>
                   <p class="mb-5 medium text-justify">
                     <span>
-                      Learn best in class ZMOT with experts which have helped their organizations to achieve amazing results. With our online courses you can learn and implement ZMOT at your own and flexible pace, but also do it over and over again. You have full control of your learning process.
+                      {{ $t('homepage.services.service_3_description') }}
                     </span>
                   </p>
                 </div>
@@ -121,7 +121,7 @@
                     tabindex="0"
                   >
                     <span>
-                      Get in Touch
+                      {{ $t('homepage.services.get_a_quote') }}
                     </span>
                   </a>
                 </nuxt-link>
