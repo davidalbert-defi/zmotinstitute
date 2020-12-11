@@ -15,6 +15,43 @@ import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: {
     LazyHydrate
+  },
+  head () {
+    return {
+      title: this.$t('contact.seo.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('contact.seo.description')
+        },
+        {
+          hid: 'twitter-card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.$t('contact.seo.title')
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: this.$t('contact.seo.description')
+        },
+        {
+          hid: 'og-image',
+          property: 'og:image',
+          content: '../assets/img/contact/contact_hero.png'
+        },
+        {
+          hid: 'og-url',
+          property: 'og:url',
+          content: this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>

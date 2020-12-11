@@ -8,12 +8,12 @@
           </div>
           <div class="pa-2 mb-10">
             <h2 class="text-55xl font-semibold leading-none text-white">
-              Get in Touch With ZMOT Experts
+              {{ $t('contact.banner.header') }}
             </h2>
           </div>
           <div class="banner-widget-text mb-24 pa-2">
             <p class="text-white text-3xl font-normal">
-              Email or Live Chat, you choose the best option to reach us.
+              {{ $t('contact.banner.text') }}
             </p>
           </div>
           <div class="banner-buttons">
@@ -25,7 +25,7 @@
                   target="_blank"
                 >
                   <button class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
-                    Access Live Chat
+                    {{ $t('contact.banner.button.access_live_chat') }}
                   </button>
                 </a>
               </div>
@@ -36,7 +36,7 @@
                   href="#send-email"
                 >
                   <button id="send-email" class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
-                    Send Email
+                    {{ $t('contact.banner.button.send_email') }}
                   </button>
                 </a>
               </div>

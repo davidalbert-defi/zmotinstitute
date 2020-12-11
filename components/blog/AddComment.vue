@@ -2,12 +2,12 @@
   <div v-if="visible && !loading" class="container mx-auto">
     <div class="row flex flex-wrap">
       <div class="w-full">
-        <span class="header">Add a Comment</span>
+        <span class="header">{{ $t('blog.add_comment.title') }}</span>
       </div>
     </div>
     <div class="row flex flex-wrap">
       <div class="w-full">
-        <span class="info">Your email address will not be published. Required fields are marked *</span>
+        <span class="info">{{ $t('blog.add_comment.info') }}</span>
       </div>
     </div>
     <form @submit="onSubmit" @reset="onReset" class="w-full">
@@ -42,7 +42,7 @@
               value="true"
             />
             <label class="custom-control-label">
-              Save my name, email, and website in this browser for the next time I comment
+              {{ $t('blog.add_comment.save') }}
             </label>
           </div>
         </div>
@@ -64,7 +64,7 @@
       <div class="row flex flex-wrap">
         <div class="w-full md:w-5/12">
           <button type="submit" class="btn-submit uppercase">
-            Submit
+            {{ $t('blog.add_comment.submit') }}
           </button>
         </div>
       </div>
@@ -93,9 +93,6 @@ export default {
     this.$bus.$on('hide-add-comment', (data) => {
       this.visible = !data.visible
     })
-  },
-  mounted () {
-
   },
   methods: {
     onSubmit (evt) {

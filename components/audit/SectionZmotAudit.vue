@@ -5,26 +5,26 @@
         <div class="zmot-audit-wrapper flex flex-wrap overflow-hidden justify-between">
           <div class="w-full lg:w-1/2">
             <h1 class="text-51xl font-semibold text-white leading-tight mt-8 mb-12">
-              Boost Your Resuts with ZMOT
+              {{ $t('zmot_audit.header') }}
             </h1>
             <p class="text-white font-medium text-justify mb-4">
-              ZMOT is a Framework designed by Google to describe how people behave during the Buying Journey.
+              {{ $t('zmot_audit.text_1') }}
             </p>
             <p class="text-white font-medium text-justify mb-4">
-              Sucessful business understand their customer needs and solve their problems. Knowing how your consumer search for information, do comparisons, do bargain and make the purchase decision, you can send the right message, at the right time.
+              {{ $t('zmot_audit.text_2') }}
             </p>
             <p class="text-white font-medium text-justify mb-4">
-              ZMOT INSTITUTE experts will help you to track your consumer's digital footprints and create a masterplan with the most efficient Digital Marketing strategies used by the fastest growing companies in the world.
+              {{ $t('zmot_audit.text_3') }}
             </p>
           </div>
 
           <div class="w-full lg:w-5/12">
             <form class="w-full" @submit.prevent="onSubmit">
               <div>
-                <input v-model="email" class="form-control rounded-full" type="email" required :placeholder="'Email'">
-                <input v-model="name" class="form-control rounded-full" type="text" required :placeholder="'Name'">
-                <input v-model="surname" class="form-control rounded-full" type="text" required :placeholder="'Surname'">
-                <vue-tel-input v-model="phone" v-bind="telInputOption" required :placeholder="'Phone Number'" @country-changed="countryChanged"></vue-tel-input>
+                <input v-model="email" class="form-control rounded-full" type="email" required :placeholder="$t('placeholder.email')">
+                <input v-model="name" class="form-control rounded-full" type="text" required :placeholder="$t('placeholder.name')">
+                <input v-model="surname" class="form-control rounded-full" type="text" required :placeholder="$t('placeholder.surname')">
+                <vue-tel-input v-model="phone" v-bind="telInputOption" required :placeholder="$t('placeholder.phone')" @country-changed="countryChanged"></vue-tel-input>
                 <recaptcha
                   @error="onError"
                   @success="onSuccess"
@@ -36,7 +36,7 @@
                     type="submit"
                     class="bg-mpurple py-15sm px-3 text-13xl font-bold rounded-full text-white"
                   >
-                    I Want To Get a Contact
+                    {{ $t('zmot_audit.submit') }}
                   </button>
                 </div>
               </div>

@@ -6,7 +6,7 @@
           v-for="post of pageOfItems"
           id="blog-card"
           :key="post.id"
-          :to="({
+          :to="localePath({
             name: 'blog-slug',
             params: { slug: post.slug }
           })"

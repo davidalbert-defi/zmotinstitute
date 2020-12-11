@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row flex flex-wrap">
-      <div class="w-full" v-for="item of items" :key="item.id">
+      <div v-for="item of items" :key="item.id" class="w-full">
         <comment
           :comment="item"
           :replies="replies"

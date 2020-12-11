@@ -5,30 +5,30 @@
         <div class="online-courses-wrapper flex flex-wrap overflow-hidden justify-between">
           <div class="w-full lg:w-1/2">
             <h1 class="text-51xl font-semibold text-white leading-tight mt-8 mb-12">
-              Learn ZMOT At Your Own Pace
+              {{ $t('online_courses.header') }}
             </h1>
             <p class="text-white font-medium text-justify mb-4">
-              Online Courses are the perfect solution if you want to learn in depth content, but is a busy person with a tight agenda.
+              {{ $t('online_courses.text_1') }}
             </p>
             <p class="text-white font-medium text-justify mb-4">
-              We have prepared a detailed hands on course about ZMOT, that will not only help you to learn the concepts, but also how to implement things, which tools to use and best practices the fastest growing companies in the world have been using.
+              {{ $t('online_courses.text_2') }}
             </p>
             <p class="text-white font-medium text-justify mb-4">
-              You will also have full access to our exclusive content, plus 1 hour mentoring virtual call with a ZMOT INSTITUTE expert. Push yourself towards the growth mindset.
+              {{ $t('online_courses.text_3') }}
             </p>
           </div>
 
           <div class="w-full lg:w-5/12">
             <form class="w-full" @submit.prevent="onSubmit">
               <div>
-                <input v-model="email" class="form-control rounded-full" type="email" required :placeholder="'Email'">
-                <input v-model="name" class="form-control rounded-full" type="text" required :placeholder="'Name'">
-                <input v-model="surname" class="form-control rounded-full" type="text" required :placeholder="'Surname'">
+                <input v-model="email" class="form-control rounded-full" type="email" required :placeholder="$t('placeholder.email')">
+                <input v-model="name" class="form-control rounded-full" type="text" required :placeholder="$t('placeholder.name')">
+                <input v-model="surname" class="form-control rounded-full" type="text" required :placeholder="$t('placeholder.surname')">
                 <vue-tel-input
                   v-model="phone"
                   v-bind="telInputOption"
                   required
-                  :placeholder="'Phone Number'"
+                  :placeholder="$t('placeholder.phone')"
                   @country-changed="countryChanged"
                 />
                 <recaptcha
@@ -42,7 +42,7 @@
                     type="submit"
                     class="bg-mpurple py-15sm px-3 text-13xl font-bold rounded-full text-white"
                   >
-                    Start To Learn ZMOT
+                    {{ $t('online_courses.submit') }}
                   </button>
                 </div>
               </div>

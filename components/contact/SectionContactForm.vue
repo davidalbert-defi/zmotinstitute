@@ -2,10 +2,10 @@
   <section id="contact-form" class="contact-form pt-20 bg-white">
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center text-45xl font-semibold mb-8 text-primary">
-        Contact
+        {{ $t('contact.form.contact') }}
       </h2>
       <p class="text-center text-primary text-xl font-normal">
-        If you have any question or want to suggest something, please let us know. Do not wait and send us a message.
+        {{ $t('contact.form.text') }}
       </p>
       <div class="flex flex-wrap overflow-hidden">
         <form @submit.prevent="onSubmit" class="w-full">
@@ -48,12 +48,12 @@
                     type="submit"
                     class="font-semibold text-2xl mt-4 border bg-white py-15sm px-3 text-white bg-mpurple rounded-full no-underline"
                   >
-                    Send E-mail
+                    {{ $t('contact.form.send_email') }}
                   </button>
                 </div>
                 <div class="text-center w-full md:text-left md:hidden lg:hidden sm:block">
                   <button type="submit" class="font-semibold text-2xl mt-4 border bg-white py-15sm px-3 text-white rounded-full bg-mpurple no-underline">
-                    Send E-mail
+                    {{ $t('contact.form.send_email') }}
                   </button>
                 </div>
               </div>

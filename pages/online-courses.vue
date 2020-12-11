@@ -13,6 +13,50 @@
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: { LazyHydrate },
+  head () {
+    return {
+      title: this.$t('online_courses.seo.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('online_courses.seo.description')
+        },
+        {
+          hid: 'twitter-card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.$t('online_courses.seo.title')
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: this.$t('online_courses.seo.description')
+        },
+        {
+          hid: 'og-image',
+          property: 'og:image',
+          content: '../assets/img/zmot-logo.webp'
+        },
+        {
+          hid: 'og-url',
+          property: 'og:url',
+          content: this.$route.path
+        }
+      ]
+    }
+  },
+  nuxtI18n: {
+    paths: {
+      en: '/online-courses',
+      es: '/cursos-online',
+      'pt-br': '/cursos-online'
+    }
+  },
   layout: 'noheader'
 }
 </script>

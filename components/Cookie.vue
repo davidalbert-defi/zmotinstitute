@@ -4,11 +4,11 @@
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 md:col-span-8">
           <div class="cookie-warning">
-            We use cookies to provide our services and for analytics and marketing. To find out more about our use of cookies, please see our
-            <nuxt-link :to="'privacy'">
-              Privacy Policy.
+            {{$t('cookie.text_1')}}
+            <nuxt-link :to="localePath($t('cookie.link'))">
+              {{$t('cookie.text_2')}}
             </nuxt-link>
-            Click accept for the best user experience on our app.
+            {{$t('cookie.text_3')}}
           </div>
         </div>
         <div class="col-span-2 hidden md:block" />
@@ -18,7 +18,7 @@
             class="w-full button-cookie inline-block font-normal text-center align-middle rounded"
             @click="accept($event)"
           >
-            Accept
+            {{ $t('cookie.accept') }}
           </button>
         </div>
       </div>
