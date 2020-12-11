@@ -8,18 +8,17 @@
   >
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center">
-        Reviews on ZMOT INSTITUTE
+        {{ $t('homepage.what_say.header') }}
       </h2>
       <p class="text-center">
-        Take a look at what real life people who got in contact with us have to say about what they have learned.
+        {{ $t('homepage.what_say.text') }}
       </p>
       <div class="testimonial-list">
         <div class="flex flex-wrap flex-col md:flex-row  testimonial-item-wrapper">
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="testimonial-item mt-4">
               <blockquote class="testimonial-item__quote">
-                Thank you for sharing this content with the community. From now on I will pay more attention to what was
-                exposed in the text.
+                {{ $t('homepage.what_say.talking_1') }}
               </blockquote>
               <span class="flex items-center testimonial-item__author">
                 <img
@@ -36,8 +35,7 @@
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="testimonial-item mt-6">
               <blockquote class="testimonial-item__quote">
-                Better to start implementing ZMOT as soon as possible ... Congratulations for sharing your knowledge and
-                helping us to improve.
+                {{ $t('homepage.what_say.talking_2') }}
               </blockquote>
               <span class="flex items-center testimonial-item__author">
                 <img
@@ -56,7 +54,7 @@
           <div class="lg:w-1/2 w-full overflow-hidden">
             <div class="testimonial-item mt-3">
               <blockquote class="testimonial-item__quote">
-                Very good content, thank you for sharing it.
+                {{ $t('homepage.what_say.talking_3') }}
               </blockquote>
               <span class="flex items-center testimonial-item__author">
                 <img

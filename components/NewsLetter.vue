@@ -5,18 +5,18 @@
         <div class="col-span-12 lg:col-span-2" />
         <div class="col-span-12 lg:col-span-8">
           <h2 class="text-center font-medium mb-2 text-primary text-35xl">
-            Keep following ZMOT INSTITUTE
+            {{ $t('news_letter.header') }}
           </h2>
           <p class="text-center mb-4 leading-6 text-base font-normal">
-            Stay tuned for all the news about ZMOT, Consumer Behavior and Digital Marketing. Subscribe now to our montlhy Newsletter.
+            {{ $t('news_letter.text') }}
           </p>
           <div class="search-form">
-            <input v-model="email" class="form-control" type="email" :placeholder="'Insert your email'" />
+            <input v-model="email" class="form-control" type="email" :placeholder="$t('news_letter.placeholder')" />
             <button class="browser-show text-white">
-              Subscribe to News
+              {{ $t('news_letter.subscribe') }}
             </button>
             <button class="mobile-show text-white">
-              Subscribe
+              {{ $t('news_letter.subscribe_ellipse') }}
             </button>
           </div>
         </div>

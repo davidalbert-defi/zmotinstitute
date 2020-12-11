@@ -12,58 +12,58 @@
             alt="Zmot Logo"
           >
           <p class="mt-8 text-white">
-            We are here to help you to understand consumers and grow your business.
+            {{ $t('footer.text') }}
           </p>
         </div>
         <div class="my-2 px-2 lg:w-2/3 overflow-hidden w-full">
           <div class="row flex flex-wrap -mx-2 overflow-hidden mt-3">
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
               <h5 class="text-xl text-white font-semibold uppercase">
-                Services
+                {{ $t('footer.services.text') }}
               </h5>
               <ul class="pl-0">
                 <li>
                   <nuxt-link to="/zmot-audit">
-                    ZMOT Audit
+                    {{ $t('homepage.services.service_1_header') }}
                   </nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/lectures-events">
-                    Lectures & Events
+                    {{ $t('homepage.services.service_2_header') }}
                   </nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/online-courses">
-                    Online courses
+                    {{ $t('homepage.services.service_3_header') }}
                   </nuxt-link>
                 </li>
               </ul>
             </div>
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
               <h5 class="text-xl text-white font-semibold uppercase">
-                Knowledge
+                {{ $t('footer.knowledge.text') }}
               </h5>
               <ul>
                 <li>
-                  <nuxt-link to="/blog">
-                    Blog
+                  <nuxt-link :to="localePath($t('navs.blog.link'))">
+                    {{ $t('footer.blog') }}
                   </nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/#newsletter">
-                    Newsletter
+                    {{ $t('footer.newsletter') }}
                   </nuxt-link>
                 </li>
               </ul>
             </div>
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
               <h5 class="text-xl text-white font-semibold uppercase">
-                Legal
+                {{ $t('footer.legal.text') }}
               </h5>
               <ul>
                 <li>
-                  <nuxt-link to="/privacy">
-                    Privacy Policy
+                  <nuxt-link :to="localePath($t('navs.privacy.link'))">
+                    {{ $t('footer.privacy_policy.text') }}
                   </nuxt-link>
                 </li>
               </ul>
