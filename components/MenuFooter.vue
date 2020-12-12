@@ -62,7 +62,7 @@
               </h5>
               <ul>
                 <li>
-                  <nuxt-link :to="localePath($t('navs.privacy.link'))">
+                  <nuxt-link :to="localePath('privacy')">
                     {{ $t('footer.privacy_policy.text') }}
                   </nuxt-link>
                 </li>

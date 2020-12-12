@@ -4,11 +4,11 @@
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 md:col-span-8">
           <div class="cookie-warning">
-            {{$t('cookie.text_1')}}
+            {{ $t('cookie.text_1') }}
             <nuxt-link :to="localePath($t('cookie.link'))">
-              {{$t('cookie.text_2')}}
+              {{ $t('cookie.text_2') }}
             </nuxt-link>
-            {{$t('cookie.text_3')}}
+            {{ $t('cookie.text_3') }}
           </div>
         </div>
         <div class="col-span-2 hidden md:block" />
