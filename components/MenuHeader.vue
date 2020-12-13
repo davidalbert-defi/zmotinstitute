@@ -10,7 +10,7 @@
             :blank-src="require('~/assets/img/zmot-logo.png').placeholder"
             class="lazy"
             alt="zmot-institute white logo"
-          />
+          >
         </nuxt-link>
       </div>
       <div class="block lg:hidden relative text-center">
@@ -31,25 +31,25 @@
             </svg>
           </button>
         </div>
-        <button v-if="isOpen" @click="isOpen = false" class="fixed inset-0 h-full w-full bg-black opacity-0" tabindex="-1"></button>
+        <button v-if="isOpen" class="fixed inset-0 h-full w-full bg-black opacity-0" tabindex="-1" @click="isOpen = false" />
         <div v-if="isOpen" class="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu1">
             <ul>
               <li class="text-128px" @click="isOpen = false">
                 <nuxt-link :to="switchLocalePath('en')" class="w-full inline-flex block text-black px-6 py-2">
-                  <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4" width="25" alt="USA Flag" />
+                  <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4" width="25" alt="USA Flag">
                   English
                 </nuxt-link>
               </li>
               <li class="text-128px" @click="isOpen = false">
                 <nuxt-link :to="switchLocalePath('pt-br')" class="w-full inline-flex block text-black px-6 py-2">
-                  <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4" width="25" alt="Brazillian Flag" />
+                  <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4" width="25" alt="Brazillian Flag">
                   Português
                 </nuxt-link>
               </li>
               <li class="text-128px" @click="isOpen = false">
                 <nuxt-link :to="switchLocalePath('es')" class="w-full inline-flex block text-black px-6 py-2">
-                  <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4" width="25" alt="Spanish Flag" />
+                  <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4" width="25" alt="Spanish Flag">
                   Español
                 </nuxt-link>
               </li>
@@ -68,17 +68,17 @@
       <div id="nav-content" class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black px-4 lg:p-0 z-20 mr-4 ml-4">
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3 my-6 text-center">
-            <nuxt-link :to="localePath('index')" class="inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
+            <nuxt-link :to="localePath('index')" class="w-full inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               {{ $t('navs.home.title') }}
             </nuxt-link>
           </li>
           <li class="mr-3 my-6 text-center">
-            <nuxt-link :to="localePath('blog')" class="inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
+            <nuxt-link :to="localePath('blog')" class="w-full inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               {{ $t('navs.blog.title') }}
             </nuxt-link>
           </li>
           <li class="mr-3 my-6 text-center">
-            <nuxt-link :to="localePath('contact')" class="inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
+            <nuxt-link :to="localePath('contact')" class="w-full inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               {{ $t('navs.contact.title') }}
             </nuxt-link>
           </li>
@@ -101,25 +101,25 @@
               </svg>
             </button>
           </div>
-          <button v-if="isOpen" class="fixed inset-0 h-full w-full bg-black opacity-0" @click="isOpen = false" tabindex="-1"></button>
+          <button v-if="isOpen" class="fixed inset-0 h-full w-full bg-black opacity-0" tabindex="-1" @click="isOpen = false" />
           <div v-if="isOpen" class="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
             <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
               <ul>
                 <li class="text-128px" @click="isOpen = false">
                   <nuxt-link :to="switchLocalePath('en')" class="w-full inline-flex block text-black px-6 py-2">
-                    <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4" width="25" alt="USA Flag" />
+                    <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4" width="25" alt="USA Flag">
                     English
                   </nuxt-link>
                 </li>
                 <li class="text-128px" @click="isOpen = false">
                   <nuxt-link :to="switchLocalePath('pt-br')" class="w-full inline-flex block text-black px-6 py-2">
-                    <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4" width="25" alt="Brazillian Flag" />
+                    <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4" width="25" alt="Brazillian Flag">
                     Português
                   </nuxt-link>
                 </li>
                 <li class="text-128px" @click="isOpen = false">
                   <nuxt-link :to="switchLocalePath('es')" class="w-full inline-flex block text-black px-6 py-2">
-                    <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4" width="25" alt="Spanish Flag" />
+                    <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4" width="25" alt="Spanish Flag">
                     Español
                   </nuxt-link>
                 </li>
@@ -141,18 +141,13 @@ export default {
   }),
   computed: {
     localeToLang () {
+      const lang = this.$i18n.locale
+      if (lang === 'en') { return 'English' } else if (lang === 'pt-br') { return 'Português' } else if (lang === 'es') { return 'Español' }
       return 'English'
-      // let lang = this.$i18n.locale
-      // if (lang == 'en')
-      //   return 'English';
-      // else if (lang == 'pt-br')
-      //   return 'Português';
-      // else if (lang == 'es')
-      //   return 'Español';
     },
     flagVisible () {
-      // const lang = this.$i18n.locale
-      // if (lang === 'en') { return 1 } else if (lang === 'pt-br') { return 2 } else if (lang === 'es') { return 3 }
+      const lang = this.$i18n.locale
+      if (lang === 'en') { return 1 } else if (lang === 'pt-br') { return 2 } else if (lang === 'es') { return 3 }
       return 1
     }
   }
