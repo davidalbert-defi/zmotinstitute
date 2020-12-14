@@ -29,6 +29,9 @@
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
+  components: {
+    LazyHydrate
+  },
   head () {
     return {
       title: this.$t('homepage.seo.title'),
@@ -65,9 +68,6 @@ export default {
         }
       ]
     }
-  },
-  components: {
-    LazyHydrate
   }
 }
 </script>

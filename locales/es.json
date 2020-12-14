@@ -52,7 +52,7 @@
             "header": "Reseñas sobre ZMOT INSTITUTE",
             "text": "Mira lo que las personas que nos han contactado tienen que decir sobre lo que han aprendido.",
             "talking_1": "Gracias por compartir este contenido con la comunidad. A partir de ahora prestaré más atención a lo expuesto en el texto.",
-            "talking_2": "Better to start implementing ZMOT as soon as possible ... Congratulations for sharing your knowledge and helping us to improve.",
+            "talking_2": "Lo mejor a hacer es comenzar a implementar el ZMOT lo antes posible ... Felicitaciones por compartir su conocimiento y ayudarnos a mejorar.",
             "talking_3": "Contenido muy bueno, gracias por compartirlo."
         },
         "blog": {
@@ -122,11 +122,11 @@
             "description": "El mejor sitio para aprender todo sobre el ZMOT Framework y temas relacionados con el Comportamiento del Consumidor. ¡Empieza ahora!"
         },
         "add_comment" : {
-        "title": "Add a Comment",
-        "info": "Your email address will not be published. Required fields are marked *",
-        "save": "Save my name, email, and website in this browser for the next time I comment",
-        "submit": "SUBMIT"
-      }
+          "title": "Add a Comment",
+          "info": "Your email address will not be published. Required fields are marked *",
+          "save": "Save my name, email, and website in this browser for the next time I comment",
+          "submit": "SUBMIT"
+        }
     },
     "zmot_audit": {
         "seo": {
@@ -178,7 +178,7 @@
             "title": "Política de Privacidad de zmotinstitute.com",
             "text_1": "En zmotinstitute.com, accesible desde zmotinstitute.com, una de nuestras principales prioridades es la privacidad de nuestros usuarios. Este documento de Política de privacidad contiene tipos de información recopilada y registrada por zmotinstitute.com y cómo la usamos.",
             "text_2": "Si tiene preguntas adicionales o necesita más información sobre nuestra Política de Privacidad, no dude en contactarnos.",
-            "text_3": "Esta Política de Privacidad se aplica solo a nuestras actividades online y es válida para los visitantes de nuestro sitio web con respecto a la información que compartieron y / o recopilaron en zmotinstitute.com. Esta política no se aplica a ninguna información recopilada fuera de online o mediante canales que no sean este sitio web." 
+            "text_3": "Esta Política de Privacidad se aplica solo a nuestras actividades online y es válida para los visitantes de nuestro sitio web con respecto a la información que compartieron y / o recopilaron en zmotinstitute.com. Esta política no se aplica a ninguna información recopilada fuera de online o mediante canales que no sean este sitio web."
         },
         "consent":{
             "title": "Consentimiento",
@@ -208,7 +208,7 @@
         "cookies": {
             "title": "Cookies and Web Beacons",
             "text_1": "Como cualquier otro sitio web, zmotinstitute.com utiliza 'cookies'. Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes y las páginas del sitio web que el visitante accede o visita. La información se utiliza para optimizar la experiencia de los usuarios al personalizar el contenido de nuestra página web según el tipo de navegador de los visitantes y / u otra información.",
-            "text_2": "Para obtener más información general sobre las cookies, busque '¿Qué son las cookies?' En motores de búsqueda como google.com."   
+            "text_2": "Para obtener más información general sobre las cookies, busque '¿Qué son las cookies?' En motores de búsqueda como google.com."
         },
         "doubleclick": {
             "title": "Google DoubleClick DART Cookie",

@@ -38,6 +38,7 @@
               :items="posts"
               :labels="customLabels"
               :styles="customStyles"
+              :page-size="5"
               @changePage="gotoPage"
             />
           </div>
@@ -67,6 +68,28 @@ export default {
   async fetch () {
     this.isLoading = true
     try {
+      const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1')
+      this.totalNum = result.data.length
+      this.posts = result &&
+        result.data &&
+        result.data.sort((post1, post2) => {
+          const post1Date = new Date(post1.date_gmt)
+          const post2Date = new Date(post2.date_gmt)
+
+          if (post1Date - post2Date > 0) {
+            return -1
+          } else {
+            return 1
+          }
+        })
+    } catch (e) {
+      this.posts = []
+      this.totalNum = 0
+    } finally {
+      this.isLoading = false
+    }
+    /* this.isLoading = true
+    try {
       const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts')
       this.totalNum = result.data.length
       this.isLoading = false
@@ -75,7 +98,7 @@ export default {
       this.isLoading = false
     } finally {
       this.initializeBlogContents()
-    }
+    } */
   },
   data: () => ({
     rows: 100,
@@ -118,32 +141,6 @@ export default {
     gotoPage (pageItems) {
       this.pageOfItems = pageItems
       // this.$fetch()
-    },
-    async initializeBlogContents () {
-      this.isLoading = true
-      if (!this.totalNum) {
-        this.isLoading = false
-        return
-      }
-      try {
-        const result = await this.$axios.get(`https://thezmot.com/wp-json/wp/v2/posts?per_page=10&page=${this.currentPage + 1}&_embed=1`)
-        this.posts = result &&
-          result.data &&
-          result.data.sort((post1, post2) => {
-            const post1Date = new Date(post1.date_gmt)
-            const post2Date = new Date(post2.date_gmt)
-
-            if (post1Date - post2Date > 0) {
-              return -1
-            } else {
-              return 1
-            }
-          })
-      } catch (e) {
-        this.posts = []
-      } finally {
-        this.isLoading = false
-      }
     }
   }
 }

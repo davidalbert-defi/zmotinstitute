@@ -14,7 +14,11 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' }
+      // { rel: 'canonical', href: 'https://zmotinstitute.com/' },
+      // { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
+      // { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
+      // { rel: 'alternate', hreflang: 'pt-br', href: 'https://zmotinstitute.com/pt-br' }
     ]
   },
   // Environment Variables

@@ -50,9 +50,9 @@
                   </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/#newsletter">
+                  <a href="/#newsletter">
                     {{ $t('footer.newsletter') }}
-                  </nuxt-link>
+                  </a>
                 </li>
               </ul>
             </div>

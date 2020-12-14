@@ -10,7 +10,7 @@
         <span class="info">{{ $t('blog.add_comment.info') }}</span>
       </div>
     </div>
-    <form @submit="onSubmit" @reset="onReset" class="w-full">
+    <form class="w-full" @submit="onSubmit" @reset="onReset">
       <div class="row flex flex-wrap">
         <div class="w-full md:w-5/12">
           <div class="submit-input">
@@ -61,12 +61,10 @@
           </div>
         </div>
       </div>
-      <div class="row flex flex-wrap">
-        <div class="w-full md:w-5/12">
-          <button type="submit" class="btn-submit uppercase">
-            {{ $t('blog.add_comment.submit') }}
-          </button>
-        </div>
+      <div class="flex justify-center">
+        <button type="submit" class="font-semibold text-xl mt-4 border bg-white py-15sm px-3 text-white rounded-full bg-mpurple no-underline uppercase">
+          {{ $t('blog.add_comment.submit') }}
+        </button>
       </div>
     </form>
   </div>

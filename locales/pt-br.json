@@ -122,11 +122,11 @@
             "description": "O melhor lugar para você aprender tudo sobre o ZMOT Framework e temas relacionados a Comportamento do Consumidor. Acesse Agora!"
         },
         "add_comment" : {
-        "title": "Add a Comment",
-        "info": "Your email address will not be published. Required fields are marked *",
-        "save": "Save my name, email, and website in this browser for the next time I comment",
-        "submit": "SUBMIT"
-      }
+            "title": "Add a Comment",
+            "info": "Your email address will not be published. Required fields are marked *",
+            "save": "Save my name, email, and website in this browser for the next time I comment",
+            "submit": "SUBMIT"
+        }
     },
     "zmot_audit": {
         "seo": {
@@ -178,7 +178,7 @@
             "title": "Política de Privacidade de zmotinstitute.com",
             "text_1": "Em zmotinstitute.com, acessível em zmotinstitute.com, uma das nossas principais prioridades é a privacidade de nossos usuários. Este documento de Política de Privacidade contém tipos de informações que são coletadas e registradas por zmotinstitute.com e como as usamos.",
             "text_2": "Se você tiver perguntas adicionais ou precisar de mais informações sobre nossa Política de Privacidade, não hesite em entrar em contato.",
-            "text_3": "Esta Política de Privacidade se aplica apenas às nossas atividades online e é válida para os usuários de nosso website no que diz respeito às informações que eles compartilharam e / ou foi coletada em zmotinstitute.com. Esta política não se aplica a nenhuma informação  coletada offline ou por meio de outros canais que não este site." 
+            "text_3": "Esta Política de Privacidade se aplica apenas às nossas atividades online e é válida para os usuários de nosso website no que diz respeito às informações que eles compartilharam e / ou foi coletada em zmotinstitute.com. Esta política não se aplica a nenhuma informação  coletada offline ou por meio de outros canais que não este site."
         },
         "consent":{
             "title": "Consentimento",
@@ -208,7 +208,7 @@
         "cookies": {
             "title": "Cookies and Web Beacons",
             "text_1": "Como qualquer outro site, zmotinstitute.com usa 'cookies'. Esses cookies são usados para armazenar informações, incluindo as preferências dos usuários e as páginas do site que o visitante acessou ou visitou. As informações são usadas para otimizar a experiência dos usuários, personalizando o conteúdo da nossa página da web com base no tipo de navegador dos visitantes e / ou outras informações.",
-            "text_2": "Para obter mais informações gerais sobre cookies, pesquise 'O que são cookies' em qualquer motor de busca como google.com.br."   
+            "text_2": "Para obter mais informações gerais sobre cookies, pesquise 'O que são cookies' em qualquer motor de busca como google.com.br."
         },
         "doubleclick": {
             "title": "Google DoubleClick DART Cookie",

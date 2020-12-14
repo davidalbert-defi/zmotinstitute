@@ -40,7 +40,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: '../assets/img/zmot-logo.webp'
+          content: '../assets/img/zmot-logo.png'
         },
         {
           hid: 'og-url',

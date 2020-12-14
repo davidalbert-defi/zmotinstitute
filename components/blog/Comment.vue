@@ -20,7 +20,7 @@
             <span v-if="comment.author === 1" class="author-badge">Author</span>
           </div>
           <div class="comment-date">
-            {{ $moment(comment && comment.date).format('MM/DD/YYYY') + ' at ' + moment(comment && comment.date).format('hh:MM A') }}
+            {{ $moment(comment && comment.date).format('MM/DD/YYYY') + ' at ' + $moment(comment && comment.date).format('hh:MM A') }}
           </div>
           <div v-html="comment && comment.content && comment.content.rendered" />
           <div class="response-label" @click="toggleAddComment($event)">
