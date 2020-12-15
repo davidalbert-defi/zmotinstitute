@@ -130,7 +130,9 @@
         "add_comment" : {
             "title": "Add a Comment",
             "info": "Your email address will not be published. Required fields are marked with expression (required)",
-            "save": "I give my consent to this comment and agree with ZMOT Institute Privacy Policy",
+            "save": "I give my consent to this comment and agree with ZMOT Institute ",
+            "privacy_policy": "Privacy Policy",
+            "save1": "",
             "submit": "Submit Comment",
             "name": "Name (required)",
             "email": "email(required)",

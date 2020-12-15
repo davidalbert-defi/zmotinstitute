@@ -42,7 +42,11 @@
               value="true"
             />
             <label class="custom-control-label">
-              {{ $t('blog.add_comment.save') }}
+              <span>{{ $t('blog.add_comment.save') }}</span>
+              <nuxt-link :to="localePath('privacy')">
+                {{ $t('blog.add_comment.privacy_policy') }}
+              </nuxt-link>
+              <span>{{ $t('blog.add_comment.save1') }}</span>
             </label>
           </div>
         </div>

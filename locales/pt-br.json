@@ -127,7 +127,9 @@
         "add_comment" : {
             "title": "Deixe sua opinião",
             "info": "Seu email não será divulgado. Os campos obrigatórios estão devidamente destacados com o texto (obrigatório)",
-            "save": "Estou dando meu consentimento a este comentário e concordo com a Política de Privacidade do ZMOT Institute",
+            "save": "Estou dando meu consentimento a este comentário e concordo com a ",
+            "privacy_policy": "Política de Privacidade",
+            "save1": "do ZMOT Institute",
             "submit": "Enviar Comentário",
             "name": "Nome (obrigatório)",
             "email": "email (obrigatório)",
