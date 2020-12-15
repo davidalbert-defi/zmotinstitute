@@ -15,11 +15,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
-      { rel: 'shortcut icon', href: '/icon.png' }
-      // { rel: 'canonical', href: 'https://zmotinstitute.com/' },
-      // { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
-      // { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
-      // { rel: 'alternate', hreflang: 'pt-br', href: 'https://zmotinstitute.com/pt-br' }
+      { rel: 'shortcut icon', href: '/icon.png' },
+      { rel: 'canonical', href: 'https://zmotinstitute.com/' },
+      { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
+      { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
+      { rel: 'alternate', hreflang: 'pt-br', href: 'https://zmotinstitute.com/pt-br' }
     ]
   },
   // Environment Variables
@@ -189,7 +189,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    analyze: true,
     extend (config, { isDev }) {
       config.module.rules.unshift({
         test: /\.jpe?g$/,
