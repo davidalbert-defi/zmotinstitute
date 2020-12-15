@@ -1,14 +1,20 @@
 <template>
   <div class="leading-normal tracking-normal bg-white">
-    <menu-header />
+    <lazy-hydrate when-visible>
+      <menu-header />
+    </lazy-hydrate>
     <Nuxt />
-    <menu-footer />
+    <lazy-hydrate when-visible>
+      <menu-footer />
+    </lazy-hydrate>
     <cookie />
   </div>
 </template>
 
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 export default {
+  components: { LazyHydrate },
   data: () => ({
     visibleHeaderFooter: true
   }),
