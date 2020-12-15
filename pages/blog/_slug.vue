@@ -13,7 +13,7 @@
               </header>
               <div class="blog-info ">
                 <div class="blog-date">
-                  <time datetime="2019-03-08T17:10:45-03:00">Publicado em {{ $moment(post && post.date).format('DD/MM/YYYY') }}</time>
+                  <time datetime="2019-03-08T17:10:45-03:00">Publicado em {{ moment(post && post.date).format('DD/MM/YYYY') }}</time>
                 </div>
               </div>
               <div class="blog-content" v-html="post && post.content.rendered" />
@@ -53,6 +53,7 @@
 </template>
 
 <script>
+import moment from 'moment/src/moment'
 export default {
   async asyncData ({ params, $axios }) {
     const { data } = await $axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed=1`)
@@ -67,6 +68,11 @@ export default {
     isLoading: true,
     fullPage: true,
     color: '#ff6600'
-  })
+  }),
+  methods: {
+    moment (date) {
+      return moment(date)
+    }
+  }
 }
 </script>

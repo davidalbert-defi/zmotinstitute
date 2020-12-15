@@ -66,7 +66,6 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/moment',
     'nuxt-compress'
   ],
 
@@ -190,6 +189,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    analyze: true,
     extend (config, { isDev }) {
       config.module.rules.unshift({
         test: /\.jpe?g$/,
