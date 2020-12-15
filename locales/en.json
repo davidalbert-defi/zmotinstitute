@@ -124,11 +124,18 @@
             "title": "ZMOT Institute's Blog: Learn with Best in Class Experts",
             "description": "This is the right place to learn all about ZMOT Framework and related topics regarding Consumer Behavior. Learn Now and Start to Boost your Business Results!"
         },
+        "opinion": {
+            "title": "Opinions about this content"
+        },
         "add_comment" : {
             "title": "Add a Comment",
             "info": "Your email address will not be published. Required fields are marked *",
             "save": "Save my name, email, and website in this browser for the next time I comment",
-            "submit": "SUBMIT"
+            "submit": "SUBMIT",
+            "name": "Name (required)",
+            "email": "email(required)",
+            "website": "Website",
+            "comment": "Feel free to add your comment here(required)"
         }
     },
     "zmot_audit": {

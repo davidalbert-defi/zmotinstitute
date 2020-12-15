@@ -14,21 +14,21 @@
       <div class="row flex flex-wrap">
         <div class="w-full md:w-5/12">
           <div class="submit-input">
-            <input v-model="author" class="form-control" required placeholder="Name (required)" />
+            <input v-model="author" class="form-control" required :placeholder="$t('blog.add_comment.name')" />
           </div>
         </div>
       </div>
       <div class="row flex flex-wrap">
         <div class="w-full md:w-5/12">
           <div class="submit-input">
-            <input v-model="mail" class="form-control" type="email" required placeholder="E-Mail (required)" />
+            <input v-model="mail" class="form-control" type="email" required :placeholder="$t('blog.add_comment.email')" />
           </div>
         </div>
       </div>
       <div class="row flex flex-wrap">
         <div class="w-full md:w-5/12">
           <div class="submit-input">
-            <input v-model="site" class="form-control" placeholder="Web site" type="url" />
+            <input v-model="site" class="form-control" :placeholder="$t('blog.add_comment.website')" />
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
               id="textarea-rows"
               v-model="comment"
               class="form-control"
-              placeholder="Comment"
+              :placeholder="$t('blog.add_comment.comment')"
               required
               rows="8"
             />

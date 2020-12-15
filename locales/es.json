@@ -121,11 +121,18 @@
             "title": "Blog del ZMOT Institute: Aprenda con los Mejores",
             "description": "El mejor sitio para aprender todo sobre el ZMOT Framework y temas relacionados con el Comportamiento del Consumidor. ¡Empieza ahora!"
         },
+        "opinion": {
+            "title": "Opiniones sobre este contenido"
+        },
         "add_comment" : {
-          "title": "Add a Comment",
-          "info": "Your email address will not be published. Required fields are marked *",
-          "save": "Save my name, email, and website in this browser for the next time I comment",
-          "submit": "SUBMIT"
+          "title": "Escribir un comentario",
+          "info": "Su correo electrónico no será publicada. Los campos obligatorios están marcados con expresión (obligatorio)",
+          "save": "Doy mi consentimiento a este comentario y estoy de acuerdo con la Política de Privacidad del ZMOT Institute",
+          "submit": "Compartir Comentario",
+          "name": "Nombre (obligatorio)",
+          "email": "correo eletrónico (obligatorio)",
+          "website": "Sitio Web",
+          "comment": "Siéntase libre de compartir tu opinión aquí (requerido)"
         }
     },
     "zmot_audit": {

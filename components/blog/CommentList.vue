@@ -2,7 +2,7 @@
   <div v-if="!loading" class="container mx-auto px-2 lg:px-4">
     <div class="row flex flex-wrap">
       <div class="w-full header">
-        <span> Responses </span>
+        <span> {{ $t("blog.opinion.title") }} </span>
       </div>
     </div>
     <div class="row flex flex-wrap">
