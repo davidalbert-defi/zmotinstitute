@@ -12,10 +12,10 @@
           </p>
           <div class="search-form">
             <input v-model="email" class="form-control" type="email" :placeholder="$t('news_letter.placeholder')" />
-            <button class="browser-show text-white">
+            <button class="browser-show text-white" @click="onSubmit">
               {{ $t('news_letter.subscribe') }}
             </button>
-            <button class="mobile-show text-white">
+            <button class="mobile-show text-white" @click="onSubmit">
               {{ $t('news_letter.subscribe_ellipse') }}
             </button>
           </div>
@@ -30,6 +30,54 @@ export default {
   name: 'NewsLetter',
   data: () => ({
     email: ''
-  })
+  }),
+  methods: {
+    async onSubmit () {
+      if (!this.email) {
+        return
+      }
+      try {
+        const hubSpotPortalId = process.env.hubSpotPortalId
+        const hubSpotFormGuid = process.env.hubSpotFormGuid
+        const url = window.location.href
+        const data = {
+          fields: [
+            {
+              name: 'email',
+              value: this.email
+            },
+            {
+              name: 'form_url',
+              value: url
+            }
+          ]
+        }
+        await this.$axios.post(
+          `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${hubSpotFormGuid}`,
+          data
+        )
+        this.showSuccessToast()
+      } catch (e) {
+        console.log(e)
+        this.showErrorToast()
+      }
+    },
+    showSuccessToast () {
+      this.$swal({
+        title: this.$t('online_courses.thank_you_title'),
+        text: this.$t('online_courses.thank_you_message'),
+        icon: 'success',
+        button: 'OK'
+      })
+    },
+    showErrorToast () {
+      this.$swal({
+        title: 'Submit Failed',
+        text: 'Something went wrong with your submission.',
+        icon: 'error',
+        button: 'OK'
+      })
+    }
+  }
 }
 </script>
