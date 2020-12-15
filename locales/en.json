@@ -129,9 +129,9 @@
         },
         "add_comment" : {
             "title": "Add a Comment",
-            "info": "Your email address will not be published. Required fields are marked *",
-            "save": "Save my name, email, and website in this browser for the next time I comment",
-            "submit": "SUBMIT",
+            "info": "Your email address will not be published. Required fields are marked with expression (required)",
+            "save": "I give my consent to this comment and agree with ZMOT Institute Privacy Policy",
+            "submit": "Submit Comment",
             "name": "Name (required)",
             "email": "email(required)",
             "website": "Website",

@@ -14,7 +14,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
+      { rel: 'shortcut icon', href: '/icon.png' }
       // { rel: 'canonical', href: 'https://zmotinstitute.com/' },
       // { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
       // { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
@@ -224,5 +225,14 @@ export default {
         }
       })
     }
+  },
+  manifest: {
+    name: 'Zmotinstitute',
+    short_name: 'Zmotinstitute',
+    lang: 'en',
+    display: 'standalone'
+  },
+  pwa: {
+    icon: false
   }
 }
