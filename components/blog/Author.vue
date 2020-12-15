@@ -1,16 +1,16 @@
 <template>
   <div class="container mx-auto">
     <div class="row flex flex-wrap">
-      <div class="comment-item w-full">
+      <div class="lg:flex py-10 w-full">
         <img class="avatar" alt="Author Photo" :src="author && author.avatar_urls['96']" />
         <div>
           <div
             v-if="author && author.link !== ''"
-            class="author-name-link"
+            class="author-name-link mt-5 lg:mt-0"
           >
-            <nuxt-link :to="author.link">
+            <a :href="author.link">
               {{ author && author.name }}
-            </nuxt-link>
+            </a>
           </div>
           <div v-html="author && author.description" />
         </div>
@@ -35,23 +35,20 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  .comment-item
-    padding: 40px 0
-    display: flex
-    .avatar
-      width: 100%
-      height: 100%
-      max-width: 96px !important
-      max-height: 96px !important
-      border-width: 3px
-      border-radius: 50%
-      border-style: solid
-      border-color: #BBB
-      margin-right: 20px
-    .author-name-link
-      a
-        color: #444
-        font-weight: 600
-        font-size: 1.3rem
-        text-decoration: none
+  .avatar
+    width: 100%
+    height: 100%
+    max-width: 96px !important
+    max-height: 96px !important
+    border-width: 3px
+    border-radius: 50%
+    border-style: solid
+    border-color: #BBB
+    margin-right: 20px
+  .author-name-link
+    a
+      color: #444
+      font-weight: 600
+      font-size: 1.3rem
+      text-decoration: none
 </style>
