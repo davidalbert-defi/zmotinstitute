@@ -128,8 +128,8 @@ export default {
           es: require('./locales/es.json')
         }
       }
-    }]
-    // '@nuxtjs/gtm'
+    }],
+    '@nuxtjs/gtm'
   ],
 
   // Tailwindcss Configuration
@@ -139,10 +139,10 @@ export default {
   },
 
   // Google Tag Manager Configuration (https://www.npmjs.com/package/@nuxtjs/gtm)
-  // gtm: {
-  //   id: "GTM-K3SW4XN",
-  //   pageTracking: true
-  // },
+  gtm: {
+    id: process.env.GTM_ID,
+    pageTracking: true
+  },
 
   // ROBOTS configuration (https://www.npmjs.com/package/@nuxtjs/robots)
   robots: {
