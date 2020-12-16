@@ -8,7 +8,7 @@ if (typeof getGDPR !== 'undefined' && getGDPR === 'true') {
     id: 'UA-91239129-1',
     disabled: false,
     debug: {
-      enabled: true,
+      enabled: false,
       trace: true,
       sendHitTask: true
     }
@@ -18,7 +18,7 @@ if (typeof getGDPR !== 'undefined' && getGDPR === 'true') {
     id: 'UA-91239129-1',
     disabled: true,
     debug: {
-      enabled: true,
+      enabled: false,
       trace: true,
       sendHitTask: true
     }
