@@ -61,9 +61,11 @@
 </template>
 
 <script>
+import { VueTelInput } from 'vue-tel-input'
 import { mapGetters } from 'vuex'
 export default {
   name: 'SectionLectureContent',
+  components: { VueTelInput },
   data: () => ({
     email: '',
     name: '',

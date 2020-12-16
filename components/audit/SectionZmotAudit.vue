@@ -57,9 +57,11 @@
 </template>
 
 <script>
+import { VueTelInput } from 'vue-tel-input'
 import { mapGetters } from 'vuex'
 export default {
   name: 'SectionZmotAudit',
+  components: { VueTelInput },
   data: () => ({
     email: '',
     name: '',
