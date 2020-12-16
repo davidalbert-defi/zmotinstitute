@@ -20,9 +20,7 @@
       <section-sayaboutus />
     </lazy-hydrate>
 
-    <lazy-hydrate when-visible>
-      <news-letter />
-    </lazy-hydrate>
+    <news-letter />
   </div>
 </template>
 

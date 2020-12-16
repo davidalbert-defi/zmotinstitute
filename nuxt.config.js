@@ -88,7 +88,7 @@ export default {
     '@nuxtjs/sitemap',
     'nuxt-lazy-load',
     [
-      'vue-sweetalert2/nuxt',
+      'nuxt-sweetalert2',
       {
         confirmButtonColor: '#41b882',
         cancelButtonColor: '#ff7674'
@@ -190,7 +190,11 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     analyze: true,
-    extend (config, { isDev }) {
+    extend (config, { isDev, isClient }) {
+      if (isClient) {
+        config.optimization.splitChunks.maxSize = 200000
+      }
+
       config.module.rules.unshift({
         test: /\.jpe?g$/,
         use: {

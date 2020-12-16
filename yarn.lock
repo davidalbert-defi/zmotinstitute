@@ -6705,6 +6705,13 @@ nuxt-lazy-load@^1.2.4:
     intersection-observer "^0.7.0"
     string-replace-loader "^2.1.1"
 
+nuxt-sweetalert2@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nuxt-sweetalert2/-/nuxt-sweetalert2-1.0.0.tgz#cbfd10d6ca7c4a2b6e11e79a1987fb4849c749b4"
+  integrity sha512-1BZlV2ddCj2LROmPcgkRV/K9O8+pVD/Z5sisbvhSiBDl6ynepfKDfWypo2P5EOirxst1H40EfkxyFuIKuqAY9g==
+  dependencies:
+    sweetalert2 "7.x"
+
 nuxt@^2.14.6:
   version "2.14.8"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.8.tgz#1fd028d0147c6a0010a146f2d870321f57134b10"
@@ -9372,10 +9379,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-sweetalert2@10.x:
-  version "10.11.1"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-10.11.1.tgz#ba2c2d166bc4b5472773cc8ef7273d75d0f2ff91"
-  integrity sha512-fcl5myOmkITOstRdBmviYEUgfy6CWQFKyMMDLeLtljML6QnjmYh7kfmEVcuFGmemvalrMzuy8NFhPvEKYpQZuw==
+sweetalert2@7.x:
+  version "7.33.1"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-7.33.1.tgz#7e3534d2c2962f875f419cfea5d75ee526d65cd4"
+  integrity sha512-69KYtyhtxejFG0HDb8aVhAwbpAWPSTZwaL5vxDHgojErD2KeFxTmRgmkbiLtMC8UdTFXRmvTPtZTF4459MUb7w==
 
 table@^5.2.3:
   version "5.4.6"
@@ -10063,13 +10070,6 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
-
-vue-sweetalert2@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/vue-sweetalert2/-/vue-sweetalert2-4.1.1.tgz#77963821d798bbf95fd4567ccd55e8cc51c78463"
-  integrity sha512-9ytddeXkjixIGzUxgmVAVdIOrbPiWcjEPQuO3mEPq4zc8clbQbhOn192zvYUdcM0SbRPzbafyXTFx9mNMNJzQA==
-  dependencies:
-    sweetalert2 "10.x"
 
 vue-tel-input@^4.4.2:
   version "4.4.2"
