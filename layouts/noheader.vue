@@ -1,11 +1,19 @@
 <template>
   <div class="leading-normal tracking-normal bg-white">
+    <lazy-hydrate when-visible>
+      <menu-no-header />
+    </lazy-hydrate>
     <Nuxt />
+    <lazy-hydrate when-visible>
+      <cookie />
+    </lazy-hydrate>
   </div>
 </template>
 
 <script>
+import LazyHydrate from 'vue-lazy-hydration'
 export default {
+  components: { LazyHydrate },
   head () {
     const i18nSeo = this.$nuxtI18nSeo()
     return {

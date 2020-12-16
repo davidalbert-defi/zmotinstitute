@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'SectionLectureBanner',
+  name: 'MenuNoHeader',
   data: () => ({
     logoProp: { blank: false, width: 250, class: 'm-2' }
   })
