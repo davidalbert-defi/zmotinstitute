@@ -19,9 +19,7 @@ export default {
       { rel: 'canonical', href: 'https://zmotinstitute.com/' },
       { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
       { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
-      { rel: 'alternate', hreflang: 'pt-br', href: 'https://zmotinstitute.com/pt-br' },
-      { rel: 'preconnect', href: 'https://connect.facebook.net/' },
-      { rel: 'preconnect', href: 'https://www.google-analytics.com/' }
+      { rel: 'alternate', hreflang: 'pt-br', href: 'https://zmotinstitute.com/pt-br' }
     ]
   },
   // Environment Variables
@@ -44,7 +42,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~/plugins/bus',
-    { src: '~/plugins/GoogleAnalytics', ssr: false },
+    // { src: '~/plugins/GoogleAnalytics', ssr: false },
     { src: '~/plugins/aos', ssr: false },
     { src: '~/plugins/components', ssr: false }
   ],
@@ -130,8 +128,8 @@ export default {
           es: require('./locales/es.json')
         }
       }
-    }],
-    '@nuxtjs/gtm'
+    }]
+    // '@nuxtjs/gtm'
   ],
 
   // Tailwindcss Configuration
@@ -141,10 +139,10 @@ export default {
   },
 
   // Google Tag Manager Configuration (https://www.npmjs.com/package/@nuxtjs/gtm)
-  gtm: {
-    id: process.env.GTM_ID,
-    pageTracking: true
-  },
+  // gtm: {
+  //   id: process.env.GTM_ID,
+  //   pageTracking: true
+  // },
 
   // ROBOTS configuration (https://www.npmjs.com/package/@nuxtjs/robots)
   robots: {

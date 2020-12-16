@@ -51,6 +51,17 @@ export default {
       }
       return false
     }
+
+    try {
+      window.setTimeout(function () {
+        // eslint-disable-next-line no-undef
+        dataLayer.push({
+          event: 'afterLoad'
+        })
+      }, 1500)
+    } catch (err) {
+      console.log(err)
+    }
   },
   head () {
     const i18nSeo = this.$nuxtI18nSeo()
