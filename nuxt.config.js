@@ -50,12 +50,12 @@ export default {
 
   // Rendering Configuration
   render: {
-    http2: {
-      push: true,
-      pushAssets: (req, res, publicPath, preloadFiles) => preloadFiles
-        .filter(f => f.asType === 'script' && f.file === 'runtime.js')
-        .map(f => `<${publicPath}${f.file}>; rel=preload; as=${f.asType}`)
-    }
+    // http2: {
+    //   push: true,
+    // pushAssets: (req, res, publicPath, preloadFiles) => preloadFiles
+    //   .filter(f => f.asType === 'script' && f.file === 'runtime.js')
+    //   .map(f => `<${publicPath}${f.file}>; rel=preload; as=${f.asType}`)
+    // }
   },
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -230,13 +230,32 @@ export default {
       })
     }
   },
-  manifest: {
-    name: 'Zmotinstitute',
-    short_name: 'Zmotinstitute',
-    lang: 'en',
-    display: 'standalone'
-  },
   pwa: {
+    manifest: {
+      name: 'Zmotinstitute',
+      short_name: 'Zmotinstitute',
+      lang: 'en',
+      theme_color: '#fc642e',
+      background_color: '#ffffff',
+      display: 'standalone',
+      icons: [
+        {
+          src: '/android-chrome-192x192.png',
+          sizes: '192x192'
+        },
+        {
+          src: '/android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png'
+        },
+        {
+          src: '/android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any'
+        }
+      ]
+    },
     icon: false
   }
 }
