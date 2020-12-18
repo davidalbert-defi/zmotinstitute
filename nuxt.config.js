@@ -136,9 +136,13 @@ export default {
       }
     }],
     'nuxt-ssr-cache',
-    '@dansmaculotte/nuxt-security'
+    '@dansmaculotte/nuxt-security',
+    'nuxt-hsts-module'
     // '@nuxtjs/gtm'
   ],
+
+  // Hsts module configuration
+  hsts: process.env.NODE_ENV === 'production',
 
   // Tailwindcss Configuration
   tailwindcss: {
