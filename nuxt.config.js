@@ -133,7 +133,8 @@ export default {
           es: require('./locales/es.json')
         }
       }
-    }]
+    }],
+    'nuxt-ssr-cache'
     // '@nuxtjs/gtm'
   ],
 
@@ -162,6 +163,28 @@ export default {
     },
     brotli: {
       threshold: 10240
+    }
+  },
+
+  // Nuxt SSR cache configuration
+  cache: {
+    useHostPrefix: false,
+    pages: [
+      '/'
+    ],
+
+    key (route, context) {
+      // custom function to return cache key, when used previous
+      // properties (useHostPrefix, pages) are ignored. return
+      // falsy value to bypass the cache
+    },
+
+    store: {
+      type: 'memory',
+      // maximum number of pages to store in memory
+      max: 100,
+      // number of seconds to store this page in cache
+      ttl: 31536000
     }
   },
 
