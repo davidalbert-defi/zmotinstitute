@@ -180,23 +180,15 @@ export default {
       const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
       const staticSitemap = [
         {
-          url: 'contact',
-          links: [
-            { lang: 'en', url: '/contact' },
-            { lang: 'es', url: '/contact' },
-            { lang: 'pt-br', url: '/contact' }
-          ]
+          url: '/contact',
+          priority: 1
         },
         {
-          url: 'blog',
-          links: [
-            { lang: 'en', url: '/blog' },
-            { lang: 'es', url: '/blog' },
-            { lang: 'pt-br', url: '/blog' }
-          ]
+          url: '/blog',
+          priority: 0.8
         },
         {
-          url: 'privacy',
+          url: '/privacy',
           links: [
             { lang: 'en', url: '/privacy' },
             { lang: 'es', url: '/privacidad' },
@@ -204,7 +196,7 @@ export default {
           ]
         },
         {
-          url: 'online-courses',
+          url: '/online-courses',
           links: [
             { lang: 'en', url: '/online-courses' },
             { lang: 'es', url: '/cursos-online' },
@@ -212,7 +204,7 @@ export default {
           ]
         },
         {
-          url: 'lectures-events',
+          url: '/lectures-events',
           links: [
             { lang: 'en', url: '/lectures-events' },
             { lang: 'es', url: '/conferencias-eventos' },
@@ -220,7 +212,7 @@ export default {
           ]
         },
         {
-          url: 'zmot-audit',
+          url: '/zmot-audit',
           links: [
             { lang: 'en', url: '/zmot-audit' },
             { lang: 'es', url: '/auditoria-zmot' },
