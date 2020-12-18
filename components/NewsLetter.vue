@@ -39,7 +39,6 @@ export default {
       try {
         const hubSpotPortalId = process.env.hubSpotPortalId
         const hubSpotNewsLetterFormGuid = process.env.hubSpotNewsLetterFormGuid
-        const url = window.location.href
         const data = {
           fields: [
             {
