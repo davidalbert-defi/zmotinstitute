@@ -181,42 +181,50 @@ export default {
       const staticSitemap = [
         {
           url: '/contact',
-          priority: 1
+          links: [
+            { lang: 'en', url: '/contact' },
+            { lang: 'es', url: 'es/contact' },
+            { lang: 'pt-br', url: 'pt-br/contact' }
+          ]
         },
         {
           url: '/blog',
-          priority: 0.8
+          links: [
+            { lang: 'en', url: '/blog' },
+            { lang: 'es', url: 'es/blog' },
+            { lang: 'pt-br', url: 'pt-br/blog' }
+          ]
         },
         {
           url: '/privacy',
           links: [
             { lang: 'en', url: '/privacy' },
-            { lang: 'es', url: '/privacidad' },
-            { lang: 'pt-br', url: '/privacidade' }
+            { lang: 'es', url: 'es/privacidad' },
+            { lang: 'pt-br', url: 'pt-br/privacidade' }
           ]
         },
         {
           url: '/online-courses',
           links: [
             { lang: 'en', url: '/online-courses' },
-            { lang: 'es', url: '/cursos-online' },
-            { lang: 'pt-br', url: '/cursos-online' }
+            { lang: 'es', url: 'es/cursos-online' },
+            { lang: 'pt-br', url: 'pt-br/cursos-online' }
           ]
         },
         {
           url: '/lectures-events',
           links: [
             { lang: 'en', url: '/lectures-events' },
-            { lang: 'es', url: '/conferencias-eventos' },
-            { lang: 'pt-br', url: '/palestras-eventos' }
+            { lang: 'es', url: 'es/conferencias-eventos' },
+            { lang: 'pt-br', url: 'pt-br/palestras-eventos' }
           ]
         },
         {
           url: '/zmot-audit',
           links: [
             { lang: 'en', url: '/zmot-audit' },
-            { lang: 'es', url: '/auditoria-zmot' },
-            { lang: 'pt-br', url: '/auditoria-zmot' }
+            { lang: 'es', url: 'es/auditoria-zmot' },
+            { lang: 'pt-br', url: 'pt-br/auditoria-zmot' }
           ]
         }
       ]
