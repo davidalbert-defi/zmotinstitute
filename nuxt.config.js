@@ -134,7 +134,8 @@ export default {
         }
       }
     }],
-    'nuxt-ssr-cache'
+    'nuxt-ssr-cache',
+    '@dansmaculotte/nuxt-security'
     // '@nuxtjs/gtm'
   ],
 
