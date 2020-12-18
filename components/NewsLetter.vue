@@ -45,10 +45,6 @@ export default {
             {
               name: 'email',
               value: this.email
-            },
-            {
-              name: 'form_url',
-              value: url
             }
           ]
         }
