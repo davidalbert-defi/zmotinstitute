@@ -38,7 +38,7 @@ export default {
       }
       try {
         const hubSpotPortalId = process.env.hubSpotPortalId
-        const hubSpotFormGuid = process.env.hubSpotFormGuid
+        const hubSpotNewsLetterFormGuid = process.env.hubSpotNewsLetterFormGuid
         const url = window.location.href
         const data = {
           fields: [
@@ -53,7 +53,7 @@ export default {
           ]
         }
         await this.$axios.post(
-          `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${hubSpotFormGuid}`,
+          `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${hubSpotNewsLetterFormGuid}`,
           data
         )
         this.showSuccessToast()

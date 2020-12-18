@@ -43,7 +43,7 @@
             />
             <label class="custom-control-label">
               <span>{{ $t('blog.add_comment.save') }}</span>
-              <nuxt-link :to="localePath('privacy')">
+              <nuxt-link :to="localePath('privacy')" class="text-primary">
                 {{ $t('blog.add_comment.privacy_policy') }}
               </nuxt-link>
               <span>{{ $t('blog.add_comment.save1') }}</span>

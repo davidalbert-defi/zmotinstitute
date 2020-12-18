@@ -30,7 +30,8 @@ export default {
     hubSpotAPIKey: process.env.hubSpotAPIKey,
     hubSpotPortalId: process.env.hubSpotPortalId,
     hubSpotFormGuid: process.env.hubSpotFormGuid,
-    contactFormGuid: process.env.contactFormGuid
+    contactFormGuid: process.env.contactFormGuid,
+    hubSpotNewsLetterFormGuid: process.env.hubSpotNewsLetterFormGuid
   },
   /*
   ** Customize the progress-bar color

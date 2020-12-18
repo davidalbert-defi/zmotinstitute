@@ -6,7 +6,6 @@ export default ({ app }) => {
     return
   }
   app.router.onReady(() => {
-    console.log(app.router.currentRoute.query)
     setTimeout(() => {
       (function (w, d, s, l, i) {
         w[l] = w[l] || []; w[l].push({
