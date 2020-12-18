@@ -185,7 +185,56 @@ export default {
           { lang: 'es', url: `es/${blog.slug}` },
           { lang: 'pt-br', url: `pt-br/${blog.slug}` }
         ]
-      }))
+      })).concat([
+        {
+          url: 'contact',
+          links: [
+            { lang: 'en', url: '/contact' },
+            { lang: 'es', url: '/contact' },
+            { lang: 'pt-br', url: '/contact' }
+          ]
+        },
+        {
+          url: 'blog',
+          links: [
+            { lang: 'en', url: '/blog' },
+            { lang: 'es', url: '/blog' },
+            { lang: 'pt-br', url: '/blog' }
+          ]
+        },
+        {
+          url: 'privacy',
+          links: [
+            { lang: 'en', url: '/privacy' },
+            { lang: 'es', url: '/privacidad' },
+            { lang: 'pt-br', url: '/privacidade' }
+          ]
+        },
+        {
+          url: 'online-courses',
+          links: [
+            { lang: 'en', url: '/online-courses' },
+            { lang: 'es', url: '/cursos-online' },
+            { lang: 'pt-br', url: '/cursos-online' }
+          ]
+        },
+        {
+          url: 'lectures-events',
+          links: [
+            { lang: 'en', url: '/lectures-events' },
+            { lang: 'es', url: '/conferencias-eventos' },
+            { lang: 'pt-br', url: '/palestras-eventos' }
+          ]
+        },
+        {
+          url: 'zmot-audit',
+          links: [
+            { lang: 'en', url: '/zmot-audit' },
+            { lang: 'es', url: '/auditoria-zmot' },
+            { lang: 'pt-br', url: '/auditoria-zmot' }
+          ]
+        }
+      ])
     }
   },
 
