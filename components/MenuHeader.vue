@@ -37,19 +37,19 @@
             <ul>
               <li class="text-128px" @click="isOpen = false">
                 <nuxt-link :to="switchLocalePath('en')" class="w-full inline-flex block text-black px-6 py-2">
-                  <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4" width="25" alt="USA Flag">
+                  <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4 h-6" width="25" alt="USA Flag">
                   English
                 </nuxt-link>
               </li>
               <li class="text-128px" @click="isOpen = false">
                 <nuxt-link :to="switchLocalePath('pt-br')" class="w-full inline-flex block text-black px-6 py-2">
-                  <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4" width="25" alt="Brazillian Flag">
+                  <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4 h-6" width="25" alt="Brazillian Flag">
                   Português
                 </nuxt-link>
               </li>
               <li class="text-128px" @click="isOpen = false">
                 <nuxt-link :to="switchLocalePath('es')" class="w-full inline-flex block text-black px-6 py-2">
-                  <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4" width="25" alt="Spanish Flag">
+                  <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4 h-6" width="25" alt="Spanish Flag">
                   Español
                 </nuxt-link>
               </li>
@@ -107,19 +107,19 @@
               <ul>
                 <li class="text-128px" @click="isOpen = false">
                   <nuxt-link :to="switchLocalePath('en')" class="w-full inline-flex block text-black px-6 py-2">
-                    <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4" width="25" alt="USA Flag">
+                    <img data-not-lazy src="~/assets/img/svg/en.svg" class="mr-4 h-6" width="25" alt="USA Flag">
                     English
                   </nuxt-link>
                 </li>
                 <li class="text-128px" @click="isOpen = false">
                   <nuxt-link :to="switchLocalePath('pt-br')" class="w-full inline-flex block text-black px-6 py-2">
-                    <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4" width="25" alt="Brazillian Flag">
+                    <img data-not-lazy src="~/assets/img/svg/br.svg" class="mr-4 h-6" width="25" alt="Brazillian Flag">
                     Português
                   </nuxt-link>
                 </li>
                 <li class="text-128px" @click="isOpen = false">
                   <nuxt-link :to="switchLocalePath('es')" class="w-full inline-flex block text-black px-6 py-2">
-                    <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4" width="25" alt="Spanish Flag">
+                    <img data-not-lazy src="~/assets/img/svg/es.svg" class="mr-4 h-6" width="25" alt="Spanish Flag">
                     Español
                   </nuxt-link>
                 </li>

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="bg-primary">
     <div class="container mx-auto flex justify-center">
       <nuxt-link to="/">
         <div>
