@@ -54,6 +54,7 @@ export default {
 
   // Rendering Configuration
   render: {
+    csp: true
     // http2: {
     //   push: true,
     // pushAssets: (req, res, publicPath, preloadFiles) => preloadFiles
