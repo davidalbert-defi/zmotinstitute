@@ -23,13 +23,15 @@
               <input v-model="email" class="form-control rounded-full" type="email" required :placeholder="$t('placeholder.email')">
               <input v-model="name" class="form-control rounded-full" type="text" required :placeholder="$t('placeholder.name')">
               <input v-model="surname" class="form-control rounded-full" type="text" required :placeholder="$t('placeholder.surname')">
-              <vue-tel-input
-                v-model="phone"
-                v-bind="telInputOption"
-                required
-                :placeholder="$t('placeholder.phone')"
-                @country-changed="countryChanged"
-              />
+              <client-only>
+                <vue-tel-input
+                  v-model="phone"
+                  v-bind="telInputOption"
+                  required
+                  :placeholder="$t('placeholder.phone')"
+                  @country-changed="countryChanged"
+                />
+              </client-only>
               <recaptcha
                 @error="onError"
                 @success="onSuccess"
