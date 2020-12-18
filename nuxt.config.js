@@ -178,14 +178,7 @@ export default {
 
     routes: async () => {
       const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
-      return data.map(blog => ({
-        url: `/blog/${blog.slug}`,
-        links: [
-          { lang: 'en', url: blog.slug },
-          { lang: 'es', url: `es/${blog.slug}` },
-          { lang: 'pt-br', url: `pt-br/${blog.slug}` }
-        ]
-      })).concat([
+      const staticSitemap = [
         {
           url: 'contact',
           links: [
@@ -234,7 +227,16 @@ export default {
             { lang: 'pt-br', url: '/auditoria-zmot' }
           ]
         }
-      ])
+      ]
+      const sitemaps = data.map(blog => ({
+        url: `/blog/${blog.slug}`,
+        links: [
+          { lang: 'en', url: blog.slug },
+          { lang: 'es', url: `es/${blog.slug}` },
+          { lang: 'pt-br', url: `pt-br/${blog.slug}` }
+        ]
+      }))
+      return sitemaps.concat(staticSitemap)
     }
   },
 
