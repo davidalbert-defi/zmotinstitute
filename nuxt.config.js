@@ -82,15 +82,15 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    [
+    /* [
       '@nuxtjs/recaptcha', {
-        /* reCAPTCHA options */
+        /!* reCAPTCHA options *!/
         hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
         siteKey: process.env.RECAPTCHA_SITE_KEY,
         version: 2, // Version
         size: 'normal' // Size: 'compact', 'normal', 'invisible' (v2)
       }
-    ],
+    ], */
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     'nuxt-lazy-load',
@@ -211,6 +211,14 @@ export default {
     routes: async () => {
       const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
       const staticSitemap = [
+        {
+          url: '/',
+          links: [
+            { lang: 'en', url: '/' },
+            { lang: 'es', url: 'es/' },
+            { lang: 'pt-br', url: 'pt-br/' }
+          ]
+        },
         {
           url: '/contact',
           links: [

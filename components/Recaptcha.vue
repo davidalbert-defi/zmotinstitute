@@ -51,11 +51,12 @@ export default {
           callback: (response) => {
             console.log(response)
             // emit an event called verify with the response as payload
-            this.$emit('verify', response)
+            this.$emit('success', response)
             // reset the recaptcha widget so you can execute it again
             this.reset()
           }
         })
+        console.log(this.widgetId)
       }
     }
   }
