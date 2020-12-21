@@ -223,8 +223,8 @@ export default {
           url: '/contact',
           links: [
             { lang: 'en', url: '/contact' },
-            { lang: 'es', url: 'es/contact' },
-            { lang: 'pt-br', url: 'pt-br/contact' }
+            { lang: 'es', url: 'es/contacto' },
+            { lang: 'pt-br', url: 'pt-br/contato' }
           ]
         },
         {
