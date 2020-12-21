@@ -73,6 +73,38 @@ export default {
     moment (date) {
       return moment(date)
     }
+  },
+  head () {
+    return {
+      title: this.post.title.rendered,
+      meta: [
+        {
+          hid: 'twitter-card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.post.title.rendered
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: this.post.content.rendered
+        },
+        {
+          hid: 'og-image',
+          property: 'og:image',
+          content: this.post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url
+        },
+        {
+          hid: 'og-url',
+          property: 'og:url',
+          content: this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
