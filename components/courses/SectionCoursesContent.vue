@@ -1,4 +1,3 @@
-<script src="../../plugins/recaptcha.js"></script>
 <template>
   <div>
     <section>
@@ -34,11 +33,16 @@
                     @country-changed="countryChanged"
                   />
                 </client-only>
-                <recaptcha
+                <!--<recaptcha
                   @error="onError"
                   @success="onSuccess"
                   @expired="onExpired"
-                />
+                />-->
+                <div
+                  id="g-recaptcha"
+                  class="g-recaptcha"
+                  :data-sitekey="sitekey">
+                </div>
                 <div class="flex justify-center">
                   <button
                     id="SubmitLeadForm"
@@ -77,6 +81,7 @@ export default {
     surname: '',
     phone: '',
     country: '',
+    sitekey: process.env.RECAPTCHA_SITE_KEY,
     submitting: false
   }),
   computed: {
@@ -175,6 +180,19 @@ export default {
     },
     onExpired () {
       console.log('Expired')
+    },
+    createRecaptcha () {
+      const f = document.getElementsByTagName('script')[0]
+      const j = document.createElement('script')
+      j.async = true
+      j.src = 'https://www.google.com/recaptcha/api.js'
+      j.id = 'recaptchaScript'
+      f.parentNode.insertBefore(j, f)
+    },
+
+    // remove
+    removeRecaptcha () {
+      document.getElementById('recaptchaScript').remove()
     }
   }
 }
