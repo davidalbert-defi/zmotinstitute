@@ -16,6 +16,13 @@ export default {
   components: {
     LazyHydrate
   },
+  nuxtI18n: {
+    paths: {
+      en: '/contact',
+      es: '/contacto',
+      'pt-br': '/contato'
+    }
+  },
   head () {
     return {
       title: this.$t('contact.seo.title'),
