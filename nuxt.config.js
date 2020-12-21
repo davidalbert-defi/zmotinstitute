@@ -14,8 +14,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
-      { rel: 'shortcut icon', href: '/icon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'shortcut icon', href: '/favicon.png' },
       { rel: 'canonical', href: 'https://zmotinstitute.com/' },
       { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
       { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
@@ -332,25 +332,7 @@ export default {
       lang: 'en',
       theme_color: '#fc642e',
       background_color: '#ffffff',
-      display: 'standalone',
-      icons: [
-        {
-          src: '/android-chrome-192x192.png',
-          sizes: '192x192'
-        },
-        {
-          src: '/android-chrome-512x512.png',
-          sizes: '512x512',
-          type: 'image/png'
-        },
-        {
-          src: '/android-chrome-512x512.png',
-          sizes: '512x512',
-          type: 'image/png',
-          purpose: 'maskable'
-        }
-      ]
-    },
-    icon: false
+      display: 'standalone'
+    }
   }
 }
