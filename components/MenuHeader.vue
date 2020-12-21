@@ -65,19 +65,19 @@
           </svg>
         </button>
       </div>
-      <div id="nav-content" class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black px-4 lg:p-0 z-20 mr-4 ml-4">
+      <div id="nav-content" ref="nav_content" class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black px-4 lg:p-0 z-20 mr-4 ml-4">
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3 my-6 text-center">
+          <li class="mr-3 my-6 text-center" @click="hideNavContent">
             <nuxt-link :to="localePath('index')" class="w-full inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               {{ $t('navs.home.title') }}
             </nuxt-link>
           </li>
-          <li class="mr-3 my-6 text-center">
+          <li class="mr-3 my-6 text-center" @click="hideNavContent">
             <nuxt-link :to="localePath('blog')" class="w-full inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               {{ $t('navs.blog.title') }}
             </nuxt-link>
           </li>
-          <li class="mr-3 my-6 text-center">
+          <li class="mr-3 my-6 text-center" @click="hideNavContent">
             <nuxt-link :to="localePath('contact')" class="w-full inline-block py-1 px-5 font-semibold text-primary lg:text-white text-base no-underline">
               {{ $t('navs.contact.title') }}
             </nuxt-link>
@@ -149,6 +149,11 @@ export default {
       const lang = this.$i18n.locale
       if (lang === 'en') { return 1 } else if (lang === 'pt-br') { return 2 } else if (lang === 'es') { return 3 }
       return 1
+    }
+  },
+  methods: {
+    hideNavContent () {
+      document.getElementById('nav-content').classList.add('hidden')
     }
   }
 }
