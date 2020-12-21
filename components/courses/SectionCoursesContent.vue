@@ -1,3 +1,4 @@
+<script src="../../plugins/recaptcha.js"></script>
 <template>
   <div>
     <section>
