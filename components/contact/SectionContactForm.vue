@@ -29,16 +29,11 @@
               </div>
               <div class="flex flex-wrap overflow-hidden">
                 <div class="md:w-1/2 sm:w-full sm:text-center md:text-left my-5 lg:my-0">
-                  <!--<recaptcha
+                  <recaptcha
                     @error="onError"
                     @success="onSuccess"
                     @expired="onExpired"
-                  />-->
-                  <div
-                    id="g-recaptcha"
-                    class="g-recaptcha"
-                    :data-sitekey="sitekey">
-                  </div>
+                  />
                 </div>
                 <div class="md:w-1/2 hidden lg:block md:block sm:hidden">
                   <button
@@ -71,17 +66,8 @@ export default {
     surname: '',
     email: '',
     message: '',
-    sitekey: process.env.RECAPTCHA_SITE_KEY,
     loading: false
   }),
-  mounted () {
-    setTimeout(() => {
-      this.createRecaptcha()
-    }, 3000)
-  },
-  beforeDestroy () {
-    this.removeRecaptcha()
-  },
   methods: {
     async onSubmit () {
       try {
@@ -152,19 +138,6 @@ export default {
         icon: 'error',
         button: 'OK'
       })
-    },
-    createRecaptcha () {
-      const f = document.getElementsByTagName('script')[0]
-      const j = document.createElement('script')
-      j.async = true
-      j.src = 'https://www.google.com/recaptcha/api.js'
-      j.id = 'recaptchaScript'
-      f.parentNode.insertBefore(j, f)
-    },
-
-    // remove
-    removeRecaptcha () {
-      document.getElementById('recaptchaScript').remove()
     }
   }
 }

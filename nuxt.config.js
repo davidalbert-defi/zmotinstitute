@@ -47,7 +47,7 @@ export default {
   plugins: [
     '~/plugins/bus',
     { src: '~/plugins/ga', ssr: false },
-    { src: '~/plugins/recaptcha', ssr: false },
+    // { src: '~/plugins/recaptcha', ssr: false },
     { src: '~/plugins/aos', ssr: false },
     { src: '~/plugins/components', ssr: false }
   ],
@@ -82,15 +82,15 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    /* [
+    [
       '@nuxtjs/recaptcha', {
-        /!* reCAPTCHA options *!/
+        /* reCAPTCHA options */
         hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
         siteKey: process.env.RECAPTCHA_SITE_KEY,
         version: 2, // Version
         size: 'normal' // Size: 'compact', 'normal', 'invisible' (v2)
       }
-    ], */
+    ],
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     'nuxt-lazy-load',
