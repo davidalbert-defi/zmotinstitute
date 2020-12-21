@@ -54,7 +54,7 @@ export default {
 
   // Rendering Configuration
   render: {
-    csp: true
+    // csp: true
     // http2: {
     //   push: true,
     // pushAssets: (req, res, publicPath, preloadFiles) => preloadFiles
@@ -138,7 +138,7 @@ export default {
     }],
     'nuxt-ssr-cache',
     ['@dansmaculotte/nuxt-security', {
-      additionalHeaders: true
+      additionalHeaders: false
     }],
     'nuxt-hsts-module'
     // '@nuxtjs/gtm'
