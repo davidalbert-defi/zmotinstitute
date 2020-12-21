@@ -6,7 +6,7 @@ export default ({ app }) => {
     const f = document.getElementsByTagName('script')[0]
     const j = document.createElement('script')
     j.async = true
-    j.src = 'https://www.google.com/recaptcha/api.js?render=6LdXyQEVAAAAAD5ECL2PFXuM39YFgpUpUY05_loV'
+    j.src = 'https://www.google.com/recaptcha/api.js'
     f.parentNode.insertBefore(j, f)
     // (function (w, d, s, l, i) {
     //   w[l] = w[l] || []; w[l].push({

@@ -28,14 +28,7 @@
                 </div>
               </div>
               <div class="flex flex-wrap overflow-hidden">
-                <div class="md:w-1/2 hidden lg:block md:block sm:hidden">
-                  <recaptcha
-                    @error="onError"
-                    @success="onSuccess"
-                    @expired="onExpired"
-                  />
-                </div>
-                <div class="w-full text-center md:text-left md:hidden lg:hidden sm:block my-5">
+                <div class="md:w-1/2 sm:w-full sm:text-center md:text-left my-5 lg:my-0">
                   <recaptcha
                     @error="onError"
                     @success="onSuccess"
