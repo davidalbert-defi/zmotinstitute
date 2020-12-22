@@ -57,7 +57,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: '../assets/img/header-zmot.jpg'
+          content: '~/assets/img/header-zmot.jpg'
         },
         {
           hid: 'og-url',
