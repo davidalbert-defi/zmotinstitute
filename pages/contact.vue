@@ -50,7 +50,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: '../assets/img/contact/contact_hero.png'
+          content: require('~/assets/img/contact/contact_hero.png')
         },
         {
           hid: 'og-url',
