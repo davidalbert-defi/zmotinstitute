@@ -96,7 +96,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: this.post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url
+          content: this.post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url
         },
         {
           hid: 'og-url',
