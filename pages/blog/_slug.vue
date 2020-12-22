@@ -62,11 +62,6 @@ export default {
       isLoading: false
     }
   },
-  computed: {
-    renderedTitle () {
-      return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
-    }
-  },
   data: () => ({
     text: '',
     post: null,
@@ -74,6 +69,11 @@ export default {
     fullPage: true,
     color: '#ff6600'
   }),
+  computed: {
+    renderedTitle () {
+      return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
+    }
+  },
   methods: {
     moment (date) {
       return moment(date)
