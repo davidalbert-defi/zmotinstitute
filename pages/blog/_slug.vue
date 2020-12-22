@@ -91,7 +91,7 @@ export default {
         {
           hid: 'og-description',
           property: 'og:description',
-          content: this.post.content.rendered
+          content: this.post.excerpt.rendered
         },
         {
           hid: 'og-image',
