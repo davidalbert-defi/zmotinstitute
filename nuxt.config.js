@@ -31,7 +31,8 @@ export default {
     hubSpotPortalId: process.env.hubSpotPortalId,
     hubSpotFormGuid: process.env.hubSpotFormGuid,
     contactFormGuid: process.env.contactFormGuid,
-    hubSpotNewsLetterFormGuid: process.env.hubSpotNewsLetterFormGuid
+    hubSpotNewsLetterFormGuid: process.env.hubSpotNewsLetterFormGuid,
+    BASE_URL: process.env.BASE_URL || 'http://localhost:3000'
   },
   /*
   ** Customize the progress-bar color

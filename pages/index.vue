@@ -57,7 +57,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: require('~/assets/img/header-zmot.jpg')
+          content: process.env.BASE_URL + require('~/assets/img/header-zmot.jpg')
         },
         {
           hid: 'og-url',

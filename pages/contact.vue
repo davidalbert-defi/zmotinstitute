@@ -50,7 +50,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: require('~/assets/img/contact/contact_hero.png')
+          content: process.env.BASE_URL + require('~/assets/img/contact/contact_hero.png')
         },
         {
           hid: 'og-url',
