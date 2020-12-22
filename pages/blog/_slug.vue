@@ -62,6 +62,11 @@ export default {
       isLoading: false
     }
   },
+  computed: {
+    renderedTitle () {
+      return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
+    }
+  },
   data: () => ({
     text: '',
     post: null,
@@ -91,7 +96,7 @@ export default {
         {
           hid: 'og-description',
           property: 'og:description',
-          content: this.post.excerpt.rendered
+          content: this.renderedTitle
         },
         {
           hid: 'og-image',
