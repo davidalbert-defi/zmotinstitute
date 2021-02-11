@@ -29,7 +29,7 @@ module.exports = {
       },
       colors: {
         // Configure your color palette here
-        primary: '#fc642e',
+        primary: '#f46322',
         mpurple: '#6c38f8'
       }
     }

@@ -16,12 +16,12 @@
           </p>
         </div>
       </div>
-      <div class="w-full md:w-1/2 py-6 text-center">
+      <div class="w-full md:w-1/2 py-6 text-center"> 
         <img
           class="w-full md:w-4/5 z-50"
-          :src="require('~/assets/img/header-zmot.jpg').src"
-          :srcset="require('~/assets/img/header-zmot.jpg').srcSet"
-          :blank-src="require('~/assets/img/header-zmot.jpg').placeholder"
+          :src="require('~/assets/img/zmot-header-background.jpg').src"
+          :srcset="require('~/assets/img/zmot-header-background.jpg').srcSet"
+          :blank-src="require('~/assets/img/zmot-header-background  `.jpg').placeholder"
           alt="women persona using cell phone, sitting on a side of a big cell phone with an ecommerce website. There is a nice landscape with plants"
         />
       </div>
