@@ -11,8 +11,8 @@
         <strong>{{ $t('homepage.why_do_you_need_ZMOT.text4') }}</strong>
         {{ $t('homepage.why_do_you_need_ZMOT.text5') }}
       </p>
-      <div class="feature__list mt-20">
-        <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+      <div class="feature__list">
+        <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12 my-12 lg:my-24" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <img
               :src="require('~/assets/img/why-do-you-need/searching_block.png').src"
@@ -34,7 +34,7 @@
           </div>
         </div>
 
-        <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+        <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12 my-12 lg:my-24" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="feature__item-content text-right">
               <h3 class="my-8 font-bold text-center text-4xl">
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+        <div class="feature__item flex flex-wrap flex-col md:flex-row overflow-hidden pb-12 my-12 lg:my-24" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <img
               :src="require('~/assets/img/why-do-you-need/why_do_you_need_zmot-review.png').src"

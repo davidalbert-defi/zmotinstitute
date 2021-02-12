@@ -38,7 +38,7 @@
               :items="posts"
               :labels="customLabels"
               :styles="customStyles"
-              :page-size="5"
+              :page-size="20"
               @changePage="gotoPage"
             />
           </div>
