@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="col w-full md:w-3/4">
     <div class="row flex flex-wrap">
       <div class="lg:flex py-10 w-full">
         <img class="avatar" alt="Author Photo" :src="author && author.avatar_urls['96']" />
