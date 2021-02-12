@@ -173,6 +173,20 @@
       iframe {
         max-width: 100%;
       }
+
+      .wp-block-image {
+        //margin: auto;
+        padding: 1rem;
+        margin: auto;
+        width: 50%
+      }
+
+      .wp-block-embed {
+        //margin: auto;
+        padding: 1rem;
+        margin: auto;
+        width: 70%
+      }
     }
   }
   .sidebar-content {
