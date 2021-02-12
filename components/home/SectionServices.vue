@@ -7,7 +7,7 @@
       <p id="zmot-audit" class="text-center">
         {{ $t('homepage.services.sub_header') }}
       </p>
-      <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
+      <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
         <div class="lg:w-1/2 w-full overflow-hidden">
           <img
             :src="require('~/assets/img/services/service-zmot_audit.png').src"
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
+      <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
         <div class="lg:w-1/2 w-full overflow-hidden">
           <div class="card service--item mb-3 text-right">
             <div class="card-body">
@@ -89,7 +89,7 @@
         </div>
       </div>
 
-      <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
+      <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
         <div class="lg:w-1/2 w-full overflow-hidden">
           <img
             :src="require('~/assets/img/services/service-online_course.png').src"
