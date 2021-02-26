@@ -38,10 +38,10 @@
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="feature__item-content text-right">
               <h3 class="my-8 font-bold text-center text-4xl">
-                {{ $t('homepage.why_do_you_need_ZMOT.category_2_header') }}
+                {{ $t('homepage.why_do_you_need_ZMOT.category_3_header') }}
               </h3>
               <p class="text-justify px-4">
-                {{ $t('homepage.why_do_you_need_ZMOT.category_2_text') }}
+                {{ $t('homepage.why_do_you_need_ZMOT.category_3_text') }}
               </p>
             </div>
           </div>
@@ -68,10 +68,10 @@
           <div class="my-3 px-3 lg:w-1/2 w-full overflow-hidden">
             <div class="feature__item-content">
               <h3 class="my-8 font-bold text-center text-4xl">
-                {{ $t('homepage.why_do_you_need_ZMOT.category_3_header') }}
+                {{ $t('homepage.why_do_you_need_ZMOT.category_2_header') }}
               </h3>
               <p class="text-justify px-4">
-                {{ $t('homepage.why_do_you_need_ZMOT.category_3_text') }}
+                {{ $t('homepage.why_do_you_need_ZMOT.category_2_text') }}
               </p>
             </div>
           </div>
