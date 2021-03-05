@@ -6,14 +6,20 @@
           <div class="col w-full md:w-3/4">
             <div class="blog-main">
               <div class="blog-media">
-                <img :src="post && post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url" alt="Post Image" />
+                <img
+                  :src="post && post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url"
+                  alt="Post Image"
+                >
               </div>
               <header class="blog-header">
+                <!--                <div ref="example-element">{{ this.post }}</div>-->
                 <h1 class="blog-title" v-html="post && post.title.rendered" />
               </header>
               <div class="blog-info ">
                 <div class="blog-date">
-                  <time datetime="2019-03-08T17:10:45-03:00">Publicado em {{ moment(post && post.date).format('DD/MM/YYYY') }}</time>
+                  <time datetime="2019-03-08T17:10:45-03:00">Publicado em
+                    {{ moment(post && post.date).format('DD/MM/YYYY') }}
+                  </time>
                 </div>
               </div>
               <div class="blog-content" v-html="post && post.content.rendered" />
@@ -25,7 +31,12 @@
                 <h3 class="title">
                   Pesquisar
                 </h3>
-                <input v-model="text" class="form-control border border-solid m-0" placeholder="Search here" style="border-color: #ced4da;" />
+                <input
+                  v-model="text"
+                  class="form-control border border-solid m-0"
+                  placeholder="Search here"
+                  style="border-color: #ced4da;"
+                >
               </div>
             </div>
           </div>
@@ -55,7 +66,10 @@
 <script>
 import moment from 'moment'
 export default {
-  async asyncData ({ params, $axios }) {
+  async asyncData ({
+    params,
+    $axios
+  }) {
     const { data } = await $axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed=1`)
     return {
       post: data[0],
@@ -64,6 +78,7 @@ export default {
   },
   data: () => ({
     text: '',
+    hubspotform: '',
     post: null,
     isLoading: true,
     fullPage: true,
@@ -74,6 +89,22 @@ export default {
       return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
     }
   },
+  mounted () {
+    const script = document.createElement('script')
+    script.src = 'https://js.hsforms.net/forms/v2.js'
+    document.body.appendChild(script)
+    this.hubspotform = document.getElementById('hubspotform').innerHTML
+    this.formId = (this.hubspotform).split('formId:')[1].split(',')[0].replace('"', '').replace('"', '')
+    script.addEventListener('load', () => {
+      if (window.hbspt) {
+        window.hbspt.forms.create({
+          portalId: '5835830',
+          formId: this.formId,
+          target: '#hubspotform'
+        })
+      }
+    })
+  },
   methods: {
     moment (date) {
       return moment(date)
@@ -81,7 +112,7 @@ export default {
   },
   head () {
     return {
-      title: this.post.title.rendered,
+      title: this.post?.title.rendered,
       meta: [
         {
           hid: 'twitter-card',
