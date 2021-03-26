@@ -24,7 +24,7 @@
                   href="https://wa.me/5548988087120"
                   target="_blank"
                 >
-                  <button class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
+                  <button id="btn_chat-online" class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
                     {{ $t('contact.banner.button.access_live_chat') }}
                   </button>
                 </a>
@@ -35,7 +35,7 @@
                   id="ChatEmail"
                   href="#send-email"
                 >
-                  <button id="send-email" class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
+                  <button id="btn_chat-email" class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
                     {{ $t('contact.banner.button.send_email') }}
                   </button>
                 </a>
