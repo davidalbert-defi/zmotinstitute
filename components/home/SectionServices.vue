@@ -30,8 +30,9 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('zmot-audit')" id="btn_money_page_zmot-audit">
+                <nuxt-link :to="localePath('zmot-audit')">
                   <a
+                    id="btn_money_page_zmot-audit"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
                     data-ga-slug="Get a Quote"
                     role="button"
@@ -63,8 +64,9 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('lectures-events')" id="btn_money_page_lectures-events">
+                <nuxt-link :to="localePath('lectures-events')">
                   <a
+                    id="btn_money_page_lectures-events"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
                     data-ga-slug="Get a Quote"
                     role="button"
@@ -112,9 +114,9 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('online-courses')" id="btn_money_page_online-courses">
+                <nuxt-link :to="localePath('online-courses')">
                   <a
-                    id="CheckServicePage"
+                    id="btn_money_page_online-courses"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
                     data-ga-slug="Get a Quote"
                     role="button"
