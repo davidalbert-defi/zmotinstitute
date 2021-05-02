@@ -115,6 +115,12 @@ export default {
       title: this.post?.title.rendered,
       meta: [
         {
+          hid: 'description',
+          name: 'description',
+          // content: this.post?.excerpt.rendered
+          content: this.renderedTitle
+        },
+        {
           hid: 'twitter-card',
           name: 'twitter:card',
           content: 'summary'
