@@ -38,7 +38,7 @@
               :items="posts"
               :labels="customLabels"
               :styles="customStyles"
-              :page-size="20"
+              :page-size="10"
               @changePage="gotoPage"
             />
           </div>
@@ -68,7 +68,7 @@ export default {
   async fetch () {
     this.isLoading = true
     try {
-      const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1')
+      const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100')
       this.totalNum = result.data.length
       this.posts = result &&
         result.data &&

@@ -209,7 +209,8 @@ export default {
     },
 
     routes: async () => {
-      const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
+      const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts&per_page=100')
+      // https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100
       const staticSitemap = [
         {
           url: '/',

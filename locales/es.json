@@ -56,11 +56,18 @@
             "talking_3": "Contenido muy bueno, gracias por compartirlo."
         },
         "blog": {
-          "text": "¿Quieres estar actualizado acerca de ZMOT y Comportamiento del Consumidor, acessando contenido exclusivo y totalmente gratuito? Asegúrese de acceder a nuestros materiales de alta calidad y dichas prácticas sobre cómo hacer crecer su negocio.",
-          "title_1": "",
-          "title_2": "",
-          "title_3": "",
-          "read_more": "Lea Más"
+            "header": "BLOG",
+            "text": "Quer se manter atualizado sobre ZMOT e Comportamento do Consumidor, através de conteúdos exclusivos e totalmente gratuítos? Não deixe de acessar nossos materiais super completos e cheios de dicas práticas de como acelerar seus negócios.",
+            "block_1_header": "ZMOT e o Comportamento do Consumidor",
+            "block_1_text": "ZMOT é a chave para você entender o consumidor moderno e poder fazer ações de Marketing Digital que geram resultado.",
+            "block_1_link": "",
+            "block_2_header": "Customer Experience: Como mapear a Jornada de Compra",
+            "block_2_text": "Nesse artigo você vai aprender tudo sobre Customer Experience e Jornada de Compra e como ter controle e influencia sobre seu Funil de Vendas.",
+            "block_2_link": "",
+            "block_3_header": "Economia Comportamental : Como Influenciar Clientes com 9 Princípios?",
+            "block_3_text": "Com a Economia Comportamental você será capaz de entender como seu cliente toma sua decisão de compra e influenciá-lo nessa jornada.",
+            "block_3_link": "",
+            "read_more": "Lea Más"
         }
     },
     "contact": {
