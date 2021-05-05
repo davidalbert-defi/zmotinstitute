@@ -1,7 +1,27 @@
 <template>
-  <div class="zmot-audit-page px-4 bg-primary pb-12 min-h-screen">
+  <div class="zmot-audit-page px-4 pb-12">
     <lazy-hydrate when-visible>
-      <section-zmot-audit />
+      <section-zmot-audit-hero />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-zmot-audit-features-list />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-zmot-step />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-zmot-reviews />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-zmot-audit-lead-form />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-zmot-audit-faq />
     </lazy-hydrate>
   </div>
 </template>
@@ -50,11 +70,10 @@ export default {
   },
   nuxtI18n: {
     paths: {
-      en: '/zmot-audit',
-      es: '/auditoria-zmot',
-      'pt-br': '/auditoria-zmot'
+      en: '/digital-marketing-services',
+      es: '/servicios-de-marketing-digital',
+      'pt-br': '/consultoria-de-marketing-digital'
     }
-  },
-  layout: 'noheader'
+  }
 }
 </script>

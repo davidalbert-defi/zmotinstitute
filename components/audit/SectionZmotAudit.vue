@@ -1,20 +1,21 @@
 <template>
   <div>
-    <section>
+    <section
+      class="leadform bg-primary pt-4">
       <div class="container mx-auto">
         <div class="zmot-audit-wrapper flex flex-wrap overflow-hidden justify-between">
           <div class="w-full lg:w-1/2">
             <h1 class="text-51xl font-semibold text-white leading-tight mt-8 mb-12">
-              {{ $t('zmot_audit.header') }}
+              {{ $t('zmot_audit.audit.header') }}
             </h1>
             <p class="text-white font-medium text-justify mb-4">
-              {{ $t('zmot_audit.text_1') }}
+              {{ $t('zmot_audit.audit.text_1') }}
             </p>
             <p class="text-white font-medium text-justify mb-4">
-              {{ $t('zmot_audit.text_2') }}
+              {{ $t('zmot_audit.audit.text_2') }}
             </p>
             <p class="text-white font-medium text-justify mb-4">
-              {{ $t('zmot_audit.text_3') }}
+              {{ $t('zmot_audit.audit.text_3') }}
             </p>
           </div>
 
@@ -38,7 +39,7 @@
                     type="submit"
                     class="bg-mpurple py-15sm px-3 text-13xl font-bold rounded-full text-white"
                   >
-                    {{ $t('zmot_audit.submit') }}
+                    {{ $t('zmot_audit.audit.submit') }}
                   </button>
                 </div>
               </div>

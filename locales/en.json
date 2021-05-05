@@ -152,12 +152,80 @@
             "title": "Hack Consumer Behavior with ZMOT. Designed by Google",
             "description": "Understand your customer needs and deliver the right message at the right time. Hack people's behaviour with ZMOT and boost your business results."
         },
-        "header": "Boost Your Resuts with ZMOT",
-        "text_1": "ZMOT is a Framework designed by Google to describe how people behave during the Buying Journey.",
-        "text_2": "Sucessful business understand their customer needs and solve their problems. Knowing how your consumer search for information, do comparisons, do bargain and make the purchase decision, you can send the right message, at the right time.",
-        "text_3": "ZMOT INSTITUTE experts will help you to track your consumer's digital footprints and create a masterplan with the most efficient Digital Marketing strategies used by the fastest growing companies in the world.",
-        "submit": "I Want To Get a Contact"
-    },
+        "hero":{
+            "header_1_text": "Boost Your",
+            "header_2_text": "Marketing Plan",
+            "header_3_text": "using ZMOT",
+            "btn_1_text": "MORE INFORMATION",
+            "btn_2_text": "CHAT ONLINE"
+        },
+        "feautres_list":{
+            "header_1_text": "Gestão de Marketing",
+            "header_2_text": "em Alto Nível",
+            "text_1": "Nossa Consultoria de Marketing te ajuda a otimizar seu Mix de Marketing com ZMOT.",
+            "text_2": "Os especialistas do ZMOT INSTITUTE irão ajudá-lo a identificar as pistas digitais deixadas por seus clientes, e com isso criar um Planejamento de Marketing Digital utilizando as práticas usadas pelas melhores empresas do mundo.",
+            "feature_1_title_text":"Análise Jornada de Compra",
+            "feature_1_text":"You can manage phone, email and chat conversations all from a single mailbox.",
+            "feature_2_title_text":"Definição Personas",
+            "feature_2_text":"You can manage phone, email and chat conversations all from a single mailbox.",
+            "feature_3_title_text":"Análise Jornada de Compra",
+            "feature_3_text":"You can manage phone, email and chat conversations all from a single mailbox.",
+            "feature_4_title_text":"Northstar Metric",
+            "feature_4_text":"You can manage phone, email and chat conversations all from a single mailbox.",
+            "feature_5_title_text":"Mídia Paga (PPC)",
+            "feature_5_text":"Find what you need with advanced filters, bulk actions, and quick views.",
+            "feature_6_title_text":"Boards",
+            "feature_6_text":"Find what you need with advanced filters, bulk actions, and quick views.",
+            "feature_7_title_text":"Reporting",
+            "feature_7_text":"Find what you need with advanced filters, bulk actions, and quick views.",
+            "feature_8_title_text":"Mobile app",
+            "feature_8_text":"Find what you need with advanced filters, bulk actions, and quick views."
+        },
+        "audit":{
+            "header": "Boost Your Resuts with ZMOT",
+            "text_1": "ZMOT is a Framework designed by Google to describe how people behave during the Buying Journey.",
+            "text_2": "Sucessful business understand their customer needs and solve their problems. Knowing how your consumer search for information, do comparisons, do bargain and make the purchase decision, you can send the right message, at the right time.",
+            "text_3": "ZMOT INSTITUTE experts will help you to track your consumer's digital footprints and create a masterplan with the most efficient Digital Marketing strategies used by the fastest growing companies in the world.",
+            "submit": "I Want To Get a Contact"
+        },
+        "reviews": {
+            "header": "The Experts",
+            "text": "ZMOT is a real BIG thing. Take a look at what leading experts in Digital Marketing have been talking about, and why you should start using it as well.",
+            "slide_1_text": "Consumers search the information on the Internet before buying",
+            "slide_2_text": "That's how consumers live, learn and make decisions today",
+            "slide_3_text": "Digital Marketing is about delivering the right content at the right time",
+            "slide_4_text": "No matter what you do you can do it cheaper, faster and more efficiently on the web",
+            "slide_5_text": "Our jobs as marketers are to understand how the customer wants to buy and help them"
+        },
+        "step":{
+          "step_1_title": "Define Business Goals",
+          "step_1_text": "We will learn about your business, goals and will agree on what to achieve.",
+          "step_2_title": "Understand Your Customer",
+          "step_2_text": "We will dive deep into your consumer's mind and digital footprints to understand the customer journey.",
+          "step_3_title": "Improve Your Customer Journey",
+          "step_3_text": "We will craft the best in class experiences in order to achieve your business goals.",
+          "step_4_title": "Get the Job Done",
+          "step_4_text": "We will wrap up the key findings, learnings, main results and recommendations for continuous improvements."
+        },
+        "leadform": {
+            "header": "Let's talk!",
+            "text": "Schedule now, totally Free, 1 hour of Mentoring, and better understand how our Marketing Strategies can help your business to take off.",
+            "submit": "I Want To Get a Contact"
+        },
+        "faq":{
+            "header": "Frequently Asked Questions",
+            "question_1_text": "Question one?",
+            "answer_1_text": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+            "question_2_text": "How do you make holy water?",
+            "answer_2_text": "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.",
+            "question_3_text": "What do you call someone with no body and no nose?",
+            "answer_3_text": "Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.",
+            "question_4_text": "Why do you never see elephants hiding in trees?",
+            "answer_4_text": "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+            "question_5_text": "Why can't you hear a pterodactyl go to the bathroom?",
+            "answer_5_text": "Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error."
+        }
+      },
     "lectures_events": {
         "seo": {
             "title": "Make your Event Outstand with a ZMOT Lecture",

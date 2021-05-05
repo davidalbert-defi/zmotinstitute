@@ -146,15 +146,56 @@
     },
     "zmot_audit": {
         "seo": {
-            "title": "Hackea el Comportamiento del Consumidor con ZMOT",
-            "description": "Comprenda las necesidades de sus clientes y transmita el mensaje correcto en el momento adecuado con ZMOT. Mejora los resultados de tu negocio."
+          "title": "Hackea el Comportamiento del Consumidor con ZMOT",
+          "description": "Comprenda las necesidades de sus clientes y transmita el mensaje correcto en el momento adecuado con ZMOT. Mejora los resultados de tu negocio."
         },
-        "header": "Marketing Digital en High Level",
-        "text_1": "ZMOT es un framework diseñado por Google para describir cómo se comportan las personas durante el proceso de compra.",
-        "text_2": "Los negocios exitosos comprenden las necesidades de sus clientes y resuelven sus problemas. Sabiendo cómo su consumidor busca información, hace comparaciones, regatea y toma la decisión de compra, puedes enviar el mensaje correcto, en el momento correcto.",
-        "text_3": "Los expertos de ZMOT INSTITUTE lo ayudarán a rastrear las huellas digitales de sus consumidores y crear un plan maestro con las estrategias de marketing digital más eficientes utilizadas por las empresas de más rápido crecimiento en el mundo.",
-        "submit": "Quiero Recibir un Contacto"
-    },
+        "hero": {
+            "header_1_text": "Boost Your",
+            "header_2_text": "Marketing Plan",
+            "header_3_text": "using ZMOT",
+            "btn_1_text": "MORE INFORMATION",
+            "btn_2_text": "CHAT ONLINE"
+        },
+        "audit":{
+          "header": "Marketing Digital en High Level",
+          "text_1": "ZMOT es un framework diseñado por Google para describir cómo se comportan las personas durante el proceso de compra.",
+          "text_2": "Los negocios exitosos comprenden las necesidades de sus clientes y resuelven sus problemas. Sabiendo cómo su consumidor busca información, hace comparaciones, regatea y toma la decisión de compra, puedes enviar el mensaje correcto, en el momento correcto.",
+          "text_3": "Los expertos de ZMOT INSTITUTE lo ayudarán a rastrear las huellas digitales de sus consumidores y crear un plan maestro con las estrategias de marketing digital más eficientes utilizadas por las empresas de más rápido crecimiento en el mundo.",
+          "submit": "Quiero Recibir un Contacto"
+        },
+        "reviews": {
+          "header": "Los Expertos",
+          "text": "ZMOT es muy rico. Mira a que los principales expertos en Marketing Digital han estado hablando y por qué deberías comenzar a usarlo también.",
+          "slide_1_text": "Consumidores buscan por información en Internet antes de comprar.",
+          "slide_2_text": "Así es como los consumidores viven, aprenden y toman decisiones hoy",
+          "slide_3_text": "Marketing Digital se trata de ofrecer el contenido adecuado en el momento adecuado",
+          "slide_4_text": "No importa lo que hagas puedes hacer más barato, más rápido y más eficientemente en la web",
+          "slide_5_text": "Nuestro trabajo és entender cómo los consumidores quieren comprar y ayudarles"
+        },
+        "step":{
+          "step_1_title": "Define Business Goals",
+          "step_1_text": "We will learn about your business, goals and will agree on what to achieve.",
+          "step_2_title": "Understand Your Customer",
+          "step_2_text": "We will dive deep into your consumer's mind and digital footprints to understand the customer journey.",
+          "step_3_title": "Improve Your Customer Journey",
+          "step_3_text": "We will craft the best in class experiences in order to achieve your business goals.",
+          "step_4_title": "Get the Job Done",
+          "step_4_text": "We will wrap up the key findings, learnings, main results and recommendations for continuous improvements."
+        },
+        "faq":{
+            "header": "Frequently Asked Questions",
+            "question_1_text": "Question one?",
+            "answer_1_text": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+            "question_2_text": "How do you make holy water?",
+            "answer_2_text": "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.",
+            "question_3_text": "What do you call someone with no body and no nose?",
+            "answer_3_text": "Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.",
+            "question_4_text": "Why do you never see elephants hiding in trees?",
+            "answer_4_text": "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+            "question_5_text": "Why can't you hear a pterodactyl go to the bathroom?",
+            "answer_5_text": "Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error."
+        }
+      },
     "lectures_events": {
         "seo": {
             "title": "Encante las personas de su evento com una palestra de ZMOT",
