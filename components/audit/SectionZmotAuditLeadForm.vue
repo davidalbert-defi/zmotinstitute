@@ -22,7 +22,7 @@
         </div>
         <div class="py-2 px-4 sm:px-6 lg:col-span-3 lg:pt-24 lg:px-8 xl:pl-12">
           <div class="max-w-lg mx-auto lg:max-w-none">
-            <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+            <form class="grid grid-cols-1 gap-y-6" @submit.prevent="onSubmit">
               <div>
                 <label for="full_name" class="sr-only">Full name</label>
                 <input
@@ -62,10 +62,15 @@
                   class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                   placeholder="Como Podemos ajudá-lo? Qual sua dúvida?"></textarea>
               </div>
+              <recaptcha
+                  @error="onError"
+                  @success="onSuccess"
+                  @expired="onExpired"
+                />
               <div class="mx-auto pb-6">
                 <button
                   type="submit"
-                  class="inline-flex font-semibold justify-center py-3 px-6  border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-green-shinny focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  class="inline-flex font-semibold justify-center py-3 px-6  border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-green-shinny hover:bg-green-shinny focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                   {{ $t('zmot_audit.leadform.submit') }}
                 </button>
                 <p class="mt-6 text-sm text-orange-shinny ">
@@ -80,11 +85,113 @@
         </div>
       </div>
     </div>
+    <div v-if="submitting" class="flex content-center justify-center min-h-screen w-full z-100 absolute top-0 left-0 bg-white bg-opacity-30 pt-45vh">
+      <loading
+        :active.sync="submitting"
+        :can-cancel="false"
+        :is-full-page="true"
+        color="white"
+      />
+    </div>
   </section>
 </template>
 <script>
-
 export default {
-  name: 'SectionZmotAuditLeadForm'
+  name: 'SectionZmotAuditLeadForm',
+  data: () => ({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+    submitting: false
+  }),
+  methods: {
+    async onSubmit () {
+      try {
+        const token = await this.$recaptcha.getResponse()
+        const hubSpotPortalId = process.env.hubSpotPortalId
+        const hubSpotFormGuid = process.env.hubSpotFormGuid
+        console.log('ReCaptcha token:', token)
+        const url = window.location.href
+        this.submitting = true
+        const data = {
+          fields: [
+            {
+              name: 'full_name',
+              value: this.full_name
+            },
+            {
+              name: 'email',
+              value: this.email
+            },
+            {
+              name: 'phone',
+              value: this.phone
+            },
+            {
+              name: 'message',
+              value: 'message'
+            },
+            {
+              name: 'form_url',
+              value: url
+            }
+          ]
+        }
+        try {
+          await this.$axios.post(
+            `https://api.hsforms.com/submissions/v3/integration/submit/${hubSpotPortalId}/${hubSpotFormGuid}`,
+            data
+          )
+          this.submitting = false
+          this.showSuccessToast()
+        } catch (err) {
+          this.submitting = false
+          if (err.response.data.errors[0].message.includes('phone')) {
+            this.showPhoneNumberErrorToast()
+          } else {
+            this.showErrorToast()
+          }
+        }
+        await this.$recaptcha.reset()
+      } catch (error) {
+        console.log('error:', error)
+      }
+    },
+    showSuccessToast () {
+      this.$swal({
+        title: this.$t('online_courses.thank_you_title'),
+        text: this.$t('online_courses.thank_you_message'),
+        icon: 'success',
+        button: 'OK'
+      })
+    },
+    showErrorToast () {
+      this.$swal({
+        title: 'Submit Failed',
+        text: 'Something went wrong with your submission.',
+        icon: 'error',
+        button: 'OK'
+      })
+    },
+    showPhoneNumberErrorToast () {
+      this.$swal({
+        title: 'Submit Failed',
+        text: 'Your phone number is not valid, please try to use correct one.',
+        icon: 'error',
+        button: 'OK'
+      })
+    },
+    onError (error) {
+      console.log('Error happened:', error)
+    },
+    onSuccess (token) {
+      console.log('Succeeded:', token)
+    },
+    onExpired () {
+      console.log('Expired')
+    }
+  }
 }
+
 </script>

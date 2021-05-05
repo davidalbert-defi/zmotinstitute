@@ -4,13 +4,13 @@
   <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-600">{{ $t('zmot_audit.hero.header_1_text') }}
+        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('zmot_audit.hero.header_1_text') }}
           <br class="hidden lg:inline-block">{{ $t('zmot_audit.hero.header_2_text') }}
            <br class="hidden lg:inline-block">{{ $t('zmot_audit.hero.header_3_text') }}
         </h1>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="#ZmotAuditFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 md:py-4 md:text-lg md:px-10">
+              <a href="#ZmotAuditFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
                 {{ $t('zmot_audit.hero.btn_1_text') }}
               </a>
             </div>
