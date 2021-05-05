@@ -1,5 +1,5 @@
 <template>
-  <div class="lectures-events-page px-4 bg-primary pb-12 min-h-screen">
+  <div class="lectures-events-page px-4 bg-primary pb-12">
     <lazy-hydrate when-visisble>
       <section-lecture-content />
     </lazy-hydrate>

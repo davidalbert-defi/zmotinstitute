@@ -1,7 +1,7 @@
 <template>
 
-<section id="Banner-section" class="bg-orange-100 pt-24 pb-8 ">
-  <div id="hero-section" class="rounded-3xl" > <!-- bg-amber-100 -->
+<section id="Banner-section" class="pt-24 pb-8">
+  <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
         <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-600">{{ $t('zmot_audit.hero.header_1_text') }}

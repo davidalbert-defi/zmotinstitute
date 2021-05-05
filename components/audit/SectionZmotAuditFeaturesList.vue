@@ -1,7 +1,7 @@
 <template>
     <!-- This example requires Tailwind CSS v2.0+ -->
-  <section class="featureslist bg-indigo-700 ">
-    <div class="relative" id="ZmotAuditFeatures">
+  <section class="featureslist">
+    <div class="relative bg-indigo-700 m-6 lg:m-12 rounded-3xl" id="ZmotAuditFeatures">
 
       <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div>

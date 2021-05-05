@@ -1,11 +1,11 @@
 <template>
   <section
-      class="leadform bg-orange-100 pt-4"
+      class="leadform pt-4"
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-once="true"
       data-aos-duration="500">
-    <div class="relative">
+    <div class="relative bg-orange-100 m-6 lg:m-12 rounded-3xl">
       <div class="absolute inset-0 ">
         <div class="absolute inset-y-0 left-0 w-1/2"></div>
       </div>
