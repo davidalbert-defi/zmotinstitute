@@ -19,10 +19,21 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                      class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_1"
+                      class=" h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_1"
+                      class="rotate-180 h-6 w-6 transform"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -50,15 +61,26 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                    class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_2"
+                    class=" h-6 w-6 transform"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_2"
+                      class="rotate-180 h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </span>
@@ -81,10 +103,21 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                      class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_3"
+                      class=" h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_3"
+                      class="rotate-180 h-6 w-6 transform"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -119,10 +152,21 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                      class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_4"
+                      class=" h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_4"
+                      class="rotate-180 h-6 w-6 transform"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -150,10 +194,21 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                      class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_5"
+                      class=" h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_5"
+                      class="rotate-180 h-6 w-6 transform"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -192,15 +247,26 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                    class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_6"
+                    class=" h-6 w-6 transform"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_6"
+                      class="rotate-180 h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </span>
@@ -223,15 +289,26 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                    class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_7"
+                    class=" h-6 w-6 transform"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_7"
+                      class="rotate-180 h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </span>
@@ -254,15 +331,26 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                    class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_8"
+                    class=" h-6 w-6 transform"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_8"
+                      class="rotate-180 h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </span>
@@ -285,15 +373,26 @@
                   <span class="ml-6 h-7 flex items-center">
                     <!--
                       Heroicon name: chevron-down
-                      Open: "-rotate-180", Closed: "rotate-0"
+                      Open: "", Closed: "rotate-0"
                     -->
                     <svg
-                    class="-rotate-180 h-6 w-6 transform"
+                    v-if="!isOpenFAQ_9"
+                    class=" h-6 w-6 transform"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_9"
+                      class="rotate-180 h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </span>

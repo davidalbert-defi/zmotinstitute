@@ -163,9 +163,7 @@
             "description": "Servicios de Marketing Digital para ayudarlo a comprender lo que quieren los consumidores e implementar estrategias de marketing de crecimiento exponencial."
         },
         "hero":{
-            "headline_1_text": "Consultoría de",
-            "headline_2_text": "Marketing Digital",
-            "headline_3_text": "de Alto Nivel",
+            "headline": "Consultoría de Marketing Digital de Alto Nivel",
             "sub_headline": "Conocer el comportamiento de los consumidores, hemos ayudado a enteder lo que quiere el cliente, y optimizar sus estrategias de marketing para generar un crecimiento exponencial",
             "cta_1": "MÁS INFORMACIÓN",
             "cta_2": "CHAT EN VIVO"
@@ -260,9 +258,7 @@
             "description": "¿Buscando por Ponentes para Conferencia? Aquí en ZMOT Institute, encontrará Ponentes reconocidos de Marketing Digital, con más de 15 años de experiencia."
         },
         "hero": {
-            "headline_1_text": "Ponentes",
-            "headline_2_text": "Para",
-            "headline_3_text": "Conferencia",
+            "headline": "Ponentes Para Conferencia",
             "sub_headline": "Charlas sobre ZMOT y Comportamiento Del Consumidor Que Hacen La Gente Aplaudir De Pie",
             "cta_1": "MAS INFORMACIONES",
             "cta_2": "CHAT EN VIVO"

@@ -163,9 +163,7 @@
             "description": "Nossa Consultoria de Marketing Digital te ajudar a entender o que o cliente quer e implementar Estratégias de Marketing que geram Crescimento Exponencial"
         },
         "hero":{
-            "headline_1_text": "Consultoria de",
-            "headline_2_text": "Marketing Digital",
-            "headline_3_text": "de Alto Nível",
+            "headline": "Consultoria de Marketing Digital de Alto Nível",
             "sub_headline": "Conhecendo o Comportamento do Consumidor, te ajudamos a enteder o que o cliente quer, e otimizamos suas Estratégias de Marketing para gerar Crescimento Exponencial",
             "cta_1": "MAIS INFORMAÇÕES",
             "cta_2": "CHAT ONLINE"
@@ -260,9 +258,7 @@
             "description": "Se Você Precisa Contratar Palestrantes de Marketing e Comportamento do Consumidor, Aqui É O Seu Lugar. Palestrantes Premiados com +15 Anos De Experiência."
         },
         "hero": {
-            "headline_1_text": "Contratar Palestrantes",
-            "headline_2_text": "de Comportamento",
-            "headline_3_text": "do Consumidor",
+            "headline": "Contratar Palestrantes de Comportamento do Consumidor",
             "sub_headline": "Palestras sobre ZMOT e Comportamento do Consumidor Que Vão Fazer Sua Audiência Aplaudir de Pé",
             "cta_1": "MAIS INFORMAÇÕES",
             "cta_2": "CHAT ONLINE"

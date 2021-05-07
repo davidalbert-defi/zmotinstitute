@@ -130,7 +130,7 @@
 
 <script>
 export default {
-  name: 'SectionTalksLectureReview',
+  name: 'SectionKeynoteCustomerReview',
   data: () => ({
     agileOptions: {
       autoplay: true,

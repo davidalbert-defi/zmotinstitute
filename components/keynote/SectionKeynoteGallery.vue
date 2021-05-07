@@ -79,7 +79,7 @@ import img11 from '~/assets/img/events-gallery/palestra_zmot_faculdade_estacio.p
 import img12 from '~/assets/img/events-gallery/palestra_acate_jornalista_empreender_internet.png'
 import thumb from '~/assets/img/others/perfil_rodrigo_wiethorn_40_40.png'
 export default {
-  name: 'SectionTalksLecturesGallery',
+  name: 'SectionKeynoteGallery',
   data () {
     return {
       galleries: [

@@ -9,36 +9,44 @@
 @import "_page/blog_index";
 @import "_page/blog_slug";
 
-h1,h2,h3,h4,p{
-    font-family: Quicksand;
-  }
-section {
-  h1 {
-    color:white;
-    margin-bottom: 3rem
-  }
-  h2 {
-    margin-bottom: 3rem;
-  }
-  p {
-    color: black;
-    line-height: 1.7;
-  }
-
+@font-face {
+  font-family: 'Quicksand Semi-bold';
+  src: url('../font/Quicksand-SemiBold.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Quicksand Regular';
+  src: url('../font/Quicksand-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Medium';
+  src: url('../font/Quicksand-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Light';
+  src: url('../font/Quicksand-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Bold';
+  src: url('../font/Quicksand-Bold.ttf') format('truetype');
+}
+
 h1{
+  font-family: 'Quicksand Semi-bold';
   font-size: 3.5rem;
   font-weight: 600;
 }
 h2{
+  font-family: 'Quicksand Medium';
   font-size: 2.5rem;
   font-weight: 500;
 }
 h3,h4{
+  font-family: 'Quicksand Medium';
   font-size: 2.25rem;
   font-weight: 500;
 }
 p{
+  font-family: 'Quicksand Light';
   font-size: 1.25rem;
   font-weight: 300;
 }

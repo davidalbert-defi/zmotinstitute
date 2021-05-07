@@ -1,6 +1,8 @@
 <template>
 <!-- This example requires Tailwind CSS v2.0+ -->
-  <section class="container max-w-screen-2xl mx-auto">
+  <section
+  class="container max-w-screen-2xl mx-auto"
+  id="why-hire">
     <div class="py-12 bg-white m-6 lg:m-12 pt-24 pb-8">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
@@ -147,6 +149,6 @@
 
 <script>
 export default {
-  name: 'SectionTalksLectureWhyHire'
+  name: 'SectionKeynoteWhyHire'
 }
 </script>

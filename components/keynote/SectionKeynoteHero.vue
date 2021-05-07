@@ -4,16 +4,14 @@
   <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('keynote_speakers.hero.headline_1_text') }}
-          <br class="hidden lg:inline-block">{{ $t('keynote_speakers.hero.headline_2_text') }}
-           <br class="hidden lg:inline-block">{{ $t('keynote_speakers.hero.headline_3_text') }}
+        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('keynote_speakers.hero.headline') }}
         </h1>
         <p class="text-3xl text-orange-shinny font-light leading-relaxed">
           {{ $t('keynote_speakers.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="#ZmotAuditFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
+              <a href="#why-hire" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
                 {{ $t('keynote_speakers.hero.cta_1') }}
               </a>
             </div>
@@ -25,7 +23,7 @@
           </div>
       </div>
       <div v-if="$device.isDesktop"  class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125 lg:mr-12">
-        <img class="object-contain w-full rounded" alt="hero" src="~/assets/img/services-section/service-zmot_audit.png" data-not-lazy>
+        <img class="object-contain w-full rounded" alt="hero" src="~/assets/img/services-section/service-lecture.png" data-not-lazy>
       </div>
     </div>
   </div>
@@ -35,6 +33,6 @@
 
 <script>
 export default {
-  name: 'SectionTalksLecturesHero'
+  name: 'SectionKeynoteHero'
 }
 </script>

@@ -166,9 +166,7 @@
             "description": "Our Digital Marketing Services help you understand what consumers want and implement marketing strategies that generate Exponential Growth"
         },
         "hero":{
-            "headline_1_text": "Digital Marketing",
-            "headline_2_text": "Consultancy",
-            "headline_3_text": "High Level",
+            "headline": "Digital Marketing Consultancy High Level",
             "sub_headline": "Knowing the consumer behavior, we helped enteder what the customer wants, and optimize their marketing strategies to generate Exponential Growth",
             "cta_1": "MORE INFO",
             "cta_2": "CHAT ONLINE"
@@ -263,9 +261,7 @@
             "description": "Looking For Keynote Speakers For Hire? Here at ZMOT Institute You Find Best In Class Digital Marketing Keynote Speakers with 15+ Years Experience"
         },
         "hero": {
-            "headline_1_text": "Keynote",
-            "headline_2_text": "Speakers",
-            "headline_3_text": "For Hire",
+            "headline": "Keynote Speakers For Hire",
             "sub_headline": "Talks Around ZMOT and Consumer Behaviour To Make People Give Standing Ovations",
             "cta_1": "MORE INFO",
             "cta_2": "ONLINE CHAT"

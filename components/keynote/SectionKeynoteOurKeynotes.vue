@@ -59,7 +59,7 @@ import img1 from '~/assets/img/lectures-section/influencing-consumer-behaviour-2
 import img2 from '~/assets/img/lectures-section/zmot-digital-marketing-graal-talk-zmot-institute.jpg'
 import img3 from '~/assets/img/lectures-section/hacks-consumer-behaviour-talk-zmot-institute.jpg'
 export default {
-  name: 'SectionTalksLecturesOurTalks',
+  name: 'SectionKeynoteOurKeynotes',
   data () {
     return {
       lectures: [
