@@ -1,8 +1,21 @@
 <template>
-  <div class="online-courses-page px-4 bg-primary pb-12 min-h-screen">
+  <div class="online-courses-page px-4 bg-white pb-12 min-h-screen">
     <lazy-hydrate when-visible>
-      <section-courses-content />
+      <section-course-hero />
     </lazy-hydrate>
+    <lazy-hydrate when-visible>
+      <section-course-why-hire />
+    </lazy-hydrate>
+    <lazy-hydrate when-visible>
+      <section-course-our-courses />
+    </lazy-hydrate>
+    <lazy-hydrate when-visible>
+      <section-course-customer-review />
+    </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <contact-form />
+    </lazy-hydrate>
+    <section-course-faq />
   </div>
 </template>
 
@@ -49,11 +62,10 @@ export default {
   },
   nuxtI18n: {
     paths: {
-      en: '/online-courses',
-      es: '/cursos-online',
-      'pt-br': '/cursos-online'
+      en: '/digital-marketing-courses',
+      es: '/cursos-de-marketing-digital',
+      'pt-br': '/cursos-de-marketing-digital'
     }
-  },
-  layout: 'noheader'
+  }
 }
 </script>

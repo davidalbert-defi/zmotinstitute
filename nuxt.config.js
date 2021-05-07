@@ -243,11 +243,11 @@ export default {
           ]
         },
         {
-          url: '/online-courses',
+          url: '/digital-marketing-courses',
           links: [
-            { lang: 'en', url: '/online-courses' },
-            { lang: 'es', url: 'es/cursos-online' },
-            { lang: 'pt-br', url: 'pt-br/cursos-online' }
+            { lang: 'en', url: '/digital-marketing-courses' },
+            { lang: 'es', url: 'es/cursos-de-marketing-digital' },
+            { lang: 'pt-br', url: 'pt-br/cursos-de-marketing-digital' }
           ]
         },
         {
