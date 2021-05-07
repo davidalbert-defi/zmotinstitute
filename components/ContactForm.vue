@@ -1,10 +1,6 @@
 <template>
   <section
-      class="leadform pt-4"
-      data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-once="true"
-      data-aos-duration="500">
+      class="leadform pt-4">
     <div class="relative bg-orange-100 m-6 lg:m-12 rounded-3xl">
       <div class="absolute inset-0 ">
         <div class="absolute inset-y-0 left-0 w-1/2"></div>
@@ -13,10 +9,10 @@
         <div class="bg-gray-50 py-12 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div class="max-w-lg mx-auto">
             <h2 class="text-4xl font-extrabold tracking-tight text-orange-shinny text-center">
-              {{ $t('zmot_audit.leadform.header') }}
+              {{ $t('contact_form.lead_form_headline') }}
             </h2>
             <p class="mt-12 text-lg leading-6 text-orange-shinny ">
-              {{ $t('zmot_audit.leadform.text') }}
+              {{ $t('contact_form.lead_form_sub_headline') }}
             </p>
           </div>
         </div>
@@ -24,43 +20,43 @@
           <div class="max-w-lg mx-auto lg:max-w-none">
             <form class="grid grid-cols-1 gap-y-6" @submit.prevent="onSubmit">
               <div>
-                <label for="full_name" class="sr-only">Full name</label>
+                <label for="full_name" class="sr-only">{{ $t('contact_form.lead_form.field_name') }}</label>
                 <input
                   type="text"
                   name="full_name"
                   id="full_name"
                   autocomplete="name"
                   class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md"
-                  placeholder="Qual seu Nome?">
+                  :placeholder="`${$t('contact_form.lead_form.field_name')}`">
               </div>
               <div>
-                <label for="email" class="sr-only">Email</label>
+                <label for="email" class="sr-only">{{ $t('contact_form.lead_form.field_email') }}</label>
                 <input
                   id="email"
                   name="email"
                   type="email"
                   autocomplete="email"
                   class=" bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md"
-                  placeholder="Qual seu Email?">
+                  :placeholder="`${$t('contact_form.lead_form.field_email')}`">
               </div>
               <div>
-                <label for="phone" class="sr-only">Phone</label>
+                <label for="phone" class="sr-only">{{ $t('contact_form.lead_form.field_phone') }}</label>
                 <input
                 type="text"
                 name="phone"
                 id="phone"
                 autocomplete="tel"
                 class=" bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md"
-                placeholder="E o seu Fone?">
+                :placeholder="`${$t('contact_form.lead_form.field_phone')}`">
               </div>
               <div>
-                <label for="message" class="sr-only">Message</label>
+                <label for="message" class="sr-only">{{ $t('contact_form.lead_form.field_message') }}</label>
                 <textarea
                   id="message"
                   name="message"
                   rows="4"
                   class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
-                  placeholder="Como Podemos ajudá-lo? Qual sua dúvida?"></textarea>
+                  :placeholder="`${$t('contact_form.lead_form.field_message')}`"></textarea>
               </div>
               <recaptcha
                   @error="onError"
@@ -71,12 +67,12 @@
                 <button
                   type="submit"
                   class="inline-flex font-semibold justify-center py-3 px-6  border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-green-shinny hover:bg-green-shinny focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                  {{ $t('zmot_audit.leadform.submit') }}
+                  {{ $t('contact_form.lead_form.submit') }}
                 </button>
                 <p class="mt-6 text-sm text-orange-shinny ">
-                  Privacidade de Dados é um assunto sério para nós. Entenda nossa
+                  {{ $t('contact_form.lead_form.privacy_1') }}
                   <a href="#" class="text-orange-shinny font-medium underline">
-                  Política de Privacidade de Dados.
+                  {{ $t('contact_form.lead_form.privacy_2') }}
                   </a>
                 </p>
               </div>
@@ -97,7 +93,7 @@
 </template>
 <script>
 export default {
-  name: 'SectionZmotAuditLeadForm',
+  name: 'ContactForm',
   data: () => ({
     name: '',
     email: '',

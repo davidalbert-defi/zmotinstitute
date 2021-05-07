@@ -144,17 +144,30 @@
           "comment": "Siéntase libre de compartir tu opinión aquí (requerido)"
         }
     },
+    "contact_form": {
+        "lead_form_headline": "¿¡Vamos a hablar!?",
+        "lead_form_sub_headline": "Horario ahora Tutoría 1 hora, totalmente gratuito, y entender mejor cómo nuestras estrategias de marketing pueden ayudar a su negocio despegue.",
+        "lead_form": {
+            "field_name": "¿Cual es tu nombre?",
+            "field_email": "¿Cuál es tu email?",
+            "field_phone": "Y su Telfone de contacto?",
+            "field_message": "como podemos ayudarte? ¿Cuál es tu duda?",
+            "submit": "INFORMACIÓN enviar un contacto",
+            "privacy_1": "privacidad de los datos es un asunto serio para nosotros. Entender nuestra política de ",
+            "privacy_2": "privacidad de datos."
+        }
+    },
     "zmot_audit": {
         "seo": {
-          "title": "Hackea el Comportamiento del Consumidor con ZMOT",
-          "description": "Comprenda las necesidades de sus clientes y transmita el mensaje correcto en el momento adecuado con ZMOT. Mejora los resultados de tu negocio."
+          "title": "Ponentes Que La Gente Aplaudirá de Pie",
+          "description": "Servicios de Marketing Digital para ayudarlo a comprender lo que quieren los consumidores e implementar estrategias de marketing de crecimiento exponencial."
         },
         "hero": {
-            "header_1_text": "Boost Your",
-            "header_2_text": "Marketing Plan",
-            "header_3_text": "using ZMOT",
-            "btn_1_text": "MORE INFORMATION",
-            "btn_2_text": "CHAT ONLINE"
+            "header_1_text": "La contratación de",
+            "header_2_text": "comportamiento de los",
+            "header_3_text": "consumidores Altavoces",
+            "btn_1_text": "MAS INFORMACIONES",
+            "btn_2_text": "CHATEAR EN LÍNEA"
         },
         "audit":{
           "header": "Marketing Digital en High Level",
@@ -196,16 +209,135 @@
             "answer_5_text": "Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error."
         }
       },
-    "lectures_events": {
+    "keynote_speakers": {
         "seo": {
-            "title": "Encante las personas de su evento com una palestra de ZMOT",
-            "description": "Lleva el ZMOT a tu evento y deleita a tu audiencia. Nuestros +15 años de experiencia en eventos harán que la gente aplauda de pie. Gratis para estudiantes"
+            "title": "Ponentes Que La Gente Aplaudirá de Pie",
+            "description": "¿Buscando por Ponentes para Conferencia? Aquí en ZMOT Institute, encontrará Ponentes reconocidos de Marketing Digital, con más de 15 años de experiencia."
         },
-        "header": "Deleite Su Audiencia Con ZMOT",
-        "text_1": "¿Está promocionando un evento sobre temas relacionados a Negocios o Marketing Digital? ¿Necesita un contenido de alta calidad para deleitar a su audiencia?",
-        "text_2": "Sea en una sala de clases, en un escenario o en un evento online, podemos ayudar a las personas a aprender e implementar el ZMOT en su pila de marketing y en su juego diario. Sumando nuestros +15 años de experiencia hablando en eventos con la importancia del ZMOT, su audiencia lo agradecerá por toda vida.",
-        "text_3": "No importa el tamaño de su evento, tenemos una solución para usted. ¡Prediquemos el ZMOT juntos!",
-        "submit": "Quiero ZMOT En Mi Evento"
+        "hero": {
+            "headline_1_text": "Ponentes",
+            "headline_2_text": "Para",
+            "headline_3_text": "Conferencia",
+            "sub_headline": "Charlas sobre ZMOT y Comportamiento Del Consumidor Que Hacen La Gente Aplaudir De Pie",
+            "cta_1": "MAS INFORMACIONES",
+            "cta_2": "CHAT EN VIVO"
+        },
+        "why_hire": {
+            "headline": "Por qué contratar Altavoces ZMOT INSTITUTO?",
+            "sub_headline": "Aprender de aquellos que entienden el ZMOT y del comportamiento real de los consumidores.",
+            "feature_1_header": "altavoces ganadores",
+            "feature_1_description": "ZMOT INSTITUTO sólo trae punta de altavoces para sus eventos, en sus planes de estudio premios como el Premio Top de Marketing y Ventas ADVB / SC, la certificación Great Place to Work (GPTW) y el sitio del sello AR 1000 quejan aquí.",
+            "feature_2_header": "Aula y en línea",
+            "feature_2_description": "Debido a la pandemia, ahora ofrecemos nuestras conferencias también en el formato en línea, de modo que incluso durante la cuarentena puede seguir aprendiendo sobre el comportamiento del consumidor.",
+            "feature_3_header": "15 años de experiencia",
+            "feature_3_description": "Los altavoces ZMOT INSTITUTO ya acumulan más de 15 años de experiencia en el negocio. La difusión de su conocimiento del ZMOT para ayudar a entender el comportamiento del consumidor.",
+            "feature_4_header": "Contenido práctico e innovador",
+            "feature_4_description": "Las conversaciones ZMOT INSTITUTO traer un conocimiento completo acerca de esta innovadora forma de hacer marketing basado en el ZMOT. Con un contenido único y actualizada, usted sabrá las últimas técnicas para entender el comportamiento del consumidor."
+        },
+        "our_keynotes": {
+            "headline": "El ir conversaciones encantar a su público",
+            "sub_headline": "Si está organizando un evento y necesita una corriente super y el tema relevante, con una narración envolvedor, nuestras Conferencias sobre el ZMOT y el comportamiento del consumidor es lo que necesita.",
+            "keynote_1_header": "Influir en el comportamiento del consumidor ZMOT",
+            "keynote_1_description": "Tener conocimiento de cómo se comportan las personas en el proceso de decisión es imprecindível para cualquier persona que trabaja con marketing y ventas. En esta charla vamos a demostrar lo que es el ZMOT y cómo le ayudará.",
+            "keynote_2_header": "ZMOT: El Santo Grial de Marketing Digital",
+            "keynote_2_description": "¿Te has detenido a pensar que todo lo que hacemos en el marketing digital es influir en las personas? Esta conferencia es ideal para ayudar a mostrar cómo el ZMOT debe estar presente en todas las acciones de marketing que se realizan.",
+            "keynote_3_header": "Hacks para influir en el comportamiento del consumidor",
+            "keynote_3_description": "Necesidad de consejos prácticos y demostrado su eficacia sobre la manera de influir en el comportamiento del consumidor? Nassa conferencia presentamos algunos de los mejores hacks para que pueda utilizar en sus campañas de marketing",
+            "custom_keynote_header": "Necesidad de una conferencia a medida?",
+            "custom_keynote_description": "¡Te podemos ayudar!",
+            "custom_keynote_cta": "ENTRAR EN CONTACTO"
+        },
+        "keynote_gallery": {
+            "headline": "Conferencias, Webnars y Eventos Comporativos participan",
+            "sub_headline": "Vea algunos de los eventos en los que participamos evangelizadoras sobre el ZMOT y el comportamiento del consumidor",
+            "past_keynote_1_tag": "Tutoría",
+            "past_keynote_1_header": "Innovative Experiencia Mentoring",
+            "past_keynote_1_description": "Incluso en tiempos de pandemia seguimos fomentando el espíritu empresarial y el ZMOT, pero la forma en línea ahora. Es bueno ver tantas buenas ideas y la gente enfocada en resolver problemas de manera creativa y el uso de la tecnología.",
+            "past_keynote_1_speaker": "Rodrigo Wiethorn",
+            "past_keynote_1_date": "05/12/2020",
+            "past_keynote_2_tag": "Charla Online",
+            "past_keynote_2_header": "Vivo Hostinger Brasil",
+            "past_keynote_2_description": "Compartir con los estudiantes de Contabilidad UFSC en el ZMOT y cómo proficionais contabilidad, el papel de los expertos en negocios puede ayudar a sus clientes aumentan sus empresas.",
+            "past_keynote_2_speaker": "Rodrigo Wiethorn",
+            "past_keynote_2_date": "22/10/2020",
+            "past_keynote_3_tag": "Charla Online",
+            "past_keynote_3_header": "Planificación Comercial Semana 2021 Ploomers",
+            "past_keynote_3_description": "Muy agradable haber participado en la charla con el personal de Ploomers en la planificación de empresas. Hablamos de cómo las técnicas de venta bajo Touch se pueden escalar más fácilmente y llevar a resultados sorprendentes.",
+            "past_keynote_3_speaker": "Rodrigo Wiethorn",
+            "past_keynote_3_date": "16/09/2020",
+            "past_keynote_4_tag": "Charla Presencial",
+            "past_keynote_4_header": "Semana Académica de Contabilidad UFSC",
+            "past_keynote_4_description": "Compartir con los estudiantes de Contabilidad UFSC en el ZMOT y cómo la profesión contable, el papel de los expertos en negocios puede ayudar a sus clientes escalar sus negocios.",
+            "past_keynote_4_speaker": "Rodrigo Wiethorn",
+            "past_keynote_4_date": "19/09/2019",
+            "past_keynote_5_tag": "Charla Presencial",
+            "past_keynote_5_header": "Se juega en el FEJESC neto",
+            "past_keynote_5_description": "Si el evento acaba de participar Jugando En FEJESC Red ZMOT hablando y mostrando la importancia de este marco. Muy enfriar la receptividad de los futuros empresarios en este tema tan importante y que es seguro para ayudarle a escalar sus negocios.",
+            "past_keynote_5_speaker": "Rodrigo Wiethorn",
+            "past_keynote_5_date": "13/04/2019",
+            "past_keynote_6_tag": "Webinar",
+            "past_keynote_6_header": "Semana marketing de contenidos",
+            "past_keynote_6_description": "En colaboración con el personal de los piratas informáticos de contenido muestran cómo se comportan los consumidores en Internet y cómo los profesionales del marketing de contenido pueden usar para producir ZMOT contenido engajadores y generar resultados..",
+            "past_keynote_6_speaker": "Rodrigo Wiethorn",
+            "past_keynote_6_date": "16/10/2018",
+            "past_keynote_7_tag": "Tutoría",
+            "past_keynote_7_header": "tutoría innovadora Bootcamp",
+            "past_keynote_7_description": "Participamos, en Florianópolis, los ciclos Mentorias en Bootcamp regionales innovadores Brasil. Muy fresco ser capaz de mostrar a los empresarios que buscan escalar su negocio como el ZMOT puede ayudarles.",
+            "past_keynote_7_speaker": "Rodrigo Wiethorn",
+            "past_keynote_7_date": "09/21/2018",
+            "past_keynote_8_tag": "Charla Presencial",
+            "past_keynote_8_header": "Presencia Digital de 3R - gigantes Mundial",
+            "past_keynote_8_description": "En asociación con el SC SEBRAELab hablado sobre el comportamiento del consumidor en línea y cómo el ZMOT puede ayudar a los pequeños y micro empresarios a optimizar sus actividades de marketing digital y por lo tanto generan resultados.",
+            "past_keynote_8_speaker": "Rodrigo Wiethorn",
+            "past_keynote_8_date": "10/08/2018",
+            "past_keynote_9_tag": "Charla Presencial",
+            "past_keynote_9_header": "23 Dazidéia Floripa",
+            "past_keynote_9_description": "Hemos participado en el 23 Dazidéia Floripa presentar para la comunidad de la innovación como la influencia ZMOT en el comportamiento del consumidor y cómo estas innovadoras y futuros empresarios pueden aplicar el marco para escalar sus negocios invadores.",
+            "past_keynote_9_speaker": "Rodrigo Wiethorn",
+            "past_keynote_9_date": "05/06/2018",
+            "past_keynote_10_tag": "Charla Online",
+            "past_keynote_10_header": "Semana de la Ciencia, Tecnología e Innovación",
+            "past_keynote_10_description": "En colaboración con el personal de la Información Libre Tecnología Centro Académico (Caltic) de la UFSC, hicimos una conferencia en línea que muestra cómo el ZMOT puede ayudar en la vida y la carrera de los estudiantes de Tecnología de la Información.",
+            "past_keynote_10_speaker": "Rodrigo Wiethorn",
+            "past_keynote_10_date": "09/09/2017",
+            "past_keynote_11_tag": "Charla Presencial",
+            "past_keynote_11_header": "Colegios y Estacio Google Business Group",
+            "past_keynote_11_description": "Aquí ZMOT para estudiantes de colegios Estacio de San José / SC junto con el personal del Grupo Google de negocios de Florianópolis.",
+            "past_keynote_11_speaker": "Rodrigo Wiethorn",
+            "past_keynote_11_date": "06/09/2017",
+            "past_keynote_12_tag": "Palestra Presencial",
+            "past_keynote_12_header": "Como periodista puede realizar a través de Internet?",
+            "past_keynote_12_description": "En asociación con Brasil y Hostinger ACATE, habló de cómo el ZMOT puede ayudar a ayudar a los periodistas a entender mejor el comportamiento de las personas en Internet y cómo se puede utilizar la red para llevar a cabo en línea.",
+            "past_keynote_12_speaker": "Rodrigo Wiethorn",
+            "past_keynote_12_date": "04/09/2017"
+        },
+        "customer_review": {
+            "headline": "Vistazo a la opinión de aquellos que conocen el ZMOT INSTITUTO",
+            "sub_headline": "Vea lo que las personas que han trabajado con nosotros están diciendo!",
+            "review_1_header": "Pensé que entendía la comercialización, pero el personal del Instituto ZMOT nos llevó a otro nivel",
+            "review_1_name": "Gabriela E.",
+            "review_2_header": "Recomiendo sin duda. Ellos saben lo que están haciendo y tienen mucha calidad",
+            "review_2_name": "Samuel L.",
+            "review_3_header": "Ellos entienden mucho del comportamiento del consumidor y Marketing Digital",
+            "review_3_name": "Roberto O.",
+            "review_4_header": "Aprendí a entender las necesidades del cliente con hechos y no suposiciones",
+            "review_4_name": "George K.",
+            "review_5_header": "Ellos son muy profesionales y cumplen lo que prometen",
+            "review_5_name": "Adriana P."
+        },
+        "faq":{
+            "headline": "Preguntas frecuentes",
+            "question_1_question": "Cómo Entender lo que quiere el cliente?",
+            "question_1_answer": "La mejor manera de entender lo que el cliente quiere está tratando de saber cómo se comporta. Para analizar su comportamiento del consumidor es posible traza caminos que llevan directamente a sus deseos. Esto se vincula estrechamente personaje dolor de su empresa, que también debe basarse en este camino de interacción.",
+            "question_2_question": "¿Cuál es la relación entre el ZMOT y el Cliente Viaje?",
+            "question_2_answer": "ZMOT y recorrido del cliente, o el Día del Cliente, se basan en el mismo factor: entender el comportamiento del consumidor. Una vez que sabemos lo que las necesidades públicas, y cómo se va después de este dejeso, abre un abanico de posibilidades de influencia que se pueden aplicar durante su consumo viaje. ZMOT es un momento específico de este viaje y también la más susceptible a las influencias.",
+            "question_3_question": "¿Cuáles son las mejores estrategias de crecimiento?",
+            "question_3_answer": "La principal estrategia de crecimiento moarketing tenemos que tener en cuenta hoy en día es el ZMOT. Este momento de la verdad nos ofrecerá una serie de posibilidades para que podamos influir en nuestros clientes en los momentos más certeros. Para lograr tal hazaña, ZMOT se centra en la comprensión del comportamiento del consumidor para poner en práctica sus estrategias.",
+            "question_4_question": "¿Cuál es el ZMOT, FMOT, SMOT?",
+            "question_4_answer": "ZMOT, SMOT FMOT y son parte de lo que llamamos el momento de la verdad. Cada una de estas partes es un momento en el viaje de consumo del cliente y proponer estrategias y acciones que se pueden hacer para aprovechar al máximo el poder de influencia de cada momento.",
+            "question_5_question": "Cómo mejorar la experiencia del cliente?",
+            "question_5_answer": "La mejor manera de mejorar la experiencia del cliente tiene con su empresa es centrarse en el comportamiento que tienen los consumidores. Mediante la identificación de los puntos clave que muestran cómo ve el cliente e interactúa con la marca, es posible seleccionar las estrategias de marketing que van a generar los mejores resultados."
+        }
     },
     "online_courses" : {
         "seo": {

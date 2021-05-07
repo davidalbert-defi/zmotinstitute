@@ -1,8 +1,22 @@
 <template>
-  <div class="lectures-events-page px-4 bg-primary pb-12">
+  <div class="lectures-events-page px-4 pb-12">
     <lazy-hydrate when-visisble>
-      <section-lecture-content />
+      <section-talks-lectures-hero />
     </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <section-talks-lecture-why-hire />
+    </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <section-talks-lectures-our-talks />
+    </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <section-talks-lectures-gallery />
+    </lazy-hydrate>
+      <section-talks-lecture-review />
+    <lazy-hydrate when-visisble>
+      <contact-form />
+    </lazy-hydrate>
+      <section-talks-lectures-faq />
   </div>
 </template>
 
@@ -12,12 +26,12 @@ export default {
   components: { LazyHydrate },
   head () {
     return {
-      title: this.$t('lectures_events.seo.title'),
+      title: this.$t('keynote_speakers.seo.title'),
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('lectures_events.seo.description')
+          content: this.$t('keynote_speakers.seo.description')
         },
         {
           hid: 'twitter-card',
@@ -27,12 +41,12 @@ export default {
         {
           hid: 'og-title',
           property: 'og:title',
-          content: this.$t('lectures_events.seo.title')
+          content: this.$t('keynote_speakers.seo.title')
         },
         {
           hid: 'og-description',
           property: 'og:description',
-          content: this.$t('lectures_events.seo.description')
+          content: this.$t('keynote_speakers.seo.description')
         },
         {
           hid: 'og-image',
@@ -49,11 +63,10 @@ export default {
   },
   nuxtI18n: {
     paths: {
-      en: '/lectures-events',
-      es: '/conferencias-eventos',
-      'pt-br': '/palestras-eventos'
+      en: '/keynote-speakers',
+      es: '/ponentes',
+      'pt-br': '/palestrantes'
     }
-  },
-  layout: 'noheader'
+  }
 }
 </script>

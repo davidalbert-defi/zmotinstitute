@@ -289,7 +289,8 @@ export default {
       if (isClient) {
         config.optimization.splitChunks.maxSize = 200000
       }
-
+      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader')
+      vueLoader.options.transformAssetUrls['img'] = ['src', 'data-src']
       config.module.rules.unshift({
         test: /\.jpe?g$/,
         use: {

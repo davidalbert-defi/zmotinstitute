@@ -17,7 +17,7 @@
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
-      <section-zmot-audit-lead-form />
+      <contact-form />
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
