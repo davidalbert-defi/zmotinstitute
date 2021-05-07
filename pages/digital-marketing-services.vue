@@ -1,19 +1,19 @@
 <template>
-  <div class="zmot-audit-page px-4 pb-12">
+  <div class="digital-page px-4 pb-12">
     <lazy-hydrate when-visible>
-      <section-zmot-audit-hero />
+      <section-digital-hero />
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
-      <section-zmot-audit-features-list />
+      <section-digital-what-we-do />
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
-      <section-zmot-step />
+      <section-digital-how-we-do />
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
-      <section-zmot-reviews />
+      <section-digital-reviews />
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
@@ -21,7 +21,7 @@
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
-      <section-zmot-audit-faq />
+      <section-digital-faq />
     </lazy-hydrate>
   </div>
 </template>
@@ -32,12 +32,12 @@ export default {
   components: { LazyHydrate },
   head () {
     return {
-      title: this.$t('zmot_audit.seo.title'),
+      title: this.$t('marketing_services.seo.title'),
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('zmot_audit.seo.description')
+          content: this.$t('marketing_services.seo.description')
         },
         {
           hid: 'twitter-card',
@@ -47,12 +47,12 @@ export default {
         {
           hid: 'og-title',
           property: 'og:title',
-          content: this.$t('zmot_audit.seo.title')
+          content: this.$t('marketing_services.seo.title')
         },
         {
           hid: 'og-description',
           property: 'og:description',
-          content: this.$t('zmot_audit.seo.description')
+          content: this.$t('marketing_services.seo.description')
         },
         {
           hid: 'og-image',

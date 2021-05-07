@@ -157,58 +157,103 @@
             "privacy_2": "privacidad de datos."
         }
     },
-    "zmot_audit": {
+    "marketing_services": {
         "seo": {
-          "title": "Ponentes Que La Gente Aplaudirá de Pie",
-          "description": "Servicios de Marketing Digital para ayudarlo a comprender lo que quieren los consumidores e implementar estrategias de marketing de crecimiento exponencial."
+            "title": "Servicios de Marketing Digital Para Crecimiento Exponencial",
+            "description": "Servicios de Marketing Digital para ayudarlo a comprender lo que quieren los consumidores e implementar estrategias de marketing de crecimiento exponencial."
         },
-        "hero": {
-            "header_1_text": "La contratación de",
-            "header_2_text": "comportamiento de los",
-            "header_3_text": "consumidores Altavoces",
-            "btn_1_text": "MAS INFORMACIONES",
-            "btn_2_text": "CHATEAR EN LÍNEA"
+        "hero":{
+            "headline_1_text": "Consultoría de",
+            "headline_2_text": "Marketing Digital",
+            "headline_3_text": "de Alto Nivel",
+            "sub_headline": "Conocer el comportamiento de los consumidores, hemos ayudado a enteder lo que quiere el cliente, y optimizar sus estrategias de marketing para generar un crecimiento exponencial",
+            "cta_1": "MÁS INFORMACIÓN",
+            "cta_2": "CHAT EN VIVO"
         },
-        "audit":{
-          "header": "Marketing Digital en High Level",
-          "text_1": "ZMOT es un framework diseñado por Google para describir cómo se comportan las personas durante el proceso de compra.",
-          "text_2": "Los negocios exitosos comprenden las necesidades de sus clientes y resuelven sus problemas. Sabiendo cómo su consumidor busca información, hace comparaciones, regatea y toma la decisión de compra, puedes enviar el mensaje correcto, en el momento correcto.",
-          "text_3": "Los expertos de ZMOT INSTITUTE lo ayudarán a rastrear las huellas digitales de sus consumidores y crear un plan maestro con las estrategias de marketing digital más eficientes utilizadas por las empresas de más rápido crecimiento en el mundo.",
-          "submit": "Quiero Recibir un Contacto"
+        "what_we_do":{
+            "headline_1_text": "Lo que hacemos en la Consultoría",
+            "headline_2_text": "de Marketing Digital?",
+            "sub_headline_1": "Nuestra Comercialización Digital Consulting ayuda a optimizar su entorno de marketing con el ZMOT",
+            "sub_headline_2": "Los expertos ZMOT INSTITUTO le ayudarán a identificar las huellas digitales dejadas por sus clientes, y de esta manera crear un digital Planificación de Marketing basado en las prácticas utilizadas por las mejores empresas del mundo. ¿Cómo lo hacemos?",
+            "feature_1_header":"Analizar el comportamiento del consumidor",
+            "feature_1_description":"Entender las necesidades de los clientes sabemos cómo entregar el mensaje correcto en el momento adecuado",
+            "feature_2_header":"Entender al cliente viaje",
+            "feature_2_description":"MMapeo del cliente viaje de sus consumidores a saber cómo, dónde y cuando interactúan con su marca",
+            "feature_3_header":"definición de las Personas",
+            "feature_3_description":"Entendemos sus atávés audiencia de personajes que representan a su cliente ideal",
+            "feature_4_header":"Definiendo las misiones de compra",
+            "feature_4_description":"Reconocemos los momentos clave y factores de influencia durante el proceso de compra",
+            "feature_5_header":"La optimización de la experiencia del cliente",
+            "feature_5_description":"Entendemos la experiencia del cliente y ayuda a optimizar para aumentar las fuentes de energía nuclear",
+            "feature_6_header":"La mejora de su plan de marketing",
+            "feature_6_description":"Hemos ayudado a constuir e implementar estrategias y acciones que generen un crecimiento exponencial",
+            "feature_7_header":"La optimización de la experiencia del cliente",
+            "feature_7_description":"Entendemos la experiencia del cliente y ayuda a optimizar para aumentar las fuentes de energía nuclear",
+            "feature_8_header":"Gestión de Indicadores de Resultados",
+            "feature_8_description":"Sé NorthStart métrica, indicadores clave de rendimiento o cualquier otro indicador, para ayudarle a entender los datos y actuar"
         },
-        "reviews": {
-          "header": "Los Expertos",
-          "text": "ZMOT es muy rico. Mira a que los principales expertos en Marketing Digital han estado hablando y por qué deberías comenzar a usarlo también.",
-          "slide_1_text": "Consumidores buscan por información en Internet antes de comprar.",
-          "slide_2_text": "Así es como los consumidores viven, aprenden y toman decisiones hoy",
-          "slide_3_text": "Marketing Digital se trata de ofrecer el contenido adecuado en el momento adecuado",
-          "slide_4_text": "No importa lo que hagas puedes hacer más barato, más rápido y más eficientemente en la web",
-          "slide_5_text": "Nuestro trabajo és entender cómo los consumidores quieren comprar y ayudarles"
+        "how_we_do":{
+            "headline": "¿Cómo funcionan Nuestro Digital Consultoría de Marketing?",
+            "sub_headline": "Ofrecer resultados, y dentro, son puntos importantes para nosotros. Por lo tanto, seguimos unos buenos principios que nos ayudan a entregar lo prometido.",
+            "step_1_header": "Establecimiento de objetivos de negocio",
+            "step_1_description": "Aprendemos sobre su empresa, las metas y los dolores, y levantarse a lo que para lograr",
+            "step_2_header": "Entender a su cliente",
+            "step_2_description": "Vamos inmersión más profunda en la mente de su consumidor y sus huellas digitales para entender el cliente viaje",
+            "step_3_header": "Mejorar el recorrido del cliente",
+            "step_3_description": "Vamos a crear las mejores experiencias para alcanzar sus objetivos de negocio",
+            "step_4_header": "Haz el trabajo",
+            "step_4_description": "Vamos a entregar las principales conclusiones, aprendizajes, Principales conclusiones y recomendaciones para la mejora continua"
         },
-        "step":{
-          "step_1_title": "Define Business Goals",
-          "step_1_text": "We will learn about your business, goals and will agree on what to achieve.",
-          "step_2_title": "Understand Your Customer",
-          "step_2_text": "We will dive deep into your consumer's mind and digital footprints to understand the customer journey.",
-          "step_3_title": "Improve Your Customer Journey",
-          "step_3_text": "We will craft the best in class experiences in order to achieve your business goals.",
-          "step_4_title": "Get the Job Done",
-          "step_4_text": "We will wrap up the key findings, learnings, main results and recommendations for continuous improvements."
+        "customer_reviews": {
+            "headline": "Vistazo a la opinión de aquellos que conocen el ZMOT INSTITUTO",
+            "sub_headline": "Vea lo que las personas que han trabajado con nosotros están diciendo!",
+            "review_1_header": "Pensé que entendía la comercialización, pero el personal del Instituto ZMOT nos llevó a otro nivel",
+            "review_1_name": "Gabriela E.",
+            "review_2_header": "Recomiendo sin duda. Ellos saben lo que están haciendo y tienen mucha calidad",
+            "review_2_name": "Samuel L.",
+            "review_3_header": "Ellos entienden mucho del comportamiento del consumidor y Marketing Digital",
+            "review_3_name": "Roberto O.",
+            "review_4_header": "Aprendí a entender las necesidades del cliente con hechos y no suposiciones",
+            "review_4_name": "George K.",
+            "review_5_header": "Ellos son muy profesionales y cumplen lo que prometen",
+            "review_5_name": "Adriana P."
         },
         "faq":{
-            "header": "Frequently Asked Questions",
-            "question_1_text": "Question one?",
-            "answer_1_text": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-            "question_2_text": "How do you make holy water?",
-            "answer_2_text": "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.",
-            "question_3_text": "What do you call someone with no body and no nose?",
-            "answer_3_text": "Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.",
-            "question_4_text": "Why do you never see elephants hiding in trees?",
-            "answer_4_text": "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-            "question_5_text": "Why can't you hear a pterodactyl go to the bathroom?",
-            "answer_5_text": "Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error."
+            "headline": "Preguntas frecuentes",
+            "question_1_question": "¿Qué es el Marketing Digital Consultoría?",
+            "question_1_answer": "A Marketing Digital Consulting tiene como objetivo ayudar a las empresas a entender el comportamiento de sus clientes, con el fin de aprovechar las nuevas estrategias y herramientas en un mercado de forma personalizada.",
+            "question_2_question": "Porque necesito el comportamiento del consumidor entendimiento?",
+            "question_2_answer": "El comportamiento del consumidor entendimiento es tan importante como saber quién es su público objetivo, ya que permitirá a la compañía para saber exactamente cuándo, dónde y cómo actuar en relación con los clientes, ya que conoce sus hábitos de consumo y por lo tanto puede proporcionar el mejor enfoque para la conversión.",
+            "question_3_question": "Lo que tiene que hacer para mejorar la comercialización de una empresa?",
+            "question_3_answer_line_1": "Para mejorar la empresa de marketing digital que necesita:",
+            "question_3_answer_line_2": "1. Conocer su Persona",
+            "question_3_answer_line_3": "2. Asignación de la Jornada de consumo de sus clientes",
+            "question_3_answer_line_4": "3. Invertir en la experiencia del cliente Estrategias (CX)",
+            "question_3_answer_line_5": "4. Desarrollar campañas de marketing que se dirigen de acuerdo a su comportamiento del consumidor",
+            "question_3_answer_line_6": "5. Invertir en la creación de un plan de un buen marketing para impulsar los esfuerzos de la compañía forma más enérgica",
+            "question_4_question": "¿Qué es una campaña de marca?",
+            "question_4_answer": "Marca de la campaña es una acción que se pretende hacer las marcas para conectar con su público. Su objetivo es crear y fortalecer los lazos entre clientes y empresa para que sea reconocida y valorada en el mercado.",
+            "question_5_question": "Cómo crecer en el mercado digital?",
+            "question_5_answer_line_1": "Para crecer en el mercado digital, hay algunos consejos prácticos:",
+            "question_5_answer_line_2": "1. Invertir en SEO",
+            "question_5_answer_line_3": "2. Conocer su consumo y sabe lo que tiene que ofrecer",
+            "question_5_answer_line_4": "3. Crear una red de contactos",
+            "question_5_answer_line_5": "4. Crear su propio blog",
+            "question_5_answer_line_6": "5. Manténgase sintonizado evaluaciones y revisiones",
+            "question_5_answer_line_7": "6. Manténgase al día",
+            "question_5_answer_line_8": "7. Conocer la Compra viaje de su cliente",
+            "question_5_answer_line_9": "8. Tenga un plan de marketing muy detallado con las estrategias y herramientas",
+            "question_5_answer_line_10": "9. Análisis Metrifique y resultados",
+            "question_6_question": "Cómo hacer un viaje omnichannel compra?",
+            "question_6_answer": "Para realizar una compra omnichannel viaje es laico es necesario un plan de marketing para utilizar la integración de estrategias en línea y fuera de línea para conectar estos dos campos de contacto. El omnichannel continuación, se basa en la convergencia de canales para que el cliente no ve o se siente la diferencia entre las esferas físicas y digitales.",
+            "question_7_question": "Lo que el cliente experimentarla?",
+            "question_7_answer": "La experiencia del cliente (CX) es un conjunto de impresiones que el cliente tiene cuando entra en contacto con una empresa. El CX influye directamente en el comportamiento y el viaje que el cliente va a seguir al interactuar con un negocio. Tiene influencia en todas las partes del día de compra del consumidor.",
+            "question_8_question": "¿Cuál es la relación entre la experiencia del cliente y la satisfacción?",
+            "question_8_answer": "La experiencia y satisfacción del cliente están totalmente relacionados, ya que el primero es un factor crucial para el segundo. Esto se debe a que al proporcionar un simple, experiencia fácil y agradable para sus clientes, utilizando las técnicas de la experiencia del cliente (CX), el consumidor es más probable que se sienta satisfecho con la marca. Lo que también contribuye a críticas positivas y una enorme ganancia en la Palabra de comercialización de la boca.",
+            "question_9_question": "¿Cómo entender los marcados su nicho?",
+            "question_9_answer": "Para entender su nicho de mercado, es necesario crear un plan de marketing. De este modo, será posible hacer un mapeo completo y detallado para que pueda comprender cómo se comportan sus competidores, las fortalezas y debilidades de su negocio y la mejor estrategia de marketing para lograr destacan en su sector."
         }
-      },
+    },
     "keynote_speakers": {
         "seo": {
             "title": "Ponentes Que La Gente Aplaudirá de Pie",

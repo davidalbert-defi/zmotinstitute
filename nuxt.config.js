@@ -251,19 +251,19 @@ export default {
           ]
         },
         {
-          url: '/lectures-events',
+          url: '/keynote-speakers',
           links: [
-            { lang: 'en', url: '/lectures-events' },
-            { lang: 'es', url: 'es/conferencias-eventos' },
-            { lang: 'pt-br', url: 'pt-br/palestras-eventos' }
+            { lang: 'en', url: '/keynote-speakers' },
+            { lang: 'es', url: 'es/ponentes' },
+            { lang: 'pt-br', url: 'pt-br/palestrantes' }
           ]
         },
         {
-          url: '/zmot-audit',
+          url: '/digital-marketing-services',
           links: [
-            { lang: 'en', url: '/zmot-audit' },
-            { lang: 'es', url: 'es/auditoria-zmot' },
-            { lang: 'pt-br', url: 'pt-br/auditoria-zmot' }
+            { lang: 'en', url: '/digital-marketing-services' },
+            { lang: 'es', url: 'es/servicios-de-marketing-digital' },
+            { lang: 'pt-br', url: 'pt-br/consultoria-de-marketing-digital' }
           ]
         }
       ]

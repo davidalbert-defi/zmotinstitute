@@ -1,12 +1,12 @@
 <template>
   <section
-    class="reviews bg-white mb-4 pt-4">
+    class="reviews bg-white mb-4 pt-4 mt-12">
     <div class="container mx-auto px-2 lg:px-4">
       <h2 class="text-center">
-        {{ $t('zmot_audit.reviews.header') }}
+        {{ $t('marketing_services.customer_reviews.headline') }}
       </h2>
       <p class="text-center mb-4">
-        {{ $t('zmot_audit.reviews.text') }}
+        {{ $t('marketing_services.customer_reviews.sub_headline') }}
       </p>
       <div class="zmot_reviews__items">
         <client-only placeholder="Loading...">
@@ -15,12 +15,12 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “{{ $t('zmot_audit.reviews.slide_1_text') }}”
+                    “{{ $t('marketing_services.customer_reviews.review_1_header') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="spec__card-meta-details">
                       <div class="name">
-                        Neil Patel
+                        {{ $t('marketing_services.customer_reviews.review_1_name') }}
                       </div>
                       <div class="job">
                         Marketing Guru
@@ -34,12 +34,12 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “{{ $t('zmot_audit.reviews.slide_2_text') }}”
+                    “{{ $t('marketing_services.customer_reviews.review_2_header') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="spec__card-meta-details">
                       <div class="name">
-                        Jim Lecinski
+                        {{ $t('marketing_services.customer_reviews.review_2_name') }}
                       </div>
                       <div class="job">
                         ZMOT Author
@@ -53,12 +53,12 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “{{ $t('zmot_audit.reviews.slide_3_text') }}”
+                    “{{ $t('marketing_services.customer_reviews.review_3_header') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="spec__card-meta-details">
                       <div class="name">
-                        David M.Scott
+                        {{ $t('marketing_services.customer_reviews.review_3_name') }}
                       </div>
                       <div class="job">
                         Marketing & Sales Visionary
@@ -72,12 +72,12 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “{{ $t('zmot_audit.reviews.slide_4_text') }}”
+                    “{{ $t('marketing_services.customer_reviews.review_4_header') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="spec__card-meta-details">
                       <div class="name">
-                        Avinash Kaushik
+                        {{ $t('marketing_services.customer_reviews.review_4_name') }}
                       </div>
                       <div class="job">
                         Digital Marketing Evangelist
@@ -91,12 +91,12 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl font-light leading-7">
-                    “{{ $t('zmot_audit.reviews.slide_5_text') }}”
+                    “{{ $t('marketing_services.customer_reviews.review_5_header') }}”
                   </div>
                   <div class="spec__card-meta">
                     <div class="spec__card-meta-details">
                       <div class="name">
-                        Bryan Eisenberg
+                        {{ $t('marketing_services.customer_reviews.review_5_name') }}
                       </div>
                       <div class="job">
                         Digital Marketing Pioneer
@@ -130,7 +130,7 @@
 
 <script>
 export default {
-  name: 'SectionZmotReviews',
+  name: 'SectionDigitalReviews',
   data: () => ({
     agileOptions: {
       autoplay: true,

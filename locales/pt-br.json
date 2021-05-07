@@ -157,58 +157,103 @@
             "privacy_2": "Privacidade de Dados."
         }
     },
-    "zmot_audit": {
+    "marketing_services": {
         "seo": {
-          "title": "Palestrantes Que Farão As Pessoas Aplaudirem de Pé",
-          "description": "Se Você Precisa Contratar Palestrantes de Marketing e Comportamento do Consumidor, Aqui É O Seu Lugar. Palestrantes Premiados com +15 Anos De Experiência."
+            "title": "Consultoria de Marketing Digital com Crescimento Exponencial",
+            "description": "Nossa Consultoria de Marketing Digital te ajudar a entender o que o cliente quer e implementar Estratégias de Marketing que geram Crescimento Exponencial"
         },
-        "hero": {
-            "header_1_text": "Contratar Palestrantes",
-            "header_2_text": "de Comportamento",
-            "header_3_text": "do Consumidor",
-            "btn_1_text": "Mais Informações",
-            "btn_2_text": "Chat Online"
+        "hero":{
+            "headline_1_text": "Consultoria de",
+            "headline_2_text": "Marketing Digital",
+            "headline_3_text": "de Alto Nível",
+            "sub_headline": "Conhecendo o Comportamento do Consumidor, te ajudamos a enteder o que o cliente quer, e otimizamos suas Estratégias de Marketing para gerar Crescimento Exponencial",
+            "cta_1": "MAIS INFORMAÇÕES",
+            "cta_2": "CHAT ONLINE"
         },
-        "audit":{
-          "header": "Acelere Resultados com ZMOT",
-          "text_1": "ZMOT é um Framework criado pelo Google para descrever como as pessoas se comportam durante a Jornada de Compra.",
-          "text_2": "Negócios de sucesso entedem as ncessidades de seus clientes e resolvem esses problemas. Identificando como seu cliente pesquisa informações, faz comparações, barganha preço e toma uma decisão de compra, você poderá enviar a mensagem certa, na hora certa.",
-          "text_3": "Os especialistas do ZMOT INSTITUTE irão ajudá-lo a identificar as pistas digitais deixadas por seus clientes, e com isso criar um planejamento de Marketing Digital utilizando as práticas usadas pelas melhores empresas do mundo.",
-          "submit": "Quero Receber Contato"
+        "what_we_do":{
+            "headline_1_text": "O Que Fazemos na Consultoria ",
+            "headline_2_text": "de Marketing Digital?",
+            "sub_headline_1": "Nossa Consultoria de Marketing Digital te ajuda a otimizar seu Mix de Marketing com ZMOT",
+            "sub_headline_2": "Os especialistas do ZMOT INSTITUTE irão ajudá-lo a identificar as pistas digitais deixadas por seus clientes, e com isso criar um Planejamento de Marketing Digital com base nas práticas usadas pelas melhores empresas do mundo.  Como fazemos isso?",
+            "feature_1_header":"Analisando o Comportamento do Consumidor",
+            "feature_1_description":"Entendendo a Necessidade do Cliente sabemos como entregar a mensagem certa, na hora certa ",
+            "feature_2_header":"Compreendendo a Jornada do Cliente",
+            "feature_2_description":"Mapeando a Jornada do Cliente de seus consumidores para saber como, onde e quando eles interagem com a sua marca",
+            "feature_3_header":"Definindo Personas",
+            "feature_3_description":"Entendemos seu Público-Alvo atávés de Personas que representam seu cliente ideal",
+            "feature_4_header":"Definindo Missões de Compra",
+            "feature_4_description":"Reconhecemos os principais momentos e fatores de influência durante o processo de compra",
+            "feature_5_header":"Otimizando a Experiência do Cliente",
+            "feature_5_description":"Entendemos a Experiência do seu Cliente e te ajudamos a otimizá-la para aumentar o NPS",
+            "feature_6_header":"Aprimorando seu Plano de Marketing",
+            "feature_6_description":"Te ajudamos a constuir e implementar estratégias e ações que geram crescimento exponencial",
+            "feature_7_header":"Criando Campanhas de Marketing",
+            "feature_7_description":"Criando Campanhas de Marketing otimizadas para o seu Funil de Vendas",
+            "feature_8_header":"Gerenciando Indicadores de Resultado",
+            "feature_8_description":"Seja NorthStart Metric, KPIs ou qualquer outro indicador, de ajudamos a entender os dados e agir"
         },
-        "reviews": {
-          "header": "Os Especialistas",
-          "text": "ZMOT é coisa de gente grande. Veja o que os maiores especialistas mundiais em Marketing Digital tem falado sobre o assunto.",
-          "slide_1_text": "Os consumidores pesquisam as informações na internet antes de comprar.",
-          "slide_2_text": "É assim que os consumidores vivem, aprendem e tomam decisões",
-          "slide_3_text": "Marketing Digital é sobre entregar o conteúdo certo no momento certo",
-          "slide_4_text": "Na internet é sempre mais barato, rápido e eficiente fazer qualquer coisa",
-          "slide_5_text": "Nosso trabalho é entender o que os clientes desejam comprar e ajudar-los"
+        "how_we_do":{
+            "headline": "Como Fazemos Nossa Consultoria de Marketing Digital?",
+            "sub_headline": "Entregar resultados, e no prazo, são pontos importantes para nós. Por isso, seguimos alguns bom princípios que nos ajudam a entregar o que foi prometido.",
+            "step_1_header": "Definir Metas de Negócio",
+            "step_1_description": "Aprenderemos sobre a sua empresa, objetivos e dores, e acordaremos sobre o que alcançar",
+            "step_2_header": "Entenda seu Cliente",
+            "step_2_description": "Vamos mergulhar fundo na mente de seu consumidor e em suas pegadas digitais para entender a Jornada do Cliente",
+            "step_3_header": "Melhore a Jornada do Cliente",
+            "step_3_description": "Criaremos as Melhores Experiências para atingir seus objetivos de negócios",
+            "step_4_header": "Faça o Trabalho",
+            "step_4_description": "Vamos entregar as Principais Descobertas, Aprendizados, Principais Resultados e Recomendações para melhorias contínuas"
         },
-        "step":{
-          "step_1_title": "Define Business Goals",
-          "step_1_text": "We will learn about your business, goals and will agree on what to achieve.",
-          "step_2_title": "Understand Your Customer",
-          "step_2_text": "We will dive deep into your consumer's mind and digital footprints to understand the customer journey.",
-          "step_3_title": "Improve Your Customer Journey",
-          "step_3_text": "We will craft the best in class experiences in order to achieve your business goals.",
-          "step_4_title": "Get the Job Done",
-          "step_4_text": "We will wrap up the key findings, learnings, main results and recommendations for continuous improvements."
+        "customer_reviews": {
+            "headline": "Olha só a opinião de quem conhece o ZMOT INSTITUTE",
+            "sub_headline": "Veja o que as pessoas que já trabalharam conosco estão dizendo!",
+            "review_1_header": "Eu achava que entendia de Marketing, mas o pessoal da ZMOT Institute nos levou pra outro nível",
+            "review_1_name": "Gabriela E.",
+            "review_2_header": "Recomendo, sem dúvidas. Sabem o que estão fazendo e tem muita qualidade",
+            "review_2_name": "Samuel L.",
+            "review_3_header": "Entendem muito de Comportamento do Consumidor e Marketing Digital",
+            "review_3_name": "Roberto O.",
+            "review_4_header": "Aprendi a entender a necessidade do cliente com fatos, e não mais suposições",
+            "review_4_name": "George K.",
+            "review_5_header": "Eles são muito profissionais e entregam o que prometem",
+            "review_5_name": "Adriana P."
         },
         "faq":{
-            "header": "Frequently Asked Questions",
-            "question_1_text": "Question one?",
-            "answer_1_text": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-            "question_2_text": "How do you make holy water?",
-            "answer_2_text": "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.",
-            "question_3_text": "What do you call someone with no body and no nose?",
-            "answer_3_text": "Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.",
-            "question_4_text": "Why do you never see elephants hiding in trees?",
-            "answer_4_text": "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-            "question_5_text": "Why can't you hear a pterodactyl go to the bathroom?",
-            "answer_5_text": "Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error."
+            "headline": "Dúvidas Frequentes",
+            "question_1_question": "O Que É Consultoria de Marketing Digital?",
+            "question_1_answer": "Uma Consultoria de Marketing Digital tem o objetivo de auxiliar negócios a entenderem o Comportamento de seus consumidores, com o intuito de usufruir das novas estratégias e ferramentas do mercado de forma personalizada. ",
+            "question_2_question": "Porque Eu Preciso Entender o Comportamento do Consumidor?",
+            "question_2_answer": "Entender o Comportamento do Consumidor é tão importante quanto saber quem é o seu público-alvo, porque vai permitir que a empresa saiba exatamente quando, onde e como agir em relação aos clientes, uma vez que ela conhece seus hábitos de consumo e pode, assim, prever a melhor abordagem para a conversão.",
+            "question_3_question": "O Que É Preciso Fazer Para Melhorar o Marketing de uma Empresa?",
+            "question_3_answer_line_1": "Para melhorar o Marketing Digital de uma empresa é preciso:",
+            "question_3_answer_line_2": "1. Conhecer a sua Persona",
+            "question_3_answer_line_3": "2. Mapear a Jornada de Consumo do seu cliente",
+            "question_3_answer_line_4": "3. Investir em estratégias de Customer Experience (CX)",
+            "question_3_answer_line_5": "4. Desenvolver Campanhas de Marketing que sejam direcionadas de acordo com o Comportamento do seu Consumidor",
+            "question_3_answer_line_6": "5. Investir na criação de um bom Plano de Marketing para direcionar os esforços da empresa de forma mais acertiva",
+            "question_4_question": "O Que É um Campanha de Branding?",
+            "question_4_answer": "Campanha de Branding é uma ação que têm o intuito de fazer com que as marcas se conectem com seu público. Seu objetivo é criar e estreitar os laços entre clientes e empresa para que ela seja mais reconhecida e valorizada no mercado.",
+            "question_5_question": "Como Crescer no Mercado Digital?",
+            "question_5_answer_line_1": "Para crescer no Mercado Digital existem algumas dicas práticas:",
+            "question_5_answer_line_2": "1. Invista em SEO",
+            "question_5_answer_line_3": "2. Conheça o seu consumidor e saiba oferecer o que ele precisa",
+            "question_5_answer_line_4": "3. Crie uma rede de contatos",
+            "question_5_answer_line_5": "4. Crie o seu próprio blog",
+            "question_5_answer_line_6": "5. Fique atento as avaliações e reviews",
+            "question_5_answer_line_7": "6. Mantenha-se sempre atualizado",
+            "question_5_answer_line_8": "7. Conheça a Jornada de Compra do seu cliente",
+            "question_5_answer_line_9": "8. Tenha uma Plano de Marketing bem detalhado com estratégias e ferramentas",
+            "question_5_answer_line_10": "9. Metrifique e análise os resultados",
+            "question_6_question": "Como Fazer uma Jornada de Compra Omnichannel?",
+            "question_6_answer": "Para fazer uma Jornada de Compra Omnichannel é preciso esquematizar um Plano de Marketing que utilize a integração de estratégias online e offline para interligar esses dois campos de contato. O Omnichannel, então, vai se basear na convergência de canais para que o cliente não veja ou sinta diferença entre as esferas físicas e digitais.",
+            "question_7_question": "O Que a Customer Experience Faz?",
+            "question_7_answer": "A Customer Experience (CX) é um conjunto de impressões que o cliente têm quando entra em contato com uma empresa. A CX influencia diretamente no comportamento e na jornada que o cliente irá seguir quando interage com um negócio. Ela tem influência em todas as partes da Jornada de Compra dos Consumidores.",
+            "question_8_question": "Qual a Relação Entre Experiência e Satisfação do Cliente?",
+            "question_8_answer": "A Experiência e Satisfação do Cliente são totalmente relacionadas, uma vez que a primeira é fator crucial para a segunda. Isso porque ao oferecer uma experiência simples, fácil e prazerosa para o seu cliente, usando de técnicas da Customer Experience (CX), o consumidor tem uma maior tendência a se sentir satisfeito com a marca. O que também contribui para avaliações positivas e um ganho gigantesco no Marketing boca a boca.",
+            "question_9_question": "Como Entender seu Nicho de Marcado?",
+            "question_9_answer": "Para entender seu Nicho de Mercado, é preciso a criação de um Plano de Marketing. Dessa forma será possivel fazer uma mapeamento completo e detalhado para que você entenda como o seus concorrentes se comportam, os pontos fortes e fracos da sua empresa e a melhor Estratégia de Marketing para conseguir se destacar no seu setor."
         }
-      },
+    },
     "keynote_speakers": {
         "seo": {
             "title": "Palestrantes Que Farão As Pessoas Aplaudirem de Pé",

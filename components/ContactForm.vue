@@ -11,7 +11,7 @@
             <h2 class="text-4xl font-extrabold tracking-tight text-orange-shinny text-center">
               {{ $t('contact_form.lead_form_headline') }}
             </h2>
-            <p class="mt-12 text-lg leading-6 text-orange-shinny ">
+            <p class="mt-12 text-lg leading-6 text-orange-shinny font-thin">
               {{ $t('contact_form.lead_form_sub_headline') }}
             </p>
           </div>
@@ -26,7 +26,7 @@
                   name="full_name"
                   id="full_name"
                   autocomplete="name"
-                  class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md"
+                  class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md m-0"
                   :placeholder="`${$t('contact_form.lead_form.field_name')}`">
               </div>
               <div>
@@ -36,7 +36,7 @@
                   name="email"
                   type="email"
                   autocomplete="email"
-                  class=" bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md"
+                  class=" bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md m-0"
                   :placeholder="`${$t('contact_form.lead_form.field_email')}`">
               </div>
               <div>
@@ -46,7 +46,7 @@
                 name="phone"
                 id="phone"
                 autocomplete="tel"
-                class=" bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md"
+                class=" bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md m-0"
                 :placeholder="`${$t('contact_form.lead_form.field_phone')}`">
               </div>
               <div>
@@ -55,7 +55,7 @@
                   id="message"
                   name="message"
                   rows="4"
-                  class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
+                  class="bg-orange-100 block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md m-0"
                   :placeholder="`${$t('contact_form.lead_form.field_message')}`"></textarea>
               </div>
               <recaptcha
@@ -71,7 +71,7 @@
                 </button>
                 <p class="mt-6 text-sm text-orange-shinny ">
                   {{ $t('contact_form.lead_form.privacy_1') }}
-                  <a href="#" class="text-orange-shinny font-medium underline">
+                  <a href="/privacy" class="text-orange-shinny font-medium underline">
                   {{ $t('contact_form.lead_form.privacy_2') }}
                   </a>
                 </p>

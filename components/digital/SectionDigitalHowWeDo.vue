@@ -2,6 +2,12 @@
   <section
       class="step bg-white pt-4">
     <div class="container px-5 py-5 mx-auto flex flex-wrap">
+      <h2 class="text-center mx-auto">
+        {{ $t('marketing_services.how_we_do.headline') }}
+      </h2>
+      <p class="text-center mx-auto mb-4 font-thin">
+        {{ $t('marketing_services.how_we_do.sub_headline') }}
+      </p>
       <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
         <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -30,8 +36,8 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">{{ $t('zmot_audit.step.step_1_title') }}</h2>
-            <p class="leading-relaxed">{{ $t('zmot_audit.step.step_1_text') }}</p>
+            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_1_header') }}</dt>
+            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_1_description') }}</dd>
           </div>
         </div>
       </div>
@@ -55,8 +61,8 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">{{ $t('zmot_audit.step.step_2_title') }}</h2>
-            <p class="leading-relaxed">{{ $t('zmot_audit.step.step_2_text') }}</p>
+            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_2_header') }}</dt>
+            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_2_description') }}</dd>
           </div>
         </div>
       </div>
@@ -86,8 +92,8 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">{{ $t('zmot_audit.step.step_3_title') }}</h2>
-            <p class="leading-relaxed">{{ $t('zmot_audit.step.step_3_text') }}</p>
+            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_3_header') }}</dt>
+            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_3_description') }}</dd>
           </div>
         </div>
       </div>
@@ -116,8 +122,8 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">{{ $t('zmot_audit.step.step_4_title') }}</h2>
-            <p class="leading-relaxed">{{ $t('zmot_audit.step.step_4_text') }}</p>
+            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_4_header') }}</dt>
+            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_4_description') }}</dd>
           </div>
         </div>
       </div>
@@ -128,6 +134,6 @@
 <script>
 
 export default {
-  name: 'SectionZmotStep'
+  name: 'SectionDigitalHowWeDo'
 }
 </script>

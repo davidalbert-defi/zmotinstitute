@@ -8,6 +8,9 @@
           <br class="hidden lg:inline-block">{{ $t('keynote_speakers.hero.headline_2_text') }}
            <br class="hidden lg:inline-block">{{ $t('keynote_speakers.hero.headline_3_text') }}
         </h1>
+        <p class="text-3xl text-orange-shinny font-light leading-relaxed">
+          {{ $t('keynote_speakers.hero.sub_headline') }}
+        </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
               <a href="#ZmotAuditFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
@@ -22,7 +25,7 @@
           </div>
       </div>
       <div v-if="$device.isDesktop"  class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125 lg:mr-12">
-        <img class="object-cover object-center rounded" alt="hero" src="~/assets/img/services-section/service-zmot_audit.png" data-not-lazy>
+        <img class="object-contain w-full rounded" alt="hero" src="~/assets/img/services-section/service-zmot_audit.png" data-not-lazy>
       </div>
     </div>
   </div>
