@@ -54,9 +54,11 @@
 </template>
 
 <script>
-import img1 from '~/assets/img/lectures-section/influencing-consumer-behaviour-2-talk-zmot-institute.jpg'
-import img2 from '~/assets/img/lectures-section/zmot-digital-marketing-graal-talk-zmot-institute.jpg'
-import img3 from '~/assets/img/lectures-section/hacks-consumer-behaviour-talk-zmot-institute.jpg'
+import img1 from '~/assets/img/online-courses-thumbnails/online_course_zmot_fundamentals.png'
+import img2 from '~/assets/img/online-courses-thumbnails/online_courses_zmot_a_to_z.png'
+import img3 from '~/assets/img/online-courses-thumbnails/online_courses_consumer_behavior_google_analytics.png'
+import img4 from '~/assets/img/online-courses-thumbnails/online_courses_personas.png'
+import img5 from '~/assets/img/online-courses-thumbnails/online_courses_buyer_journey.png'
 const lectures = [
   {
     title: 'Influenciando o Comportamento do Consumidor com ZMOT',
@@ -89,6 +91,28 @@ const lectures = [
     date: 'Feb 12, 2020',
     datetime: '2020-02-12',
     imageUrl: img3,
+    lectureTime: '45 min'
+  },
+  {
+    title: 'Hacks para Influenciar o Comportamento do Consumidor Brasileiro',
+    href: '#LecturesLeadForm',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Precisando de dicas práticas e comprovadamente eficientes sobre como influenciar o comportamento do consumidor? Nessa palestra apresentamos alguns dos melhores Hacks para você usar nas suas campanhas de marketing.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl: img4,
+    lectureTime: '45 min'
+  },
+  {
+    title: 'Hacks para Influenciar o Comportamento do Consumidor Brasileiro',
+    href: '#LecturesLeadForm',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Precisando de dicas práticas e comprovadamente eficientes sobre como influenciar o comportamento do consumidor? Nessa palestra apresentamos alguns dos melhores Hacks para você usar nas suas campanhas de marketing.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl: img5,
     lectureTime: '45 min'
   }
 ]
