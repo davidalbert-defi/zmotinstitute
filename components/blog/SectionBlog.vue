@@ -16,7 +16,7 @@
           <div class="card overflow-hidden">
             <div class="row flex flex-wrap">
               <div class="w-full md:w-1/3">
-                <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none" />
+                <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none mx-auto" />
               </div>
               <div class="w-full md:w-2/3">
                 <div class="card-body">

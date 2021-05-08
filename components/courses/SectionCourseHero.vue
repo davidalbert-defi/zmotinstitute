@@ -4,20 +4,20 @@
   <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('marketing_services.hero.headline') }}
+        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('online_courses.hero.headline') }}
         </h1>
         <p class="text-3xl text-orange-shinny font-light leading-relaxed">
-          {{ $t('marketing_services.hero.sub_headline') }}
+          {{ $t('online_courses.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
               <a href="#ZmotAuditFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
-                {{ $t('marketing_services.hero.cta_1') }}
+                {{ $t('online_courses.hero.cta_1') }}
               </a>
             </div>
             <div class="mt-3 rounded-md shadow-md sm:mt-0 sm:ml-3 uppercase">
               <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-600 hover:text-white md:py-4 md:text-lg md:px-10">
-                {{ $t('marketing_services.hero.cta_2') }}
+                {{ $t('online_courses.hero.cta_2') }}
               </a>
             </div>
           </div>
