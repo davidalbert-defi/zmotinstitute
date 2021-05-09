@@ -1,12 +1,12 @@
 <template>
 
 <section id="Banner-section" class="pt-24 pb-8">
-  <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
-      <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
+  <div id="hero-section" class="bg-orange-100 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
+      <div class="container mx-auto flex py-6 lg:py-12 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
         <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('online_courses.hero.headline') }}
         </h1>
-        <p class="text-3xl text-orange-shinny font-light leading-relaxed">
+        <p class="text-orange-shinny font-normal">
           {{ $t('online_courses.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">

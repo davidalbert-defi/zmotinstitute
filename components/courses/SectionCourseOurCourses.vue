@@ -1,15 +1,15 @@
 <template>
-  <section class="container mx-auto">
-    <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+  <section class="container mx-auto py-8">
+    <div class="relative py-16 lg:py-24">
       <div class="absolute inset-0">
         <div class="bg-white h-1/3 sm:h-2/3" />
       </div>
       <div class="relative max-w-7xl mx-auto">
         <div class="text-center">
-          <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+          <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
             {{ $t('online_courses.our_courses.headline') }}
           </h2>
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             {{ $t('online_courses.our_courses.sub_headline') }}
           </p>
         </div>
@@ -37,20 +37,20 @@
               <div class="star-rating mt-3">
                 <span class="text-base pr-3 float-left">{{ course.score }}</span>
                 <div class="star-ratings-sprite inline-block float-left"><span :style="{width: course.star_with}" class="rating"></span></div>
-                <span class="text-base pl-3 float-left">{{ course.duration }}  {{ course.time_unit }}</span>
+                <span class="text-base pl-3 float-right">{{ course.duration }}  {{ course.time_unit }}</span>
               </div>
             </div>
           </div>
         </div>
-        <div class="max-w-7xl mx-auto mt-12 bg-blue-100 w-full rounded-lg shadow-lg p-4 flex md:flex-row flex-col">
+        <div class="max-w-7xl mx-auto mt-12 bg-blue-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col our_course_cta">
           <div class="flex-1">
-            <p class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">{{ $t('online_courses.our_courses.custom_course_header') }}</p>
-            <p class="max-w-2xl text-xl text-indigo-600">
+            <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">{{ $t('online_courses.our_courses.custom_course_header') }}</p>
+            <p class="max-w-2xl text-3xl text-indigo-600 font-extrabold">
                 {{ $t('online_courses.our_courses.custom_course_description') }}
             </p>
           </div>
           <div class="md:px-2 mt-3 md:mt-0 items-center flex">
-            <button class="bg-blue-500 text-white font-bold px-4 py-2 text-sm uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('online_courses.our_courses.custom_course_cta') }}</button>
+            <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('online_courses.our_courses.custom_course_cta') }}</button>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ export default {
       courses: [
         {
           title: this.$t('online_courses.our_courses.course_1_header'),
-          href: '#',
+          href: '#contactform',
           description: this.$t('online_courses.our_courses.course_1_description'),
           score: this.$t('online_courses.our_courses.course_1_score'),
           star_with: this.$t('online_courses.our_courses.course_1_star_with'),
@@ -81,7 +81,7 @@ export default {
         },
         {
           title: this.$t('online_courses.our_courses.course_2_header'),
-          href: '#',
+          href: '#contactform',
           description: this.$t('online_courses.our_courses.course_2_description'),
           score: this.$t('online_courses.our_courses.course_2_score'),
           star_with: this.$t('online_courses.our_courses.course_2_star_with'),
@@ -91,7 +91,7 @@ export default {
         },
         {
           title: this.$t('online_courses.our_courses.course_3_header'),
-          href: '#',
+          href: '#contactform',
           description: this.$t('online_courses.our_courses.course_3_description'),
           score: this.$t('online_courses.our_courses.course_3_score'),
           star_with: this.$t('online_courses.our_courses.course_3_star_with'),
@@ -101,7 +101,7 @@ export default {
         },
         {
           title: this.$t('online_courses.our_courses.course_4_header'),
-          href: '#',
+          href: '#contactform',
           description: this.$t('online_courses.our_courses.course_4_description'),
           score: this.$t('online_courses.our_courses.course_4_score'),
           star_with: this.$t('online_courses.our_courses.course_4_star_with'),
@@ -111,7 +111,7 @@ export default {
         },
         {
           title: this.$t('online_courses.our_courses.course_5_header'),
-          href: '#',
+          href: '#contactform',
           description: this.$t('online_courses.our_courses.course_5_description'),
           score: this.$t('online_courses.our_courses.course_5_score'),
           star_with: this.$t('online_courses.our_courses.course_5_star_with'),

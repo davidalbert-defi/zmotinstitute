@@ -1,14 +1,14 @@
 <template>
   <section
-    class="reviews bg-white mb-4 pt-4 mt-12">
-    <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center">
+    class="reviews bg-white mb-4 pt-4 py-8">
+    <div class="container mx-auto">
+      <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900 text-center">
         {{ $t('online_courses.customer_reviews.headline') }}
       </h2>
-      <p class="text-center mb-4">
+      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto text-center">
         {{ $t('online_courses.customer_reviews.sub_headline') }}
       </p>
-      <div class="zmot_reviews__items">
+      <div class="course_reviews__items mt-16">
         <client-only placeholder="Loading...">
           <agile :options="agileOptions">
             <div class="slide slide--1">

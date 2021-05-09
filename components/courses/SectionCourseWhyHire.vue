@@ -3,10 +3,10 @@
   <section
   class="container max-w-screen-2xl mx-auto"
   id="why-hire">
-    <div class="bg-white pb-8">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-white">
+      <div class="max-w-7xl mx-auto">
         <div class="lg:text-center">
-          <h2 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
             {{ $t('online_courses.why_hire.headline') }}
           </h2>
           <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
@@ -58,9 +58,9 @@
                       <path d="M410.01,482h5.575C412.745,481.437,410.835,481.381,410.01,482z"/>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_1_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_1_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
                 {{ $t('online_courses.why_hire.feature_1_description') }}
               </dd>
             </div>
@@ -89,9 +89,9 @@
           c2.4,0,5.6-1.6,6.4-4l8.8-16.8l52,69.6H331.272z"/>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_2_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_2_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
                 {{ $t('online_courses.why_hire.feature_2_description') }}
               </dd>
             </div>
@@ -110,9 +110,9 @@
                       <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"/>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_3_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_3_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
                 {{ $t('online_courses.why_hire.feature_3_description') }}
               </dd>
             </div>
@@ -132,9 +132,9 @@
                         d="m507.105469 95.203125-161.90625-61.726563c-3.925781-1.496093-8.320313.472657-9.816407 4.394532-1.496093 3.925781.472657 8.320312 4.398438 9.816406l143.269531 54.621094-99.179687 37.816406-124.734375-56.476562c-3.828125-1.734376-8.332031-.035157-10.0625 3.789062-1.734375 3.828125-.035157 8.332031 3.789062 10.066406l110.988281 50.253906-107.851562 41.117188-227.050781-86.566406 227.050781-86.566406 55.953125 21.335937c3.917969 1.492187 8.316406-.472656 9.816406-4.398437 1.496094-3.921876-.472656-8.316407-4.398437-9.8125l-58.660156-22.367188c-1.746094-.664062-3.675782-.667969-5.421876 0l-248.394531 94.703125c-2.945312 1.125-4.894531 3.953125-4.894531 7.105469v34.726562c0 3.152344 1.949219 5.980469 4.894531 7.105469l77.566407 29.570313v26.351562c0 4.199219 3.402343 7.605469 7.601562 7.605469 4.203125 0 7.605469-3.40625 7.605469-7.605469v-20.550781l155.621093 59.332031c.875.332031 1.792969.5 2.710938.5s1.835938-.167969 2.710938-.5l117.304687-44.722656v120.34375c-36.828125 19.332031-78.125 29.691406-120.015625 29.691406-57.171875 0-113.25-19.273438-158.332031-54.347656v-59.328125c0-4.199219-3.402344-7.605469-7.605469-7.605469-4.199219 0-7.601562 3.40625-7.601562 7.605469v63.011719c0 2.308593 1.046874 4.492187 2.847656 5.933593 48.246094 38.652344 108.867187 59.9375 170.691406 59.9375 41.695312 0 82.835938-9.695312 120.015625-27.855469v30.777344c-12.253906 3.347656-21.289063 14.570313-21.289063 27.871094 0 15.929688 12.960938 28.894531 28.890626 28.894531 15.933593 0 28.894531-12.964843 28.894531-28.894531 0-13.300781-9.035157-24.523438-21.289063-27.871094v-38.808594c12.394532-7.050781 24.269532-15.074218 35.472656-24.050781 1.800782-1.441406 2.851563-3.625 2.851563-5.933593v-119.785157l77.558594-29.570312c2.945312-1.121094 4.894531-3.949219 4.894531-7.105469v-34.722656c0-3.152344-1.949219-5.980469-4.894531-7.105469zm-109.800781 294.953125c0 7.542969-6.140626 13.683594-13.6875 13.683594-7.542969 0-13.683594-6.140625-13.683594-13.683594 0-7.546875 6.140625-13.6875 13.683594-13.6875 7.546874 0 13.6875 6.140625 13.6875 13.6875zm-382.097657-276.808594 233.1875 88.90625v18.445313l-233.1875-88.90625zm248.398438 107.351563v-18.445313l112.410156-42.859375v18.449219zm150.730469 69.105469c-7.417969 5.773437-15.140626 11.109374-23.113282 16.007812v-117.492188l23.113282-8.8125zm-23.113282-117.761719v-18.445313l105.570313-40.25v18.445313zm0 0"/>
                   </svg>
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_4_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-medium text-gray-900">{{ $t('online_courses.why_hire.feature_4_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
                 {{ $t('online_courses.why_hire.feature_4_description') }}
               </dd>
             </div>
