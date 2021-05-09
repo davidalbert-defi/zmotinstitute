@@ -1,4 +1,24 @@
 @import 'variable';
+@font-face {
+  font-family: 'Quicksand Semi-bold';
+  src: url('../font/Quicksand-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Regular';
+  src: url('../font/Quicksand-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Medium';
+  src: url('../font/Quicksand-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Light';
+  src: url('../font/Quicksand-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Bold';
+  src: url('../font/Quicksand-Bold.ttf') format('truetype');
+}
 .form-control {
   display: block;
   width: 100%;

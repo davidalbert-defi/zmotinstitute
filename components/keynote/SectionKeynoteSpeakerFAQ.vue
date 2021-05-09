@@ -227,7 +227,7 @@
 
 <script>
 export default {
-  name: 'SectionKeynoteFAQ',
+  name: 'SectionKeynoteSpeakerFAQ',
   data: () => ({
     isOpenFAQ_1: false,
     isOpenFAQ_2: false,

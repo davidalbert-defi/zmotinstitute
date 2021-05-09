@@ -3,7 +3,7 @@
 <section id="Banner-section" class="pt-24 pb-8">
   <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
-      <div class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
+      <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
         <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('online_courses.hero.headline') }}
         </h1>
         <p class="text-3xl text-orange-shinny font-light leading-relaxed">
@@ -22,7 +22,7 @@
             </div>
           </div>
       </div>
-      <div v-if="$device.isDesktop"  class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125 lg:mr-12">
+      <div v-if="$device.isDesktop"  class="lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125">
         <img class="object-contain w-full rounded" alt="hero" src="~/assets/img/services-section/service-online_course_reverse.png">
       </div>
     </div>

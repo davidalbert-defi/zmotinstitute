@@ -1,14 +1,14 @@
 <template>
   <section
-    class="lecture-reviews bg-white mb-4 pt-4">
-    <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center">
+    class="keynote-reviews bg-white mb-4 pt-4 py-8">
+    <div class="container mx-auto">
+      <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900 text-center">
         {{ $t('keynote_speakers.customer_review.headline') }}
       </h2>
-      <p class="text-center mb-4">
+      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto text-center">
         {{ $t('keynote_speakers.customer_review.sub_headline') }}
       </p>
-      <div class="lecture_reviews__items">
+      <div class="keynote_reviews__items mt-16">
         <client-only placeholder="Loading...">
           <agile :options="agileOptions">
             <div class="slide slide--1">
@@ -130,7 +130,7 @@
 
 <script>
 export default {
-  name: 'SectionKeynoteCustomerReview',
+  name: 'SectionKeynoteSpeakerCustomerReview',
   data: () => ({
     agileOptions: {
       autoplay: true,

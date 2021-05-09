@@ -1,22 +1,22 @@
 <template>
-  <div class="lectures-events-page px-4 pb-12">
+  <div class="keynote-events-page px-4 pb-12">
     <lazy-hydrate when-visisble>
-      <section-keynote-hero />
+      <section-keynote-speaker-hero />
     </lazy-hydrate>
     <lazy-hydrate when-visisble>
-      <section-keynote-why-hire />
+      <section-keynote-speaker-why-hire />
     </lazy-hydrate>
     <lazy-hydrate when-visisble>
-      <section-keynote-out-keynotes />
+      <section-keynote-speaker-our-talks />
     </lazy-hydrate>
     <lazy-hydrate when-visisble>
-      <section-keynote-gallery />
+      <section-keynote-speaker-gallery />
     </lazy-hydrate>
-    <section-keynote-customer-review />
+    <section-keynote-speaker-customer-review />
     <lazy-hydrate when-visisble>
       <contact-form />
     </lazy-hydrate>
-    <section-keynote-faq />
+    <section-keynote-speaker-faq />
   </div>
 </template>
 

@@ -1,4 +1,4 @@
-.lectures-events-page {
+.keynote-events-page {
   .vue-tel-input {
     border: none;
     outline: none;
@@ -29,9 +29,9 @@
   input {
     padding: 1.5rem;
   }
-  section.lecture-reviews {
+  section.keynote-reviews {
     .container {
-      .lecture_reviews__items {
+      .keynote_reviews__items {
         .agile__actions {
           justify-content: center;
           margin-top: 5rem;
@@ -110,6 +110,15 @@
           border: 0;
         }
       }
+    }
+  }
+  .our_talk_cta{
+    background: #EBF4FF;
+    p{
+      font-family: 'Quicksand Bold';
+    }
+    button{
+      font-family: 'Quicksand Light';
     }
   }
 }

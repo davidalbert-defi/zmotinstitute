@@ -1,16 +1,16 @@
 <template>
 <!-- This example requires Tailwind CSS v2.0+ -->
-  <section class="container max-w-screen-2xl mx-auto">
+  <section class="container max-w-screen-xl mx-auto py-8">
     <div class="relative bg-gray-50 pt-8 pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8">
       <div class="absolute inset-0">
         <div class="bg-white h-1/3 sm:h-2/3"></div>
       </div>
       <div class="relative max-w-7xl mx-auto">
         <div class="text-center">
-          <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+          <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
             {{ $t('keynote_speakers.keynote_gallery.headline') }}
           </h2>
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             {{ $t('keynote_speakers.keynote_gallery.sub_headline') }}
           </p>
         </div>
@@ -21,14 +21,23 @@
                 </div>
                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                    <p class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
-                    {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
+                    <p v-if="gallery.tag_type == 1" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-500 font-bold">
+                      {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
+                    </p>
+                    <p v-if="gallery.tag_type == 2" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium font-bold bg-purple-100 text-purple-500">
+                      {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
+                    </p>
+                    <p v-if="gallery.tag_type == 3" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium font-bold bg-blue-100 text-blue-500">
+                      {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
+                    </p>
+                    <p v-if="gallery.tag_type == 4" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium font-bold bg-pink-100 text-pink-500">
+                      {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
                     </p>
                     <a :href="gallery.link" target="_blank" class="block mt-2">
-                    <p class="text-xl font-semibold text-gray-900">
+                    <p class="text-xl font-semibold text-gray-900 leading-tight">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_header`) }}
                     </p>
-                    <p class="mt-3 text-base text-gray-500">
+                    <p class="mt-3 text-lg text-gray-500 leading-normal">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_description`) }}
                     </p>
                     </a>
@@ -79,12 +88,13 @@ import img11 from '~/assets/img/events-gallery/palestra_zmot_faculdade_estacio.p
 import img12 from '~/assets/img/events-gallery/palestra_acate_jornalista_empreender_internet.png'
 import thumb from '~/assets/img/others/perfil_rodrigo_wiethorn_40_40.png'
 export default {
-  name: 'SectionKeynoteGallery',
+  name: 'SectionKeynoteSpeakerGallery',
   data () {
     return {
       galleries: [
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_1_tag_type'),
           datetime: '2018-10-16',
           link: 'https://www.inovativabrasil.com.br/inovativa-realiza-bootcamp-em-10-cidades-brasileiras/',
           img_url: img1,
@@ -92,6 +102,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_2_tag_type'),
           datetime: '2020-10-22',
           link: 'https://www.youtube.com/watch?v=4Uf7bGXUOnE',
           img_url: img2,
@@ -99,6 +110,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_3_tag_type'),
           datetime: '2020-09-16',
           link: 'http://materiais.ploomes.com/semana-de-planejamento-comercial-2021#:~:text=Semana%20de%20Planejamento%20Comercial%202021%2D%2014%20a%2018%20de%20setembro',
           img_url: img3,
@@ -106,6 +118,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_4_tag_type'),
           datetime: '2019-09-19',
           link: '#',
           img_url: img4,
@@ -113,6 +126,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_5_tag_type'),
           datetime: '2018-04-13',
           link: 'https://www.instagram.com/p/ByTQodyBLlc/',
           img_url: img5,
@@ -120,6 +134,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_6_tag_type'),
           datetime: '2018-10-16',
           link: '#',
           img_url: img6,
@@ -127,6 +142,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_7_tag_type'),
           datetime: '2018-09-21',
           link: 'https://www.inovativabrasil.com.br/inovativa-realiza-bootcamp-em-10-cidades-brasileiras/',
           img_url: img7,
@@ -134,6 +150,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_8_tag_type'),
           datetime: '2018-08-10',
           link: 'https://acontecendoaqui.com.br/comunicacao/sebraelab-sc-apresenta-mundo-de-gigantes-3rs-da-presenca-digital',
           img_url: img8,
@@ -141,6 +158,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_9_tag_type'),
           datetime: '2018-06-05',
           link: 'https://dazideia.com/23o-encontro-dazideia-florianopolis/?afg29_page_id=3#afg-29',
           img_url: img9,
@@ -148,6 +166,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_10_tag_type'),
           datetime: '2017-11-09',
           link: '#',
           img_url: img10,
@@ -155,6 +174,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_11_tag_type'),
           datetime: '2017-09-06',
           link: '#',
           img_url: img11,
@@ -162,6 +182,7 @@ export default {
         },
         {
           social_link: 'https://br.linkedin.com/in/rodrigo-wiethorn-2567b26b',
+          tag_type: this.$t('keynote_speakers.keynote_gallery.past_keynote_12_tag_type'),
           datetime: '2017-09-04',
           link: 'https://www.hostinger.com.br/tutoriais/hostinger-promove-palestra-para-jornalistas/',
           img_url: img12,
