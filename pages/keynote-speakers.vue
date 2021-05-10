@@ -1,5 +1,5 @@
 <template>
-  <div class="keynote-events-page px-4 pb-12">
+  <div class="keynote-events-page px-2 pb-12">
     <lazy-hydrate when-visisble>
       <section-keynote-speaker-hero />
     </lazy-hydrate>

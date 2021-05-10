@@ -1,16 +1,16 @@
 <template>
 <!-- This example requires Tailwind CSS v2.0+ -->
   <section class="container max-w-screen-xl mx-auto py-8">
-    <div class="relative bg-gray-50 pt-8 pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8">
+    <div class="relative pt-8 lg:pt-12 lg:pb-28 lg:px-8">
       <div class="absolute inset-0">
         <div class="bg-white h-1/3 sm:h-2/3"></div>
       </div>
-      <div class="relative max-w-7xl mx-auto">
+      <div class="relative max-w-7xl mx-auto pb-12">
         <div class="text-center">
-          <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('keynote_speakers.keynote_gallery.headline') }}
           </h2>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
             {{ $t('keynote_speakers.keynote_gallery.sub_headline') }}
           </p>
         </div>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
-                    <p v-if="gallery.tag_type == 1" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-500 font-bold">
+                    <p v-if="gallery.tag_type == 1" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-semibold bg-green-100 text-green-500">
                       {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
                     </p>
                     <p v-if="gallery.tag_type == 2" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium font-bold bg-purple-100 text-purple-500">
@@ -34,12 +34,12 @@
                       {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
                     </p>
                     <a :href="gallery.link" target="_blank" class="block mt-2">
-                    <p class="text-xl font-semibold text-gray-900 leading-tight">
+                    <dt class="text-xl font-semibold text-gray-900 leading-tight">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_header`) }}
-                    </p>
-                    <p class="mt-3 text-lg text-gray-500 leading-normal">
+                    </dt>
+                    <dd class="mt-3 text-lg text-gray-500 leading-normal">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_description`) }}
-                    </p>
+                    </dd>
                     </a>
                 </div>
                     <div class="mt-6 flex items-center">

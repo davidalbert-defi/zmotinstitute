@@ -1,15 +1,15 @@
 <template>
 <!-- This example requires Tailwind CSS v2.0+ -->
   <section
-  class="container max-w-screen-2xl mx-auto"
+  class="container max-w-screen-2xl mx-auto py-8"
   id="why-hire">
-    <div class="py-12 bg-white m-6 lg:m-12 pt-24 pb-8">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:text-center">
-          <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
+    <div class="bg-white lg:m-12">
+      <div class="max-w-7xl mx-auto lg:px-8">
+        <div class="text-center">
+          <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('keynote_speakers.why_hire.headline') }}
           </h2>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
             {{ $t('keynote_speakers.why_hire.sub_headline') }}
           </p>
         </div>
@@ -58,7 +58,8 @@
                       <path d="M410.01,482h5.575C412.745,481.437,410.835,481.381,410.01,482z"/>
                   </svg>
                 </div>
-                <p class="ml-16 mb-4 text-2xl font-medium text-gray-900">{{ $t('keynote_speakers.why_hire.feature_1_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-bold text-gray-900">
+                  {{ $t('keynote_speakers.why_hire.feature_1_header') }}</p>
               </dt>
               <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
                 {{ $t('keynote_speakers.why_hire.feature_1_description') }}

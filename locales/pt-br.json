@@ -377,14 +377,19 @@
             "sub_headline": "Veja o que as pessoas que já trabalharam conosco estão dizendo!",
             "review_1_header": "Eu achava que entendia de Marketing, mas o pessoal da ZMOT Institute nos levou pra outro nível",
             "review_1_name": "Gabriela E.",
+            "review_1_job": "Job1",
             "review_2_header": "Recomendo, sem dúvidas. Sabem o que estão fazendo e tem muita qualidade",
             "review_2_name": "Samuel L.",
+            "review_2_job": "Job2",
             "review_3_header": "Entendem muito de Comportamento do Consumidor e Marketing Digital",
             "review_3_name": "Roberto O.",
+            "review_3_job": "Job3",
             "review_4_header": "Aprendi a entender a necessidade do cliente com fatos, e não mais suposições",
             "review_4_name": "Jorge K.",
+            "review_4_job": "Job4",
             "review_5_header": "Eles são muito profissionais e entregam o que prometem",
-            "review_5_name": "Adriana P."
+            "review_5_name": "Adriana P.",
+            "review_5_job": "Job5"
         },
         "faq":{
             "headline": "Dúvidas Frequentes",

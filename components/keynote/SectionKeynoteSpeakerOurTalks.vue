@@ -1,62 +1,62 @@
 <template>
   <section class="container max-w-screen-2xl mx-auto py-8">
-  <div class="relative lg:pt-24 lg:pb-28 lg:px-8">
-    <div class="absolute inset-0">
-      <div class="bg-white h-1/3 sm:h-2/3" />
-    </div>
-    <div class="relative max-w-7xl mx-auto">
-      <div class="text-center">
-        <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
-          {{ $t('keynote_speakers.our_keynotes.headline') }}
-        </h2>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          {{ $t('keynote_speakers.our_keynotes.sub_headline') }}
-        </p>
-      </div>
-      <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-        <div v-for="lecture in lectures" :key="lecture.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-          <div class="flex-shrink-0">
-            <img class="h-48 w-full object-cover" :src="lecture.imageUrl" alt="" data-not-lazy />
+      <div class="relative lg:pt-24 lg:pb-28 lg:px-8">
+        <div class="absolute inset-0">
+          <div class="bg-white h-1/3 sm:h-2/3" />
+        </div>
+        <div class="relative max-w-7xl mx-auto">
+          <div class="text-center">
+            <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
+              {{ $t('keynote_speakers.our_keynotes.headline') }}
+            </h2>
+            <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
+              {{ $t('keynote_speakers.our_keynotes.sub_headline') }}
+            </p>
           </div>
-          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-            <div class="flex-1">
-              <a :href="lecture.href" class="block mt-2">
-                <p class="text-xl font-semibold text-gray-900 leading-tight">
-                  {{ $t(`keynote_speakers.our_keynotes.${lecture.title}`) }}
-                </p>
-                <p class="mt-3 text-lg text-gray-500 leading-normal">
-                  {{ $t('keynote_speakers.our_keynotes.keynote_1_description') }}
-                </p>
-                <div class="rounded-md shadow mt-8">
-                  <a :href="lecture.href" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
-                    {{ $t('keynote_speakers.hero.cta_1') }}
+          <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+            <div v-for="lecture in lectures" :key="lecture.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+              <div class="flex-shrink-0">
+                <img class="h-48 w-full object-cover" :src="lecture.imageUrl" alt="" data-not-lazy />
+              </div>
+              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                <div class="flex-1">
+                  <a :href="lecture.href" class="block mt-2">
+                    <p class="text-xl font-semibold text-gray-900 leading-tight">
+                      {{ $t(`keynote_speakers.our_keynotes.${lecture.title}`) }}
+                    </p>
+                    <p class="mt-3 text-lg text-gray-500 leading-normal">
+                      {{ $t('keynote_speakers.our_keynotes.keynote_1_description') }}
+                    </p>
+                    <div class="rounded-md shadow mt-8">
+                      <a :href="lecture.href" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
+                        {{ $t('keynote_speakers.hero.cta_1') }}
+                      </a>
+                    </div>
                   </a>
                 </div>
-              </a>
+                <!-- <div class="mt-6 flex items-center">
+                <p class="text-xl font-semibold text-gray-900">
+                      {{ lecture.lectureTime }}
+                    </p>
+                </div> -->
+              </div>
             </div>
-            <!-- <div class="mt-6 flex items-center">
-             <p class="text-xl font-semibold text-gray-900">
-                  {{ lecture.lectureTime }}
-                </p>
-            </div> -->
+          </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 bg-indigo-600 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col our_talk_cta">
+          <div class="flex-1">
+            <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">
+              {{ $t('keynote_speakers.our_keynotes.custom_keynote_header') }}</p>
+            <p class="max-w-2xl text-3xl text-indigo-600 font-extrabold">
+                {{ $t('keynote_speakers.our_keynotes.custom_keynote_description') }}
+            </p>
+          </div>
+          <div class="md:px-2 mt-3 md:mt-0 items-center flex">
+            <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('keynote_speakers.our_keynotes.custom_keynote_cta') }}</button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="max-w-7xl mx-auto mt-12 bg-blue-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col our_talk_cta">
-      <div class="flex-1">
-        <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">{{ $t('keynote_speakers.our_keynotes.custom_keynote_header') }}</p>
-        <p class="max-w-2xl text-3xl text-indigo-600 font-extrabold">
-            {{ $t('keynote_speakers.our_keynotes.custom_keynote_description') }}
-        </p>
-      </div>
-      <div class="md:px-2 mt-3 md:mt-0 items-center flex">
-        <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('keynote_speakers.our_keynotes.custom_keynote_cta') }}</button>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 </template>
 
 <script>

@@ -2,10 +2,10 @@
   <section
     class="keynote-reviews bg-white mb-4 pt-4 py-8">
     <div class="container mx-auto">
-      <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900 text-center">
+      <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('keynote_speakers.customer_review.headline') }}
       </h2>
-      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto text-center">
+      <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
         {{ $t('keynote_speakers.customer_review.sub_headline') }}
       </p>
       <div class="keynote_reviews__items mt-16">
@@ -14,7 +14,7 @@
             <div class="slide slide--1">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('keynote_speakers.customer_review.review_1_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -23,7 +23,7 @@
                         {{ $t('keynote_speakers.customer_review.review_1_name') }}
                       </div>
                       <div class="job">
-                        Marketing Guru
+                        {{ $t('keynote_speakers.customer_review.review_1_job') }}
                       </div>
                     </div>
                   </div>
@@ -33,7 +33,7 @@
             <div class="slide slide--2">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('keynote_speakers.customer_review.review_2_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -42,7 +42,7 @@
                         {{ $t('keynote_speakers.customer_review.review_2_name') }}
                       </div>
                       <div class="job">
-                        ZMOT Author
+                        {{ $t('keynote_speakers.customer_review.review_2_job') }}
                       </div>
                     </div>
                   </div>
@@ -52,7 +52,7 @@
             <div class="slide slide--3">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('keynote_speakers.customer_review.review_3_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -61,7 +61,7 @@
                         {{ $t('keynote_speakers.customer_review.review_3_name') }}
                       </div>
                       <div class="job">
-                        Marketing & Sales Visionary
+                        {{ $t('keynote_speakers.customer_review.review_3_job') }}
                       </div>
                     </div>
                   </div>
@@ -71,7 +71,7 @@
             <div class="slide slide--4">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('keynote_speakers.customer_review.review_4_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -80,7 +80,7 @@
                         {{ $t('keynote_speakers.customer_review.review_4_name') }}
                       </div>
                       <div class="job">
-                        Digital Marketing Evangelist
+                        {{ $t('keynote_speakers.customer_review.review_4_job') }}
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@
             <div class="slide slide--5">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('keynote_speakers.customer_review.review_5_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -99,7 +99,7 @@
                         {{ $t('keynote_speakers.customer_review.review_5_name') }}
                       </div>
                       <div class="job">
-                        Digital Marketing Pioneer
+                        {{ $t('keynote_speakers.customer_review.review_5_job') }}
                       </div>
                     </div>
                   </div>
