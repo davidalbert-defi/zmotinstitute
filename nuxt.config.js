@@ -141,6 +141,10 @@ export default {
     'nuxt-hsts-module'
     // '@nuxtjs/gtm'
   ],
+  serverMiddleware: [
+    //server side redirects
+    '~/serverMiddleware/redirects'
+  ],
 
   // Hsts module configuration
   hsts: process.env.NODE_ENV === 'production',

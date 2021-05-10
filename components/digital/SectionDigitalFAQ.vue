@@ -413,7 +413,7 @@
 
 <script>
 export default {
-  name: 'SectionDigitalFAQ',
+  name: 'SectionDigitalFaq',
   data: () => ({
     isOpenFAQ_1: false,
     isOpenFAQ_2: false,

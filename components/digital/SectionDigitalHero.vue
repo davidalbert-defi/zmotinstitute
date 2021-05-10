@@ -22,7 +22,7 @@
             </div>
           </div>
       </div>
-      <div  class="lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125">
+      <div  class="lg:w-1/2 md:w-1/2 w-5/6 lg:transform lg:-scale-125">
         <img class="object-contain w-full rounded" :alt="$t('marketing_services.hero.alt_image')" src="~/assets/img/services-section/service-zmot_audit.png">
       </div>
     </div>

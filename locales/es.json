@@ -167,7 +167,8 @@
             "headline": "Consultoría de Marketing Digital de Alto Nivel",
             "sub_headline": "Conocer el comportamiento de los consumidores, hemos ayudado a enteder lo que quiere el cliente, y optimizar sus estrategias de marketing para generar un crecimiento exponencial",
             "cta_1": "MÁS INFORMACIÓN",
-            "cta_2": "CHAT EN VIVO"
+            "cta_2": "CHAT EN VIVO",
+            "alt_image": "héroe"
         },
         "what_we_do":{
             "headline_1_text": "Lo que hacemos en la Consultoría",
@@ -267,7 +268,8 @@
             "headline": "Ponentes Para Conferencia",
             "sub_headline": "Charlas sobre ZMOT y Comportamiento Del Consumidor Que Hacen La Gente Aplaudir De Pie",
             "cta_1": "MAS INFORMACIONES",
-            "cta_2": "CHAT EN VIVO"
+            "cta_2": "CHAT EN VIVO",
+            "alt_image": "héroe"
         },
         "why_hire": {
             "headline": "Por qué contratar Altavoces ZMOT INSTITUTO?",
@@ -407,7 +409,8 @@
             "headline": "Cursos de Marketing Digital",
             "sub_headline": "Aprenda A Hacer Crecer Su Negocio Entendiendo El Comportamiento Del Consumidor Y Optimizando Su Customer Journey",
             "cta_1": "MAS INFORMACIONES",
-            "cta_2": "CHAT EN VIVO"
+            "cta_2": "CHAT EN VIVO",
+            "alt_image": "héroe"
         },
         "why_hire": {
             "headline": "¿Por qué los cursos de Marketing Digital ZMOT INSTITUTO?",

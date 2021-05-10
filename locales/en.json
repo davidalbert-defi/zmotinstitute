@@ -170,7 +170,8 @@
             "headline": "Digital Marketing Services To Grow",
             "sub_headline": "Understand Your Consumer Behaviour, Learn What They Want And Optimize Your Marketing Strategies For Exponential Growth",
             "cta_1": "MORE INFO",
-            "cta_2": "CHAT ONLINE"
+            "cta_2": "CHAT ONLINE",
+            "alt_image": "hero"
         },
         "what_we_do":{
             "headline_1_text": "What we do in the Digital ",
@@ -270,7 +271,8 @@
             "headline": "Keynote Speakers For Hire",
             "sub_headline": "Talks Around ZMOT and Consumer Behaviour To Make People Give Standing Ovations",
             "cta_1": "MORE INFO",
-            "cta_2": "ONLINE CHAT"
+            "cta_2": "ONLINE CHAT",
+            "alt_image": "hero"
         },
         "why_hire": {
             "headline": "Why Hiring Speakers ZMOT INSTITUTE?",
@@ -410,7 +412,8 @@
             "headline": "Digital Marketing courses",
             "sub_headline": "Learn How To Grow Your Business Understanding Your Consumer Behaviour and Optimizing The Customer Journey",
             "cta_1": "MORE INFO",
-            "cta_2": "ONLINE CHAT"
+            "cta_2": "ONLINE CHAT",
+            "alt_image": "hero"
         },
         "why_hire": {
             "headline": "Why do the Digital Marketing courses ZMOT INSTITUTE?",
