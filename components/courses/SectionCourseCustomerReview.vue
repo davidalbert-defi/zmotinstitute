@@ -14,7 +14,7 @@
             <div class="slide slide--1">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('online_courses.customer_reviews.review_1_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -23,7 +23,7 @@
                         {{ $t('online_courses.customer_reviews.review_1_name') }}
                       </div>
                       <div class="job">
-                        Marketing Guru
+                        {{ $t('online_courses.customer_reviews.review_1_job') }}
                       </div>
                     </div>
                   </div>
@@ -33,7 +33,7 @@
             <div class="slide slide--2">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('online_courses.customer_reviews.review_2_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -42,7 +42,7 @@
                         {{ $t('online_courses.customer_reviews.review_2_name') }}
                       </div>
                       <div class="job">
-                        ZMOT Author
+                        {{ $t('online_courses.customer_reviews.review_2_job') }}
                       </div>
                     </div>
                   </div>
@@ -52,7 +52,7 @@
             <div class="slide slide--3">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('online_courses.customer_reviews.review_3_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -61,7 +61,7 @@
                         {{ $t('online_courses.customer_reviews.review_3_name') }}
                       </div>
                       <div class="job">
-                        Marketing & Sales Visionary
+                        {{ $t('online_courses.customer_reviews.review_3_job') }}
                       </div>
                     </div>
                   </div>
@@ -71,7 +71,7 @@
             <div class="slide slide--4">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('online_courses.customer_reviews.review_4_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -80,7 +80,7 @@
                         {{ $t('online_courses.customer_reviews.review_4_name') }}
                       </div>
                       <div class="job">
-                        Digital Marketing Evangelist
+                        {{ $t('online_courses.customer_reviews.review_4_job') }}
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@
             <div class="slide slide--5">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl font-light leading-7 mb-8">
                     “{{ $t('online_courses.customer_reviews.review_5_header') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -99,7 +99,7 @@
                         {{ $t('online_courses.customer_reviews.review_5_name') }}
                       </div>
                       <div class="job">
-                        Digital Marketing Pioneer
+                        {{ $t('online_courses.customer_reviews.review_5_job') }}
                       </div>
                     </div>
                   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="online-courses-page px-4 bg-white pb-12 min-h-screen">
+  <div class="online-courses-page px-2 bg-white pb-12 min-h-screen">
     <lazy-hydrate when-visible>
       <section-course-hero />
     </lazy-hydrate>

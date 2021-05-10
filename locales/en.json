@@ -414,7 +414,7 @@
             "description": "Our Digital Marketing Courses Will Help You To Grow Your Business. Understand Your Consumer Behaviour and Skyrocket Your Marketing Results"
         },
         "hero": {
-            "headline": "Digital Marketing courses",
+            "headline": "Digital Marketing Courses",
             "sub_headline": "Learn How To Grow Your Business Understanding Your Consumer Behaviour and Optimizing The Customer Journey",
             "cta_1": "MORE INFO",
             "cta_2": "ONLINE CHAT",
@@ -474,14 +474,19 @@
             "sub_headline": "See what people who have worked with us are saying!",
             "review_1_header": "I thought he understood Marketing, but the staff of the Institute ZMOT took us to another level",
             "review_1_name": "Gabriela E.",
+            "review_1_job": "Job1",
             "review_2_header": "I recommend without doubt. They know what they are doing and have a lot of quality",
             "review_2_name": "Samuel L.",
+            "review_2_job": "Job2",
             "review_3_header": "They understand much of Consumer Behavior and Digital Marketing",
             "review_3_name": "Roberto O.",
+            "review_3_job": "Job3",
             "review_4_header": "I learned to understand the needs of the client with facts and not assumptions",
             "review_4_name": "George K.",
+            "review_4_job": "Job4",
             "review_5_header": "They are very professional and deliver what they promise",
-            "review_5_name": "Adriana P."
+            "review_5_name": "Adriana P.",
+            "review_5_job": "Job5"
         },
         "faq": {
             "headline": "Frequently Asked questions",

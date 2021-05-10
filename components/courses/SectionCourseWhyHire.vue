@@ -1,15 +1,15 @@
 <template>
 <!-- This example requires Tailwind CSS v2.0+ -->
   <section
-  class="container max-w-screen-2xl mx-auto"
+  class="container max-w-screen-2xl mx-auto py-8"
   id="why-hire">
-    <div class="bg-white">
+    <div class="bg-white lg:m-12">
       <div class="max-w-7xl mx-auto">
         <div class="lg:text-center">
-          <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('online_courses.why_hire.headline') }}
           </h2>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
             {{ $t('online_courses.why_hire.sub_headline') }}
           </p>
         </div>

@@ -114,7 +114,7 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('online-courses')">
+                <nuxt-link :to="localePath('digital-marketing-courses')">
                   <a
                     id="btn_money_page_online-courses"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
