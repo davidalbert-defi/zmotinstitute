@@ -1,11 +1,11 @@
 <template>
   <section
-      class="step bg-white pt-4">
-    <div class="container px-5 py-5 mx-auto flex flex-wrap">
-      <h2 class="text-center mx-auto">
+      class="step bg-white py-8">
+    <div class="container px-4 py-5 mx-auto flex flex-wrap">
+      <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('marketing_services.how_we_do.headline') }}
       </h2>
-      <p class="text-center mx-auto mb-4 font-thin">
+      <p class="text-center text-gray-600 text-2xl lg:mx-32 font-bold mb-12">
         {{ $t('marketing_services.how_we_do.sub_headline') }}
       </p>
       <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -36,8 +36,12 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_1_header') }}</dt>
-            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_1_description') }}</dd>
+            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              {{ $t('marketing_services.how_we_do.step_1_header') }}
+            </dt>
+              <dd class="leading-relaxed font-normal text-xl">
+                {{ $t('marketing_services.how_we_do.step_1_description') }}
+              </dd>
           </div>
         </div>
       </div>

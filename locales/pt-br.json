@@ -12,7 +12,8 @@
         },
         "banner": {
             "header": "Influencie o Comportamento do Consumidor com ZMOT",
-            "text": "Framework para Hackear o Comportamento do Consumidor com Marketing Digital"
+            "text": "Framework para Hackear o Comportamento do Consumidor com Marketing Digital",
+            "alt_image": "Um grande laptop aberto está no centro da imagem, e há uma paisagem de árvore atrás dele. Nos lados do computador, e no topo, há avatares de pessoas construindo uma loja na web neste computador."
         },
         "why_do_you_need_ZMOT": {
             "header": "Por que você precisa do ZMOT?",
@@ -40,7 +41,7 @@
         "services": {
             "header": "Como podemos te ajudar?",
             "sub_header": "Nos estamos aqui para ajudar você a entender o ZMOT e aplicá-lo no seu dia a dia. Não importa o tamanho do seu bolso, ou disponibilidade de tempo, teremos sempre uma solução para ajudá-lo.",
-            "service_1_header": "Auditoria ZMOT",
+            "service_1_header": "Consultoria de Marketing Digital",
             "service_1_description": "Está interessado sobre ZMOT e Comportamento do Consumidor, mas não tem idéia de como começar? Ou talvez queira a ajuda de um especialista para acelerar as coisas? Compartilhe seu website conosco e nos deixe surpeendê-lo com um plano para impulsionar seu Negócio Digital.",
             "service_2_header": "Palestras & Eventos",
             "service_2_description": "Deseja encantar sua platéia com um conteúdo inovador, dinâmico e que fará as pessoas aplaudirem de pé? Nossas apresentações baseadas em storytelling e performance ajudam pessoas a alcançar resultados outrora tidos como impossíveis.",
@@ -163,8 +164,8 @@
             "description": "Nossa Consultoria de Marketing Digital te ajudar a entender o que o cliente quer e implementar Estratégias de Marketing que geram Crescimento Exponencial"
         },
         "hero":{
-            "headline": "Consultoria de Marketing Digital de Alto Nível",
-            "sub_headline": "Conhecendo o Comportamento do Consumidor, te ajudamos a enteder o que o cliente quer, e otimizamos suas Estratégias de Marketing para gerar Crescimento Exponencial",
+            "headline": "Consultoria de Marketing Digital",
+            "sub_headline": "Conhecendo o Comportamento do Consumidor, Te Ajudamos A Entender O Que O Cliente Quer, E Otimizamos Suas Estratégias De Marketing Para Gerar Crescimento Exponencial",
             "cta_1": "MAIS INFORMAÇÕES",
             "cta_2": "CHAT ONLINE"
         },
@@ -207,14 +208,19 @@
             "sub_headline": "Veja o que as pessoas que já trabalharam conosco estão dizendo!",
             "review_1_header": "Eu achava que entendia de Marketing, mas o pessoal da ZMOT Institute nos levou pra outro nível",
             "review_1_name": "Gabriela E.",
+            "review_1_job": "Coordenadora de Marketing",
             "review_2_header": "Recomendo, sem dúvidas. Sabem o que estão fazendo e tem muita qualidade",
             "review_2_name": "Samuel L.",
+            "review_2_job": "Pequeno Empresário",
             "review_3_header": "Entendem muito de Comportamento do Consumidor e Marketing Digital",
             "review_3_name": "Roberto O.",
+            "review_3_job": "Assistente de Marketing",
             "review_4_header": "Aprendi a entender a necessidade do cliente com fatos, e não mais suposições",
-            "review_4_name": "George K.",
+            "review_4_name": "Jorge K.",
+            "review_4_job": "Estagiário de Marketing",
             "review_5_header": "Eles são muito profissionais e entregam o que prometem",
-            "review_5_name": "Adriana P."
+            "review_5_name": "Adriana P.",
+            "review_5_job": "Empreendedora"
         },
         "faq":{
             "headline": "Dúvidas Frequentes",

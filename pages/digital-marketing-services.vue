@@ -1,5 +1,5 @@
 <template>
-  <div class="digital-page px-4 pb-12">
+  <div class="digital-page px-2 pb-12">
     <lazy-hydrate when-visible>
       <section-digital-hero />
     </lazy-hydrate>

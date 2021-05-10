@@ -12,7 +12,8 @@
         },
         "banner": {
             "header": "Use ZMOT to Influence Consumer Behavior",
-            "text": "A Framework to Hack Consumer Behavior with Digital Marketing"
+            "text": "A Framework to Hack Consumer Behavior with Digital Marketing",
+            "alt_image": "A opened big laptop is in the center of the image, and there is a tree landscape behing it. On bot sides of the computer, and on top, there are people avatars building a web store on this computer."
         },
         "why_do_you_need_ZMOT": {
             "header": "Why do you need ZMOT?",
@@ -40,13 +41,13 @@
         "services": {
             "header": "How can we help you?",
             "sub_header": "We are here to help you to understand ZMOT and implement it to your day to day game. No matter the size of your pocket, or time availability, we will always have a solution to help you.",
-            "service_1_header": "ZMOT Audit",
-            "service_1_description": "Are you interested about ZMOT and Consumer Behavior but have no idea how to start? Or maybe just need an expert opinion to speed things up? Just let us know your website and we'll surprise you with a masterplan to boost you Digital Business.",
+            "service_1_header": "Digital Marketing Services",
+            "service_1_description": "Are you interested about ZMOT and Consumer Behavior but have no idea how to start? Or maybe just need an expert opinion to speed things up? Just let us know your website and we'll surprise you with a masterplan to boost your Digital Business.",
             "service_1_landing_page": "http://zmotinstitute.rds.land/784a86fc1474a6d021aa",
             "service_2_header": "Lectures & Events",
             "service_2_description": "Wish to delight your audience with innovative & dynamic content that will make people clap standing? Our storytelling performance based presentations drive people to action & results you could have considered impossible before.",
             "service_2_landing_page": "http://zmotinstitute.rds.land/palestras-e-eventos",
-            "service_3_header": "Online courses",
+            "service_3_header": "Online Courses",
             "service_3_description": "Learn best in class ZMOT with experts which have helped their organizations to achieve amazing results. With our online courses you can learn and implement ZMOT at your own and flexible pace, but also do it over and over again. You have full control of your learning process.",
             "service_3_landing_page": "http://zmotinstitute.rds.land/cursos-online",
             "get_a_quote": "Get in Touch"
@@ -166,8 +167,8 @@
             "description": "Our Digital Marketing Services help you understand what consumers want and implement marketing strategies that generate Exponential Growth"
         },
         "hero":{
-            "headline": "Digital Marketing Consultancy High Level",
-            "sub_headline": "Knowing the consumer behavior, we helped enteder what the customer wants, and optimize their marketing strategies to generate Exponential Growth",
+            "headline": "Digital Marketing Services To Grow",
+            "sub_headline": "Understand Your Consumer Behaviour, Learn What They Want And Optimize Your Marketing Strategies For Exponential Growth",
             "cta_1": "MORE INFO",
             "cta_2": "CHAT ONLINE"
         },
@@ -208,16 +209,21 @@
         "customer_reviews": {
             "headline": "Look at the opinion of those who know the ZMOT INSTITUTE",
             "sub_headline": "See what people who have worked with us are saying!",
-            "review_1_header": "I thought he understood Marketing, but the staff of the Institute ZMOT took us to another level",
+            "review_1_header": "I thought i understand Marketing, but the staff of the Institute ZMOT took us to another level",
             "review_1_name": "Gabriela E.",
+            "review_1_job": "Marketing Coordinator",
             "review_2_header": "I recommend without doubt. They know what they are doing and have a lot of quality",
             "review_2_name": "Samuel L.",
-            "review_3_header": "They understand much of Consumer Behavior and Digital Marketing",
+            "review_2_job": "Business Owner",
+            "review_3_header": "They understand so much about Consumer Behavior and Digital Marketing",
             "review_3_name": "Roberto O.",
+            "review_3_job": "Marketing Assistant",
             "review_4_header": "I learned to understand the needs of the client with facts and not assumptions",
             "review_4_name": "George K.",
+            "review_4_job": "Marketing Intern",
             "review_5_header": "They are very professional and deliver what they promise",
-            "review_5_name": "Adriana P."
+            "review_5_name": "Adriana P.",
+            "review_5_job": "Entrepreneur"
         },
         "faq":{
             "headline": "Frequently Asked questions",

@@ -12,7 +12,8 @@
         },
         "banner": {
             "header": "Influir en el Comportamiento del Consumidor con ZMOT",
-            "text": "Un Framework para Hackear el Comportamiento del Consumidor con Marketing Digital"
+            "text": "Un Framework para Hackear el Comportamiento del Consumidor con Marketing Digital",
+            "alt_image": "Una computadora portátil grande abierta está en el centro de la imagen, y hay un paisaje de árboles detrás de ella. En los lados inferiores de la computadora, y en la parte superior, hay avatares de personas que crean una tienda web en esta computadora."
         },
         "why_do_you_need_ZMOT": {
             "header": "¿Por qué usted necesita del ZMOT?",
@@ -40,7 +41,7 @@
         "services": {
             "header": "Como podemos ayudarlo?",
             "sub_header": "Estamos aquí para ayudarlo a entender y poner en práctica el ZMOT en su día a día. No importa el tamaño de tu bolsillo, o disponibilidad de tiempo, siempre tendremos una solución para ayudarlo.",
-            "service_1_header": "Auditoría ZMOT",
+            "service_1_header": "Servícios De Marketing Digital",
             "service_1_description": "Estas interesado sobre ZMOT y Comportamiento del Consumidor, pero no tienen idea de cómo empezar? ¿O tal vez sólo necesita una opinión de un experto para ayudarle a desarrollar las cosas? Háganos saber su sitio web y lo sorprenderemos con un plan maestro para impulsar su negocio digital.",
             "service_2_header": "Conferencias y Eventos",
             "service_2_description": "¿Desea encantar a su audiencia con contenido innovador y dinámico que hará con que la gente se pongan de pie y aplauda? Nuestras presentaciones basadas en storytelling y performance llevan las personas a acción y resultados que antes podrían considerar imposibles.",
@@ -207,14 +208,19 @@
             "sub_headline": "Vea lo que las personas que han trabajado con nosotros están diciendo!",
             "review_1_header": "Pensé que entendía la comercialización, pero el personal del Instituto ZMOT nos llevó a otro nivel",
             "review_1_name": "Gabriela E.",
+            "review_1_job": "Coordinadora de Marketing",
             "review_2_header": "Recomiendo sin duda. Ellos saben lo que están haciendo y tienen mucha calidad",
             "review_2_name": "Samuel L.",
+            "review_2_job": "Pequeño Empresário",
             "review_3_header": "Ellos entienden mucho del comportamiento del consumidor y Marketing Digital",
             "review_3_name": "Roberto O.",
+            "review_3_job": "Assistente de Marketing",
             "review_4_header": "Aprendí a entender las necesidades del cliente con hechos y no suposiciones",
-            "review_4_name": "George K.",
+            "review_4_name": "Jorge K.",
+            "review_4_job": "Pasantía de Marketing",
             "review_5_header": "Ellos son muy profesionales y cumplen lo que prometen",
-            "review_5_name": "Adriana P."
+            "review_5_name": "Adriana P.",
+            "review_5_job": "Empreendedora"
         },
         "faq":{
             "headline": "Preguntas frecuentes",

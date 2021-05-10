@@ -20,9 +20,9 @@
           <div class="card service--item mb-3">
             <div class="card-body">
               <div class="card-text">
-                <h2 class="h3 mb-4">
+                <h3 class="h3 mb-4">
                   {{ $t('homepage.services.service_1_header') }}
-                </h2>
+                </h3>
                 <div>
                   <p class="mb-5 text-justify">
                     <span>
@@ -30,7 +30,7 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('zmot-audit')">
+                <nuxt-link :to="localePath('digital-marketing-services')">
                   <a
                     id="btn_money_page_zmot-audit"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
@@ -54,9 +54,9 @@
           <div class="card service--item mb-3 text-right">
             <div class="card-body">
               <div class="card-text">
-                <h2 class="h3 mb-4">
+                <h3 class="h3 mb-4">
                   {{ $t('homepage.services.service_2_header') }}
-                </h2>
+                </h3>
                 <div>
                   <p class="mb-5 text-justify">
                     <span>
@@ -104,9 +104,9 @@
           <div class="card service--item mb-3">
             <div class="card-body">
               <div class="card-text">
-                <h2 class="h3 mb-4">
+                <h3 class="h3 mb-4">
                   {{ $t('homepage.services.service_3_header') }}
-                </h2>
+                </h3>
                 <div>
                   <p class="mb-5 medium text-justify">
                     <span>
