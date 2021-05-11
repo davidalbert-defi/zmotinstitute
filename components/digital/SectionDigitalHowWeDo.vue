@@ -5,7 +5,7 @@
       <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('marketing_services.how_we_do.headline') }}
       </h2>
-      <p class="text-center text-gray-600 text-2xl lg:mx-32 font-bold mb-12">
+      <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
         {{ $t('marketing_services.how_we_do.sub_headline') }}
       </p>
       <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -36,10 +36,10 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">
+            <dt class="font-semibold text-gray-900 mb-1 text-2xl">
               {{ $t('marketing_services.how_we_do.step_1_header') }}
             </dt>
-              <dd class="leading-relaxed font-normal text-xl">
+              <dd class="leading-relaxed font-normal text-xl text-gray-500">
                 {{ $t('marketing_services.how_we_do.step_1_description') }}
               </dd>
           </div>
@@ -65,8 +65,12 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_2_header') }}</dt>
-            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_2_description') }}</dd>
+            <dt class="font-semibold text-gray-900 mb-1 text-2xl">
+              {{ $t('marketing_services.how_we_do.step_2_header') }}
+            </dt>
+            <dd class="leading-relaxed font-normal text-xl text-gray-500">
+              {{ $t('marketing_services.how_we_do.step_2_description') }}
+            </dd>
           </div>
         </div>
       </div>
@@ -96,8 +100,12 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_3_header') }}</dt>
-            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_3_description') }}</dd>
+            <dt class="font-semibold text-gray-900 mb-1 text-2xl">
+              {{ $t('marketing_services.how_we_do.step_3_header') }}
+            </dt>
+            <dd class="leading-relaxed font-normal text-xl text-gray-500">
+              {{ $t('marketing_services.how_we_do.step_3_description') }}
+            </dd>
           </div>
         </div>
       </div>
@@ -126,8 +134,10 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <dt class="font-medium title-font text-gray-900 mb-1 text-2xl">{{ $t('marketing_services.how_we_do.step_4_header') }}</dt>
-            <dd class="leading-relaxed text-xl">{{ $t('marketing_services.how_we_do.step_4_description') }}</dd>
+            <dt class="font-semibold text-gray-900 mb-1 text-2xl">
+              {{ $t('marketing_services.how_we_do.step_4_header') }}</dt>
+            <dd class="leading-relaxed font-normal text-xl text-gray-500">
+              {{ $t('marketing_services.how_we_do.step_4_description') }}</dd>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@
         <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">
           {{ $t('marketing_services.hero.headline') }}
         </h1>
-        <p class="text-orange-shinny text-2xl font-semibold lg:mr-20">
+        <p class="text-orange-shinny text-2xl font-light lg:mr-20">
           {{ $t('marketing_services.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">

@@ -3,7 +3,8 @@
   <div id="hero-section" class="bg-orange-100 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex p-6 lg:p-12 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('keynote_speakers.hero.headline') }}
+        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">
+          {{ $t('keynote_speakers.hero.headline') }}
         </h1>
         <p class="text-orange-shinny text-2xl font-light lg:mr-20">
           {{ $t('keynote_speakers.hero.sub_headline') }}
