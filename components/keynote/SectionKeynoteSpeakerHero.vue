@@ -21,7 +21,7 @@
             </div>
           </div>
       </div>
-      <div v-if="$device.isDesktop"  class="lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125">
+      <div v-if="$device.isDesktop"  class="lg:w-1/2 md:w-1/2 w-5/6 lg:transform lg:-scale-125">
         <img class="object-contain w-full rounded" alt="hero" src="~/assets/img/services-section/service-lecture.png" data-not-lazy>
       </div>
     </div>

@@ -1,9 +1,6 @@
 <template>
   <section class="container max-w-screen-2xl mx-auto py-8" id="our-talks">
       <div class="relative lg:pt-24 lg:pb-28 lg:px-8">
-        <div class="absolute inset-0">
-          <div class="bg-white h-1/3 sm:h-2/3" />
-        </div>
         <div class="relative max-w-7xl mx-auto">
           <div class="text-center">
             <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
@@ -43,7 +40,7 @@
             </div>
           </div>
         </div>
-        <div class="max-w-7xl mx-auto mt-12 bg-indigo-600 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col our_talk_cta">
+        <div class="max-w-7xl mx-auto mt-12 bg-indigo-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col">
           <div class="flex-1">
             <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">
               {{ $t('keynote_speakers.our_keynotes.custom_keynote_header') }}</p>
@@ -52,7 +49,7 @@
             </p>
           </div>
           <div class="md:px-2 mt-3 md:mt-0 items-center flex">
-            <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('keynote_speakers.our_keynotes.custom_keynote_cta') }}</button>
+            <a href="#contactform" class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('keynote_speakers.our_keynotes.custom_keynote_cta') }}</a>
           </div>
         </div>
       </div>

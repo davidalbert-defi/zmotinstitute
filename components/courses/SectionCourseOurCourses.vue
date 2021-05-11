@@ -1,9 +1,6 @@
 <template>
   <section class="container mx-auto py-8" id="our-courses">
     <div class="relative lg:m-12">
-      <div class="absolute inset-0">
-        <div class="bg-white h-1/3 sm:h-2/3" />
-      </div>
       <div class="relative max-w-7xl mx-auto">
         <div class="text-center">
           <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
@@ -42,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="max-w-7xl mx-auto mt-12 bg-blue-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col our_course_cta">
+        <div class="max-w-7xl mx-auto mt-12 bg-indigo-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col ">
           <div class="flex-1">
             <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">{{ $t('online_courses.our_courses.custom_course_header') }}</p>
             <p class="max-w-2xl text-3xl text-indigo-600 font-extrabold">
@@ -60,11 +57,6 @@
 </template>
 
 <script>
-import img1 from '~/assets/img/online-courses-thumbnails/online_course_zmot_fundamentals.png'
-import img2 from '~/assets/img/online-courses-thumbnails/online_courses_zmot_a_to_z.png'
-import img3 from '~/assets/img/online-courses-thumbnails/online_courses_consumer_behavior_google_analytics.png'
-import img4 from '~/assets/img/online-courses-thumbnails/online_courses_personas.png'
-import img5 from '~/assets/img/online-courses-thumbnails/online_courses_buyer_journey.png'
 export default {
   name: 'SectionCourseOurCourses',
   data () {
@@ -78,7 +70,7 @@ export default {
           star_with: this.$t('online_courses.our_courses.course_1_star_with'),
           duration: this.$t('online_courses.our_courses.course_1_duration'),
           time_unit: this.$t('online_courses.our_courses.course_1_time_unit'),
-          imageUrl: img1
+          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_1_img'))
         },
         {
           title: this.$t('online_courses.our_courses.course_2_header'),
@@ -88,7 +80,7 @@ export default {
           star_with: this.$t('online_courses.our_courses.course_2_star_with'),
           duration: this.$t('online_courses.our_courses.course_2_duration'),
           time_unit: this.$t('online_courses.our_courses.course_2_time_unit'),
-          imageUrl: img2
+          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_2_img'))
         },
         {
           title: this.$t('online_courses.our_courses.course_3_header'),
@@ -98,7 +90,7 @@ export default {
           star_with: this.$t('online_courses.our_courses.course_3_star_with'),
           duration: this.$t('online_courses.our_courses.course_3_duration'),
           time_unit: this.$t('online_courses.our_courses.course_3_time_unit'),
-          imageUrl: img3
+          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_3_img'))
         },
         {
           title: this.$t('online_courses.our_courses.course_4_header'),
@@ -108,7 +100,7 @@ export default {
           star_with: this.$t('online_courses.our_courses.course_4_star_with'),
           duration: this.$t('online_courses.our_courses.course_4_duration'),
           time_unit: this.$t('online_courses.our_courses.course_4_time_unit'),
-          imageUrl: img4
+          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_4_img'))
         },
         {
           title: this.$t('online_courses.our_courses.course_5_header'),
@@ -118,7 +110,7 @@ export default {
           star_with: this.$t('online_courses.our_courses.course_5_star_with'),
           duration: this.$t('online_courses.our_courses.course_5_duration'),
           time_unit: this.$t('online_courses.our_courses.course_5_time_unit'),
-          imageUrl: img5
+          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_5_img'))
         }
       ]
     }
