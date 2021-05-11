@@ -64,7 +64,7 @@
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('lectures-events')">
+                <nuxt-link :to="localePath('keynote-speakers')">
                   <a
                     id="btn_money_page_lectures-events"
                     class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"

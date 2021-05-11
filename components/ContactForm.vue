@@ -9,7 +9,7 @@
       <div class="relative max-w-7xl lg:grid lg:grid-cols-5">
         <div class="bg-gray-50 py-12 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div class="max-w-lg mx-auto">
-            <h2 class="text-4xl font-extrabold tracking-tight text-orange-shinny text-center">
+            <h2 class="text-4xl lg:text-5xl font-bold tracking-tight text-orange-shinny text-center">
               {{ $t('contact_form.lead_form_headline') }}
             </h2>
             <p class="mt-12 text-xl leading-6 text-orange-shinny font-semibold text-center">
