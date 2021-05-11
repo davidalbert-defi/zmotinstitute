@@ -12,7 +12,7 @@
             <h2 class="text-4xl lg:text-5xl font-bold tracking-tight text-orange-shinny text-center">
               {{ $t('contact_form.lead_form_headline') }}
             </h2>
-            <p class="mt-12 text-xl leading-6 text-orange-shinny font-semibold text-center">
+            <p class="mt-12 text-xl leading-6 text-orange-shinny font-normal">
               {{ $t('contact_form.lead_form_sub_headline') }}
             </p>
           </div>
@@ -70,9 +70,9 @@
                   class="inline-flex font-semibold justify-center py-3 px-6  border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-green-shinny hover:bg-green-shinny focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                   {{ $t('contact_form.lead_form.submit') }}
                 </button>
-                <p class="mt-6 text-sm text-orange-shinny text-xl ">
+                <p class="mt-6 text-sm text-orange-shinny">
                   {{ $t('contact_form.lead_form.privacy_1') }}
-                  <a href="/privacy" class="text-orange-shinny font-medium underline text-xl">
+                  <a href="/privacy" class="text-orange-shinny font-medium underline">
                   {{ $t('contact_form.lead_form.privacy_2') }}
                   </a>
                 </p>

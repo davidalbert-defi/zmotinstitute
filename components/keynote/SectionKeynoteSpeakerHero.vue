@@ -5,17 +5,17 @@
       <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
         <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">{{ $t('keynote_speakers.hero.headline') }}
         </h1>
-        <p class="text-orange-shinny text-2xl font-semibold lg:mr-20">
+        <p class="text-orange-shinny text-2xl font-light lg:mr-20">
           {{ $t('keynote_speakers.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="#our-talks" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
+              <a href="#our-talks" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
                 {{ $t('keynote_speakers.hero.cta_1') }}
               </a>
             </div>
             <div class="mt-3 rounded-md shadow-md sm:mt-0 sm:ml-3 uppercase">
-              <a href="https://wa.me/5548988087120" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-600 hover:text-white md:py-4 md:text-lg md:px-10">
+              <a href="https://wa.me/5548988087120" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-600 bg-white hover:bg-indigo-600 hover:text-white md:py-4 md:text-lg md:px-10">
                 {{ $t('keynote_speakers.hero.cta_2') }}
               </a>
             </div>

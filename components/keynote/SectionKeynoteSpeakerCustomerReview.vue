@@ -5,10 +5,10 @@
       <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('keynote_speakers.customer_review.headline') }}
       </h2>
-      <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
+      <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
         {{ $t('keynote_speakers.customer_review.sub_headline') }}
       </p>
-      <div class="keynote_reviews__items mt-16">
+      <div class="keynote_reviews__items lg:mt-16">
         <client-only placeholder="Loading...">
           <agile :options="agileOptions">
             <div class="slide slide--1">

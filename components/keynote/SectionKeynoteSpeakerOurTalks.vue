@@ -6,7 +6,7 @@
             <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
               {{ $t('keynote_speakers.our_keynotes.headline') }}
             </h2>
-            <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
+            <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
               {{ $t('keynote_speakers.our_keynotes.sub_headline') }}
             </p>
           </div>
@@ -21,7 +21,7 @@
                     <p class="text-xl font-semibold text-gray-900 leading-tight">
                       {{ $t(`keynote_speakers.our_keynotes.${lecture.title}`) }}
                     </p>
-                    <p class="mt-3 text-lg text-gray-500 leading-normal">
+                    <p class="mt-3 text-lg font-normal text-gray-500 leading-normal">
                       {{ $t('keynote_speakers.our_keynotes.keynote_1_description') }}
                     </p>
                     <div class="rounded-md shadow mt-8">
@@ -49,7 +49,7 @@
             </p>
           </div>
           <div class="md:px-2 mt-3 md:mt-0 items-center flex">
-            <a href="#contactform" class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">{{ $t('keynote_speakers.our_keynotes.custom_keynote_cta') }}</a>
+            <a href="#contactform" class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-green-shinny ">{{ $t('keynote_speakers.our_keynotes.custom_keynote_cta') }}</a>
           </div>
         </div>
       </div>

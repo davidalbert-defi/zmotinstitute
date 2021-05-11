@@ -10,7 +10,7 @@
           <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('keynote_speakers.keynote_gallery.headline') }}
           </h2>
-          <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
+          <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
             {{ $t('keynote_speakers.keynote_gallery.sub_headline') }}
           </p>
         </div>
@@ -37,7 +37,7 @@
                     <dt class="text-xl font-semibold text-gray-900 leading-tight">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_header`) }}
                     </dt>
-                    <dd class="mt-3 text-lg text-gray-500 leading-normal">
+                    <dd class="mt-3 text-lg font-normal text-gray-500 leading-normal">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_description`) }}
                     </dd>
                     </a>

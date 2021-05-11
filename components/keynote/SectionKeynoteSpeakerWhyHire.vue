@@ -9,7 +9,7 @@
           <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('keynote_speakers.why_hire.headline') }}
           </h2>
-          <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
+          <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
             {{ $t('keynote_speakers.why_hire.sub_headline') }}
           </p>
         </div>
@@ -58,10 +58,10 @@
                       <path d="M410.01,482h5.575C412.745,481.437,410.835,481.381,410.01,482z"/>
                   </svg>
                 </div>
-                <p class="ml-16 mb-4 text-2xl font-bold text-gray-900">
+                <p class="ml-16 mb-4 text-2xl font-semibold text-gray-900">
                   {{ $t('keynote_speakers.why_hire.feature_1_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-normal">
                 {{ $t('keynote_speakers.why_hire.feature_1_description') }}
               </dd>
             </div>
@@ -90,9 +90,10 @@
           c2.4,0,5.6-1.6,6.4-4l8.8-16.8l52,69.6H331.272z"/>
                   </svg>
                 </div>
-                <p class="ml-16 mb-4 text-2xl font-bold text-gray-900">{{ $t('keynote_speakers.why_hire.feature_2_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-semibold text-gray-900">
+                  {{ $t('keynote_speakers.why_hire.feature_2_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-normal">
                 {{ $t('keynote_speakers.why_hire.feature_2_description') }}
               </dd>
             </div>
@@ -111,9 +112,10 @@
                       <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"/>
                   </svg>
                 </div>
-                <p class="ml-16 mb-4 text-2xl font-bold text-gray-900">{{ $t('keynote_speakers.why_hire.feature_3_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-semibold text-gray-900">
+                  {{ $t('keynote_speakers.why_hire.feature_3_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-normal">
                 {{ $t('keynote_speakers.why_hire.feature_3_description') }}
               </dd>
             </div>
@@ -135,9 +137,10 @@
                       d="M13,3C9.25,3,6.2,5.94,6.02,9.64L4.1,12.2C3.85,12.53,4.09,13,4.5,13H6v3c0,1.1,0.9,2,2,2h1v3h7v-4.68 c2.36-1.12,4-3.53,4-6.32C20,6.13,16.87,3,13,3z M16,10c0,0.13-0.01,0.26-0.02,0.39l0.83,0.66c0.08,0.06,0.1,0.16,0.05,0.25 l-0.8,1.39c-0.05,0.09-0.16,0.12-0.24,0.09l-0.99-0.4c-0.21,0.16-0.43,0.29-0.67,0.39L14,13.83c-0.01,0.1-0.1,0.17-0.2,0.17h-1.6 c-0.1,0-0.18-0.07-0.2-0.17l-0.15-1.06c-0.25-0.1-0.47-0.23-0.68-0.39l-0.99,0.4c-0.09,0.03-0.2,0-0.25-0.09l-0.8-1.39 c-0.05-0.08-0.03-0.19,0.05-0.25l0.84-0.66C10.01,10.26,10,10.13,10,10c0-0.13,0.02-0.27,0.04-0.39L9.19,8.95 c-0.08-0.06-0.1-0.16-0.05-0.26l0.8-1.38c0.05-0.09,0.15-0.12,0.24-0.09l1,0.4c0.2-0.15,0.43-0.29,0.67-0.39l0.15-1.06 C12.02,6.07,12.1,6,12.2,6h1.6c0.1,0,0.18,0.07,0.2,0.17l0.15,1.06c0.24,0.1,0.46,0.23,0.67,0.39l1-0.4c0.09-0.03,0.2,0,0.24,0.09 l0.8,1.38c0.05,0.09,0.03,0.2-0.05,0.26l-0.85,0.66C15.99,9.73,16,9.86,16,10z"/>
                   </svg>
                 </div>
-                <p class="ml-16 mb-4 text-2xl font-bold text-gray-900">{{ $t('keynote_speakers.why_hire.feature_4_header') }}</p>
+                <p class="ml-16 mb-4 text-2xl font-semibold text-gray-900">
+                  {{ $t('keynote_speakers.why_hire.feature_4_header') }}</p>
               </dt>
-              <dd class="mt-2 ml-16 text-lg text-gray-500 font-light">
+              <dd class="mt-2 ml-16 text-lg text-gray-500 font-normal">
                 {{ $t('keynote_speakers.why_hire.feature_4_description') }}
               </dd>
             </div>
