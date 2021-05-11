@@ -7,10 +7,10 @@
     data-aos-once="true"
   >
     <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center">
+      <h2 class="pt-8 text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('homepage.what_say.header') }}
       </h2>
-      <p class="text-center">
+      <p class="text-center text-gray-500 text-lg lg:mx-32 font-normal mb-12">
         {{ $t('homepage.what_say.text') }}
       </p>
       <div class="testimonial-list">
