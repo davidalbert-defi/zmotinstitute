@@ -13,7 +13,7 @@
               <dt class="text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenFAQ_1 = !isOpenFAQ_1"  class="text-left w-full flex justify-between items-start text-white">
-                  <span class="font-medium text-white">
+                  <span class="text-xl font-medium">
                     {{ $t('online_courses.faq.question_1_question') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -44,8 +44,8 @@
                   </span>
                 </button>
               </dt>
-              <dd v-if="isOpenFAQ_1" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200">
+              <dd v-if="isOpenFAQ_1" class="mt-2">
+                <p class="font-normal text-lg text-white py-4">
                   {{ $t('online_courses.faq.question_1_answer') }}
                 </p>
               </dd>
@@ -55,7 +55,7 @@
               <dt class="text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenFAQ_2 = !isOpenFAQ_2" class="text-left w-full flex justify-between items-start text-white">
-                  <span class="font-medium">
+                  <span class="text-xl font-medium">
                     {{ $t('online_courses.faq.question_2_question') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -86,11 +86,11 @@
                   </span>
                 </button>
               </dt>
-              <dd v-if="isOpenFAQ_2" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200">
+              <dd v-if="isOpenFAQ_2" class="mt-2">
+                <p class="font-normal text-lg text-white py-4">
                   {{ $t('online_courses.faq.question_2_answer_line_1') }}
                 </p>
-                <p class="text-base text-indigo-200 ml-6">
+                <p class="font-normal text-lg  text-white ml-6 pt-1 leading-8">
                   {{ $t('online_courses.faq.question_2_answer_line_2') }}<br>
                   {{ $t('online_courses.faq.question_2_answer_line_3') }}<br>
                   {{ $t('online_courses.faq.question_2_answer_line_4') }}<br>
@@ -105,7 +105,7 @@
               <dt class="text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenFAQ_3 = !isOpenFAQ_3" class="text-left w-full flex justify-between items-start text-white">
-                  <span class="font-medium">
+                  <span class="text-xl font-medium">
                     {{ $t('online_courses.faq.question_3_question') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -136,8 +136,8 @@
                   </span>
                 </button>
               </dt>
-              <dd v-if="isOpenFAQ_3" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200">
+              <dd v-if="isOpenFAQ_3" class="mt-2">
+                <p class="font-normal text-lg text-white py-4">
                   {{ $t('online_courses.faq.question_3_answer') }}
                 </p>
               </dd>
@@ -147,7 +147,7 @@
               <dt class="text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenFAQ_4 = !isOpenFAQ_4" class="text-left w-full flex justify-between items-start text-white">
-                  <span class="font-medium">
+                  <span class="text-xl font-medium">
                     {{ $t('online_courses.faq.question_4_question') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -178,8 +178,8 @@
                   </span>
                 </button>
               </dt>
-              <dd v-if="isOpenFAQ_4" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200">
+              <dd v-if="isOpenFAQ_4" class="mt-2">
+                <p class="font-normal text-lg text-white py-4">
                   {{ $t('online_courses.faq.question_4_answer') }}
                 </p>
               </dd>
@@ -189,7 +189,7 @@
               <dt class="text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenFAQ_5 = !isOpenFAQ_5" class="text-left w-full flex justify-between items-start text-white">
-                  <span class="font-medium">
+                  <span class="text-xl font-medium">
                     {{ $t('online_courses.faq.question_5_question') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -221,10 +221,10 @@
                 </button>
               </dt>
               <dd v-if="isOpenFAQ_5" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200">
+                <p class="font-normal text-lg text-white py-4">
                   {{ $t('online_courses.faq.question_5_answer_line_1') }}
                 </p>
-                <p class="text-base text-indigo-200 ml-6">
+                <p class="font-normal text-lg  text-white ml-6 pt-1 leading-8">
                   {{ $t('online_courses.faq.question_5_answer_line_2') }}<br>
                   {{ $t('online_courses.faq.question_5_answer_line_3') }}<br>
                   {{ $t('online_courses.faq.question_5_answer_line_4') }}<br>

@@ -6,7 +6,7 @@
           <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('online_courses.our_courses.headline') }}
           </h2>
-          <p class="text-center text-gray-600 text-xl lg:mx-32 font-bold mb-12">
+          <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
             {{ $t('online_courses.our_courses.sub_headline') }}
           </p>
         </div>
@@ -18,10 +18,10 @@
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">
                 <a :href="course.href" class="block mt-2">
-                  <p class="text-xl font-bold text-gray-900 leading-tight">
+                  <p class="text-xl font-semibold text-gray-900 leading-tight">
                     {{ course.title }}
                   </p>
-                  <p class="mt-3 text-lg text-gray-500 leading-normal">
+                  <p class="mt-3 text-lg font-normal text-gray-500 leading-normal">
                     {{ course.description }}
                   </p>
                 </a>
@@ -32,9 +32,9 @@
                   </p>
               </div> -->
               <div class="star-rating mt-3">
-                <span class="text-base pr-3 float-left">{{ course.score }}</span>
+                <span class="text-lg font-normal pr-3 float-left">{{ course.score }}</span>
                 <div class="star-ratings-sprite inline-block float-left"><span :style="{width: course.star_with}" class="rating"></span></div>
-                <span class="text-base pl-3 float-right">{{ course.duration }}  {{ course.time_unit }}</span>
+                <span class="text-lg font-normal pl-3 float-right">{{ course.duration }}  {{ course.time_unit }}</span>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
             </p>
           </div>
           <div class="md:px-2 mt-3 md:mt-0 items-center flex">
-            <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-blue-600">
+            <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-green-shinny ">
               {{ $t('online_courses.our_courses.custom_course_cta') }}</button>
           </div>
         </div>

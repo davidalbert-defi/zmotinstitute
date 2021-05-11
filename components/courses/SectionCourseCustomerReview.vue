@@ -2,10 +2,10 @@
   <section
     class="reviews bg-white mb-4 pt-4 py-8">
     <div class="container mx-auto">
-      <h2 class="mt-2 mb-8 text-4xl lg:text-5xl font-bold text-gray-900 text-center">
+      <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('online_courses.customer_reviews.headline') }}
       </h2>
-      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto text-center">
+      <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
         {{ $t('online_courses.customer_reviews.sub_headline') }}
       </p>
       <div class="course_reviews__items mt-16">
