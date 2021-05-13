@@ -36,10 +36,15 @@
                 <div class="star-ratings-sprite inline-block float-left"><span :style="{width: course.star_with}" class="rating"></span></div>
                 <span class="text-lg font-normal pl-3 float-right">{{ course.duration }}  {{ course.time_unit }}</span>
               </div>
+              <div class="rounded-md shadow mt-8">
+                      <a :href="course.href" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
+                        {{ $t('online_courses.our_courses.card_cta') }}
+                      </a>
+                </div>
             </div>
           </div>
         </div>
-        <div class="max-w-7xl mx-auto mt-12 bg-indigo-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col ">
+        <div class="max-w-4xl mx-auto mt-12 lg:mt-24 bg-indigo-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col">
           <div class="flex-1">
             <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">{{ $t('online_courses.our_courses.custom_course_header') }}</p>
             <p class="max-w-2xl text-3xl text-indigo-600 font-extrabold">
