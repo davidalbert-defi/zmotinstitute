@@ -13,7 +13,10 @@
               {{ $t('contact_form.lead_form_headline') }}
             </h2>
             <p class="mt-12 text-xl leading-6 text-orange-shinny font-normal">
-              {{ $t('contact_form.lead_form_sub_headline') }}
+              {{ $t('contact_form.lead_form_sub_headline_1') }}
+            </p>
+            <p class="mt-12 text-xl leading-6 text-orange-shinny font-normal">
+              {{ $t('contact_form.lead_form_sub_headline_2') }}
             </p>
           </div>
         </div>

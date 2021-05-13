@@ -9,7 +9,7 @@
           <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
             {{ $t('keynote_speakers.why_hire.headline') }}
           </h2>
-          <p class="text-center text-gray-500 text-lg lg:mx-32 font-normal mb-12">
+          <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
             {{ $t('keynote_speakers.why_hire.sub_headline') }}
           </p>
         </div>

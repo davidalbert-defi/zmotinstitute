@@ -1,7 +1,7 @@
 <template>
     <!-- This example requires Tailwind CSS v2.0+ -->
-  <section class="featureslist py-8">
-    <div class="relative bg-indigo-700 lg:m-12 rounded-3xl" id="ServicesFeatures">
+  <section class="featureslist py-8" id="ServicesFeatures">
+    <div class="relative bg-indigo-700 lg:m-12 rounded-3xl" >
 
       <div class="max-w-7xl mx-auto py-8 px-4 lg:pt-16 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div>
@@ -10,11 +10,12 @@
             {{ $t('marketing_services.what_we_do.headline_1_text') }}
               <br> {{ $t('marketing_services.what_we_do.headline_2_text') }}
           </h2>
-          <p class="mt-8 lg:mr-8 text-xl font-normal text-justify md:text-left text-white"> {{ $t('marketing_services.what_we_do.sub_headline_1') }}</p>
-          <p class="mt-8 lg:mr-8 text-xl font-normal text-justify md:text-left text-white">{{ $t('marketing_services.what_we_do.sub_headline_2') }}</p>
+          <p class="mt-8 lg:mr-8 text-lg font-normal text-justify md:text-left text-white"> {{ $t('marketing_services.what_we_do.sub_headline_1') }}</p>
+          <p class="mt-8 lg:mr-8 text-lg font-normal text-justify md:text-left text-white">{{ $t('marketing_services.what_we_do.sub_headline_2') }}</p>
+          <p class="mt-8 lg:mr-8 text-lg font-normal text-justify md:text-left text-white">{{ $t('marketing_services.what_we_do.sub_headline_3') }}</p>
         </div>
         <div class="mt-12 lg:mt-0 lg:col-span-2">
-          <dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+          <dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-row sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
             <div class="flex">
               <!-- Heroicon name: check -->
               <svg

@@ -9,21 +9,21 @@
             :srcset="require('~/assets/img/zmot-logo.png').srcSet"
             :blank-src="require('~/assets/img/zmot-logo.png').placeholder"
             class="footer-new-holder-right-holder__brand footer-logo"
-            alt="Zmot Logo"
+            alt="ZMOT Institite White Logo in an organge backgroud"
           >
-          <p class="mt-8 text-white">
+          <p class="mt-8 text-white font-normal text-base lg:mr-24">
             {{ $t('footer.text') }}
           </p>
         </div>
         <div class="my-2 px-2 lg:w-2/3 overflow-hidden w-full">
           <div class="row flex flex-wrap -mx-2 overflow-hidden mt-3">
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
-              <h5 class="text-xl text-white font-semibold uppercase">
+              <h5 class="text-xl text-white font-semibold uppercase tracking-wider" >
                 {{ $t('footer.services.text') }}
               </h5>
               <ul class="pl-0">
                 <li>
-                  <nuxt-link to="/zmot-audit">
+                  <nuxt-link to="/digital-marketing-services">
                     {{ $t('homepage.services.service_1_header') }}
                   </nuxt-link>
                 </li>
@@ -40,7 +40,7 @@
               </ul>
             </div>
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
-              <h5 class="text-xl text-white font-semibold uppercase">
+              <h5 class="text-xl text-white font-semibold uppercase tracking-wider">
                 {{ $t('footer.knowledge.text') }}
               </h5>
               <ul>
@@ -57,7 +57,7 @@
               </ul>
             </div>
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
-              <h5 class="text-xl text-white font-semibold uppercase">
+              <h5 class="text-xl text-white font-semibold uppercase tracking-wider">
                 {{ $t('footer.legal.text') }}
               </h5>
               <ul>
