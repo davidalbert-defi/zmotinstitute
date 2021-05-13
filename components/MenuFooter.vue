@@ -28,12 +28,12 @@
                   </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/lectures-events">
+                  <nuxt-link to="/keynote-speakers">
                     {{ $t('homepage.services.service_2_header') }}
                   </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/online-courses">
+                  <nuxt-link to="/digital-marketing-courses">
                     {{ $t('homepage.services.service_3_header') }}
                   </nuxt-link>
                 </li>
