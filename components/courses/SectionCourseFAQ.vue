@@ -222,14 +222,7 @@
               </dt>
               <dd v-if="isOpenFAQ_5" class="mt-2 pr-12">
                 <p class="font-normal text-lg text-white py-4">
-                  {{ $t('online_courses.faq.question_5_answer_line_1') }}
-                </p>
-                <p class="font-normal text-lg  text-white ml-6 pt-1 leading-8">
-                  {{ $t('online_courses.faq.question_5_answer_line_2') }}<br>
-                  {{ $t('online_courses.faq.question_5_answer_line_3') }}<br>
-                  {{ $t('online_courses.faq.question_5_answer_line_4') }}<br>
-                  {{ $t('online_courses.faq.question_5_answer_line_5') }}<br>
-                  {{ $t('online_courses.faq.question_5_answer_line_6') }}
+                  {{ $t('online_courses.faq.question_5_answer') }}
                 </p>
               </dd>
             </div>

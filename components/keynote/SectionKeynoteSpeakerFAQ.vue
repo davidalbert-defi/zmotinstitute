@@ -130,7 +130,14 @@
               </dt>
               <dd v-if="isOpenFAQ_3" class="mt-2">
                 <p class="font-normal text-lg text-white py-4">
-                  {{ $t('keynote_speakers.faq.question_3_answer') }}
+                  {{ $t('keynote_speakers.faq.question_3_answer_line_1') }}
+                </p>
+                <p class="font-normal text-lg  text-white ml-6 pt-1 leading-8">
+                  {{ $t('keynote_speakers.faq.question_3_answer_line_2') }}<br>
+                  {{ $t('keynote_speakers.faq.question_3_answer_line_3') }}<br>
+                  {{ $t('keynote_speakers.faq.question_3_answer_line_4') }}<br>
+                  {{ $t('keynote_speakers.faq.question_3_answer_line_5') }}<br>
+                  {{ $t('keynote_speakers.faq.question_3_answer_line_6') }}
                 </p>
               </dd>
             </div>
@@ -218,6 +225,49 @@
                 </p>
               </dd>
             </div>
+
+            <div class="pt-6">
+              <dt class="text-lg">
+                <!-- Expand/collapse question button -->
+                <button @click="isOpenFAQ_6 = !isOpenFAQ_6" class="text-left w-full flex justify-between items-start text-white">
+                  <span class="text-xl font-medium">
+                    {{ $t('keynote_speakers.faq.question_6_question') }}
+                  </span>
+                  <span class="ml-6 h-7 flex items-center">
+                    <!--
+                      Heroicon name: chevron-down
+                      Open: "-rotate-180", Closed: "rotate-0"
+                    -->
+                    <svg
+                      v-if="!isOpenFAQ_6"
+                      class="h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <svg
+                      v-if="isOpenFAQ_6"
+                      class="rotate-180 h-6 w-6 transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd v-if="isOpenFAQ_6" class="mt-2">
+                <p class="font-normal text-lg text-white py-4">
+                  {{ $t('keynote_speakers.faq.question_6_answer') }}
+                </p>
+              </dd>
+            </div>
+
           </dl>
         </div>
       </div>
@@ -233,7 +283,8 @@ export default {
     isOpenFAQ_2: false,
     isOpenFAQ_3: false,
     isOpenFAQ_4: false,
-    isOpenFAQ_5: false
+    isOpenFAQ_5: false,
+    isOpenFAQ_6: false
   })
 }
 </script>

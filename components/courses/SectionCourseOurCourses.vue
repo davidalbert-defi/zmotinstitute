@@ -46,12 +46,13 @@
         </div>
         <div class="max-w-4xl mx-auto mt-12 lg:mt-24 bg-indigo-100 w-full rounded-lg shadow-lg px-8 py-12 flex md:flex-row flex-col">
           <div class="flex-1">
-            <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">{{ $t('online_courses.our_courses.custom_course_header') }}</p>
+            <p class="text-4xl tracking-tight font-black text-gray-900 sm:text-4xl">
+              {{ $t('online_courses.our_courses.custom_course_header') }}</p>
             <p class="max-w-2xl text-3xl text-indigo-600 font-extrabold">
                 {{ $t('online_courses.our_courses.custom_course_description') }}
             </p>
           </div>
-          <div class="md:px-2 mt-3 md:mt-0 items-center flex">
+          <div class="md:px-2 mt-8 md:mt-0 items-center flex">
             <button class="bg-indigo-600 text-white font-bold px-4 py-2 text-base uppercase rounded tracking-wider focus:outline-none hover:bg-green-shinny ">
               {{ $t('online_courses.our_courses.custom_course_cta') }}</button>
           </div>
