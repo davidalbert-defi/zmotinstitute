@@ -27,7 +27,7 @@
               <h3 class="my-8 font-bold text-center text-3xl">
                 {{ $t('homepage.why_do_you_need_ZMOT.category_1_header') }}
               </h3>
-              <p class="text-justify px-4 text-gray-500 text-lg font-normal">
+              <p class="text-justify px-4 lg:px-20 text-gray-500 text-lg font-normal">
                 {{ $t('homepage.why_do_you_need_ZMOT.category_1_text') }}
               </p>
             </div>
@@ -40,7 +40,7 @@
               <h3 class="my-8 font-bold text-center text-3xl">
                 {{ $t('homepage.why_do_you_need_ZMOT.category_3_header') }}
               </h3>
-              <p class="text-justify px-4 text-gray-500 text-lg font-normal">
+              <p class="text-justify px-4 lg:px-20 text-gray-500 text-lg font-normal">
                 {{ $t('homepage.why_do_you_need_ZMOT.category_3_text') }}
               </p>
             </div>
@@ -70,7 +70,7 @@
               <h3 class="my-8 font-bold text-center text-3xl">
                 {{ $t('homepage.why_do_you_need_ZMOT.category_2_header') }}
               </h3>
-              <p class="text-justify px-4 text-gray-500 text-lg font-normal">
+              <p class="text-justify px-4 lg:px-20 text-gray-500 text-lg font-normal">
                 {{ $t('homepage.why_do_you_need_ZMOT.category_2_text') }}
               </p>
             </div>

@@ -6,12 +6,12 @@
           <div class="h-125px" />
         </div>
         <div class="p-2">
-          <h1 class="text-51xl font-semibold text-white leading-tight break-words mb-12">
+          <h1 class="text-51xl text-center lg:text-left font-semibold text-white leading-tight break-words mb-12">
             {{ $t('homepage.banner.header') }}
           </h1>
         </div>
         <div class="p-2">
-          <p class="text-3xl text-white font-light leading-relaxed mb-16">
+          <p class="text-3xl text-center lg:text-left  text-white font-light leading-relaxed mb-16">
             {{ $t('homepage.banner.text') }}
           </p>
         </div>

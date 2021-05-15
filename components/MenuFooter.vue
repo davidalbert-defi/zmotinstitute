@@ -21,18 +21,18 @@
               <h5 class="text-xl text-white font-semibold uppercase tracking-wider" >
                 {{ $t('footer.services.text') }}
               </h5>
-              <ul class="pl-0">
-                <li>
+              <ul class="py-4">
+                <li class="py-2">
                   <nuxt-link to="/digital-marketing-services">
                     {{ $t('homepage.services.service_1_header') }}
                   </nuxt-link>
                 </li>
-                <li>
+                <li class="py-2">
                   <nuxt-link to="/keynote-speakers">
                     {{ $t('homepage.services.service_2_header') }}
                   </nuxt-link>
                 </li>
-                <li>
+                <li class="py-2">
                   <nuxt-link to="/digital-marketing-courses">
                     {{ $t('homepage.services.service_3_header') }}
                   </nuxt-link>
@@ -44,12 +44,12 @@
                 {{ $t('footer.knowledge.text') }}
               </h5>
               <ul>
-                <li>
+                <li class="py-2">
                   <nuxt-link :to="localePath($t('navs.blog.link'))">
                     {{ $t('footer.blog') }}
                   </nuxt-link>
                 </li>
-                <li>
+                <li class="py-2">
                   <a href="/#newsletter">
                     {{ $t('footer.newsletter') }}
                   </a>
@@ -61,7 +61,7 @@
                 {{ $t('footer.legal.text') }}
               </h5>
               <ul>
-                <li>
+                <li class="py-2">
                   <nuxt-link :to="localePath('privacy')">
                     {{ $t('footer.privacy_policy.text') }}
                   </nuxt-link>
