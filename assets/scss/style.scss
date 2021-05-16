@@ -19,23 +19,23 @@ h2{
   font-size: 2.5rem;
   font-weight: 500;
 }
-h3,h4{
+h3,h4, h5{
   font-family: 'Quicksand Medium';
   font-size: 2.25rem;
   font-weight: 500;
 }
-p{
-  font-family: 'Quicksand Light';
+p, ul, li{
+  font-family: 'Quicksand';
   font-size: 1.25rem;
   font-weight: 300;
 }
 dt{
-  font-family: 'Quicksand Medium';
+  font-family: 'Quicksand';
   font-size: 1.25rem;
   font-weight: 500;
 }
 dd {
-  font-family: 'Quicksand Light';
+  font-family: 'Quicksand';
   font-size: 1.25rem;
   font-weight: 300;
 }

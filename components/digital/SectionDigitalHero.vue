@@ -3,15 +3,15 @@
   <div id="hero-section" class="bg-orange-100 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
       <div class="container mx-auto flex py-6 lg:p-12 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-        <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">
+        <h1 class="title-font text-4xl lg:text-5xl mb-4 font-semibold text-orange-shinny">
           {{ $t('marketing_services.hero.headline') }}
         </h1>
-        <p class="text-orange-shinny text-2xl font-semibold lg:mr-20">
+        <p class="text-orange-shinny text-xl font-normal lg:mr-20">
           {{ $t('marketing_services.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="#ZmotAuditFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
+              <a href="#ServicesFeatures" class="uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
                 {{ $t('marketing_services.hero.cta_1') }}
               </a>
             </div>
