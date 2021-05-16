@@ -45,8 +45,7 @@
                 </button>
               </dt>
               <dd v-if="isOpenFAQ_1" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200">
-                  {{ $t('online_courses.faq.question_1_answer') }}
+                <p class="text-base text-indigo-200" v-html="$t('online_courses.faq.question_1_answer')">
                 </p>
               </dd>
             </div>
@@ -242,7 +241,7 @@
 
 <script>
 export default {
-  name: 'SectionCourseFAQ',
+  name: 'SectionCourseFaq',
   data: () => ({
     isOpenFAQ_1: false,
     isOpenFAQ_2: false,

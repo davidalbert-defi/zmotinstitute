@@ -15,7 +15,7 @@
         >
           <div class="card overflow-hidden">
             <div class="row flex flex-wrap">
-              <div class="w-full md:w-1/3">
+              <div class="w-full md:w-1/3 mt-12 md:mt-0">
                 <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none mx-auto" />
               </div>
               <div class="w-full md:w-2/3">
@@ -66,6 +66,10 @@ export default {
   name: 'SectionBlog',
   components: { JwPagination },
   async fetch () {
+    let query = ''
+    if (this.$route.query.query) {
+      query = this.$route.query.query
+    }
     this.isLoading = true
     try {
       const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100')
@@ -81,6 +85,9 @@ export default {
           } else {
             return 1
           }
+        }) &&
+        result.data.filter((post) => {
+          return post.content.rendered.includes(query)
         })
     } catch (e) {
       this.posts = []
@@ -103,6 +110,7 @@ export default {
   data: () => ({
     rows: 100,
     currentPage: 0,
+    searchKey: '',
     totalNum: 0,
     posts: [],
     pageOfItems: [],

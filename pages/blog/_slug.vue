@@ -22,8 +22,11 @@
                   </time>
                 </div>
               </div>
-              <div class="blog-content" v-html="post && post.content.rendered" />
+              <div class="blog-content" v-html="post && renderedContent" />
             </div>
+            <button class="text-center leading-normal border bg-indigo-700 text-white text-2xl uppercase font-medium rounded-full w-auto px-16 py-2 block mx-auto" v-on:click="readMore" >
+              {{moreBtntxt}}
+            </button>
           </div>
           <div class="col w-full md:w-1/4 mt-4 md:mt-0">
             <div class="sidebar-content pl-0 lg:pl-8">
@@ -33,6 +36,7 @@
                 </h3>
                 <input
                   v-model="text"
+                  v-on:keyup.enter="submit"
                   class="form-control border border-solid m-0"
                   placeholder="Search here"
                   style="border-color: #ced4da;"
@@ -82,32 +86,54 @@ export default {
     post: null,
     isLoading: true,
     fullPage: true,
-    color: '#ff6600'
+    color: '#ff6600',
+    isMore: false,
+    moreBtntxt: 'Read More'
   }),
   computed: {
     renderedTitle () {
       return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
+    },
+    renderedContent () {
+      if (this.isMore) {
+        return this.post.content.rendered
+      } else {
+        return this.post.content.rendered.split('<!--more-->')[0]
+      }
     }
   },
-  mounted () {
+  updated () {
     const script = document.createElement('script')
     script.src = 'https://js.hsforms.net/forms/v2.js'
     document.body.appendChild(script)
-    this.hubspotform = document.getElementById('hubspotform').innerHTML
-    this.formId = (this.hubspotform).split('formId:')[1].split(',')[0].replace('"', '').replace('"', '')
-    script.addEventListener('load', () => {
-      if (window.hbspt) {
-        window.hbspt.forms.create({
-          portalId: '5835830',
-          formId: this.formId,
-          target: '#hubspotform'
-        })
-      }
-    })
+    if (document.getElementById('hubspotform')) {
+      this.hubspotform = document.getElementById('hubspotform').innerHTML
+      this.formId = (this.hubspotform).split('formId:')[1].split(',')[0].replace('"', '').replace('"', '')
+      script.addEventListener('load', () => {
+        if (window.hbspt) {
+          window.hbspt.forms.create({
+            portalId: '5835830',
+            formId: this.formId,
+            target: '#hubspotform'
+          })
+        }
+      })
+    }
   },
   methods: {
     moment (date) {
       return moment(date)
+    },
+    submit () {
+      this.$router.replace({ path: '/blog', query: { query: this.text } })
+    },
+    readMore () {
+      this.isMore = !this.isMore
+      if (this.isMore) {
+        this.moreBtntxt = 'Read Less'
+      } else {
+        this.moreBtntxt = 'Read More'
+      }
     }
   },
   head () {
