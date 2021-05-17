@@ -1,0 +1,79 @@
+<template>
+  <div class="digital-page px-2 pb-12">
+    <lazy-hydrate when-visible>
+      <section-digital-hero />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-digital-what-we-do />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-digital-how-we-do />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-digital-reviews />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <contact-form />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
+      <section-digital-faq />
+    </lazy-hydrate>
+  </div>
+</template>
+
+<script>
+import LazyHydrate from 'vue-lazy-hydration'
+export default {
+  components: { LazyHydrate },
+  head () {
+    return {
+      title: this.$t('marketing_services.seo.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('marketing_services.seo.description')
+        },
+        {
+          hid: 'twitter-card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.$t('marketing_services.seo.title')
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: this.$t('marketing_services.seo.description')
+        },
+        {
+          hid: 'og-image',
+          property: 'og:image',
+          content: process.env.BASE_URL + require('~/assets/img/zmot-logo.png')
+        },
+        {
+          hid: 'og-url',
+          property: 'og:url',
+          content: this.$route.path
+        }
+
+      ]
+    }
+  },
+  nuxtI18n: {
+    paths: {
+      en: '/digital-marketing-services',
+      es: '/servicios-de-marketing-digital',
+      'pt-br': '/consultoria-de-marketing-digital'
+    }
+  }
+}
+</script>

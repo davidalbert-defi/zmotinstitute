@@ -1,0 +1,71 @@
+<template>
+  <div class="online-courses-page px-2 bg-white pb-12 min-h-screen">
+    <lazy-hydrate when-visible>
+      <section-course-hero />
+    </lazy-hydrate>
+    <lazy-hydrate when-visible>
+      <section-course-why-hire />
+    </lazy-hydrate>
+    <lazy-hydrate when-visible>
+      <section-course-our-courses />
+    </lazy-hydrate>
+    <lazy-hydrate when-visible>
+      <section-course-customer-review />
+    </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <contact-form />
+    </lazy-hydrate>
+    <section-course-faq />
+  </div>
+</template>
+
+<script>
+import LazyHydrate from 'vue-lazy-hydration'
+export default {
+  components: { LazyHydrate },
+  head () {
+    return {
+      title: this.$t('online_courses.seo.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('online_courses.seo.description')
+        },
+        {
+          hid: 'twitter-card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.$t('online_courses.seo.title')
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: this.$t('online_courses.seo.description')
+        },
+        {
+          hid: 'og-image',
+          property: 'og:image',
+          content: process.env.BASE_URL + require('~/assets/img/zmot-logo.png')
+        },
+        {
+          hid: 'og-url',
+          property: 'og:url',
+          content: this.$route.path
+        }
+      ]
+    }
+  },
+  nuxtI18n: {
+    paths: {
+      en: '/digital-marketing-courses',
+      es: '/cursos-de-marketing-digital',
+      'pt-br': '/cursos-de-marketing-digital'
+    }
+  }
+}
+</script>

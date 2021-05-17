@@ -7,10 +7,10 @@
     data-aos-duration="500"
   >
     <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center">
+      <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
         {{ $t('homepage.specialist.header') }}
       </h2>
-      <p class="text-center mb-4">
+      <p class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
         {{ $t('homepage.specialist.text') }}
       </p>
       <div class="specialist__items">
