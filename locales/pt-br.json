@@ -147,7 +147,9 @@
     },
     "contact_form": {
         "lead_form_headline": "Vamos Conversar!?",
-        "lead_form_sub_headline": "Agende agora 1 hora de Mentoria, Totalmente Gratuita, e entenda melhor como nossas Estratégias de Marketing podem ajudar seu negócio a decolar.",
+        "lead_form_sub_headline_1": "Agende agora 1 hora de Mentoria, Totalmente Gratuita.",
+        "lead_form_sub_headline_2": "Estamos aqui para ajudar as pessoas a entender o Comportamento do Consumidor e fazer seus Negócios Crescerem",
+        
         "lead_form": {
             "field_name": "Qual o seu Nome?",
             "field_email": "Qual o seu Email?",
@@ -460,6 +462,7 @@
         "our_courses": {
             "headline": "Cursos de Marketing Digital Online",
             "sub_headline": "Aprenda sobre ZMOT e Comportamento do Consumidor no seu próprio ritmo. Do iniciante ao avançado, nossos cursos te ajudarão a entender as necessidades do cliente. Comece a aprender agora.",
+            "card_cta": "Matricular Agora",
             "course_1_header": "Fundamentos do ZMOT: Aprendendo Comportamento do Consumidor Online",
             "course_1_description": "Ideal para quem quer começar a aprender sobre o framework do ZMOT e deseja dar os primeiros passos para entender o Comportamento do Consumidor Online.",
             "course_1_score": "5.0",
