@@ -44,14 +44,8 @@
                   </span>
                 </button>
               </dt>
-<<<<<<< HEAD
               <dd v-if="isOpenFAQ_1" class="mt-2 pr-12">
                 <p class="text-base text-indigo-200" v-html="$t('online_courses.faq.question_1_answer')">
-=======
-              <dd v-if="isOpenFAQ_1" class="mt-2">
-                <p class="font-normal text-lg text-white py-4">
-                  {{ $t('online_courses.faq.question_1_answer') }}
->>>>>>> 6d92ea5d9fc0b985511a9fae8aade7ffa6c9e7a9
                 </p>
               </dd>
             </div>
