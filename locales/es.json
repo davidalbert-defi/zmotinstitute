@@ -524,6 +524,11 @@
       "surname": "Apellido",
       "phone": "Teléfono"
     },
+    "blog_slug": {
+        "btn_read_more" : "Sigue Leyendo",
+        "headline": "Buscar Más",
+        "placeholder": "Haz Una Búsqueda Aquí"
+    },
     "privacy":{
         "seo": {
             "title": "Política de Privacidad de ZMOT Institute. Respectamos usted",

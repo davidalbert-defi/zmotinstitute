@@ -547,6 +547,11 @@
       "surname": "Sobrenome ",
       "phone": "Telefone"
     },
+    "blog_slug": {
+        "btn_read_more" : "Continuar Lendo",
+        "headline": "Pesquisar Por Mais",
+        "placeholder": "Faça Sua Busca Aqui"
+    },
     "privacy":{
         "seo": {
             "title": "Política de Privacidade do ZMOT Institute. Respeitamos você",

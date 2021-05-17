@@ -1,21 +1,21 @@
 <template>
   <div class="blog-slug-page">
-    <div v-if="!isLoading" class="blog pt-20 my-20 lg:m-20">
+    <div v-if="!isLoading" class="pt-4 my-20 lg:m-20 lg:mt-32">
       <div class="container mx-auto px-4 lg:px-4">
         <div class="row flex flex-wrap">
           <div class="col w-full md:w-3/4">
-            <div class="blog-main">
-              <div class="blog-media">
+            <div>
+              <div class="mb-4">
                 <img
                   :src="post && post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url"
                   alt="Post Image"
                 >
               </div>
-              <header class="blog-header">
+              <header class="my-2">
                 <!--                <div ref="example-element">{{ this.post }}</div>-->
-                <h1 class="blog-title" v-html="post && post.title.rendered" />
+                <h1 class="my-2" v-html="post && post.title.rendered" />
               </header>
-              <div class="blog-info ">
+              <div class="my-8">
                 <div class="blog-date">
                   <time datetime="2019-03-08T17:10:45-03:00">Publicado em
                     {{ moment(post && post.date).format('DD/MM/YYYY') }}
@@ -24,21 +24,24 @@
               </div>
               <div class="blog-content" v-html="post && renderedContent" />
             </div>
-            <button class="text-center leading-normal border bg-indigo-700 text-white text-2xl uppercase font-medium rounded-full w-auto px-16 py-2 block mx-auto" v-on:click="readMore" >
-              {{moreBtntxt}}
-            </button>
+            <div v-if="!isMore">
+              <button id="btn_read_more_blog_post" class="mt-8 mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10" v-on:click="readMore" >
+                {{ $t('blog_slug.btn_read_more') }}
+                <!-- {{moreBtntxt}} -->
+              </button>
+            </div>
           </div>
           <div class="col w-full md:w-1/4 mt-4 md:mt-0">
             <div class="sidebar-content pl-0 lg:pl-8">
               <div class="search">
                 <h3 class="title">
-                  Pesquisar
+                  {{ $t('blog_slug.headline') }}
                 </h3>
                 <input
                   v-model="text"
                   v-on:keyup.enter="submit"
                   class="form-control border border-solid m-0"
-                  placeholder="Search here"
+                  :placeholder="`${$t('blog_slug.placeholder')}`"
                   style="border-color: #ced4da;"
                 >
               </div>
@@ -88,7 +91,7 @@ export default {
     fullPage: true,
     color: '#ff6600',
     isMore: false,
-    moreBtntxt: 'Read More'
+    moreBtntxt: 'Read More - translate'
   }),
   computed: {
     renderedTitle () {

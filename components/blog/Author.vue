@@ -1,8 +1,8 @@
 <template>
   <div class="col w-full md:w-3/4">
     <div class="row flex flex-wrap">
-      <div class="lg:flex py-10 w-full">
-        <img class="avatar" alt="Author Photo" :src="author && author.avatar_urls['96']" />
+      <div class="lg:flex py-10 w-full lg:mr-32 lg:text-base">
+        <img class="avatar " alt="Author Photo" :src="author && author.avatar_urls['96']" />
         <div>
           <div
             v-if="author && author.link !== ''"
@@ -40,10 +40,7 @@ export default {
     height: 100%
     max-width: 96px !important
     max-height: 96px !important
-    border-width: 3px
     border-radius: 50%
-    border-style: solid
-    border-color: #BBB
     margin-right: 20px
   .author-name-link
     a

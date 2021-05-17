@@ -549,6 +549,12 @@
       "phone": "Phone Number"
     },
 
+    "blog_slug": {
+        "btn_read_more" : "Continue Reading",
+        "headline": "Search For More",
+        "placeholder": "Search a Keyword Here"
+    },
+    
     "privacy":{
         "seo": {
             "title": "ZMOT Institute Privacy Policy. We respect people's privacy",
