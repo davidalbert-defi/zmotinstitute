@@ -155,7 +155,6 @@
         "lead_form_headline": "Vamos Conversar!?",
         "lead_form_sub_headline_1": "Agende agora 1 hora de Mentoria, Totalmente Gratuita.",
         "lead_form_sub_headline_2": "Estamos aqui para ajudar as pessoas a entender o Comportamento do Consumidor e fazer seus Negócios Crescerem",
-        
         "lead_form": {
             "field_name": "Qual o seu Nome?",
             "field_email": "Qual o seu Email?",
@@ -163,7 +162,11 @@
             "field_message": "Como podemos ajudá-lo? Qual a sua dúvida?",
             "submit": "ENVIAR DADOS DE CONTATO",
             "privacy_1": "Privacidade de dado é um assunto sério para nós. Entenda nossa Política de ",
-            "privacy_2": "Privacidade de Dados."
+            "privacy_2": "Privacidade de Dados.",
+        "thank_you_title": "Obrigado pelo contato!",
+        "thank_you_message": "Ficamos contentes com seu interesse pelo ZMOT Institute. Entraremos em contato em breve!",
+        "thank_you_error_title": "Erro de Envío",
+        "thank_you_error_message": "Por Favor Tente Nosso Chat Online"
         }
     },
     "marketing_services": {
