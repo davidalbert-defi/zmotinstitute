@@ -30,6 +30,7 @@
                   name="full_name"
                   id="full_name"
                   autocomplete="name"
+                  v-model="name"
                   class="bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md m-0"
                   :placeholder="`${$t('contact_form.lead_form.field_name')}`">
               </div>
@@ -40,6 +41,7 @@
                   name="email"
                   type="email"
                   autocomplete="email"
+                  v-model="email"
                   class=" bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md m-0"
                   :placeholder="`${$t('contact_form.lead_form.field_email')}`">
               </div>
@@ -50,6 +52,7 @@
                 name="phone"
                 id="phone"
                 autocomplete="tel"
+                v-model="phone"
                 class=" bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-300 rounded-md m-0"
                 :placeholder="`${$t('contact_form.lead_form.field_phone')}`">
               </div>
@@ -59,6 +62,7 @@
                   id="message"
                   name="message"
                   rows="4"
+                  v-model="message"
                   class="bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md m-0"
                   :placeholder="`${$t('contact_form.lead_form.field_message')}`"></textarea>
               </div>
@@ -118,7 +122,7 @@ export default {
           fields: [
             {
               name: 'full_name',
-              value: this.full_name
+              value: this.name
             },
             {
               name: 'email',
@@ -130,7 +134,7 @@ export default {
             },
             {
               name: 'message',
-              value: 'message'
+              value: this.message
             },
             {
               name: 'form_url',
