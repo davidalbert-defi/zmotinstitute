@@ -23,17 +23,17 @@
               </h5>
               <ul>
                 <li class="py-2">
-                  <nuxt-link to="/digital-marketing-services">
+                  <nuxt-link :to="localePath('digital-marketing-services')">
                     {{ $t('homepage.services.service_1_header') }}
                   </nuxt-link>
                 </li>
                 <li class="py-2">
-                  <nuxt-link to="/keynote-speakers">
+                  <nuxt-link :to="localePath('keynote-speakers')">
                     {{ $t('homepage.services.service_2_header') }}
                   </nuxt-link>
                 </li>
                 <li class="py-2">
-                  <nuxt-link to="/digital-marketing-courses">
+                  <nuxt-link :to="localePath('digital-marketing-courses')">
                     {{ $t('homepage.services.service_3_header') }}
                   </nuxt-link>
                 </li>
