@@ -125,16 +125,16 @@ export default {
     },
     showSuccessToast () {
       this.$swal({
-        title: this.$t('online_courses.thank_you_title'),
-        text: this.$t('online_courses.thank_you_message'),
+        title: this.$t('contact_form.thank_you_title'),
+        text: this.$t('contact_form.thank_you_message'),
         icon: 'success',
         button: 'OK'
       })
     },
     showErrorToast () {
       this.$swal({
-        title: 'Submit Failed',
-        text: 'Something went wrong with your submission.',
+        title: this.$t('contact_form.thank_you_error_title'),
+        text: this.$t('contact_form.thank_you_error_message'),
         icon: 'error',
         button: 'OK'
       })
