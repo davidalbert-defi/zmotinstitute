@@ -21,7 +21,7 @@
               <h5 class="text-xl text-white font-semibold uppercase tracking-wider" >
                 {{ $t('footer.services.text') }}
               </h5>
-              <ul class="py-4">
+              <ul>
                 <li class="py-2">
                   <nuxt-link to="/digital-marketing-services">
                     {{ $t('homepage.services.service_1_header') }}
@@ -120,6 +120,8 @@ export default {
               ul {
                   li {
                     margin-top: 5px;
+                    font-size: 1rem;
+                    font-weight: 400;
                   }
                   a {
                       color: white;

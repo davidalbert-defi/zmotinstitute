@@ -1,9 +1,10 @@
 {
     "navs": {
-        "home": {"title": "HOME", "link": "/"},
-        "blog": {"title": "BLOG", "link": "blog"},
-        "contact": {"title": "CONTACTO", "link": "contact"},
-        "privacy": {"title": "POLITICA DE PRIVACIDAD", "link": "privacidad"}
+        "home": {"title": "Home", "link": "/"},
+        "services": {"title": "Servicios", "link": "/"},
+        "blog": {"title": "Blog", "link": "blog"},
+        "contact": {"title": "Contacto", "link": "contact"},
+        "privacy": {"title": "Politica De Privacidad", "link": "privacidad"}
     },
     "homepage": {
         "seo": {
@@ -11,7 +12,7 @@
             "description": "Si desea comprender cómo influir en el comportamiento del consumidor y disparar sus resultados de marketing digital, debe aprender ahora ZMOT."
         },
         "banner": {
-            "header": "Influir en el Comportamiento del Consumidor con ZMOT",
+            "header": "Influir En El Comportamiento Del Consumidor Con ZMOT",
             "text": "Un Framework para Hackear el Comportamiento del Consumidor con Marketing Digital",
             "alt_image": "Una computadora portátil grande abierta está en el centro de la imagen, y hay un paisaje de árboles detrás de ella. En los lados inferiores de la computadora, y en la parte superior, hay avatares de personas que crean una tienda web en esta computadora."
         },
@@ -43,10 +44,13 @@
             "sub_header": "Estamos aquí para ayudarlo a entender y poner en práctica el ZMOT en su día a día. No importa el tamaño de tu bolsillo, o disponibilidad de tiempo, siempre tendremos una solución para ayudarlo.",
             "service_1_header": "Servícios De Marketing Digital",
             "service_1_description": "Estas interesado sobre ZMOT y Comportamiento del Consumidor, pero no tienen idea de cómo empezar? ¿O tal vez sólo necesita una opinión de un experto para ayudarle a desarrollar las cosas? Háganos saber su sitio web y lo sorprenderemos con un plan maestro para impulsar su negocio digital.",
+            "service_1_navbar_description": "Te Ayudamos A Implementar El ZMOT",
             "service_2_header": "Conferencias y Eventos",
             "service_2_description": "¿Desea encantar a su audiencia con contenido innovador y dinámico que hará con que la gente se pongan de pie y aplauda? Nuestras presentaciones basadas en storytelling y performance llevan las personas a acción y resultados que antes podrían considerar imposibles.",
+            "service_2_navbar_description": "Encante A Su Audiencia Con ZMOT",
             "service_3_header": "Cursos Online",
             "service_3_description": "Aprenda mejor en su clase ZMOT con expertos que han ayudado a sus organizaciones a lograr resultados sorprendentes. Con nuestros cursos online puedes aprender e implementar el ZMOT a su propio y flexible ritmo, pero también hacerlo repetidas veces. Tienes el control total de tu proceso de aprendizaje.",
+            "service_3_navbar_description": "Aprenda El ZMOT A Su Propio Ritmo",
             "get_a_quote": "Más Información"
         },
         "what_say": {
@@ -76,6 +80,7 @@
             "title": "Contacta Ahora con los Mejores Expertos de ZMOT Institute",
             "description": "¡Ponte en contacto ahora! Háganos saber sus dudas y le ayudaremos a implementar ZMOT Framework. No importa el tamaño de su bolsillo, siempre hay una solución."
         },
+        "nav_description": "Vamos Ayudar Usted Y Sus Clientes",
         "banner": {
             "header": "Contacta Con Los Expertos De ZMOT",
             "text": "E-mail o Chat En Vivo, se elige la mejor opción",
@@ -129,6 +134,7 @@
             "title": "Blog del ZMOT Institute: Aprenda con los Mejores",
             "description": "El mejor sitio para aprender todo sobre el ZMOT Framework y temas relacionados con el Comportamiento del Consumidor. ¡Empieza ahora!"
         },
+        "nav_description": "Todo Sobre Comportamiento Del Consumidor",
         "opinion": {
             "title": "Opiniones sobre este contenido"
         },
@@ -168,7 +174,7 @@
             "headline": "Consultoría de Marketing Digital de Alto Nivel",
             "sub_headline": "Conocer El Comportamiento De Los Consumidores, Hemos Ayudado A Enteder Lo Que Quiere El Cliente, Y Optimizar Sus Estrategias De Marketing Para Generar Un Crecimiento Exponencial",
             "cta_1": "MÁS INFORMACIÓN",
-            "cta_2": "CHAT EN VIVO",
+            "cta_2": "CHAT ONLINE",
             "alt_image": "Computadora portátil grande en el centro, con un paisaje de árboles en la parte posterior. Hay tres avatares construyendo una tienda web en esta computadora portátil. La paleta de colores es naranja, amarillo y morado."
         },
         "what_we_do":{
@@ -227,19 +233,19 @@
         },
         "faq":{
             "headline": "Preguntas Frecuentes (FAQs)",
-            "question_1_question": "¿Qué es el Marketing Digital Consultoría?",
-            "question_1_answer": "A Marketing Digital Consulting tiene como objetivo ayudar a las empresas a entender el comportamiento de sus clientes, con el fin de aprovechar las nuevas estrategias y herramientas en un mercado de forma personalizada.",
-            "question_2_question": "Porque necesito el comportamiento del consumidor entendimiento?",
-            "question_2_answer": "El comportamiento del consumidor entendimiento es tan importante como saber quién es su público objetivo, ya que permitirá a la compañía para saber exactamente cuándo, dónde y cómo actuar en relación con los clientes, ya que conoce sus hábitos de consumo y por lo tanto puede proporcionar el mejor enfoque para la conversión.",
-            "question_3_question": "Lo que tiene que hacer para mejorar la comercialización de una empresa?",
-            "question_3_answer_line_1": "Para mejorar la empresa de marketing digital que necesita:",
-            "question_3_answer_line_2": "1. Conocer su Persona",
-            "question_3_answer_line_3": "2. Asignación de la Jornada de consumo de sus clientes",
-            "question_3_answer_line_4": "3. Invertir en la experiencia del cliente Estrategias (CX)",
-            "question_3_answer_line_5": "4. Desarrollar campañas de marketing que se dirigen de acuerdo a su comportamiento del consumidor",
-            "question_3_answer_line_6": "5. Invertir en la creación de un plan de un buen marketing para impulsar los esfuerzos de la compañía forma más enérgica",
-            "question_4_question": "¿Qué es una campaña de marca?",
-            "question_4_answer": "Marca de la campaña es una acción que se pretende hacer las marcas para conectar con su público. Su objetivo es crear y fortalecer los lazos entre clientes y empresa para que sea reconocida y valorada en el mercado.",
+            "question_1_question": "¿Qué Es Un Servicio En El Marketing?",
+            "question_1_answer": "Un servicio de marketing es un conjunto de actividades, como planificar, desarrollar y analizar estrategias con objetivo de hacer el cliente comprar. Algunos ejemplos de servicios de marketing son: análisis del comportamiento del consumidor, optimización del recorrido del cliente, marketing en redes sociales, optimización de motores de búsqueda, entre muchos otros.",
+            "question_2_question": "¿Qué Se Hace En El Marketing Digital?",
+            "question_2_answer": "El marketing digital es un conjunto de herramientas y técnicas que buscan monitorear, planificar, desarrollar y analizar las estrategias de una empresa en la internet. Utiliza herramientas como las redes sociales, correo electrónico,  SEO y la producción de contenido para crear campañas más efectivas y específicas para un público objetivo.",
+            "question_3_question": "¿Cuáles Son Los Servicios De Marketing Digital?",
+            "question_3_answer_line_1": "Los tipos de servicios de marketing digital son:",
+            "question_3_answer_line_2": "1. Análisis del comportamiento del consumidor;",
+            "question_3_answer_line_3": "2. Gestión de redes sociales;",
+            "question_3_answer_line_4": "3. Optimización de la experiencia del cliente;",
+            "question_3_answer_line_5": "4. Anuncios y Publicidad online;",
+            "question_3_answer_line_6": "5. SEO y Producción de contenido.",
+            "question_4_question": "¿Qué Es Consultoría En Marketing Digital?",
+            "question_4_answer": "Una Consultoría de Marketing Digital tiene como objetivos asesorar, señalar fallas y soluciones, delinear estrategias y desarrollar métricas con el fin de ayudar al cliente a alcanzar sus objetivos de negócio.",
             "question_5_question": "Cómo crecer en el mercado digital?",
             "question_5_answer_line_1": "Para crecer en el mercado digital, hay algunos consejos prácticos:",
             "question_5_answer_line_2": "1. Invertir en SEO",
@@ -251,14 +257,14 @@
             "question_5_answer_line_8": "7. Conocer la Compra viaje de su cliente",
             "question_5_answer_line_9": "8. Tenga un plan de marketing muy detallado con las estrategias y herramientas",
             "question_5_answer_line_10": "9. Análisis Metrifique y resultados",
-            "question_6_question": "Cómo hacer un viaje omnichannel compra?",
-            "question_6_answer": "Para realizar una compra omnichannel viaje es laico es necesario un plan de marketing para utilizar la integración de estrategias en línea y fuera de línea para conectar estos dos campos de contacto. El omnichannel continuación, se basa en la convergencia de canales para que el cliente no ve o se siente la diferencia entre las esferas físicas y digitales.",
-            "question_7_question": "Lo que el cliente experimentarla?",
-            "question_7_answer": "La experiencia del cliente (CX) es un conjunto de impresiones que el cliente tiene cuando entra en contacto con una empresa. El CX influye directamente en el comportamiento y el viaje que el cliente va a seguir al interactuar con un negocio. Tiene influencia en todas las partes del día de compra del consumidor.",
-            "question_8_question": "¿Cuál es la relación entre la experiencia del cliente y la satisfacción?",
-            "question_8_answer": "La experiencia y satisfacción del cliente están totalmente relacionados, ya que el primero es un factor crucial para el segundo. Esto se debe a que al proporcionar un simple, experiencia fácil y agradable para sus clientes, utilizando las técnicas de la experiencia del cliente (CX), el consumidor es más probable que se sienta satisfecho con la marca. Lo que también contribuye a críticas positivas y una enorme ganancia en la Palabra de comercialización de la boca.",
-            "question_9_question": "¿Cómo entender los marcados su nicho?",
-            "question_9_answer": "Para entender su nicho de mercado, es necesario crear un plan de marketing. De este modo, será posible hacer un mapeo completo y detallado para que pueda comprender cómo se comportan sus competidores, las fortalezas y debilidades de su negocio y la mejor estrategia de marketing para lograr destacan en su sector."
+            "question_6_question": "¿Qué Es Y Para Qué Sirve El Marketing Digital?",
+            "question_6_answer": "O el marketing digital es un conjunto de actividades que se practican online con propósito de hacer una empresa vendas más. Su objetivo es dar a conocer una idea, empresa, producto o servicio a través de recursos como correo electrónico, redes sociales, publicidad o cualquier otro recurso virtual.",
+            "question_7_question": "¿Cuál es la relación entre la experiencia del cliente y la satisfacción?",
+            "question_7_answer": "La experiencia y satisfacción del cliente están totalmente relacionados, ya que el primero es un factor crucial para el segundo. Esto se debe a que al proporcionar un simple, experiencia fácil y agradable para sus clientes, utilizando las técnicas de la experiencia del cliente (CX), el consumidor es más probable que se sienta satisfecho con la marca. Lo que también contribuye a críticas positivas y una enorme ganancia en la Palabra de comercialización de la boca.",
+            "question_8_question": "¿Cómo Funciona El Marketing Digital En Las Empresas?",
+            "question_8_answer": "Las empresas utilizan el marketing digital como una forma innovadora de optimizar y orientar sus negócios. Esto se debe a su capacidad de segmentación, que permite a las empresas mapear a sus consumidores, llegando a nichos de mercado con extrema precisión e de una forma mucho mas barata.",
+            "question_9_question": "¿Cómo Funciona El Marketing Digital En Los Negócios?",
+            "question_9_answer": "Las empresas utilizan el marketing digital como una forma innovadora de optimizar y orientar sus negócios. Esto se debe a su capacidad de segmentación, que permite a las empresas mapear a sus consumidores, llegando a nichos de mercado con extrema precisión e de una forma mucho mas barata."
         }
     },
     "keynote_speakers": {
@@ -395,15 +401,20 @@
         },
         "faq":{
             "headline": "Preguntas Frecuentes (FAQs)",
-            "question_1_question": "Cómo Entender lo que quiere el cliente?",
-            "question_1_answer": "La mejor manera de entender lo que el cliente quiere está tratando de saber cómo se comporta. Para analizar su comportamiento del consumidor es posible traza caminos que llevan directamente a sus deseos. Esto se vincula estrechamente personaje dolor de su empresa, que también debe basarse en este camino de interacción.",
-            "question_2_question": "¿Cuál es la relación entre el ZMOT y el Cliente Viaje?",
-            "question_2_answer": "ZMOT y recorrido del cliente, o el Día del Cliente, se basan en el mismo factor: entender el comportamiento del consumidor. Una vez que sabemos lo que las necesidades públicas, y cómo se va después de este dejeso, abre un abanico de posibilidades de influencia que se pueden aplicar durante su consumo viaje. ZMOT es un momento específico de este viaje y también la más susceptible a las influencias.",
-            "question_3_question": "¿Cuáles son las mejores estrategias de crecimiento?",
-            "question_3_answer": "La principal estrategia de crecimiento moarketing tenemos que tener en cuenta hoy en día es el ZMOT. Este momento de la verdad nos ofrecerá una serie de posibilidades para que podamos influir en nuestros clientes en los momentos más certeros. Para lograr tal hazaña, ZMOT se centra en la comprensión del comportamiento del consumidor para poner en práctica sus estrategias.",
-            "question_4_question": "¿Cuál es el ZMOT, FMOT, SMOT?",
-            "question_4_answer": "ZMOT, SMOT FMOT y son parte de lo que llamamos el momento de la verdad. Cada una de estas partes es un momento en el viaje de consumo del cliente y proponer estrategias y acciones que se pueden hacer para aprovechar al máximo el poder de influencia de cada momento.",
-            "question_5_question": "Cómo mejorar la experiencia del cliente?",
+            "question_1_question": "¿Qué Es Un Ponente En Una Conferencia?",
+            "question_1_answer": "Un Ponente es una persona de referencia en su campo que tiene un alto dominio de la especialización. Transmite sus conocimientos en charlas y conferencias com objetivo de ensinar la gente sobre un tema.",
+            "question_2_question": "¿Cómo Se Llama La Persona Que Da Una Charla?",
+            "question_2_answer": "El Ponente es aquel que hace una presentación en una conferencia o evento. Es un experto en un tema específico que presentará al público y puede tener diferentes objetivos que van desde informar hasta persuadir.",
+            "question_3_question": "¿Dónde Buscar Ponentes?",
+            "question_3_answer_line_1": "Para encontrar un Ponente para su evento, siga estos 5 consejos:",
+            "question_3_answer_line_2": "1. Solicite referencias a su equipo, amigos y socios.",
+            "question_3_answer_line_3": "2. Busca en las redes sociales",
+            "question_3_answer_line_4": "3. Busca en Google;",
+            "question_3_answer_line_5": "4. Busca en YouTube;",
+            "question_3_answer_line_6": "5. Pídale referencias a su audiencia o clientes.",
+            "question_4_question": "¿Qué Explicaron Los Ponentes?",
+            "question_4_answer": "Los ponentes son aquellos que participan en un evento o congreso y que hicieron una presentación sobre un tema determinado, explicando su tema de mayor dominio, no que se consideren especialistas.",
+            "question_5_question": "¿Cómo Elegir Un Tema Para Una Conferencia?",
             "question_5_answer": "La mejor manera de mejorar la experiencia del cliente tiene con su empresa es centrarse en el comportamiento que tienen los consumidores. Mediante la identificación de los puntos clave que muestran cómo ve el cliente e interactúa con la marca, es posible seleccionar las estrategias de marketing que van a generar los mejores resultados."
         }
     },
@@ -434,6 +445,7 @@
         "our_courses": {
             "headline": "Cursos de Marketing Digital Online",
             "sub_headline": "Aprenda Sobre ZMOT Y  Comportamiento Del Consumidor A Su Propio Ritmo. Desde Principiantes Hasta Avanzados, Nuestros Cursos Le Ayudarán A Comprender Las Necesidades De Sus Clientes. Empiece A Aprender Ahora.",
+            "card_cta": "Inscribirse Ahora",
             "course_1_header": "Fundamentos Del Zmot: Aprenda Comportamiento Del Consumidor Online",
             "course_1_description": "Ideal para aquellos que desean comenzar a aprender sobre el Framework del ZMOT y dar los primeros pasos para comprender el comportamiento del consumidor online.",
             "course_1_score": "5.0",
@@ -474,8 +486,8 @@
             "custom_course_cta": "ENTRAR EN CONTACTO"
         },
         "customer_reviews": {
-            "headline": "Vistazo a la opinión de aquellos que conocen el ZMOT INSTITUTO",
-            "sub_headline": "Vea lo que las personas que han trabajado con nosotros están diciendo!",
+            "headline": "¿Qué Piensan Nuestros Alumnos?",
+            "sub_headline": "Vea lo que las personas que estudiaram con nosotros están diciendo!",
             "review_1_header": "Muy bueno curso para aprender sobre el ZMOT y el comportamiento del consumidor. Me gustó el enfoque práctico.",
             "review_1_name": "Carlos J.",
             "review_1_job": "Assistente de Marketing",
@@ -494,27 +506,22 @@
         },
         "faq": {
             "headline": "Preguntas Frecuentes (FAQs)",
-            "question_1_question": "¿Qué Son Los Cursos De Marketing Digital?",
-            "question_1_answer": "El proceso de compra es una secuencia de acciones que los consumidores suelen tener hasta su consumo efetuem. Sus estapas cosnciestem en una necesidad cosciencia algo, seguido por un interés en la solución. El cliente luego empezar a buscar opciones para que puedan crear unas opciones de compra que evalúan intención y finalmente se dan cuenta el consumo.",
-            "question_2_question": "¿Que Aprendes En Marketing Digital?",
-            "question_2_answer_line_1": "Compra de viaje es un camino seguido por los consumidores que van desde la realización de una necesidad al valor recurrente generado por ese producto o servicio. Sus pasos son:",
-            "question_2_answer_line_2": "1. Necesidad",
-            "question_2_answer_line_3": "2. Descubrimiento",
-            "question_2_answer_line_4": "3. Evaluación",
-            "question_2_answer_line_5": "4. Compra",
-            "question_2_answer_line_6": "5. En primer lugar Valor",
-            "question_2_answer_line_7": "6. Valor Recurrente",
-            "question_3_question": "¿Cómo Iniciar En Marketing?",
-            "question_3_answer": "La transformación digital ha cambiado drásticamente el comportamiento del consumidor, que ahora comienza a utilizar el Internet para determinar sus opciones. La influencia de este movimiento mediado por el consumo de los motores de búsqueda, el ZMOT llamada.",
-            "question_4_question": "¿Cuánto Dura El Curso De Marketing Digital?",
-            "question_4_answer": "Para asignar el viaje del cliente debe primero entender su comportamiento. Para ello nada mejor que conocer cuáles son los puntos de contacto entre los consumidores y su empresa y, a continuación, analizar cómo se comportan frente a cada punto de contacto. Con eso en la mano, es hora de analizar las formas en las que el público ha y así entender su viaje.",
+            "question_1_question": "¿Cuánto Dura El Curso De Marketing Digital?",
+            "question_1_answer": "La duración de un curso de marketing digital puede variar según varios aspectos como la cantidad de módulos del curso y su modalidad (presencial, semi presencial, remoto).",
+            "question_2_question": "¿Cómo Iniciar En Marketing?",
+            "question_2_answer_line_1": "Para iniciarse en el marketing, se recomienda que desarrolle habilidades que lo ayuden a comenzar con las estrategias más simples como el marketing de contenidos. Algunos de los conocimientos esenciales son:",
+            "question_2_answer_line_2": "1. Conocer el comportamiento de su cliente",
+            "question_2_answer_line_3": "2. Conocer Search Engine Marketing (SEM)",
+            "question_2_answer_line_4": "3. Conocimiento de Google Analytics",
+            "question_2_answer_line_5": "4. Conocimiento de Google Ads",
+            "question_2_answer_line_6": "5. Conocimiento de Facebooks Ads",
+            "question_2_answer_line_7": "6. Conocimiento de Marketing de Afiliados",
+            "question_3_question": "¿Qué Son Los Cursos De Marketing Digital?",
+            "question_3_answer": "Los cursos de marketing digital son aquellos que tienen como objetivo enseñarle cómo utilizar estrategias, técnicas y herramientas digitales para mejorar el marketing de una empresa e hacer el negócio crescer.",
+            "question_4_question": "¿Que Aprendes En Marketing Digital?",
+            "question_4_answer": "Un curso de marketing digital le mostrará cómo utilizar estrategias virtuosas para publicitar, atraer y conquistar al público a través de Internet y los medios digitales.",
             "question_5_question": "¿Qué Se Necesita Para Estudiar Marketing Digital?",
-            "question_5_answer_line_1": "Las mejores estrategias de marketing digital implican un profundo conocimiento del comportamiento del consumidor y el ZMOT. Se utilizará estos dos hilos para optimizar sus estrategias y les utilizar de la mejor manera posible. Algunos ejemplos de estrategias que son influenciados por estos dos ámbitos son:",
-            "question_5_answer_line_2": "1. SEO",
-            "question_5_answer_line_3": "2. Contenido de Marketing",
-            "question_5_answer_line_4": "3. Experiencia del Cliente",
-            "question_5_answer_line_5": "4. Video Marketing",
-            "question_5_answer_line_6": "5. Social Media Marketing"
+            "question_5_answer": "Para estudiar marketing digital no es necesario tener ninguna especialización o conocimiento en el área, siendo esta un nicho que puede estar dirigida a cualquier profesional con propósito de vender."
         }
     },
     "placeholder": {
@@ -522,6 +529,11 @@
       "name": "Nombre",
       "surname": "Apellido",
       "phone": "Teléfono"
+    },
+    "blog_slug": {
+        "btn_read_more" : "Sigue Leyendo",
+        "headline": "Buscar Más",
+        "placeholder": "Haz Una Búsqueda Aquí"
     },
     "privacy":{
         "seo": {

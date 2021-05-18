@@ -1,9 +1,10 @@
 {
     "navs": {
-        "home": {"title": "HOME", "link": "/"},
-        "blog": {"title": "BLOG", "link": "blog"},
-        "contact": {"title": "CONTACT US", "link": "contact"},
-        "privacy": {"title": "PRIVACY POLICY", "link": "privacy"}
+        "home": {"title": "Home", "link": "/"},
+        "services": {"title": "Services", "link": "/"},
+        "blog": {"title": "Blog", "link": "blog"},
+        "contact": {"title": "Contact Us", "link": "contact"},
+        "privacy": {"title": "Privacy Policy", "link": "privacy"}
     },
     "homepage": {
         "seo": {
@@ -11,7 +12,7 @@
             "description": "If you want to understand how to Influence Consumer Behavior and skyrocket your Digital Marketing results you must Learn ZMOT Framework."
         },
         "banner": {
-            "header": "Use ZMOT to Influence Consumer Behavior",
+            "header": "Use ZMOT To Influence Consumer Behavior",
             "text": "A Framework to Hack Consumer Behavior with Digital Marketing",
             "alt_image": "A opened big laptop is in the center of the image, and there is a tree landscape behing it. On bot sides of the computer, and on top, there are people avatars building a web store on this computer."
         },
@@ -43,13 +44,13 @@
             "sub_header": "We are here to help you to understand ZMOT and implement it to your day to day game. No matter the size of your pocket, or time availability, we will always have a solution to help you.",
             "service_1_header": "Digital Marketing Services",
             "service_1_description": "Are you interested about ZMOT and Consumer Behavior but have no idea how to start? Or maybe just need an expert opinion to speed things up? Just let us know your website and we'll surprise you with a masterplan to boost your Digital Business.",
-            "service_1_landing_page": "http://zmotinstitute.rds.land/784a86fc1474a6d021aa",
+            "service_1_navbar_description": "We help you to implement ZMOT",
             "service_2_header": "Lectures & Events",
             "service_2_description": "Wish to delight your audience with innovative & dynamic content that will make people clap standing? Our storytelling performance based presentations drive people to action & results you could have considered impossible before.",
-            "service_2_landing_page": "http://zmotinstitute.rds.land/palestras-e-eventos",
+            "service_2_navbar_description": "Enchant Your Audience With ZMOT",
             "service_3_header": "Online Courses",
             "service_3_description": "Learn best in class ZMOT with experts which have helped their organizations to achieve amazing results. With our online courses you can learn and implement ZMOT at your own and flexible pace, but also do it over and over again. You have full control of your learning process.",
-            "service_3_landing_page": "http://zmotinstitute.rds.land/cursos-online",
+            "service_3_navbar_description": "Learn ZMOT At Your Own Pace",
             "get_a_quote": "Learn More"
         },
         "what_say": {
@@ -79,6 +80,7 @@
             "title": "Get in touch with ZMOT Institute best in class experts",
             "description": "Get in touch now! Let us know your thoughts and help you to implement ZMOT Framework. No matter the size of your pocket, there is always a solution."
         },
+        "nav_description": "Let Us Help You And Your Customers",
         "banner": {
             "header": "Get in Touch With ZMOT Experts",
             "text": "Email or Live Chat, you choose the best option to reach us.",
@@ -132,6 +134,7 @@
             "title": "ZMOT Institute's Blog: Learn with Best in Class Experts",
             "description": "This is the right place to learn all about ZMOT Framework and related topics regarding Consumer Behavior. Learn Now and Start to Boost your Business Results!"
         },
+        "nav_description": "Learn Best In Class Consumer Behaviour",
         "opinion": {
             "title": "Opinions about this content"
         },
@@ -549,6 +552,12 @@
       "phone": "Phone Number"
     },
 
+    "blog_slug": {
+        "btn_read_more" : "Continue Reading",
+        "headline": "Search For More",
+        "placeholder": "Search a Keyword Here"
+    },
+    
     "privacy":{
         "seo": {
             "title": "ZMOT Institute Privacy Policy. We respect people's privacy",

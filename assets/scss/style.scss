@@ -26,32 +26,32 @@ h3,h4, h5{
 }
 p, ul, li{
   font-family: 'Quicksand';
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 dt{
   font-family: 'Quicksand';
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 dd {
   font-family: 'Quicksand';
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
-div.blog-index-page h1,
-div.blog-slug-page h1{
-  font-size: 2.25rem;
-}
-div.blog-index-page p,
-div.blog-slug-page p{
-  font-size: 1.5rem;
-  line-height: 2.2rem;
-}
-div.leading-normal p.leading-relaxed{
-  font-size: 2.1rem;
-  font-weight: 400;
-}
+// // div.blog-index-page h1,
+// // div.blog-slug-page h1{
+// //   font-size: 2.25rem;
+// // }
+// // div.blog-index-page p,
+// // div.blog-slug-page p{
+// //   font-size: 1.5rem;
+// //   line-height: 2.2rem;
+// // }
+// div.leading-normal p.leading-relaxed{
+//   font-size: 2.1rem;
+//   font-weight: 400;
+// }
 @media only screen and (max-width: 767px) {
   h1{
     font-size: 3rem;
@@ -69,12 +69,12 @@ div.leading-normal p.leading-relaxed{
     font-size: 1.25rem;
     font-weight: 300;
   }
-  div.blog-index-page h1,
-  div.blog-slug-page h1{
-    font-size: 2.25rem;
-  }
-  div.blog-index-page p,
-  div.blog-slug-page p{
-    font-size: 1.2rem;
-  }
+  // div.blog-index-page h1,
+  // div.blog-slug-page h1{
+  //   font-size: 2.25rem;
+  // }
+  // div.blog-index-page p,
+  // div.blog-slug-page p{
+  //   font-size: 1.2rem;
+  // }
 }

@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <button type="submit" class="font-semibold text-xl mt-4 border bg-white py-15sm px-3 text-white rounded-full bg-mpurple no-underline uppercase">
+        <button type="submit" class="mt-8 mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
           {{ $t('blog.add_comment.submit') }}
         </button>
       </div>
