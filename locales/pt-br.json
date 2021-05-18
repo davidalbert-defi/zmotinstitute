@@ -1,9 +1,10 @@
 {
     "navs": {
-        "home": {"title": "HOME", "link": "/"},
-        "blog": {"title": "BLOG", "link": "blog"},
-        "contact": {"title": "CONTATO", "link": "contact"},
-        "privacy": {"title": "POLITICA PRIVACIDADE", "link": "privacidade"}
+        "home": {"title": "Home", "link": "/"},
+        "services": {"title": "Serviços", "link": "/"},
+        "blog": {"title": "Blog", "link": "blog"},
+        "contact": {"title": "Contato", "link": "contact"},
+        "privacy": {"title": "Política De Privacidade", "link": "privacidade"}
     },
     "homepage": {
         "seo": {
@@ -11,7 +12,7 @@
             "description": "Acelere os resultados do seu Marketing Digital influenciando o Comportamento do Consumidor. Aprenda ZMOT agora, de forma rápida e prática."
         },
         "banner": {
-            "header": "Influencie o Comportamento do Consumidor com ZMOT",
+            "header": "Influencie O Comportamento Do Consumidor Com ZMOT",
             "text": "Framework para Hackear o Comportamento do Consumidor com Marketing Digital",
             "alt_image": "Um grande laptop aberto está no centro da imagem, e há uma paisagem de árvore atrás dele. Nos lados do computador, e no topo, há avatares de pessoas construindo uma loja na web neste computador."
         },
@@ -43,10 +44,13 @@
             "sub_header": "Nos estamos aqui para ajudar você a entender o ZMOT e aplicá-lo no seu dia a dia. Não importa o tamanho do seu bolso, ou disponibilidade de tempo, teremos sempre uma solução para ajudá-lo.",
             "service_1_header": "Consultoria de Marketing Digital",
             "service_1_description": "Está interessado sobre ZMOT e Comportamento do Consumidor, mas não tem idéia de como começar? Ou talvez queira a ajuda de um especialista para acelerar as coisas? Compartilhe seu website conosco e nos deixe surpeendê-lo com um plano para impulsionar seu Negócio Digital.",
+            "service_1_navbar_description": "Te Ajudamos a Implementar o ZMOT",
             "service_2_header": "Palestras & Eventos",
             "service_2_description": "Deseja encantar sua platéia com um conteúdo inovador, dinâmico e que fará as pessoas aplaudirem de pé? Nossas apresentações baseadas em storytelling e performance ajudam pessoas a alcançar resultados outrora tidos como impossíveis.",
+            "service_2_navbar_description": "Encante Sua Platéia Com ZMOT",
             "service_3_header": "Cursos Online",
             "service_3_description": "Aprenda tudo sobre ZMOT com especialista no assunto que tem ajudado suas organizações a alcançar resultados surpreendentes. Com nossos cursos online você poderá aprender e implementar o ZMOT no seu próprio ritmo, fazendo quantas vezes quiser. Você tem controle total sobre seu aprendizado.",
+            "service_3_navbar_description": "Aprenda ZMOT No Seu Ritmo",
             "get_a_quote": "Saber Mais"
         },
         "what_say": {
@@ -76,6 +80,7 @@
             "title": "Entre em contato com os especialistas do ZMOT Institute",
             "description": "Entre em contato Agora! Envie suas dúvidas e te ajudaremos a implementar o ZMOT. Não importa o tamanho do seu bolso, sempre teremos uma solução."
         },
+        "nav_description": "Vamos Te Ajudar A Entender Seu Cliente",
         "banner": {
             "header": "Converse Agora com Especialistas Em ZMOT",
             "text": "Email ou Live Chat, você escolhe a melhor opção",
@@ -129,6 +134,7 @@
             "title": "Acesse o Blog do ZMOT Institute e Aprenda com os Melhores",
             "description": "O melhor lugar para você aprender tudo sobre o ZMOT Framework e temas relacionados a Comportamento do Consumidor. Acesse Agora!"
         },
+        "nav_description": "Tudo Sobre Comportamento Do Consumidor",
         "opinion": {
             "title": "Opiniões sobre o conteúdo"
         },
@@ -173,7 +179,7 @@
             "alt_image": "Grande laptop no centro, com uma paisagem de árvore na parte de trás. Existem três avatares construindo uma loja virtual neste laptop. A paleta de cores é laranja, amarelo e roxo"
         },
         "what_we_do":{
-            "headline_1_text": "O Que Fazemos Em Nossa Consultoria De Marketing Digital?",
+            "headline_1_text": "Opiniões sobre o ZMOT INSTITUTE",
             "headline_2_text": "",
             "sub_headline_1": "Nós Vamos Te Ajudar A Entender A Necessidade do Cliente e Otimizar Seu Mix De Marketing Com O Framework Do ZMOT",
             "sub_headline_2": "Os especialistas do ZMOT INSTITUTE Irão Ajudá-lo A Identificar As Pistas Digitais Deixadas Por Seus Clientes, E Com Isso Criar Um Planejamento de Marketing Digital Para Entregar A Mensagem Certa, Na Hora Certa, Para O Cliente Certo",
