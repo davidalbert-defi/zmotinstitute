@@ -45,7 +45,7 @@
                 </button>
               </dt>
               <dd v-if="isOpenFAQ_1" class="mt-2 pr-12">
-                <p class="text-base text-indigo-200" v-html="$t('online_courses.faq.question_1_answer')">
+                <p class="font-normal text-lg  text-white ml-6 pt-1 leading-8" v-html="$t('online_courses.faq.question_1_answer')">
                 </p>
               </dd>
             </div>
