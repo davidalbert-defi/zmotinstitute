@@ -162,7 +162,12 @@
             "field_message": "Como Podemos Ayudarte? ¿Cuál Es Tu Duda?",
             "submit": "ENVIAR INFORMACIÓN DE CONTACTO",
             "privacy_1": "Privacidad De Los Datos Es Un Asunto Serio Para Nosotros. Comprenda Nuestra Política De ",
-            "privacy_2": "Privacidad De Datos.."
+            "privacy_2": "Privacidad De Datos..",
+        "thank_you_title": "Gracias por contactarnos!",
+        "thank_you_message": "Agradecemos su interés en ZMOT Institute. ¡Uno de nuestros colegas se pondrá en contacto contigo pronto!",
+        "thank_you_error_title": "Error de Envío",
+        "thank_you_error_message": "Por Favor Pruebe Nuestro Chat Online"
+
         }
     },
     "marketing_services": {
