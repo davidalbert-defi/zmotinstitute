@@ -7,7 +7,7 @@
             <div class="h-125px" />
           </div>
           <div class="pa-2 mb-10">
-            <h2 class="text-55xl font-semibold leading-none text-white">
+            <h2 class="font-semibold leading-none text-white">
               {{ $t('contact.banner.header') }}
             </h2>
           </div>
@@ -23,7 +23,7 @@
                   id="btn_chat-online"
                   href="https://wa.me/5548988087120"
                   target="_blank"
-                >
+                  rel="noopener noreferrer">
                   <button  class="font-semibold m-1 bg-white py-15sm px-8 text-primary rounded-full no-underline">
                     {{ $t('contact.banner.button.access_live_chat') }}
                   </button>

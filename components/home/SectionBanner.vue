@@ -6,7 +6,7 @@
           <!-- <div class="h-125px" /> -->
           </div>
         <div class="p-2">
-          <h1 class="text-44xl text-center lg:text-left font-semibold text-white leading-tight break-words mb-12">
+          <h1 class="text-center lg:text-left font-semibold text-white leading-tight break-words mb-12">
             {{ $t('homepage.banner.header') }}
           </h1>
         </div>
