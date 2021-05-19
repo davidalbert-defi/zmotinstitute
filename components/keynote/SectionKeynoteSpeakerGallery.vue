@@ -33,7 +33,7 @@
                     <p v-if="gallery.tag_type == 4" class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium font-bold bg-pink-100 text-pink-500">
                       {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_tag`) }}
                     </p>
-                    <a :href="gallery.link" target="_blank" class="block mt-2">
+                    <a :href="gallery.link" target="_blank" rel="noopener noreferrer"> class="block mt-2">
                     <dt class="text-xl font-semibold text-gray-900 leading-tight">
                         {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_header`) }}
                     </dt>
@@ -44,14 +44,14 @@
                 </div>
                     <div class="mt-6 flex items-center">
                         <div class="flex-shrink-0">
-                        <a :href="gallery.social_link" target="_blank">
+                        <a :href="gallery.social_link" target="_blank" rel="noopener noreferrer">>
                             <span class="sr-only">{{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_speaker`) }}</span>
                             <img class="h-10 w-10 rounded-full" :src="gallery.thumb_url" alt="" data-not-lazy />
                         </a>
                         </div>
                         <div class="ml-3">
                         <p class="text-sm font-medium text-gray-900">
-                            <a :href="gallery.social_link" target="_blank" class="hover:underline">
+                            <a :href="gallery.social_link" target="_blank" rel="noopener noreferrer"> class="hover:underline">
                             {{ $t(`keynote_speakers.keynote_gallery.past_keynote_${index+1}_speaker`) }}
                             </a>
                         </p>

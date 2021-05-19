@@ -16,7 +16,7 @@
               </a>
             </div>
             <div class="mt-3 rounded-md shadow-md sm:mt-0 sm:ml-3 uppercase">
-              <a href="https://wa.me/5548988087120" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-600 bg-white hover:bg-indigo-600 hover:text-white md:py-4 md:text-lg md:px-10">
+              <a href="https://wa.me/5548988087120" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-600 bg-white hover:bg-indigo-600 hover:text-white md:py-4 md:text-lg md:px-10">
                 {{ $t('marketing_services.hero.cta_2') }}
               </a>
             </div>

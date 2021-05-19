@@ -24,8 +24,8 @@
               </div>
               <div class="blog-content" v-html="post && renderedContent" />
             </div>
-            <div v-if="!isMore">
-              <button id="btn_read_more_blog_post" class="mt-8 mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10" v-on:click="readMore" >
+            <div class="pt-10" v-if="!isMore">
+              <button id="btn_read_more_blog_post" class="mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10" v-on:click="readMore" >
                 {{ $t('blog_slug.btn_read_more') }}
                 <!-- {{moreBtntxt}} -->
               </button>
@@ -48,14 +48,19 @@
             </div>
           </div>
           <author
+            v-if="isMore"
             :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
           />
           <comment-list
+            v-if="isMore"
             :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
             :replies="post && post._embedded && post._embedded.replies && post._embedded.replies.length > 0 && post._embedded.replies[0]"
             :post-id="post && post.id"
           />
-          <add-comment :post-id="post && post.id" :comment-id="0" />
+          <add-comment
+          v-if="isMore"
+          :post-id="post && post.id"
+          :comment-id="0" />
         </div>
       </div>
     </div>

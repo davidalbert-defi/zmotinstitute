@@ -157,6 +157,7 @@
         "lead_form_sub_headline_2": "We are here to help you to understand your customers needs and skyrocket your business results.",
         "lead_form": {
             "field_name": "What Is Your Name?",
+            "field_surname": "What Is Your Last Name?",
             "field_email": "What Is Your Email?",
             "field_phone": "And your Phone Number?",
             "field_message": "How Can We Help You? What's Your Doubt?",
@@ -165,8 +166,8 @@
             "privacy_2": "Data Privacy Policy.",
         "thank_you_title": "Thank you for getting in touch! ",
         "thank_you_message": "We appreciate your interest on ZMOT Institute. One of our colleagues will get back in touch with you soon!",
-        "thank_you_error_title": "Submit Failed",
-        "thank_you_error_message": "Please Try Our Online Chat"
+        "error_title": "Submit Failed",
+        "error_message": "Please Try Our Online Chat"
         }
     },
     "marketing_services": {

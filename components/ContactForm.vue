@@ -51,12 +51,20 @@
                     autocomplete="surname"
                     v-model="surname"
                     class="bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md m-0"
-                    :placeholder="`${$t('contact_form.lead_form.field_name')}`">
+                    :placeholder="`${$t('contact_form.lead_form.field_surname')}`">
                 </div>
                 <client-only>
-                  <vue-tel-input v-model="phone" v-bind="telInputOption" required :placeholder="$t('placeholder.phone')" @country-changed="countryChanged"></vue-tel-input>
+                  <vue-tel-input
+                  class="bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md m-0"
+                  v-model="phone"
+                  v-bind="telInputOption"
+                  required
+                  :placeholder="$t('placeholder.phone')"
+                  @country-changed="countryChanged">
+                  </vue-tel-input>
                 </client-only>
                 <recaptcha
+                  class="mt-8"
                   @error="onError"
                   @success="onSuccess"
                   @expired="onExpired"
@@ -71,9 +79,9 @@
                   </button>
                   <p class="mt-6 text-sm text-orange-shinny">
                     {{ $t('contact_form.lead_form.privacy_1') }}
-                    <a href="/privacy" class="text-orange-shinny font-medium underline">
+                    <nuxt-link :to="localePath('privacy')" class="text-orange-shinny font-medium underline">
                     {{ $t('contact_form.lead_form.privacy_2') }}
-                    </a>
+                    </nuxt-link>
                   </p>
                 </div>
               </div>
@@ -172,16 +180,16 @@ export default {
     },
     showSuccessToast () {
       this.$swal({
-        title: this.$t('online_courses.thank_you_title'),
-        text: this.$t('online_courses.thank_you_message'),
+        title: this.$t('contact_form.thank_you_title'),
+        text: this.$t('contact_form.thank_you_message'),
         icon: 'success',
         button: 'OK'
       })
     },
     showErrorToast () {
       this.$swal({
-        title: 'Submit Failed',
-        text: 'Something went wrong with your submission.',
+        title: 'contact_form.error_title',
+        text: 'contact_form.error_message',
         icon: 'error',
         button: 'OK'
       })
