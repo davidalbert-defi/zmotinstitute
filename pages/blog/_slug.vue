@@ -77,14 +77,17 @@
 
 <script>
 import moment from 'moment'
+import blogData from '../../assets/data.json'
 export default {
-  async asyncData ({
-    params,
-    $axios
+  asyncData ({
+    params
   }) {
-    const { data } = await $axios.get(`https://thezmot.com/wp-json/wp/v2/posts?slug=${params.slug}&_embed=1`)
+    const postdata = blogData &&
+    blogData.filter((post) => {
+      return post.slug === params.slug
+    })
     return {
-      post: data[0],
+      post: postdata[0],
       isLoading: false
     }
   },
@@ -100,6 +103,7 @@ export default {
   }),
   computed: {
     renderedTitle () {
+      console.log(this.post)
       return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
     },
     renderedContent () {
