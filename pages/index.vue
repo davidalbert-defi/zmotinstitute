@@ -20,6 +20,10 @@
       <section-sayaboutus />
     </lazy-hydrate>
 
+    <lazy-hydrate when-visible>
+      <section-bloghome />
+    </lazy-hydrate>
+
     <news-letter />
   </div>
 </template>

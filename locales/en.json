@@ -62,17 +62,20 @@
         },
         "blog": {
             "header": "BLOG",
-            "text": "Quer se manter atualizado sobre ZMOT e Comportamento do Consumidor, através de conteúdos exclusivos e totalmente gratuítos? Não deixe de acessar nossos materiais super completos e cheios de dicas práticas de como acelerar seus negócios.",
-            "block_1_header": "ZMOT e o Comportamento do Consumidor",
-            "block_1_text": "ZMOT é a chave para você entender o consumidor moderno e poder fazer ações de Marketing Digital que geram resultado.",
+            "text": "Do You Want To Stay Up To Date On Zmot And Consumer Behavior Matters? Be Sure To Access Our Exclusive And Totally Free Content And Materials, Full Tips On How To Scale Your Business.",
+            "block_1_header": "Understanding ZMOT and Consumer Behavior",
+            "block_1_text": "ZMOT is the key for you to understand the modern consumer and perform effective Digital Marketing strategies to scale your business.",
+            "block_1_alt": "In the center there is a group of people standing and a rectangular 5-seater work table with 3 large computer screens. At the left side we have two people talking and pointing at one of the screens. At the right side we have a person standing using a tablet, and right next to it there is another person sitting on the floor using a laptop. On the background there are elements that resemble plants and trees, as well as letters and dots representing them communicating through devices.",
             "block_1_link": "",
-            "block_2_header": "Customer Experience: Como mapear a Jornada de Compra",
-            "block_2_text": "Nesse artigo você vai aprender tudo sobre Customer Experience e Jornada de Compra e como ter controle e influencia sobre seu Funil de Vendas.",
+            "block_2_header": "Customer Experience: How To Map The Customer Journey",
+            "block_2_text": "In this article you will learn everything about Customer Experience, Customer Journey and how to deliver the right message, at the right time.",
+            "block_2_alt": "In the center is an avatar of a man and a woman and behind them a giant-sized e-commerce website. The woman is standing on the left side, thinking about what to buy, and the man kneeling on the right side with a large credit card in hand, as if he is shopping. Around him are shopping bags. In the background we have decorative vegetation. The color palette is purple, orange, and blue.",
             "block_2_link": "",
-            "block_3_header": "Economia Comportamental : Como Influenciar Clientes com 9 Princípios?",
-            "block_3_text": "Com a Economia Comportamental você será capaz de entender como seu cliente toma sua decisão de compra e influenciá-lo nessa jornada.",
+            "block_3_header": "Behavioral Economics: How to Influence Customers With 9 Principles!",
+            "block_3_text": "With Behavioral Economics you will be able to understand how your customer do their purchase decision and influence them on that process.",
+            "block_3_alt": "In the center is the avatar of a man placing a shopping bag inside a supermarket cart. At the background there are 3 giant shopping bags, the one on the left the smallest, the one on the middle middle, and the one on the right the largest. The color palette is purple, light orange and light blue.",
             "block_3_link": "",
-            "read_more": "Ler Conteúdo"
+            "read_more": "Read More"
         }
     },
     "contact": {
