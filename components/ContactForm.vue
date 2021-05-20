@@ -55,7 +55,7 @@
                 </div>
                 <client-only>
                   <vue-tel-input
-                  class="bg-orange-100 text-xl block w-full shadow-inner py-3 px-4 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md m-0"
+                  class="bg-orange-100 text-xl block w-full shadow-inner py-3 placeholder-orange-shinny focus:ring-orange-500 focus:border-orange-500 border-orange-700 rounded-md m-0"
                   v-model="phone"
                   v-bind="telInputOption"
                   required
