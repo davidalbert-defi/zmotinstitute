@@ -158,6 +158,10 @@
         "lead_form_headline": "¿¡Vamos A Hablar!?",
         "lead_form_sub_headline_1": "Programe ahora 1 hora de tutoría. Totalmente gratuito.",
         "lead_form_sub_headline_2": "Estamos aquí para ayudarlo a comprender el Comportamiento del Consumidor y hacer Crecer Su Negocio.",
+        "thank_you_title": "Gracias por contactarnos!",
+        "thank_you_message": "Agradecemos su interés en ZMOT Institute. ¡Uno de nuestros colegas se pondrá en contacto contigo pronto!",
+        "error_title": "Error de Envío",
+        "error_message": "Por Favor Pruebe Nuestro Chat Online",
         "lead_form": {
             "field_name": "¿Cuál Es Tu Nombre?",
             "field_surname": "¿Cuál Es Tu Apellido?",
@@ -166,12 +170,7 @@
             "field_message": "Como Podemos Ayudarte? ¿Cuál Es Tu Duda?",
             "submit": "ENVIAR INFORMACIÓN DE CONTACTO",
             "privacy_1": "Privacidad De Los Datos Es Un Asunto Serio Para Nosotros. Comprenda Nuestra Política De ",
-            "privacy_2": "Privacidad De Datos..",
-        "thank_you_title": "Gracias por contactarnos!",
-        "thank_you_message": "Agradecemos su interés en ZMOT Institute. ¡Uno de nuestros colegas se pondrá en contacto contigo pronto!",
-        "error_title": "Error de Envío",
-        "error_message": "Por Favor Pruebe Nuestro Chat Online"
-
+            "privacy_2": "Privacidad De Datos.."
         }
     },
     "marketing_services": {
