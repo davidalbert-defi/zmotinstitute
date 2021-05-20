@@ -1,12 +1,12 @@
 <template>
-<section id="Banner-section" class="pt-24 pb-8">
-  <div id="hero-section" class="bg-orange-100 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
-      <div class="container mx-auto flex py-6 lg:p-12 md:flex-row flex-col items-center">
+<section id="Banner-section" class="pt-20 pb-8">
+  <div id="hero-section" class="bg-orange-100 lg:m-4 rounded-3xl" > <!-- bg-amber-100 -->
+      <div class="container mx-auto lg:mx-4 flex py-6 lg:p-8 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-        <h1 class="title-font text-4xl lg:text-5xl mb-4 font-semibold text-orange-shinny">
+        <h1 class="title-font text-4xl lg:text-6xl mb-4 font-semibold text-orange-shinny">
           {{ $t('marketing_services.hero.headline') }}
         </h1>
-        <p class="text-orange-shinny text-xl font-normal lg:mr-20">
+        <p class="text-orange-shinny text-xl lg:text-2xl font-normal lg:mr-20">
           {{ $t('marketing_services.hero.sub_headline') }}
         </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
@@ -22,7 +22,7 @@
             </div>
           </div>
       </div>
-      <div  class="lg:w-1/2 md:w-1/2 w-5/6 lg:transform lg:-scale-125">
+      <div  class="lg:w-1/2 md:w-1/2 w-5/6 lg:transform lg:-scale-125 lg:my-auto">
         <img class="object-contain w-full rounded" :alt="$t('marketing_services.hero.alt_image')" src="~/assets/img/services-section/service-zmot_audit.png">
       </div>
     </div>

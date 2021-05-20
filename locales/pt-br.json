@@ -71,7 +71,7 @@
             "block_2_text": "Nesse artigo você vai aprender tudo sobre Customer Experience e Jornada de Compra e como entregar a mensagem certa, na hora certa.",
             "block_2_alt": "No centro o avatar de um homem e uma mulher e atrás deles um site de ecommerce de tamanho gigante. A mulher está de pé do lado esqurdo, pensando no que comprar, e o homem a ajoelhado do lado direito com um grande cartão de crédito na mão, como se estivesse comprando. Ao redor deles existem sacolas com compras. Ao fundo temos vegetações decorativas. A paleta de cores é roxo, laranja e azul.",
             "block_2_link": "",
-            "block_3_header": "Economia Comportamental: Como Influenciar Clientes com 9 Princípios!",
+            "block_3_header": "Economia Comportamental: Como Influenciar Clientes",
             "block_3_text": "Com a Economia Comportamental você será capaz de entender como seu cliente toma sua decisão de compra e influenciá-lo nessa jornada.",
             "block_3_alt": "No centro há o avatar de um homem colocando uma sacola de compra dentro de um carrinnho de supermercado. Ao fundo existem 3 sacolas de compra gigantes, sendo a da esquerda menor, a do meio intermediária, e da direita a maior. A paleta de cores é roxo, laranja claro e azul claro.",
             "block_3_link": "",
@@ -137,7 +137,9 @@
             "title": "Acesse o Blog do ZMOT Institute e Aprenda com os Melhores",
             "description": "O melhor lugar para você aprender tudo sobre o ZMOT Framework e temas relacionados a Comportamento do Consumidor. Acesse Agora!"
         },
-        "nav_description": "Tudo Sobre Comportamento Do Consumidor",
+        "headline": "BLOG do ZMOT Institute",
+        "sub_headline": "Aprenda O Melhor Sobre Zmot E Comportamento Do Consumidor Com O Zmot Institute. Este É O Lugar Certo Para Profissionais De Marketing, Empreendedores De Alto Impacto E Entusiastas De Marketing.",
+        "nav_description": "Tudo Sobre ZMOT e Comportamento Do Consumidor",
         "opinion": {
             "title": "Opiniões sobre o conteúdo"
         },
@@ -158,6 +160,10 @@
         "lead_form_headline": "Vamos Conversar!?",
         "lead_form_sub_headline_1": "Agende agora 1 hora de Mentoria, Totalmente Gratuita.",
         "lead_form_sub_headline_2": "Estamos aqui para ajudar as pessoas a entender o Comportamento do Consumidor e fazer seus Negócios Crescerem",
+        "thank_you_title": "Obrigado pelo contato!",
+        "thank_you_message": "Ficamos contentes com seu interesse pelo ZMOT Institute. Entraremos em contato em breve!",
+        "error_title": "Erro de Envío",
+        "error_message": "Por Favor Tente Nosso Chat Online",
         "lead_form": {
             "field_name": "Qual o seu Nome?",
             "field_surname": "Qual o seu Sobrenome?",
@@ -166,11 +172,7 @@
             "field_message": "Como podemos ajudá-lo? Qual a sua dúvida?",
             "submit": "ENVIAR DADOS DE CONTATO",
             "privacy_1": "Privacidade de dado é um assunto sério para nós. Entenda nossa Política de ",
-            "privacy_2": "Privacidade de Dados.",
-        "thank_you_title": "Obrigado pelo contato!",
-        "thank_you_message": "Ficamos contentes com seu interesse pelo ZMOT Institute. Entraremos em contato em breve!",
-        "error_title": "Erro de Envío",
-        "error_message": "Por Favor Tente Nosso Chat Online"
+            "privacy_2": "Privacidade de Dados."
         }
     },
     "marketing_services": {

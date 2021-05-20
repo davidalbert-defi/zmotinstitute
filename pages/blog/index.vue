@@ -1,5 +1,10 @@
 <template>
   <div class="blog-index-page pt-20">
+      <!-- <section-list-blog /> -->
+    <!-- </lazy-hydrate> -->
+    <client-only>
+      <section-list-blog />
+    </client-only>
     <client-only>
       <section-blog />
     </client-only>

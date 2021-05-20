@@ -4,7 +4,9 @@
     outline: none;
     box-shadow: none;
   }
-
+  .vue-tel-input:focus-within{
+    border-shadow: none;
+  }
   .vti__dropdown {
     background-color: white;
     outline: none;

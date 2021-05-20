@@ -1,5 +1,5 @@
 import axios from 'axios'
-
+import redirectSSL from 'redirect-ssl'
 export default {
   server: {
     host: '0.0.0.0',
@@ -143,7 +143,10 @@ export default {
   ],
   serverMiddleware: [
     //server side redirects
-    '~/serverMiddleware/redirects'
+    '~/serverMiddleware/redirects',
+    redirectSSL.create({
+      enabled: process.env.NODE_ENV === 'production'
+     }),
   ],
 
   // Hsts module configuration
