@@ -1,5 +1,8 @@
 <template>
   <div class="blog-index-page pt-20">
+    <!-- <client-only>
+      <blog-hero />
+    </client-only> -->
     <client-only>
       <section-blog />
     </client-only>
