@@ -542,7 +542,9 @@
     },
     "blog_slug": {
         "btn_read_more" : "Sigue Leyendo",
-        "headline": "Buscar Más",
+        "headline": "Buscar",
+        "sub_headline_1": "¿No Encontraste Lo Que Esperabas?",
+        "sub_headline_2": "Busca Por Más.",
         "placeholder": "Haz Una Búsqueda Aquí"
     },
     "privacy":{

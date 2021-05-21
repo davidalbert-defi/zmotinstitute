@@ -22,7 +22,7 @@
                         />
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <nuxt-link class="block mt-2" to="/blog/zmot-comportamento-do-consumidor">
+                        <nuxt-link class="block mt-2" to="/blog/zmot-comportamento-do-consumidor" id="btn_home-page_go-to-blog">
                             <p class="text-2xl font-bold text-gray-900">
                             {{ $t('homepage.blog.block_1_header') }}
                             </p>
@@ -49,7 +49,7 @@
                         />
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <nuxt-link class="block mt-2" to="/blog/customer-experience-jornada-de-compra">
+                        <nuxt-link class="block mt-2" to="/blog/customer-experience-jornada-de-compra" id="btn_home-page_go-to-blog">
                             <p class="text-2xl font-semibold text-gray-900">
                             {{ $t('homepage.blog.block_2_header') }}
                             </p>
@@ -76,7 +76,7 @@
                         />
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <nuxt-link class="block mt-2" to="/blog/economia-comportamental">
+                        <nuxt-link class="block mt-2" to="/blog/economia-comportamental" id="btn_home-page_go-to-blog">
                             <p class="text-2xl font-semibold text-gray-900">
                             {{ $t('homepage.blog.block_3_header') }}
                             </p>

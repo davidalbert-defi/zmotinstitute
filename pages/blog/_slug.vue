@@ -3,7 +3,7 @@
     <div v-if="!isLoading" class="pt-4 my-20 lg:m-20 lg:mt-32">
       <div class="container mx-auto px-4 lg:px-4">
         <div class="row flex flex-wrap">
-          <div class="col w-full md:w-3/4">
+          <div class="col w-full md:w-3/4 order-1">
             <div>
               <div class="mb-4">
                 <img
@@ -31,33 +31,44 @@
               </button>
             </div>
           </div>
-          <div class="col w-full md:w-1/4 mt-4 md:mt-0">
-            <div class="sidebar-content pl-0 lg:pl-8">
-              <div class="search">
-                <h3 class="title">
-                  {{ $t('blog_slug.headline') }}
-                </h3>
-                <input
-                  v-model="text"
-                  v-on:keyup.enter="submit"
-                  class="form-control border border-solid m-0"
-                  :placeholder="`${$t('blog_slug.placeholder')}`"
-                  style="border-color: #ced4da;"
-                >
+          <aside class="lg:h-screen lg:sticky lg:top-0 col w-full md:w-1/4 mt-4 md:mt-0 order-9 lg:order-2 mt-16">
+            <div class="pl-4 pb-12 pt-2 pr-2 lg:ml-2 lg:pb-12 lg:pt-4 bg-orange-100 rounded-3xl shadow-lg">
+              <div> <br> </div>
+              <div class="sidebar-content pl-0 lg:px-4 ">
+                <div class="search">
+                  <h2 class="text-orange-shinny font-bold">
+                    {{ $t('blog_slug.headline') }}
+                  </h2>
+                  <p class="text-sm pb-8 text-orange-shinny">
+                    {{ $t('blog_slug.sub_headline_1') }}
+                    <br>
+                    <br>{{ $t('blog_slug.sub_headline_2') }}
+                  </p>
+                  <input
+                    v-model="text"
+                    v-on:keyup.enter="submit"
+                    class="form-control border border-solid m-0"
+                    :placeholder="`${$t('blog_slug.placeholder')}`"
+                    style="border-color: #ced4da;"
+                  >
+                </div>
               </div>
             </div>
-          </div>
+          </aside>
           <author
+            class="order-3"
             v-if="isMore"
             :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
           />
           <comment-list
+            class="order-4"
             v-if="isMore"
             :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
             :replies="post && post._embedded && post._embedded.replies && post._embedded.replies.length > 0 && post._embedded.replies[0]"
             :post-id="post && post.id"
           />
           <add-comment
+          class="order-5"
           v-if="isMore"
           :post-id="post && post.id"
           :comment-id="0" />
@@ -95,8 +106,7 @@ export default {
     isLoading: true,
     fullPage: true,
     color: '#ff6600',
-    isMore: false,
-    moreBtntxt: 'Read More - translate'
+    isMore: false
   }),
   computed: {
     renderedTitle () {

@@ -1,18 +1,22 @@
 <template>
-  <div class="col w-full md:w-3/4">
+  <div class="col w-full md:w-3/4 mt-12">
     <div class="row flex flex-wrap">
-      <div class="lg:flex py-10 w-full lg:mr-32 lg:text-base">
+      <div class="lg:flex pl-8 py-10 w-full lg:mr-32 lg:text-base bg-orange-100 lg:m-4 rounded-3xl">
         <img class="avatar " alt="Author Photo" :src="author && author.avatar_urls['96']" />
         <div>
           <div
-            v-if="author && author.link !== ''"
-            class="author-name-link mt-5 lg:mt-0"
+            v-if="author !== ''"
+            class="mt-5 lg:mt-0 text-orange-shinny text-2xl"
           >
-            <a :href="author.link">
+            <a
+            class="text-orange-shinny"
+            href="https://br.linkedin.com/in/rodrigowiethorn"
+            target="_blank"
+            rel="noopener noreferrer">
               {{ author && author.name }}
             </a>
           </div>
-          <div v-html="author && author.description" />
+          <div class="mt-4" v-html="author && author.description" />
         </div>
       </div>
     </div>

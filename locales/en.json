@@ -564,7 +564,9 @@
 
     "blog_slug": {
         "btn_read_more" : "Continue Reading",
-        "headline": "Search For More",
+        "headline": "Search",
+        "sub_headline_1": "Did Not Find What You Expected?",
+        "sub_headline_2": "Just Search For More.",
         "placeholder": "Search a Keyword Here"
     },
     

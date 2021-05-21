@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4">
-      <section v-if="!!totalNum" id="blogs" class="blogs my-20 lg:m-20">
+      <section v-if="!!totalNum" id="blogs" class="blogs my-12 lg:m-20">
         <nuxt-link
           v-for="post of pageOfItems"
           id="blog-card"
@@ -15,15 +15,15 @@
         >
           <div class="card overflow-hidden">
             <div class="row flex flex-wrap">
-              <div class="w-full md:w-1/3 mt-12 md:mt-0">
+              <div class="w-full md:w-1/2 mt-12 md:mt-0 transform scale-125 lg:scale-150">
                 <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none mx-auto" />
               </div>
-              <div class="w-full md:w-2/3">
+              <div class="w-full md:w-1/2">
                 <div class="card-body">
                   <div class="card-title text-white bg-primary text-2xl mb-3 font-medium">
                     {{ post.title.rendered }}
                   </div>
-                  <div class="card-text" v-html="post.excerpt.rendered" />
+                  <div class="text-xl" v-html="post.excerpt.rendered" />
                   <!-- <div class="card-meta">
                     Mais de 2.000 profissionais de marketing já leram esse conteúdo
                   </div> -->
