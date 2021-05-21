@@ -1,5 +1,5 @@
 <template>
-  <div v-if="visible && !loading" class="container mx-auto">
+  <div v-if="visible && !loading" class="col w-full md:w-3/4">
     <div class="row flex flex-wrap">
       <div class="w-full">
         <span class="header">{{ $t('blog.add_comment.title') }}</span>
