@@ -1,14 +1,14 @@
 <template>
   <section class="services my-20 bg-white" data-aos="fade-zoom" data-aos-once="true">
     <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
+      <h2 class="text-center mb-8 text-4xl lg:text-6xl font-bold lg:mx-24">
         {{ $t('homepage.services.header') }}
       </h2>
-      <p id="zmot-audit" class="text-center text-gray-500 text-xl lg:mx-32 font-normal mb-12">
+      <p id="zmot-audit" class="text-center text-gray-500 text-xl lg:text-2xl lg:mx-32 font-normal mb-12">
         {{ $t('homepage.services.sub_header') }}
       </p>
       <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
-        <div class="lg:w-1/2 w-full overflow-hidden">
+        <div class="lg:w-1/2 w-full overflow-hidden lg:my-auto">
           <img
             :src="require('~/assets/img/services/service-zmot_audit.png').src"
             :srcset="require('~/assets/img/services/service-zmot_audit.png').srcSet"
@@ -20,11 +20,11 @@
           <div class="card service--item mb-3">
             <div class="card-body">
               <div class="card-text">
-                <h3 class="my-8 font-bold text-center text-4xl">
+                <h3 class="mb-8 font-bold text-center text-4xl">
                   {{ $t('homepage.services.service_1_header') }}
                 </h3>
                 <div>
-                  <p class="text-center text-gray-500 text-xl font-normal">
+                  <p class="text-center text-gray-500 text-xl lg:text-2xl font-normal">
                     <span>
                       {{ $t('homepage.services.service_1_description') }}
                     </span>
@@ -56,11 +56,11 @@
           <div class="card service--item mb-3 text-right">
             <div class="card-body">
               <div class="card-text">
-                <h3 class="my-8 font-bold text-center text-4xl">
+                <h3 class="mb-8 font-bold text-center text-4xl">
                   {{ $t('homepage.services.service_2_header') }}
                 </h3>
                 <div>
-                  <p class="text-center text-gray-500 text-xl font-normal">
+                  <p class="text-center text-gray-500 text-xl lg:text-2xl font-normal">
                     <span>
                       {{ $t('homepage.services.service_2_description') }}
                     </span>
@@ -85,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:w-1/2 w-full overflow-hidden">
+        <div class="lg:w-1/2 w-full overflow-hidden lg:my-auto">
           <img
             :src="require('~/assets/img/services/service-lecture.png').src"
             :srcset="require('~/assets/img/services/service-lecture.png').srcSet"
@@ -96,7 +96,7 @@
       </div>
 
       <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
-        <div class="lg:w-1/2 w-full overflow-hidden">
+        <div class="lg:w-1/2 w-full overflow-hidden lg:my-auto">
           <img
             :src="require('~/assets/img/services/service-online_course.png').src"
             :srcset="require('~/assets/img/services/service-online_course.png').srcSet"
@@ -108,11 +108,11 @@
           <div class="card service--item mb-3">
             <div class="card-body">
               <div class="card-text">
-                <h3 class="my-8 font-bold text-center text-4xl">
+                <h3 class="mb-8 font-bold text-center text-4xl">
                   {{ $t('homepage.services.service_3_header') }}
                 </h3>
                 <div>
-                  <p class="text-center text-gray-500 text-xl font-normal">
+                  <p class="text-center text-gray-500 text-xl lg:text-2xl font-normal">
                     <span>
                       {{ $t('homepage.services.service_3_description') }}
                     </span>

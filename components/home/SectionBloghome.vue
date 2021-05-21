@@ -2,10 +2,10 @@
     <section id="BlogHome" class="my-20">
         <div>
             <div class="px-4">
-                <h2 class="text-center mb-8 text-4xl lg:text-5xl font-bold lg:mx-24">
+                <h2 class="text-center mb-8 text-4xl lg:text-6xl font-bold lg:mx-24">
                 {{ $t('homepage.blog.header') }}
                 </h2>
-                <p class="text-center text-gray-500 text-lg lg:mx-32 font-normal mb-12">
+                <p class="text-center text-gray-500 text-xl lg:text-2xl  lg:mx-32 font-normal mb-12">
                 {{ $t('homepage.blog.text') }}
                 </p>
             </div>
@@ -22,11 +22,11 @@
                         />
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <nuxt-link class="block mt-2" to="/blog/zmot-comportamento-do-consumidor">
-                            <p class="text-xl font-semibold text-gray-900">
+                        <nuxt-link class="block mt-2" to="/blog/zmot-comportamento-do-consumidor" id="btn_home-page_go-to-blog">
+                            <p class="text-2xl font-bold text-gray-900">
                             {{ $t('homepage.blog.block_1_header') }}
                             </p>
-                            <p class="mt-3 text-base text-gray-500">
+                            <p class="text-lg mt-3 text-base text-gray-500">
                             {{ $t('homepage.blog.block_1_text') }}
                             </p>
                             <div class="pt-10 pb-2">
@@ -49,11 +49,11 @@
                         />
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <nuxt-link class="block mt-2" to="/blog/customer-experience-jornada-de-compra">
-                            <p class="text-xl font-semibold text-gray-900">
+                        <nuxt-link class="block mt-2" to="/blog/customer-experience-jornada-de-compra" id="btn_home-page_go-to-blog">
+                            <p class="text-2xl font-semibold text-gray-900">
                             {{ $t('homepage.blog.block_2_header') }}
                             </p>
-                            <p class="mt-3 text-base text-gray-500">
+                            <p class="text-lg mt-3 text-base text-gray-500">
                             {{ $t('homepage.blog.block_2_text') }}
                             </p>
                             <div class="pt-10 pb-2">
@@ -76,11 +76,11 @@
                         />
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                        <nuxt-link class="block mt-2" to="/blog/economia-comportamental">
-                            <p class="text-xl font-semibold text-gray-900">
+                        <nuxt-link class="block mt-2" to="/blog/economia-comportamental" id="btn_home-page_go-to-blog">
+                            <p class="text-2xl font-semibold text-gray-900">
                             {{ $t('homepage.blog.block_3_header') }}
                             </p>
-                            <p class="mt-3 text-base text-gray-500">
+                            <p class="text-lg mt-3 text-base text-gray-500">
                             {{ $t('homepage.blog.block_3_text') }}
                             </p>
                             <div class="pt-10 pb-2">

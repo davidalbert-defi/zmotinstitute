@@ -11,28 +11,28 @@
             class="footer-new-holder-right-holder__brand footer-logo"
             alt="ZMOT Institite White Logo in an organge backgroud"
           >
-          <p class="mt-8 text-white font-normal text-base lg:mr-24">
+          <p class="mt-8 text-white font-normal text-lg lg:mr-24">
             {{ $t('footer.text') }}
           </p>
         </div>
         <div class="my-2 px-2 lg:w-2/3 overflow-hidden w-full">
           <div class="row flex flex-wrap -mx-2 overflow-hidden mt-3">
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
-              <h5 class="text-xl text-white font-semibold uppercase tracking-wider">
+              <h5 class="text-2xl text-white font-semibold uppercase tracking-wider">
                 {{ $t('footer.services.text') }}
               </h5>
-              <ul>
-                <li class="py-2">
+              <ul >
+                <li class="text-xl py-2">
                   <nuxt-link :to="localePath('digital-marketing-services')">
                     {{ $t('homepage.services.service_1_header') }}
                   </nuxt-link>
                 </li>
-                <li class="py-2">
+                <li class="text-xl py-2">
                   <nuxt-link :to="localePath('keynote-speakers')">
                     {{ $t('homepage.services.service_2_header') }}
                   </nuxt-link>
                 </li>
-                <li class="py-2">
+                <li class="text-xl py-2">
                   <nuxt-link :to="localePath('digital-marketing-courses')">
                     {{ $t('homepage.services.service_3_header') }}
                   </nuxt-link>
@@ -40,16 +40,16 @@
               </ul>
             </div>
             <div class="my-2 px-2 lg:w-1/3 overflow-hidden w-full">
-              <h5 class="text-xl text-white font-semibold uppercase tracking-wider">
+              <h5 class="text-2xl text-white font-semibold uppercase tracking-wider">
                 {{ $t('footer.knowledge.text') }}
               </h5>
               <ul>
-                <li class="py-2">
+                <li class="text-xl py-2">
                   <nuxt-link :to="localePath($t('navs.blog.link'))">
                     {{ $t('footer.blog') }}
                   </nuxt-link>
                 </li>
-                <li class="py-2">
+                <li class="text-xl py-2">
                   <a href="/#newsletter">
                     {{ $t('footer.newsletter') }}
                   </a>

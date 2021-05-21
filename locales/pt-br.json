@@ -71,7 +71,7 @@
             "block_2_text": "Nesse artigo você vai aprender tudo sobre Customer Experience e Jornada de Compra e como entregar a mensagem certa, na hora certa.",
             "block_2_alt": "No centro o avatar de um homem e uma mulher e atrás deles um site de ecommerce de tamanho gigante. A mulher está de pé do lado esqurdo, pensando no que comprar, e o homem a ajoelhado do lado direito com um grande cartão de crédito na mão, como se estivesse comprando. Ao redor deles existem sacolas com compras. Ao fundo temos vegetações decorativas. A paleta de cores é roxo, laranja e azul.",
             "block_2_link": "",
-            "block_3_header": "Economia Comportamental: Como Influenciar Clientes com 9 Princípios!",
+            "block_3_header": "Economia Comportamental: Como Influenciar Clientes",
             "block_3_text": "Com a Economia Comportamental você será capaz de entender como seu cliente toma sua decisão de compra e influenciá-lo nessa jornada.",
             "block_3_alt": "No centro há o avatar de um homem colocando uma sacola de compra dentro de um carrinnho de supermercado. Ao fundo existem 3 sacolas de compra gigantes, sendo a da esquerda menor, a do meio intermediária, e da direita a maior. A paleta de cores é roxo, laranja claro e azul claro.",
             "block_3_link": "",
@@ -564,7 +564,9 @@
     },
     "blog_slug": {
         "btn_read_more" : "Continuar Lendo",
-        "headline": "Pesquisar Por Mais",
+        "headline": "Pesquisar",
+        "sub_headline_1": "Não Encontrou O Que Estava Procurando?",
+        "sub_headline_2": "Pesquise Um Pouco Mais.",
         "placeholder": "Faça Sua Busca Aqui"
     },
     "privacy":{

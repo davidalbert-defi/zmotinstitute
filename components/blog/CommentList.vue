@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!loading" class="container mx-auto px-2 lg:px-4">
+  <div v-if="!loading" class="col w-full md:w-3/4">
     <div class="row flex flex-wrap">
       <div v-for="item of items" :key="item.id" class="w-full">
         <comment
