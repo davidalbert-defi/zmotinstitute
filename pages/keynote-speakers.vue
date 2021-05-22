@@ -67,6 +67,38 @@ export default {
       es: '/ponentes',
       'pt-br': '/palestrantes'
     }
+  },
+  jsonld () {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: this.$t('keynote_speakers.faq.question_1_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('keynote_speakers.faq.question_1_answer')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('keynote_speakers.faq.question_2_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('keynote_speakers.faq.question_2_answer')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('keynote_speakers.faq.question_4_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('keynote_speakers.faq.question_4_answer')
+          }
+        }
+      ]
+    }
   }
 }
 </script>
