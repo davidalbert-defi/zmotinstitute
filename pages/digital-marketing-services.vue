@@ -93,7 +93,7 @@ export default {
           name: this.$t('marketing_services.faq.question_5_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('marketing_services.faq.question_5_answer')
+            text: this.$t('marketing_services.faq.question_5_answer_line_1')
           }
         },
         {
