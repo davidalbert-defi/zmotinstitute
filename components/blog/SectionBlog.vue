@@ -3,7 +3,7 @@
     <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4">
       <section v-if="!!totalNum" id="blogs" class="blogs my-12 lg:m-20">
         <nuxt-link
-          v-for="post of pageOfItems"
+          v-for="post of posts"
           id="blog-card"
           :key="post.id"
           :to="localePath({
@@ -62,39 +62,40 @@
 
 <script>
 import JwPagination from 'jw-vue-pagination'
+import blogData from '../../assets/data.json'
 export default {
   name: 'SectionBlog',
   components: { JwPagination },
-  async fetch () {
-    let query = ''
-    if (this.$route.query.query) {
-      query = this.$route.query.query
-    }
-    this.isLoading = true
-    try {
-      const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100')
-      this.totalNum = result.data.length
-      this.posts = result &&
-        result.data &&
-        result.data.sort((post1, post2) => {
-          const post1Date = new Date(post1.date_gmt)
-          const post2Date = new Date(post2.date_gmt)
+  fetch () {
+    // let query = ''
+    // if (this.$route.query.query) {
+    //   query = this.$route.query.query
+    // }
+    // this.isLoading = true
+    // try {
+    //   const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100')
+    //   this.totalNum = result.data.length
+    //   this.posts = result &&
+    //     result.data &&
+    //     result.data.sort((post1, post2) => {
+    //       const post1Date = new Date(post1.date_gmt)
+    //       const post2Date = new Date(post2.date_gmt)
 
-          if (post1Date - post2Date > 0) {
-            return -1
-          } else {
-            return 1
-          }
-        }) &&
-        result.data.filter((post) => {
-          return post.content.rendered.includes(query)
-        })
-    } catch (e) {
-      this.posts = []
-      this.totalNum = 0
-    } finally {
-      this.isLoading = false
-    }
+    //       if (post1Date - post2Date > 0) {
+    //         return -1
+    //       } else {
+    //         return 1
+    //       }
+    //     }) &&
+    //     result.data.filter((post) => {
+    //       return post.content.rendered.includes(query)
+    //     })
+    // } catch (e) {
+    //   this.posts = []
+    //   this.totalNum = 0
+    // } finally {
+    //   this.isLoading = false
+    // }
     /* this.isLoading = true
     try {
       const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts')
@@ -150,6 +151,28 @@ export default {
       this.pageOfItems = pageItems
       // this.$fetch()
     }
+  },
+  mounted () {
+    let query = ''
+    if (this.$route.query.query) {
+      query = this.$route.query.query
+    }
+    this.posts = blogData &&
+    blogData.sort((post1, post2) => {
+      const post1Date = new Date(post1.date_gmt)
+      const post2Date = new Date(post2.date_gmt)
+
+      if (post1Date - post2Date > 0) {
+        return -1
+      } else {
+        return 1
+      }
+    }) &&
+    blogData.filter((post) => {
+      return post.content.rendered.includes(query)
+    })
+    this.totalNum = this.posts.length
+    this.isLoading = false
   }
 }
 </script>
