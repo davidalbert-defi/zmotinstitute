@@ -3,7 +3,7 @@
 <nav class="bg-orange-shinny fixed w-full top-0 z-30">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+      <div class="block inset-y-0 left-0 flex items-center sm:hidden">
         <!-- Mobile menu button-->
         <button @click="isOpenServices = !isOpenServices" type="button" class="inline-flex items-center justify-center ml-2 rounded-md text-white hover:text-white hover:bg-shinny-orange focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -29,15 +29,15 @@
           </svg>
         </button>
       </div>
-      <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex-shrink-0 flex-auto items-center">
+      <div class="flex-1 flex items-center justify-center">
+        <div class="flex-shrink ml-4 w-9/12 lg:w-1/4 inline-flex justify-center lg:justify-start">
           <nuxt-link :to="localePath('index')" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
             <img class="block lg:hidden h-10 w-auto lazy" src="~/assets/img/zmot-logo.png" alt="Zmot Institute Logo">
             <img class="hidden lg:block h-12 w-auto lazy" src="~/assets/img/zmot-logo.png" alt="Zmot Institute Logo">
           </nuxt-link>
         </div>
-        <div class="flex-1 hidden sm:block ml-32 lg:ml-40">
-          <div class="flex space-x-4">
+        <div class="flex-1 hidden sm:block lg:w-2/4">
+          <div class="flex space-x-4 lg:justify-center">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <div>
               <div>
@@ -110,7 +110,7 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="flex-1 relative text-center text-white inline-flex justify-end">
+        <div class="flex-1 relative w-3/12 lg:w-1/4 text-center text-white inline-flex justify-end">
           <div>
             <button
               id="options-menu"

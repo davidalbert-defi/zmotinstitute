@@ -1,5 +1,5 @@
 <template>
-  <div class="digital-page px-2 pb-12">
+  <div class="digital-page px-2 bg-white pb-12 min-h-screen">
     <lazy-hydrate when-visible>
       <section-digital-hero />
     </lazy-hydrate>
@@ -73,6 +73,38 @@ export default {
       en: '/digital-marketing-services',
       es: '/servicios-de-marketing-digital',
       'pt-br': '/consultoria-de-marketing-digital'
+    }
+  },
+  jsonld () {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: this.$t('marketing_services.faq.question_1_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('marketing_services.faq.question_1_answer')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('marketing_services.faq.question_5_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('marketing_services.faq.question_5_answer_line_1')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('marketing_services.faq.question_2_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('marketing_services.faq.question_2_answer')
+          }
+        }
+      ]
     }
   }
 }
