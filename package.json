@@ -32,7 +32,6 @@
     "nuxt-lazy-load": "^1.2.4",
     "nuxt-ssr-cache": "^1.5.2",
     "nuxt-sweetalert2": "^1.0.0",
-    "redirect-ssl": "^3.0.0",
     "responsive-loader": "^2.2.1",
     "sharp": "^0.26.3",
     "v-lazy-image": "^1.4.0",
