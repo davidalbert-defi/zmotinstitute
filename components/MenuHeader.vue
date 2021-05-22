@@ -30,13 +30,13 @@
         </button>
       </div>
       <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="ml-12 flex-shrink-0 flex items-center">
+        <div class="flex-shrink-0 flex-auto items-center">
           <nuxt-link :to="localePath('index')" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
             <img class="block lg:hidden h-10 w-auto lazy" src="~/assets/img/zmot-logo.png" alt="Zmot Institute Logo">
             <img class="hidden lg:block h-12 w-auto lazy" src="~/assets/img/zmot-logo.png" alt="Zmot Institute Logo">
           </nuxt-link>
         </div>
-        <div class="hidden sm:block ml-32 lg:ml-40">
+        <div class="flex-1 hidden sm:block ml-32 lg:ml-40">
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <div>
@@ -110,12 +110,12 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="relative text-center text-white inline-flex justify-self-end">
+        <div class="flex-1 relative text-center text-white inline-flex justify-end">
           <div>
             <button
               id="options-menu"
               type="button"
-              class="inline-flex justify-center w-full rounded-md ml-8 lg:ml-40 py-2 text-sm font-medium text-white-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+              class="inline-flex justify-center w-full rounded-md py-2 text-sm font-medium text-white-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
               aria-haspopup="true"
               aria-expanded="true"
               @click="isOpen = !isOpen"
