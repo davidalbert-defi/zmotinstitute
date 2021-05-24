@@ -76,6 +76,16 @@
             "block_3_alt": "En el centro está el avatar de un hombre que coloca una bolsa de compras dentro de un carrito de supermercado. Al fondo hay 3 bolsas de compras gigantes, la de la izquierda la más pequeña, la del medio y la de la derecha la más grande. La paleta de colores es violeta, naranja claro y azul claro.",
             "block_3_link": "",
             "read_more": "Lea Más"
+        },
+        "faq": {
+            "question_1_question": "¿Qué Es El ZMOT Institute?",
+            "question_1_answer": "ZMOT Institute es una startup de marketing digital enfocada en ayudar a comprender las necesidades de sus clientes a través del ZMOT Framework de Google, y escalar sus negocios con las mejores estrategias de marketing de su clase.",
+            "question_2_question": "¿Por qué usted necesita del ZMOT Framework?",
+            "question_2_answer": "Entender el Comportamiento del Consumidor y ayudar a tus usuários durante el recorrido del cliente debe ser su prioridad número uno para construir un negocio exitoso. Tanto si eres un vendedor, o un empresario, su comunicación será mucho más eficiente si entiendes algunos conceptos básicos.",
+            "question_3_question": "Como El ZMOT Institute Lo Puede Ayudar?",
+            "question_3_answer": "Estamos aquí para ayudarlo a entender y poner en práctica el ZMOT en su día a día. No importa el tamaño de tu bolsillo, o disponibilidad de tiempo, siempre tendremos una solución para ayudarlo.",
+            "question_4_question": "¿Qué Tipo De Servicios Ofrece El ZMOT Institute?",
+            "question_4_answer": "En ZMOT Institute te ayudamos a comprender las necesidades y el comportamiento de tus consumidores. Puede contratar nuestros servicios de Marketing Digital para que analisemos el comportamiento de tu consumidor y mejoremos la Experiencia Del Cliente. O puede aprender a su propio ritmo e inscribirse en nuestros cursos de Marketing Digital. Si también desea encantar a su audiencia en un evento, tenemos premiados Ponentes para Conferencia que lo puende ayudar."
         }
     },
     "contact": {

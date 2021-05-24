@@ -106,18 +106,18 @@ export default {
     },
     async addComment () {
       const commentData = {
-        author: this.author,
-        email: this.mail,
-        url: this.site,
+        author_name: this.author,
+        author_email: this.mail,
+        author_url: this.site,
         'wp-comment-cookies-consent': this.save_checked,
-        comment: this.comment,
+        content: this.comment,
         submit: 'Submit',
-        comment_post_ID: this.postId,
-        comment_parent: this.commentId
+        post: this.postId,
+        parent: this.commentId
       }
 
       try {
-        await this.$axios.post('https://thezmot.com/wp-comments-post.php', commentData)
+        await this.$axios.post('https://thezmot.com/wp-json/wp/v2/comments', commentData)
       } catch (e) {
         console.log(e)
       }
