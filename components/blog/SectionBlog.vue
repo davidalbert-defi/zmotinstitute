@@ -3,7 +3,7 @@
     <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4">
       <section v-if="!!totalNum" id="blogs" class="blogs my-12 lg:m-20">
         <nuxt-link
-          v-for="post of posts"
+          v-for="post of pageOfItems"
           id="blog-card"
           :key="post.id"
           :to="localePath({
