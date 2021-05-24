@@ -113,7 +113,6 @@ export default {
   }),
   computed: {
     renderedTitle () {
-      console.log(this.post)
       return this.post.excerpt.rendered.toString().replace(/(<([^>]+)>)/ig, '')
     },
     renderedContent () {

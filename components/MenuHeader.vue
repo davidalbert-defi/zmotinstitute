@@ -1,6 +1,6 @@
 <template>
 <!-- This example requires Tailwind CSS v2.0+ -->
-<nav class="bg-orange-shinny fixed w-full top-0 z-30">
+<nav class="bg-orange-shinny fixed w-full top-0 z-40">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
       <div class="block inset-y-0 left-0 flex items-center sm:hidden">
