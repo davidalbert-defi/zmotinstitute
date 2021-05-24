@@ -70,6 +70,46 @@ export default {
         }
       ]
     }
+  },
+  jsonld () {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: this.$t('homepage.faq.question_1_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('homepage.faq.question_1_answer')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('homepage.faq.question_2_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('homepage.faq.question_2_answer')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('homepage.faq.question_3_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('homepage.faq.question_3_answer')
+          }
+        },
+        {
+          '@type': 'Question',
+          name: this.$t('homepage.faq.question_4_question'),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: this.$t('homepage.faq.question_4_answer')
+          }
+        }
+      ]
+    }
   }
 }
 </script>
