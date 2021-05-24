@@ -32,6 +32,20 @@
   background-clip: padding-box;
   //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.form-control-blog {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color:white;
+  background-color: #27c444;
+  border-color: #27c444;
+  background-clip: padding-box;
+  //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 input, textarea {
   border-radius: 0;
   border: 0;

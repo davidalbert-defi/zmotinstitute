@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4">
+    <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4 z-0">
       <section v-if="!!totalNum" id="blogs" class="blogs my-12 lg:m-20">
         <nuxt-link
           v-for="post of posts"
@@ -15,7 +15,7 @@
         >
           <div class="card overflow-hidden">
             <div class="row flex flex-wrap">
-              <div class="w-full md:w-1/2 mt-12 md:mt-0 transform scale-125 lg:scale-150">
+              <div class="w-full md:w-1/2 mt-12 px-4 md:mt-0 transform scale-125 lg:scale-150">
                 <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none mx-auto" />
               </div>
               <div class="w-full md:w-1/2">
@@ -120,6 +120,7 @@ export default {
     pages: [],
     fullPage: true,
     isLoading: true,
+    blogListComponent: 0,
     color: '#ff6600',
     customLabels: {
       first: '«',
