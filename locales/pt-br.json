@@ -18,7 +18,7 @@
         },
         "why_do_you_need_ZMOT": {
             "header": "Por que você precisa do ZMOT?",
-            "text1": "Entender o Comportamento do Consumidor e auxiliar seu cliente durante a Jornada de Compra deve ser sua prioridade número um para construir um negócio de sucesso. Seja você um profissional de marketing, ou um empreendedor, sua comunicação será muito mais eficiente se entender alguns princípios.",
+            "text1": "Entender as Necessidades do Cliente e auxiliá-lo durante a Jornada de Compra deve ser sua prioridade número um para construir um negócio de sucesso. Seja você um profissional de marketing, ou um empreendedor, sua comunicação será muito mais eficiente se entender alguns princípios sobre o Comportamento do Consumidor.",
             "text2": "",
             "text3": "",
             "text4": "",
@@ -41,7 +41,7 @@
         },
         "services": {
             "header": "Como podemos te ajudar?",
-            "sub_header": "Nos estamos aqui para ajudar você a entender o ZMOT e aplicá-lo no seu dia a dia. Não importa o tamanho do seu bolso, ou disponibilidade de tempo, teremos sempre uma solução para ajudá-lo.",
+            "sub_header": "Nos estamos aqui para ajudar você a entender as Necessidades do Cliente utilizando o Framework do ZMOT, e criar um Negócio Escalável. Não importa o tamanho do seu bolso, ou disponibilidade de tempo, teremos sempre uma solução para ajudá-lo.",
             "service_1_header": "Consultoria de Marketing Digital",
             "service_1_description": "Está interessado sobre ZMOT e Comportamento do Consumidor, mas não tem idéia de como começar? Ou talvez queira a ajuda de um especialista para acelerar as coisas? Compartilhe seu website conosco e nos deixe surpeendê-lo com um plano para impulsionar seu Negócio Digital.",
             "service_1_navbar_description": "Te Ajudamos a Implementar o ZMOT",
@@ -64,7 +64,7 @@
             "header": "BLOG",
             "text": "Quer se manter atualizado sobre ZMOT e Comportamento do Consumidor, através de conteúdos exclusivos e totalmente gratuítos? Não deixe de acessar nossos materiais super completos e cheios de dicas práticas de como acelerar seus negócios.",
             "block_1_header": "ZMOT e o Comportamento do Consumidor",
-            "block_1_text": "ZMOT é a chave para você entender o consumidor moderno e poder fazer ações de Marketing Digital que geram resultado.",
+            "block_1_text": "ZMOT é a chave para você entender as necessidades do cliente moderno e poder criar Estratégicas de Marketing Digital que geram resultado de verdade.",
             "block_1_alt": "No centro há um grupo de pessoas que estão e uma mesa de trabalho retangular de 5 lugares com 3 telas de computadores grandes. Na ponta esquerda temos duas pessoas conversando e apontando para uma das telas. Na ponta direita temos uma pessoa de pé utilizando um tablet, e logo ao lado dela há outra pessoa sentada no chão usando o notebook. No fundo existe elementos que lembram plantas e árvores, bem como  cartas e pontilhados representando eles se comunicando através dos dispositivos",
             "block_1_link": "",
             "block_2_header": "Customer Experience: Como mapear a Jornada de Compra",
@@ -126,7 +126,7 @@
         "accept": "ACEITAR"
     },
     "footer": {
-        "text": "Estamos aqui para ajudar as pessoas a entender o Comportamento do Consumidor e fazer seus Negócios Crescerem utilizando o que há de Melhor em Marketing Digital",
+        "text": "Estamos aqui para ajudar as pessoas a entender o Comportamento do Consumidor e criarem um Negócio Escalável utilizando o que há de Melhor em Marketing Digital",
         "services": {
             "text": "Serviços"
         },
