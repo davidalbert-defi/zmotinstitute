@@ -12,11 +12,18 @@
     <lazy-hydrate when-visisble>
       <section-keynote-speaker-gallery />
     </lazy-hydrate>
-    <section-keynote-speaker-customer-review />
+    <lazy-hydrate when-visisble>
+      <section-keynote-speaker-customer-review />
+    </lazy-hydrate>
     <lazy-hydrate when-visisble>
       <contact-form />
     </lazy-hydrate>
-    <section-keynote-speaker-faq />
+    <lazy-hydrate when-visisble>
+      <section-keynote-speaker-related-services />
+    </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <section-keynote-speaker-faq />
+    </lazy-hydrate>
   </div>
 </template>
 
@@ -24,6 +31,9 @@
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: { LazyHydrate },
+  data: () => ({
+    serviceNum: '2'
+  }),
   head () {
     return {
       title: this.$t('keynote_speakers.seo.title'),

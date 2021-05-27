@@ -21,6 +21,10 @@
     </lazy-hydrate>
 
     <lazy-hydrate when-visible>
+      <section-digital-related-services />
+    </lazy-hydrate>
+
+    <lazy-hydrate when-visible>
       <section-digital-faq />
     </lazy-hydrate>
   </div>
@@ -30,6 +34,9 @@
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: { LazyHydrate },
+  data: () => ({
+    serviceNum: '1'
+  }),
   head () {
     return {
       title: this.$t('marketing_services.seo.title'),

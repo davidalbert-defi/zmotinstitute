@@ -28,6 +28,9 @@ export default {
   components: {
     LazyHydrate
   },
+  data: () => ({
+    blogListComponent: ''
+  }),
   head () {
     return {
       title: this.$t('blog.seo.title'),

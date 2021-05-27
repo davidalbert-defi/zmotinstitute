@@ -44,12 +44,15 @@
             "sub_header": "We are here to help you to understand ZMOT and implement it to your day to day game. No matter the size of your pocket, or time availability, we will always have a solution to help you.",
             "service_1_header": "Digital Marketing Services",
             "service_1_description": "Are you interested about ZMOT and Consumer Behavior but have no idea how to start? Or maybe just need an expert opinion to speed things up? Just let us know your website and we'll surprise you with a masterplan to boost your Digital Business.",
+            "service_1_description_short": "Ideal if you need help from experts to scale your business with Digital Marketing.",
             "service_1_navbar_description": "We help you to implement ZMOT",
             "service_2_header": "Lectures & Events",
             "service_2_description": "Wish to delight your audience with innovative & dynamic content that will make people clap standing? Our storytelling performance based presentations drive people to action & results you could have considered impossible before.",
+            "service_2_description_short": "Consumer Behaviour Keynotes with Awarded Speakers to Make Your Audience Give Standing Ovations.",
             "service_2_navbar_description": "Enchant Your Audience With ZMOT",
             "service_3_header": "Online Courses",
             "service_3_description": "Learn best in class ZMOT with experts which have helped their organizations to achieve amazing results. With our online courses you can learn and implement ZMOT at your own and flexible pace, but also do it over and over again. You have full control of your learning process.",
+            "service_3_description_short": "Learn ZMOT and Consumer Behaviour at your own pace with Awarded Instructors.",
             "service_3_navbar_description": "Learn ZMOT At Your Own Pace",
             "get_a_quote": "Learn More"
         },
@@ -150,6 +153,7 @@
         "headline": "ZMOT Institute BLOG",
         "sub_headline": "Learn Best In Class ZMOT and Consumer Behaviour with ZMOT Institute. This Is The Right Place For Top Notch Professional Marketers, High Impact Entrepreneurs and Marketing Enthusiasts.",
         "nav_description": "Learn Best In Class about ZMOT and Consumer Behaviour",
+        "related_posts": "Related Posts",
         "opinion": {
             "title": "Opinions about this content"
         },
