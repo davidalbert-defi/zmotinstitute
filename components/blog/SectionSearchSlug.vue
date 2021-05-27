@@ -1,5 +1,5 @@
 <template>
-    <section class="sticky top-0 bg-green-shinny pt-16 z-30">
+    <section class="bg-mpurple pt-2 z-30">
         <!-- <p class="text-center pb-8">
           What are you looking for?
         </p> -->
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'SectionSearchBlog',
+  name: 'SectionSearchSlug',
   data: () => ({
     text: ''
   }),
@@ -38,11 +38,15 @@ export default {
 input::placeholder {
   color:white;
 }
+input:focus {
+  border: unset;
+}
 input:focus::-webkit-input-placeholder
 {
     color: transparent;
 }
-input:focus {
-  border: unset;
+.form-control-blog {
+  background-color: #6c38f8;
+  border-color:#6c38f8;
 }
 </style>

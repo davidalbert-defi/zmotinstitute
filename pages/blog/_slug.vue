@@ -1,87 +1,99 @@
 <template>
-  <div class="blog-slug-page">
-    <div v-if="!isLoading" class="pt-4 my-20 lg:m-20 lg:mt-32">
-      <div class="container mx-auto px-4 lg:px-4">
-        <div class="row flex flex-wrap">
-          <div class="col w-full md:w-3/4 order-1">
-            <div>
-              <div class="mb-4">
-                <img
-                  :src="post && post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url"
-                  alt="Post Image"
-                >
-              </div>
-              <header class="my-2">
-                <!--                <div ref="example-element">{{ this.post }}</div>-->
-                <h1 class="my-2" v-html="post && post.title.rendered" />
-              </header>
-              <div class="my-8">
-                <div class="blog-date">
-                  <time datetime="2019-03-08T17:10:45-03:00">Publicado em
-                    {{ moment(post && post.date).format('DD/MM/YYYY') }}
-                  </time>
-                </div>
-              </div>
-              <div class="blog-content" v-html="post && renderedContent" />
-            </div>
-            <div class="pt-10" v-if="!isMore">
-              <button id="btn_read_more_blog_post" class="mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10" v-on:click="readMore" >
-                {{ $t('blog_slug.btn_read_more') }}
-                <!-- {{moreBtntxt}} -->
-              </button>
-            </div>
-          </div>
-          <aside class="lg:h-screen lg:sticky lg:top-0 col w-full md:w-1/4 mt-4 md:mt-0 order-9 lg:order-2 mt-16">
-            <div class="pl-4 pb-12 pt-2 pr-2 lg:ml-2 lg:pb-12 lg:pt-4 bg-orange-100 rounded-3xl shadow-lg">
-              <div> <br> </div>
-              <div class="sidebar-content pl-0 lg:px-4 ">
-                <div class="search">
-                  <h2 class="text-orange-shinny font-bold">
-                    {{ $t('blog_slug.headline') }}
-                  </h2>
-                  <p class="text-sm pb-8 text-orange-shinny">
-                    {{ $t('blog_slug.sub_headline_1') }}
-                    <br>
-                    <br>{{ $t('blog_slug.sub_headline_2') }}
-                  </p>
-                  <input
-                    v-model="text"
-                    v-on:keyup.enter="submit"
-                    class="form-control border border-solid m-0"
-                    :placeholder="`${$t('blog_slug.placeholder')}`"
-                    style="border-color: #ced4da;"
+  <div>
+    <div class="blog-slug-page">
+      <div v-if="!isLoading" class="pt-4 my-20 lg:m-20 lg:mt-32">
+        <div class="container mx-auto px-4 lg:px-4">
+          <div class="row flex flex-wrap">
+            <div class="col w-full md:w-3/4 order-1">
+              <div>
+                <div class="mb-4">
+                  <img
+                    :src="post && post._embedded['wp:featuredmedia'][0].media_details.sizes.large.source_url"
+                    alt="Post Image"
                   >
                 </div>
+                <header class="my-2">
+                  <!--                <div ref="example-element">{{ this.post }}</div>-->
+                  <h1 class="my-2" v-html="post && post.title.rendered" />
+                </header>
+                <div class="my-8">
+                  <div class="blog-date">
+                    <time datetime="2019-03-08T17:10:45-03:00">Publicado em
+                      {{ moment(post && post.date).format('DD/MM/YYYY') }}
+                    </time>
+                  </div>
+                </div>
+                <div class="blog-content" v-html="post && renderedContent" />
+              </div>
+              <div class="pt-10" v-if="!isMore">
+                <button id="btn_read_more_blog_post" class="mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10" v-on:click="readMore" >
+                  {{ $t('blog_slug.btn_read_more') }}
+                  <!-- {{moreBtntxt}} -->
+                </button>
               </div>
             </div>
-          </aside>
-          <author
-            class="order-3"
+            <!-- <aside class="lg:h-full col w-full mt-4 md:mt-0 order-9 mt-16 lg:pt-12">
+              <div class="pl-4 pb-12 pt-2 pr-2 lg:ml-2 lg:pb-12 lg:pt-4 bg-orange-100 rounded-3xl shadow-lg">
+                <div class="sidebar-content pl-0 lg:px-4 ">
+                  <div class="search">
+                    <h2 class="text-orange-shinny font-bold">
+                      {{ $t('blog_slug.headline') }}
+                    </h2>
+                    <p class="text-sm pb-8 text-orange-shinny">
+                      {{ $t('blog_slug.sub_headline_1') }}
+                      <br>
+                      <br>{{ $t('blog_slug.sub_headline_2') }}
+                    </p>
+                    <input
+                      v-model="text"
+                      v-on:keyup.enter="submit"
+                      class="form-control border border-solid m-0"
+                      :placeholder="`${$t('blog_slug.placeholder')}`"
+                      style="border-color: #ced4da;"
+                    >
+                  </div>
+                </div>
+              </div>
+            </aside> -->
+            <author
+              class="order-3"
+              v-if="isMore"
+              :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
+            />
+            <comment-list
+              class="order-4"
+              v-if="isMore"
+              :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
+              :replies="post && post._embedded && post._embedded.replies && post._embedded.replies.length > 0 && post._embedded.replies[0]"
+              :post-id="post && post.id"
+            />
+            <add-comment
+            class="order-5"
             v-if="isMore"
-            :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
-          />
-          <comment-list
-            class="order-4"
-            v-if="isMore"
-            :author="post && post._embedded && post._embedded.author && post._embedded.author.length > 0 && post._embedded.author[0]"
-            :replies="post && post._embedded && post._embedded.replies && post._embedded.replies.length > 0 && post._embedded.replies[0]"
             :post-id="post && post.id"
-          />
-          <add-comment
-          class="order-5"
-          v-if="isMore"
-          :post-id="post && post.id"
-          :comment-id="0" />
+            :comment-id="0" />
+            <section-related-posts
+            class="order-6"
+            />
+            <related-services
+            class="order-7"
+            />
+          </div>
+          <div>
+          </div>
         </div>
       </div>
+      <div v-else class="container mx-auto min-h-80">
+        <loading
+          :active.sync="isLoading"
+          :can-cancel="false"
+          :is-full-page="fullPage"
+          :color="color"
+        />
+      </div>
     </div>
-    <div v-else class="container mx-auto min-h-80">
-      <loading
-        :active.sync="isLoading"
-        :can-cancel="false"
-        :is-full-page="fullPage"
-        :color="color"
-      />
+    <div>
+      <section-search-slug />
     </div>
   </div>
 </template>
@@ -109,7 +121,8 @@ export default {
     isLoading: true,
     fullPage: true,
     color: '#ff6600',
-    isMore: false
+    isMore: false,
+    serviceNum: '0'
   }),
   computed: {
     renderedTitle () {

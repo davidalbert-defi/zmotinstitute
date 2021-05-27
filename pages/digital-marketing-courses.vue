@@ -15,7 +15,12 @@
     <lazy-hydrate when-visisble>
       <contact-form />
     </lazy-hydrate>
-    <section-course-faq />
+    <lazy-hydrate when-visisble>
+      <section-courses-related-services />
+    </lazy-hydrate>
+    <lazy-hydrate when-visisble>
+      <section-course-faq />
+    </lazy-hydrate>
   </div>
 </template>
 
@@ -23,6 +28,9 @@
 import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: { LazyHydrate },
+  data: () => ({
+    serviceNum: '3'
+  }),
   head () {
     return {
       title: this.$t('online_courses.seo.title'),

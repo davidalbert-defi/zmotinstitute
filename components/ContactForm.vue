@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="py-2 px-4 sm:px-6 lg:col-span-3 lg:pt-24 lg:px-8 xl:pl-12">
-            <form class="w-full" @submit.prevent="onSubmit">
+            <form id="money-page-form" class="w-full" @submit.prevent="onSubmit">
               <div>
                 <div>
                   <label for="email" class="sr-only">{{ $t('contact_form.lead_form.field_email') }}</label>
@@ -184,6 +184,11 @@ export default {
         text: this.$t('contact_form.thank_you_message'),
         icon: 'success',
         button: 'OK'
+      })
+      window.dataLayer = window.dataLayer || []
+      window.dataLayer.push({
+        formLocation: 'money_page_form',
+        event: 'SubmitLeadForm'
       })
     },
     showErrorToast () {

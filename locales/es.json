@@ -44,12 +44,15 @@
             "sub_header": "Estamos aquí para ayudarlo a entender y poner en práctica el ZMOT en su día a día. No importa el tamaño de tu bolsillo, o disponibilidad de tiempo, siempre tendremos una solución para ayudarlo.",
             "service_1_header": "Servícios De Marketing Digital",
             "service_1_description": "Estas interesado sobre ZMOT y Comportamiento del Consumidor, pero no tienen idea de cómo empezar? ¿O tal vez sólo necesita una opinión de un experto para ayudarle a desarrollar las cosas? Háganos saber su sitio web y lo sorprenderemos con un plan maestro para impulsar su negocio digital.",
+            "service_1_description_short": "Ideal Si Necesita Ayuda De Expertos Para Escalar Su Negocio Con Marketing Digital.",
             "service_1_navbar_description": "Te Ayudamos A Implementar El ZMOT",
             "service_2_header": "Conferencias y Eventos",
             "service_2_description": "¿Desea encantar a su audiencia con contenido innovador y dinámico que hará con que la gente se pongan de pie y aplauda? Nuestras presentaciones basadas en storytelling y performance llevan las personas a acción y resultados que antes podrían considerar imposibles.",
+            "service_2_description_short": "Charlas Acerca Comportamiento Del Consumidor Con Ponentes Premiados.",
             "service_2_navbar_description": "Encante A Su Audiencia Con ZMOT",
             "service_3_header": "Cursos Online",
             "service_3_description": "Aprenda mejor en su clase ZMOT con expertos que han ayudado a sus organizaciones a lograr resultados sorprendentes. Con nuestros cursos online puedes aprender e implementar el ZMOT a su propio y flexible ritmo, pero también hacerlo repetidas veces. Tienes el control total de tu proceso de aprendizaje.",
+            "service_3_description_short": "Aprenda ZMOT Y Comportamiento Del Consumidor A Su Propio Ritmo e Tiempo.",
             "service_3_navbar_description": "Aprenda El ZMOT A Su Propio Ritmo",
             "get_a_quote": "Más Información"
         },
@@ -150,6 +153,7 @@
         "headline": "BLOG Del ZMOT Institute",
         "sub_headline": "Aprenda El Mejor Del Comportamiento Del Consumidor Y El Zmot Con El Instituto Zmot. Este Es El Lugar Adecuado Para Los Profesionales De Marketing, Los Emprendedores A Y Los Entusiastas De Marketing Digital.",
         "nav_description": "Todo Sobre ZMOT Y Comportamiento Del Consumidor",
+        "related_posts": "Posts Relacionados",
         "opinion": {
             "title": "Opiniones sobre este contenido"
         },
