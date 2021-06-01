@@ -100,7 +100,7 @@
 
 <script>
 import moment from 'moment'
-import blogData from '~/static/data.json'
+import blogData from 'static/data.json'
 export default {
   asyncData ({
     params
