@@ -62,7 +62,7 @@
 
 <script>
 import JwPagination from 'jw-vue-pagination'
-import blogData from '../../assets/data.json'
+import blogData from 'static/data.json'
 export default {
   name: 'SectionBlog',
   components: { JwPagination },
