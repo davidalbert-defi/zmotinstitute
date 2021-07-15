@@ -16,7 +16,7 @@
           <div class="card overflow-hidden">
             <div class="row flex flex-wrap">
               <div class="w-full md:w-1/2 mt-12 px-4 md:mt-0 transform scale-125 lg:scale-150">
-                <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none mx-auto" />
+                <img :src="post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url : '' " alt="Post Image" class="rounded-none mx-auto" />
               </div>
               <div class="w-full md:w-1/2">
                 <div class="card-body">
@@ -62,7 +62,6 @@
 
 <script>
 import JwPagination from 'jw-vue-pagination'
-// import blogData from 'static/data.json'
 export default {
   name: 'SectionBlog',
   components: { JwPagination },
@@ -70,18 +69,16 @@ export default {
     let query = ''
     if (this.$route.query.query) {
       query = this.$route.query.query
-      console.log(query)
     }
     this.isLoading = true
     try {
-      const result = await this.$axios.get('/data.json')
+      const result = await this.$axios.get(process.env.BASE_URL + '/data.json')
       this.totalNum = result.data.length
       this.posts = result &&
         result.data &&
         result.data.sort((post1, post2) => {
           const post1Date = new Date(post1.date_gmt)
           const post2Date = new Date(post2.date_gmt)
-
           if (post1Date - post2Date > 0) {
             return -1
           } else {

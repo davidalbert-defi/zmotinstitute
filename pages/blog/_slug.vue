@@ -100,13 +100,15 @@
 
 <script>
 import moment from 'moment'
-import blogData from 'static/data.json'
 export default {
-  asyncData ({
-    params
+  async asyncData ({
+    params,
+    $axios
   }) {
+    const blogData = await $axios.get(process.env.BASE_URL + '/data.json')
+    console.log(blogData)
     const postdata = blogData &&
-    blogData.filter((post) => {
+    blogData.data.filter((post) => {
       return post.slug === params.slug
     })
     return {
