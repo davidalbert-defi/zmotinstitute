@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4">
-      <section v-if="!!totalNum" id="blogs" class="blogs my-20 lg:m-20">
+    <div v-if="!isLoading" class="container mx-auto px-2 lg:px-4 z-0">
+      <section v-if="!!totalNum" id="blogs" class="blogs my-12 lg:m-20">
         <nuxt-link
           v-for="post of pageOfItems"
           id="blog-card"
@@ -15,15 +15,15 @@
         >
           <div class="card overflow-hidden">
             <div class="row flex flex-wrap">
-              <div class="w-full md:w-1/3">
-                <img :src="post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url" alt="Post Image" class="rounded-none" />
+              <div class="w-full md:w-1/2 mt-12 px-4 md:mt-0 transform scale-125 lg:scale-150">
+                <img :src="post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url : '' " alt="Post Image" class="rounded-none mx-auto" />
               </div>
-              <div class="w-full md:w-2/3">
+              <div class="w-full md:w-1/2">
                 <div class="card-body">
                   <div class="card-title text-white bg-primary text-2xl mb-3 font-medium">
                     {{ post.title.rendered }}
                   </div>
-                  <div class="card-text" v-html="post.excerpt.rendered" />
+                  <div class="text-xl" v-html="post.excerpt.rendered" />
                   <!-- <div class="card-meta">
                     Mais de 2.000 profissionais de marketing já leram esse conteúdo
                   </div> -->
@@ -38,7 +38,7 @@
               :items="posts"
               :labels="customLabels"
               :styles="customStyles"
-              :page-size="5"
+              :page-size="10"
               @changePage="gotoPage"
             />
           </div>
@@ -66,21 +66,27 @@ export default {
   name: 'SectionBlog',
   components: { JwPagination },
   async fetch () {
+    let query = ''
+    if (this.$route.query.query) {
+      query = this.$route.query.query
+    }
     this.isLoading = true
     try {
-      const result = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1')
+      const result = await this.$axios.get(process.env.BASE_URL + '/data.json')
       this.totalNum = result.data.length
       this.posts = result &&
         result.data &&
         result.data.sort((post1, post2) => {
           const post1Date = new Date(post1.date_gmt)
           const post2Date = new Date(post2.date_gmt)
-
           if (post1Date - post2Date > 0) {
             return -1
           } else {
             return 1
           }
+        }) &&
+        result.data.filter((post) => {
+          return post.content.rendered.includes(query)
         })
     } catch (e) {
       this.posts = []
@@ -103,6 +109,7 @@ export default {
   data: () => ({
     rows: 100,
     currentPage: 0,
+    searchKey: '',
     totalNum: 0,
     posts: [],
     pageOfItems: [],
@@ -111,6 +118,7 @@ export default {
     pages: [],
     fullPage: true,
     isLoading: true,
+    blogListComponent: 0,
     color: '#ff6600',
     customLabels: {
       first: '«',
@@ -143,6 +151,28 @@ export default {
       // this.$fetch()
     }
   }
+  // mounted () {
+  //   let query = ''
+  //   if (this.$route.query.query) {
+  //     query = this.$route.query.query
+  //   }
+  //   this.posts = blogData &&
+  //   blogData.sort((post1, post2) => {
+  //     const post1Date = new Date(post1.date_gmt)
+  //     const post2Date = new Date(post2.date_gmt)
+
+  //     if (post1Date - post2Date > 0) {
+  //       return -1
+  //     } else {
+  //       return 1
+  //     }
+  //   }) &&
+  //   blogData.filter((post) => {
+  //     return post.content.rendered.includes(query)
+  //   })
+  //   this.totalNum = this.posts.length
+  //   this.isLoading = false
+  // }
 }
 </script>
 

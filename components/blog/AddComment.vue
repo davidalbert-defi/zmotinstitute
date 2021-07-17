@@ -1,5 +1,5 @@
 <template>
-  <div v-if="visible && !loading" class="container mx-auto">
+  <div v-if="visible && !loading" class="col w-full md:w-3/4">
     <div class="row flex flex-wrap">
       <div class="w-full">
         <span class="header">{{ $t('blog.add_comment.title') }}</span>
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <button type="submit" class="font-semibold text-xl mt-4 border bg-white py-15sm px-3 text-white rounded-full bg-mpurple no-underline uppercase">
+        <button type="submit" class="mt-8 mx-auto uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10">
           {{ $t('blog.add_comment.submit') }}
         </button>
       </div>
@@ -106,18 +106,18 @@ export default {
     },
     async addComment () {
       const commentData = {
-        author: this.author,
-        email: this.mail,
-        url: this.site,
+        author_name: this.author,
+        author_email: this.mail,
+        author_url: this.site,
         'wp-comment-cookies-consent': this.save_checked,
-        comment: this.comment,
+        content: this.comment,
         submit: 'Submit',
-        comment_post_ID: this.postId,
-        comment_parent: this.commentId
+        post: this.postId,
+        parent: this.commentId
       }
 
       try {
-        await this.$axios.post('https://thezmot.com/wp-comments-post.php', commentData)
+        await this.$axios.post('https://thezmot.com/wp-json/wp/v2/comments', commentData)
       } catch (e) {
         console.log(e)
       }

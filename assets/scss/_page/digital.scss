@@ -1,0 +1,120 @@
+.digital-page {
+  .vue-tel-input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  .vue-tel-input:focus-within{
+    box-shadow: none;
+  }
+  .vti__dropdown {
+    background-color: white;
+    outline: none;
+    //height: 38px;
+    border: 0;
+    margin-bottom: 2rem;
+    border-radius: 100px 0 0 100px;
+    border-bottom: 2px solid #cad5e2;
+  }
+
+  .vti__input {
+    height: 38px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 2rem 0;
+    line-height: 1.5;
+    color: #495057;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    border-radius: 0 100px 100px 0;
+  }
+
+  input {
+    padding: 1.5rem;
+  }
+}
+section.reviews {
+    .container {
+      .zmot_reviews__items {
+        .agile__actions {
+          justify-content: center;
+          margin-top: 3rem;
+          .agile__dots {
+            .agile__dot {
+              margin: 0 7px;
+              button {
+                height: 10px;
+                width: 10px;
+                padding: 0;
+                background-color: #e5e7f1;
+                border: none;
+                border-radius: 50%;
+                cursor: pointer;
+                display: block;
+                font-size: 0;
+                line-height: 0;
+                margin: 0;
+                transition-duration: .3s;
+              }
+              &.agile__dot--current {
+                button {
+                  background-color: #fc642e;
+                }
+              }
+            }
+          }
+        }
+        .agile__slides {
+          .slide {
+            -webkit-transform: scale(.8);
+            transform: scale(.8) !important;
+            .spec__card {
+              max-width: 100%;
+              background-color: #fff;
+              box-shadow: 0 0.375rem 1.25rem 0 rgba(61,66,80,.18);
+              border-radius: .625rem;
+              .card-text {
+                color: #000;
+                font-size: 21px;
+                font-weight: 300;
+                line-height: 1.8em;
+              }
+              .spec__card-meta {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .sec__card-meta-avatar {
+                  margin-right: 1rem;
+                  img {border-radius: 50%;}
+                }
+                .spec__card-meta-details {
+                  .name {
+                    color: #fc642e;
+                    font-size: 30px;
+                    font-weight: 700;
+                  }
+                  .job {
+                    color: #000;
+                    font-size: 16px;
+                    font-weight: 700;
+                  }
+                }
+              }
+            }
+            &.agile__slide--active {
+              transform: scale(1) !important;
+            }
+          }
+        }
+        .agile__nav-button {
+          background-color: transparent;
+          bottom: -10px;
+          cursor: pointer;
+          outline: 0;
+          border: 0;
+        }
+      }
+    }
+  }
+  .app-footer{
+    border-top: none !important;
+  }

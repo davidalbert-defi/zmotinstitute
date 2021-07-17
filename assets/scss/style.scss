@@ -2,29 +2,79 @@
 @import "component";
 @import "_page/home";
 @import "_page/contact";
-@import "_page/lectures_events";
+@import "_page/keynote_speakers";
 @import "_page/online_courses";
-@import "_page/zmot_audit";
+@import "_page/digital";
 @import "_page/privacy";
 @import "_page/blog_index";
 @import "_page/blog_slug";
 
-section {
-  h1 {
-    font-size: 3.2rem;
+h1{
+  font-family: 'Quicksand Semi-bold';
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+h2{
+  font-family: 'Quicksand Medium';
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+h3,h4, h5{
+  font-family: 'Quicksand Medium';
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+p, ul, li{
+  font-family: 'Quicksand Regular';
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+dt{
+  font-family: 'Quicksand Regular';
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+dd {
+  font-family: 'Quicksand Regular';
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+// // div.blog-index-page h1,
+// // div.blog-slug-page h1{
+// //   font-size: 2.25rem;
+// // }
+// // div.blog-index-page p,
+// // div.blog-slug-page p{
+// //   font-size: 1.5rem;
+// //   line-height: 2.2rem;
+// // }
+// div.leading-normal p.leading-relaxed{
+//   font-size: 2.1rem;
+//   font-weight: 400;
+// }
+@media only screen and (max-width: 767px) {
+  h1{
+    font-size: 3rem;
     font-weight: 600;
-    color:white;
-    margin-bottom: 3rem
   }
-  h2 {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 3rem;
+  h2{
+    font-size: 2.5rem;
+    font-weight: 500;
   }
-  p {
-    font-size: 20px;
-    color: black;
-    line-height: 1.7;
+  h3,h4{
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+  p{
+    font-size: 1.25rem;
     font-weight: 300;
   }
+  // div.blog-index-page h1,
+  // div.blog-slug-page h1{
+  //   font-size: 2.25rem;
+  // }
+  // div.blog-index-page p,
+  // div.blog-slug-page p{
+  //   font-size: 1.2rem;
+  // }
 }

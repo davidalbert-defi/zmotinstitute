@@ -1,12 +1,7 @@
 <template>
-  <div v-if="!loading" class="container mx-auto px-2 lg:px-4">
+  <div v-if="!loading" class="col w-full md:w-3/4">
     <div class="row flex flex-wrap">
-      <div class="w-full header">
-        <span> {{ $t("blog.opinion.title") }} </span>
-      </div>
-    </div>
-    <div class="row flex flex-wrap">
-      <div v-for="item of items" :key="item.id" class="w-full">
+      <div v-for="(item, index) in items" :key="item.id" :class="`w-full ml-${index*4}`">
         <comment
           :comment="item"
           :replies="replies"
@@ -26,8 +21,9 @@ export default {
     loading: true,
     items: null
   }),
-  mounted () {
-    this.items = this.replies && this.replies.filter(reply => reply.parent === 0)
+  async mounted () {
+    const commentList = await this.$axios.get('https://thezmot.com/wp-json/wp/v2/comments?post=' + this.postId)
+    this.items = commentList && commentList.data
   },
   created () {
     this.$nextTick(function () {

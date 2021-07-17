@@ -1,9 +1,21 @@
 <template>
-  <div class="blog-index-page pt-20">
+  <div class="blog-index-page">
+      <!-- <section-list-blog /> -->
+    <!-- </lazy-hydrate> -->
+    <!-- search bar -->
     <client-only>
-      <section-blog />
+      <section-search-blog />
     </client-only>
-
+    <!-- blog title -->
+    <client-only>
+      <section-list-blog />
+    </client-only>
+    <!-- rendered posts -->
+    <client-only>
+      <!-- <section-blog /> -->
+      <section-blog :key="blogListComponent" />
+    </client-only>
+    <!-- newsletter form -->
     <lazy-hydrate when-visible>
       <news-letter />
     </lazy-hydrate>
@@ -16,6 +28,9 @@ export default {
   components: {
     LazyHydrate
   },
+  data: () => ({
+    blogListComponent: ''
+  }),
   head () {
     return {
       title: this.$t('blog.seo.title'),

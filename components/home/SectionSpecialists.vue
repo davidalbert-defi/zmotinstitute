@@ -7,10 +7,10 @@
     data-aos-duration="500"
   >
     <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center">
+      <h2 class="text-center mb-8 text-4xl lg:text-6xl font-bold lg:mx-24">
         {{ $t('homepage.specialist.header') }}
       </h2>
-      <p class="text-center mb-4">
+      <p class="text-center text-gray-500 text-xl lg:text-2xl lg:mx-32 font-normal mb-12">
         {{ $t('homepage.specialist.text') }}
       </p>
       <div class="specialist__items">
@@ -19,7 +19,7 @@
             <div class="slide slide--1">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl lg:text-2xl font-light leading-7">
                     “{{ $t('homepage.specialist.slide_1_text') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -47,7 +47,7 @@
             <div class="slide slide--2">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl lg:text-2xl  font-light leading-7">
                     “{{ $t('homepage.specialist.slide_2_text') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -75,7 +75,7 @@
             <div class="slide slide--3">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl lg:text-2xl  font-light leading-7">
                     “{{ $t('homepage.specialist.slide_3_text') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -103,7 +103,7 @@
             <div class="slide slide--4">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl lg:text-2xl font-light leading-7">
                     “{{ $t('homepage.specialist.slide_4_text') }}”
                   </div>
                   <div class="spec__card-meta">
@@ -131,7 +131,7 @@
             <div class="slide slide--5">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl font-light leading-7">
+                  <div class="card-text text-black text-xl lg:text-2xl  font-light leading-7">
                     “{{ $t('homepage.specialist.slide_5_text') }}”
                   </div>
                   <div class="spec__card-meta">
