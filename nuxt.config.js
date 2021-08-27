@@ -332,8 +332,8 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Zmotinstitute',
-      short_name: 'Zmotinstitute',
+      name: 'zmotinstitute',
+      short_name: 'zmotinstitute',
       lang: 'en',
       theme_color: '#fc642e',
       background_color: '#ffffff',
