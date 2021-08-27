@@ -28,6 +28,8 @@ p, ul, li{
   font-family: 'Quicksand Regular';
   font-size: 1.1rem;
   font-weight: 400;
+  list-style: disc;
+  list-style-position: inside;
 }
 dt{
   font-family: 'Quicksand Regular';
@@ -65,7 +67,7 @@ dd {
     font-size: 2.25rem;
     font-weight: 500;
   }
-  p{
+  p, ul, li{
     font-size: 1.25rem;
     font-weight: 300;
   }
