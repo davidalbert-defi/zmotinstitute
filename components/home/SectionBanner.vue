@@ -18,7 +18,7 @@
       </div>
       <div class="w-full md:w-1/2 py-6 text-center">
         <img
-          class="w-full md:w-4/5 z-50"
+          class="w-full z-50"
           :src="require('~/assets/img/zmot-header-background.jpg').src"
           :srcset="require('~/assets/img/zmot-header-background.jpg').srcSet"
           :blank-src="require('~/assets/img/zmot-header-background.jpg').placeholder"
