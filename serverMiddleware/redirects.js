@@ -1,7 +1,8 @@
 const redirects = [
   { from: '/zmot-audit', to: '/digital-marketing-services' },
   { from: '/lecture-events', to: '/keynote-speakers' },
-  { from: '/online-courses', to: '/digital-marketing-courses' }
+  { from: '/online-courses', to: '/digital-marketing-courses' },
+  { from: '/blog/customer-experience-jornada-de-compra', to: '/blog/jornada-de-compra' }
 ]
 
 module.exports = function (req, res, next) {
