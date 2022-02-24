@@ -2,7 +2,7 @@
 
 <section id="Banner-section" class="pt-24 pb-8">
   <div id="hero-section" > <!-- bg-amber-100 -->
-      <div class="container mx-auto flex lg:p-12 md:flex-row flex-col items-center">
+      <div class="container mx-auto flex lg:p-12 md:flex-row flex-col items-center bg-orange-100 rounded-3xl">
       <div class="lg:flex-grow md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
         <h1 class="title-font text-4xl lg:text-5xl mb-4 font-semibold text-orange-shinny order-1">
           {{ $t('courses_consumer_behavior.hero.headline') }}
@@ -17,14 +17,14 @@
               </a>
             </div>
             <div class="mt-3 rounded-md shadow-md sm:mt-0 sm:ml-3 uppercase">
-              <a href="https://wa.me/5548988087120" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-600 bg-white hover:bg-indigo-600 hover:text-white md:py-4 md:text-lg md:px-10">
+              <a href="https://wa.me/5548988087120" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-indigo-600 md:py-4 md:text-lg md:px-10">
                 {{ $t('courses_consumer_behavior.hero.cta_2') }}
               </a>
             </div>
           </div>
       </div>
       <div class="order-3">
-        <img class="rounded" alt="hero" src="~/assets/img/online-courses-thumbnails/course_consumer_behavio_headless.png">
+        <img alt="avatar of a young boy, with a big mobile phone on his side" src="~/assets/img/online-courses-thumbnails/consumer_behavior_a_z_no_background.png">
       </div>
     </div>
   </div>
