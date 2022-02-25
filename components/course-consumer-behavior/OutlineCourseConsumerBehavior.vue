@@ -9,8 +9,8 @@
             <div class="py-4 px-4 rounded-lg shadow-xl shadow-white bg-white">  <!-- border-4 -->
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
-                <button @click="isOpenModule1 = !isOpenModule1"  class="text-left w-full flex justify-between items-start ">
-                  <span class="text-lg font-medium  capitalize">
+                <button @click="isOpenModule1 = !isOpenModule1"  class="text-left w-full flex justify-between items-start">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module1.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -42,18 +42,18 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule1" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson2')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson3')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson4')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson3')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module1.lesson4')"></p>
               </dd>
             </div>
             <!-- 2nd module box -->
-            <div class="py-4 px-4 rounded-lg shadow-xl shadow-white bg-white">  <!-- border-4 -->
+            <div class="py-4 px-4 mt-20 rounded-lg shadow-xl shadow-white bg-white">  <!-- border-4 -->
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenModule2 = !isOpenModule2"  class="text-left w-full flex justify-between items-start">
-                  <span class="text-xl font-medium capitalize">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module2.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -85,14 +85,14 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule2" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson2')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson3')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson4')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson5')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson6')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson7')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson8')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson3')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson4')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson5')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson6')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson7')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module2.lesson8')"></p>
               </dd>
             </div>
             <!-- 3rd module box -->
@@ -100,7 +100,7 @@
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenModule3 = !isOpenModule3"  class="text-left w-full flex justify-between items-start">
-                  <span class="text-xl font-medium capitalize">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module3.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -132,8 +132,8 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule3" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module3.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module3.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module3.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module3.lesson2')"></p>
               </dd>
             </div>
              <!-- 4th module box -->
@@ -141,7 +141,7 @@
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenModule4 = !isOpenModule4"  class="text-left w-full flex justify-between items-start">
-                  <span class="text-xl font-medium capitalize">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module4.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -173,15 +173,15 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule4" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson2')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson3')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson4')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson5')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson6')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson7')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson8')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson9')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson3')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson4')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson5')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson6')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson7')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson8')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module4.lesson9')"></p>
               </dd>
             </div>
              <!-- 5th module box -->
@@ -189,7 +189,7 @@
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenModule5 = !isOpenModule5"  class="text-left w-full flex justify-between items-start">
-                  <span class="text-xl font-medium capitalize">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module5.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -221,10 +221,10 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule5" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson2')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson3')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson4')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson3')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module5.lesson4')"></p>
               </dd>
             </div>
             <!-- 6th module box -->
@@ -232,7 +232,7 @@
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenModule6 = !isOpenModule6"  class="text-left w-full flex justify-between items-start">
-                  <span class="text-xl font-medium capitalize">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module6.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -264,15 +264,15 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule6" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson2')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson3')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson4')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson5')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson6')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson7')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson8')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson9')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson3')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson4')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson5')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson6')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson7')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson8')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module6.lesson9')"></p>
               </dd>
             </div>
             <!-- 7th module box -->
@@ -280,7 +280,7 @@
               <dt class="md:text-lg text-lg">
                 <!-- Expand/collapse question button -->
                 <button @click="isOpenModule7 = !isOpenModule7"  class="text-left w-full flex justify-between items-start">
-                  <span class="text-xl font-medium capitalize">
+                  <span class="text-xl font-bold pl-4 capitalize">
                     {{ $t('courses_consumer_behavior.course_outline.module7.name') }}
                   </span>
                   <span class="ml-6 h-7 flex items-center">
@@ -312,8 +312,8 @@
                 </button>
               </dt>
               <dd v-if="isOpenModule7" class="mt-2 pr-12 shadow-inner rounded-lg grid grid-cols-1 divide-y-2">
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module7.lesson1')"></p>
-                <p class="font-normal md:text-lg text-base ml-6 py-2 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module7.lesson2')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module7.lesson1')"></p>
+                <p class="font-normal md:text-lg text-base ml-6 py-2 pl-4 leading-8 capitalize" v-html="$t('courses_consumer_behavior.course_outline.module7.lesson2')"></p>
               </dd>
             </div>
         </dl>

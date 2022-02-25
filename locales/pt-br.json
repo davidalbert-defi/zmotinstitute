@@ -577,10 +577,41 @@
         },
         "hero": {
             "headline": "Curso De Comportamento Do Consumidor De A - Z",
-            "sub_headline": "Courses To Learn How To Grow Your Business Understanding Your Consumer Behaviour and Optimizing The Customer Journey",
+            "sub_headline": "Aprenda as técnicas e ferramentas certas para entender e influenciar a tomada de decisão do seu cliente",
             "cta_1": "SABER MAIS",
             "cta_2": "CHAT ONLINE",
-            "alt_image": "On the right side there is an avatar of a young women with her laptot. Looks like she is enrolling in some kind of digital course, as looks like she is studying. On one side there is a table lamp, and on the other a pot with plants."
+            "alt_image": "No centro da tela há o avatar de um jovem consumidor ao lado de um celular que tem o seu tamanho. Esse celular faz alusão a um site de compras e traz elementos como carrinho de compras, descrição de produto e estrelas de avaliação dos clientes. Decorando o entordo do jovem e celular existem elementos como plantas, sacolas de compra, símbolos de descontos entre outros."
+        },
+        "pricing": {
+            "headline": "Quanto Custa!?",
+            "sub_headline": "null",
+            "purchase_cta": "COMPRAR CURSO",
+            "box_highlight": "MAIS COMPRADO",
+            "tier1_Features": {
+                "header": "30 dias Acesso",
+                "tooltip": "Você terá acesso ao curso durante 30 dias, a contar da data de compra, e depois não conseguirá mais acessar o curso.",
+                "price":"299",
+                "price_currency":"R$",
+                "feature1": "Acesse Durante 30 Dias",
+                "feature2": "Assista Quantas Vezes Quiser",
+                "feature3": "Exercícios Práticos",
+                "feature4": "Reembolso 15 dias",
+                "feature5": "Suporte Humano",
+                "feature6": "Mentoria Online",
+                "feature7": "Pagamento Parcelado"
+            },
+            "tier2_Features": {
+                "header": "12 meses Acesso",
+                "tooltip": "Você terá acesso ao curso durante 12 meses, a contar da data de compra, e depois não conseguirá mais acessar o curso.",
+                "price":"1.099",
+                "feature8": ""
+            },
+            "tier3_Features": {
+                "header": "Acesso Ilimitado",
+                "tooltip": "Você terá acesso ao curso de forma ilimitada, sempre que precisar, independente de quanto tempo a compra foi efetuada",
+                "price":"1.899",
+                "feature9": ""
+            }
         },
         "will_learn": {
             "headline": "O que você vai Aprender!?",
@@ -680,29 +711,23 @@
             "review_4_name": "Luana I.",
             "review_4_job": "Profissional de Marketing",
             "review_4_alt": "Foto da cliente Luana I. para ilustrar o depoimento dela sobre o curso",
-            "review_5_header": "Tem minha conceito e ferramenta bacana, super recomendo!",
+            "review_5_header": "Tem muito conceito e ferramenta bacana, super recomendo!",
             "review_5_name": "Jonas R.",
             "review_5_job": "Administrador",
             "review_5_alt": "Foto do cliente Jonas R. para ilustrar o depoimento dele sobre o curso"
         },
         "faq": {
-            "headline": "Frequently Asked Questions (FAQs)",
-            "question_1_question": "Can I Get A Job After Digital Marketing Course?",
-            "question_1_answer": "The digital marketing business is one of the fastest-growing nowadays. With many jobs available, companies look for thalented and qualified people able to deliver results in a fast pace environment.",
-            "question_2_question": "What Courses Do I Need For Digital Marketing?",
-            "question_2_answer_line_1": "To become a digital marketing professional you need to enroll in courses to build these specific skills:",
-            "question_2_answer_line_2": "1. Consumer Behaviour;",
-            "question_2_answer_line_3": "2. Search Engine Optimization (SEO);",
-            "question_2_answer_line_4": "3. Content Marketing;",
-            "question_2_answer_line_5": "4. Social Media Marketing (SMM);",
-            "question_2_answer_line_6": "5. Pay-per-click (PPC);",
-            "question_2_answer_line_7": "6. Branding & Storytelling;",
-            "question_3_question": "Is Digital Marketing A Good Career?",
-            "question_3_answer": "Digital Marketing is a high demand career. It is estimated that this will be the highest-paid sector in the coming years.",
-            "question_4_question": "How Do I Get Certified In Digital Marketing?",
-            "question_4_answer": "To get a certification in digital marketing you can take some online courses, or even get a proper degree on university. The price and duration of each course may vary, so it really depends the size of your pocket, availability to study and the problem you're trying to solve.",
-            "question_5_question": "Is Digital Marketing Easy?",
-            "question_5_answer": "No, digital marketing is not easy at all! it requires in-depth knowledge and hard work in fields like Marketing, Psychology, Technology, Sales and much more. Good part is you can always start to learn, as there are lots of content out there on the internet, as well as free tools can use the many free platforms and tools available online. However, the negative point of this marketing is that it is extremely laborious and is renewed almost daily, so it is always necessary to be updated."
+            "headline": "Dúvidas Frequentes",
+            "question_1_question": "É possível entender o comportamento do consumidor?",
+            "question_1_answer": "Com certeza! Com esse curso você vai entender que as pessoas se comportam com base em alguns padrões, e aprendendo esses modelos você vai conseguir entender a necessidade do se cliente e seu comunicar de uma forma mais efetiva.",
+            "question_2_question": "Vou aprender sobre comportamento do consumidor digital?",
+            "question_2_answer": "Sim! Você vai aprender não apenas o comportamento do consumidor digital, mas sobre comportamento do consumidor no geral. O Digital é uma parte importante da jornada do cliente, mas existem outros fatores tão importantes quanto o digital.",
+            "question_3_question": "Vou aprender sobre os tipos de consumidor?",
+            "question_3_answer": "Essa é a idéia! Vamos te ensinar não apenas como entender seu cliente, mas também como segmentar os tipos de consumidor de modo que você possa personalizar ao máximo suas comunicações.",
+            "question_4_question": "Vou aprender sobre hábitos de consumo?",
+            "question_4_answer": "Mais do que isso, você vai aprender como identificar hábitos de consumo da forma certa, e sempre que você tiver necessidade de entender melhor o seu cliente.",
+            "question_5_question": "O curso aborda o comportamento do consumidor pós pandemia?",
+            "question_5_answer": "Não exatamente, mas de certa forma sim. Como vamos te ensinar como entender o comportamento do consumidor, independente de pandemia ou não, você sempre estará atualizado e apto a entender seu cliente."
         }
     },
     "placeholder": {

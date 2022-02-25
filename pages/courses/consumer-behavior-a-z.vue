@@ -6,14 +6,9 @@
     <!-- <lazy-hydrate when-visible>
       <divisor-course-consumer-behavior />
     </lazy-hydrate> -->
-    <div class="container flex flex-col">
-        <!-- <div class="item-center" >
-            <about-course-consumer-behavior />
-        </div> -->
-        <div class="item-center">
+    <div class="item-center" id="will-learn">
             <will-learn-course-consumer-behavior />
         </div>
-    </div>
     <lazy-hydrate when-visible>
       <outline-course-consumer-behavior />
     </lazy-hydrate>
@@ -21,10 +16,13 @@
       <pricing-course-consumer-behavior />
     </lazy-hydrate>
     <lazy-hydrate when-visible>
+      <testimonials-course-consumer-behavior />
+    </lazy-hydrate>
+    <lazy-hydrate when-visible>
       <section-course-why-hire />
     </lazy-hydrate>
     <lazy-hydrate when-visible>
-      <testimonials-course-consumer-behavior />
+      <faq-course-consumer-behavior />
     </lazy-hydrate>
   </div>
 </template>
