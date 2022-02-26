@@ -55,7 +55,7 @@
                   </div>
                   <div class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                     <ul role="list" class="space-y-4">
-                      <li v-for="feature in tier1Features" :key="feature" class="flex items-start">
+                      <li v-for="(feature,index) in tier1Features" :key="index" class="flex items-start">
                         <svg
                           class="h-6 w-6 pt-1 "
                           xmlns="http://www.w3.org/2000/svg"
@@ -64,10 +64,10 @@
                           <path d="M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42L7 14.17z"/>
                         </svg>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          {{ feature }}
+                          {{ feature.name }}
                         </p>
                       </li>
-                      <li v-for="feature in tier1Restrictions" :key="feature" class="flex items-start">
+                      <li v-for="(feature,index) in tier1Restrictions" :key="index" class="flex items-start">
                         <svg
                           class="h-6 w-6 pt-1 "
                           xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
                           <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/>
                         </svg>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          {{ feature }}
+                          {{ feature.name }}
                         </p>
                       </li>
                     </ul>
@@ -97,7 +97,9 @@
                 <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-indigo-600" aria-hidden="true" />
                 <div class="absolute inset-x-0 top-0 transform translate-y-px">
                   <div class="flex justify-center transform -translate-y-1/2">
-                    <span class="inline-flex rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white"> Mais Comprado</span>
+                    <span class="inline-flex uppercase rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                      {{ $t('courses_consumer_behavior.pricing.box_highlight') }}
+                      </span>
                   </div>
                 </div>
                 <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
@@ -118,7 +120,7 @@
                 </div>
                 <div class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
                   <ul role="list" class="space-y-4 ml-12">
-                    <li v-for="feature in tier2Features" :key="feature" class="flex items-center">
+                    <li v-for="(feature,index) in tier2Features" :key="index" class="flex items-center">
                         <svg
                           class="h-6 w-6 pt-1 "
                           xmlns="http://www.w3.org/2000/svg"
@@ -127,10 +129,10 @@
                           <path d="M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42L7 14.17z"/>
                         </svg>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          {{ feature }}
+                          {{ feature.name }}
                         </p>
                       </li>
-                      <li v-for="feature in tier2Restrictions" :key="feature" class="flex items-start">
+                      <li v-for="(feature,index) in tier2Restrictions" :key="index" class="flex items-start">
                         <svg
                           class="h-6 w-6 pt-1 "
                           xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +142,7 @@
                           <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/>
                         </svg>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          {{ feature }}
+                          {{ feature.name }}
                         </p>
                       </li>
                   </ul>
@@ -175,7 +177,7 @@
                   </div>
                   <div class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                     <ul role="list" class="space-y-4">
-                      <li v-for="feature in tier3Features" :key="feature" class="flex items-center">
+                      <li v-for="(feature,index) in tier3Features" :key="index" class="flex items-center">
                         <svg
                           class="h-6 w-6 pt-1 "
                           xmlns="http://www.w3.org/2000/svg"
@@ -184,10 +186,10 @@
                           <path d="M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42L7 14.17z"/>
                         </svg>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          {{ feature }}
+                          {{ feature.name }}
                         </p>
                       </li>
-                       <li v-for="feature in tier3Restrictions" :key="feature" class="flex items-start">
+                       <li v-for="(feature,index) in tier3Restrictions" :key="index" class="flex items-start">
                         <svg
                           class="h-6 w-6 pt-1 "
                           xmlns="http://www.w3.org/2000/svg"
@@ -197,7 +199,7 @@
                           <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/>
                         </svg>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          {{ feature }}
+                          {{ feature.name }}
                         </p>
                       </li>
                     </ul>
@@ -221,15 +223,13 @@
 </template>
 
 <script>
-// import { CheckIcon } from '@heroicons/vue/outline'
-
-const tier1Features = ['Acesse Durante 30 dias', 'Assista Quantas Vezes Quiser', 'Exercícios Práticos', 'Reembolso 15 dias']
-const tier1Restrictions = ['Suporte Humano', 'Mentoria Online']
-const tier2Features = ['Acesse Durante 12 meses', 'Assista Quantas Vezes Quiser', 'Exercícios Práticos', 'Reembolso 15 dias', 'Suporte Humano 12 Meses', '1h Mentoria Online']
-const tier2Restrictions = []
-const tier3Features = ['Acesso Ilimitado', 'Assista Quantas Vezes Quiser', 'Exercícios Práticos', 'Reembolso 15 dias', 'Suporte Humano 12 Meses', '2h Mentoria Online']
-const tier3Restrictions = []
-
+//  import jsonld from '@/locales/pt-br.json'
+// const tier1Features = [this.$t('courses_consumer_behavior.pricing.tier1_Features.feature1'), 'Assista Quantas Vezes Quiser', 'Exercícios Práticos', 'Reembolso 15 dias']
+// const tier1Restrictions = ['Suporte Humano', 'Mentoria Online']
+// const tier2Features = ['Acesse Durante 12 meses', 'Assista Quantas Vezes Quiser', 'Exercícios Práticos', 'Reembolso 15 dias', 'Suporte Humano 12 Meses', '1h Mentoria Online']
+// const tier2Restrictions = []
+// const tier3Features = ['Acesso Ilimitado', 'Assista Quantas Vezes Quiser', 'Exercícios Práticos', 'Reembolso 15 dias', 'Suporte Humano 12 Meses', '2h Mentoria Online']
+// const tier3Restrictions = []
 export default {
   name: 'PricingCourseConsumerBehavior',
   // components: {
@@ -237,12 +237,88 @@ export default {
   // },
   data () {
     return {
-      tier1Features,
-      tier1Restrictions,
-      tier2Features,
-      tier2Restrictions,
-      tier3Features,
-      tier3Restrictions
+      // tier1Features,
+      // tier1Restrictions,
+      // tier2Features,
+      // tier2Restrictions,
+      // tier3Features,
+      // tier3Restrictions,
+      // jsonld: jsonld
+      tier1Features: [
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature1')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature2')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature3')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature4')
+        }
+      ],
+      tier1Restrictions: [
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature7')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature5')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature6')
+        }
+      ],
+      tier2Features: [
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier2_Features.feature1')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature2')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature3')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature4')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature7')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature5')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier2_Features.feature6')
+        }
+      ],
+      tier2Restrictions: [
+      ],
+      tier3Features: [
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier3_Features.feature1')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature2')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature3')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature4')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature7')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier1_Features.feature5')
+        },
+        {
+          name: this.$t('courses_consumer_behavior.pricing.tier3_Features.feature6')
+        }
+      ],
+      tier3Restrictions: [
+      ]
     }
   }
 }

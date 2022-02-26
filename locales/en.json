@@ -575,8 +575,8 @@
             "description": "With This Consumer Behavior Course You Will Be Able To Learn How People Behave During The Customer Journey And How To Influence Their Decision Making"
         },
         "hero": {
-            "headline": "Consumer Behavior Course To Understand Your Customer",
-            "sub_headline": "Learn the right techniques and tools to understand and influence your customer's decision making during the customer journey",
+            "headline": "Consumer Behavior Course",
+            "sub_headline": "Learn the right techniques and tools to understand and influence your customer's decision making",
             "cta_1": "LEARN MORE",
             "cta_2": "CHAT ONLINE",
             "alt_image": "In the center of the screen is the avatar of a young consumer next to a cell phone that is his size. This cell phone alludes to a shopping site and features elements such as a shopping cart, product description and customer rating stars. Decorating the surroundings of the young person and cell phone, there are elements such as plants, shopping bags, discount symbols, among others."
@@ -591,24 +591,28 @@
                 "tooltip": "You will have access to the course for 30 days from the date of purchase, after that you will no longer be able to access the course.",
                 "price":"59",
                 "price_currency":"USD",
-                "feature1": "30 Days Access",
+                "feature1": "Access during 30 days",
                 "feature2": "Watch As Many Times As You Want",
-                "feature3": "Hands On Practice",
+                "feature3": "Hands On Practices",
                 "feature4": "15 days Money-Back Guarantee",
                 "feature5": "Human Support Agent",
                 "feature6": "Online Mentoring",
                 "feature7": "Pay In Installments"
             },
             "tier2_Features": {
-                "header": "12 month Acess",
+                "header": "12 months Access",
                 "tooltip": "You will have access to the course for 12 months from the date of purchase, after that you will no longer be able to access the course.",
                 "price":"215",
+                "feature1": "Access during a whole year",
+                "feature6": "2 hours Online Mentoring",
                 "feature8": ""
             },
             "tier3_Features": {
                 "header": "Unlimited Access",
                 "tooltip": "You will have unlimited access to the course, whenever you need it, regardless of how long the purchase was made.",
                 "price":"370",
+                "feature1": "always have access, it does not expire",
+                "feature6": "4 hours Online Mentoring",
                 "feature9": ""
             }
         },
@@ -616,7 +620,7 @@
             "headline": "what will you learn!?",
             "sub_headline": "null",
             "feature_1_header": "Customer Centricity",
-            "feature_1_description": "Learn how to understand your customer's needs and be to Customer Centric for real.",
+            "feature_1_description": "Learn how to understand your customer's needs and to be Customer Centric for real.",
             "feature_2_header": "Understand Your Customer",
             "feature_2_description": "Learn to understand what your customer wants, when he wants it, and what he wants it for.",
             "feature_3_header": "Send The Right Message ",
@@ -687,8 +691,8 @@
             },
             "module7": {
                 "name": "Tips & Tricks",
-                "lesson1": "Dicas de Livros",
-                "lesson2": "Dicas de Ferramentas"
+                "lesson1": "Books to read",
+                "lesson2": "Softwares to use"
             }
         },
         "customer_reviews": {

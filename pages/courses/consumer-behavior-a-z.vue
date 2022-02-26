@@ -85,26 +85,26 @@ export default {
       mainEntity: [
         {
           '@type': 'Question',
-          name: this.$t('online_courses.faq.question_1_question'),
+          name: this.$t('courses_consumer_behavior.faq.question_1_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('online_courses.faq.question_1_answer')
+            text: this.$t('ourses_consumer_behavior.faq.question_1_answer')
           }
         },
         {
           '@type': 'Question',
-          name: this.$t('online_courses.faq.question_3_question'),
+          name: this.$t('courses_consumer_behavior.faq.question_2_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('online_courses.faq.question_3_answer')
+            text: this.$t('ourses_consumer_behavior.faq.question_2_answer')
           }
         },
         {
           '@type': 'Question',
-          name: this.$t('online_courses.faq.question_4_question'),
+          name: this.$t('courses_consumer_behavior.faq.question_3_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('online_courses.faq.question_4_answer')
+            text: this.$t('ourses_consumer_behavior.faq.question_3_answer')
           }
         }
       ]

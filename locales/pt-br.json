@@ -604,12 +604,16 @@
                 "header": "12 meses Acesso",
                 "tooltip": "Você terá acesso ao curso durante 12 meses, a contar da data de compra, e depois não conseguirá mais acessar o curso.",
                 "price":"1.099",
+                "feature1": "Acesse Durante 12 meses",
+                "feature6": "2h Mentoria Online",
                 "feature8": ""
             },
             "tier3_Features": {
                 "header": "Acesso Ilimitado",
                 "tooltip": "Você terá acesso ao curso de forma ilimitada, sempre que precisar, independente de quanto tempo a compra foi efetuada",
                 "price":"1.899",
+                "feature1": "Acesso Sem Limite de Validade",
+                "feature6": "4h Mentoria Online",
                 "feature9": ""
             }
         },
@@ -617,23 +621,23 @@
             "headline": "O que você vai Aprender!?",
             "sub_headline": "null",
             "feature_1_header": "ter foco no cliente",
-            "feature_1_description": "Aprenda a entender a necessidade do seu cliente e ser Customer Centric.",
+            "feature_1_description": "Aprenda a entender a necessidade do seu cliente e como ser Customer Centric na prática.",
             "feature_2_header": "Entender o cliente",
             "feature_2_description": "Aprenda a entender o que cliente quer, quando ele quer, e para que ele quer.",
             "feature_3_header": "Comunicar Corretamente",
             "feature_3_description": "Aprenda a entregar a mensagem certa, na hora certa, para o cliente certo.",
-            "feature_4_header": "Influenciar Tomada de Decisão",
-            "feature_4_description": "Entenda como as pessoas tomam decisões e como você pode influenciar a percepção de valor.",
+            "feature_4_header": "Influenciar a Tomada de Decisão",
+            "feature_4_description": "Entenda como as pessoas tomam decisões, seus critérios de decisão e como você pode influenciar a percepção de valor.",
             "feature_5_header": "mapear as pegadas digitais",
             "feature_5_description": "Aprenda a mapear as pegadas digitais que seu cliente deixa durante a Jornada do Cliente.",
             "feature_6_header": "criar experimentos",
-            "feature_6_description": "Entenda como criar experimentos para mudar o de comportamento do seu cliente e alavancar suas vendas."
+            "feature_6_description": "Entenda como criar experimentos para mudar o comportamento do seu cliente e alavancar suas vendas."
         },
         "course_outline": {
             "headline": "Conteúdo do Curso",
             "sub_headline": "null",
             "module1": {
-                "name": "Importância De Entender A Necessidade De Cliente",
+                "name": "Importância De Entender A Necessidade Do Cliente",
                 "lesson1": "Foco no Cliente - Customer Centricity",
                 "lesson2": "Sucesso do Cliente - Customer Success",
                 "lesson3": "Experiência do Cliente - Customer Experience",
@@ -726,7 +730,7 @@
             "question_3_answer": "Essa é a idéia! Vamos te ensinar não apenas como entender seu cliente, mas também como segmentar os tipos de consumidor de modo que você possa personalizar ao máximo suas comunicações.",
             "question_4_question": "Vou aprender sobre hábitos de consumo?",
             "question_4_answer": "Mais do que isso, você vai aprender como identificar hábitos de consumo da forma certa, e sempre que você tiver necessidade de entender melhor o seu cliente.",
-            "question_5_question": "O curso aborda o comportamento do consumidor pós pandemia?",
+            "question_5_question": "O curso aborda o comportamento do consumidor pós-pandemia?",
             "question_5_answer": "Não exatamente, mas de certa forma sim. Como vamos te ensinar como entender o comportamento do consumidor, independente de pandemia ou não, você sempre estará atualizado e apto a entender seu cliente."
         }
     },

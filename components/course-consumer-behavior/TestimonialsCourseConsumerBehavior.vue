@@ -19,8 +19,8 @@
             <div class="slide slide--1">
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
-                  <div class="card-text text-black text-xl lg:text-2xl font-light leading-7">
-                    “{{ $t('courses_consumer_behavior.customer_reviews.review_1_header') }}”
+                  <div class="card-text text-black text-xl lg:text-2xl leading-7">
+                    “ {{ $t('courses_consumer_behavior.customer_reviews.review_1_header') }} ”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -47,7 +47,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl lg:text-2xl  font-light leading-7">
-                    “{{ $t('courses_consumer_behavior.customer_reviews.review_2_header') }}”
+                    “ {{ $t('courses_consumer_behavior.customer_reviews.review_2_header') }} ”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -74,7 +74,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl lg:text-2xl  font-light leading-7">
-                    “{{ $t('courses_consumer_behavior.customer_reviews.review_3_header') }}”
+                    “ {{ $t('courses_consumer_behavior.customer_reviews.review_3_header') }} ”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -101,7 +101,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl lg:text-2xl font-light leading-7">
-                    “{{ $t('courses_consumer_behavior.customer_reviews.review_4_header') }}”
+                    “ {{ $t('courses_consumer_behavior.customer_reviews.review_4_header') }} ”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
@@ -128,7 +128,7 @@
               <div class="card overflow-hidden spec__card">
                 <div class="card-body">
                   <div class="card-text text-black text-xl lg:text-2xl  font-light leading-7">
-                    “{{ $t('courses_consumer_behavior.customer_reviews.review_5_header') }}”
+                    “ {{ $t('courses_consumer_behavior.customer_reviews.review_5_header') }} ”
                   </div>
                   <div class="spec__card-meta">
                     <div class="sec__card-meta-avatar">
