@@ -1,9 +1,10 @@
 {
     "navs": {
-        "home": {"title": "HOME", "link": "/"},
-        "blog": {"title": "BLOG", "link": "blog"},
-        "contact": {"title": "CONTACTO", "link": "contact"},
-        "privacy": {"title": "POLITICA DE PRIVACIDAD", "link": "privacidad"}
+        "home": {"title": "Home", "link": "/"},
+        "services": {"title": "Servicios", "link": "/"},
+        "blog": {"title": "Blog", "link": "blog"},
+        "contact": {"title": "Contacto", "link": "contact"},
+        "privacy": {"title": "Politica De Privacidad", "link": "privacidad"}
     },
     "homepage": {
         "seo": {
@@ -11,8 +12,9 @@
             "description": "Si desea comprender cómo influir en el comportamiento del consumidor y disparar sus resultados de marketing digital, debe aprender ahora ZMOT."
         },
         "banner": {
-            "header": "ZMOT: la clave para Transformación Digital",
-            "text": "Un Framework para Hackear el Comportamiento del Consumidor con Marketing Digital"
+            "header": "Influir En El Comportamiento Del Consumidor Con ZMOT",
+            "text": "Un Framework para Hackear el Comportamiento del Consumidor con Marketing Digital",
+            "alt_image": "Una computadora portátil grande abierta está en el centro de la imagen, y hay un paisaje de árboles detrás de ella. En los lados inferiores de la computadora, y en la parte superior, hay avatares de personas que crean una tienda web en esta computadora."
         },
         "why_do_you_need_ZMOT": {
             "header": "¿Por qué usted necesita del ZMOT?",
@@ -40,12 +42,18 @@
         "services": {
             "header": "Como podemos ayudarlo?",
             "sub_header": "Estamos aquí para ayudarlo a entender y poner en práctica el ZMOT en su día a día. No importa el tamaño de tu bolsillo, o disponibilidad de tiempo, siempre tendremos una solución para ayudarlo.",
-            "service_1_header": "Auditoría ZMOT",
+            "service_1_header": "Servícios De Marketing Digital",
             "service_1_description": "Estas interesado sobre ZMOT y Comportamiento del Consumidor, pero no tienen idea de cómo empezar? ¿O tal vez sólo necesita una opinión de un experto para ayudarle a desarrollar las cosas? Háganos saber su sitio web y lo sorprenderemos con un plan maestro para impulsar su negocio digital.",
+            "service_1_description_short": "Ideal Si Necesita Ayuda De Expertos Para Escalar Su Negocio Con Marketing Digital.",
+            "service_1_navbar_description": "Te Ayudamos A Implementar El ZMOT",
             "service_2_header": "Conferencias y Eventos",
             "service_2_description": "¿Desea encantar a su audiencia con contenido innovador y dinámico que hará con que la gente se pongan de pie y aplauda? Nuestras presentaciones basadas en storytelling y performance llevan las personas a acción y resultados que antes podrían considerar imposibles.",
+            "service_2_description_short": "Charlas Acerca Comportamiento Del Consumidor Con Ponentes Premiados.",
+            "service_2_navbar_description": "Encante A Su Audiencia Con ZMOT",
             "service_3_header": "Cursos Online",
             "service_3_description": "Aprenda mejor en su clase ZMOT con expertos que han ayudado a sus organizaciones a lograr resultados sorprendentes. Con nuestros cursos online puedes aprender e implementar el ZMOT a su propio y flexible ritmo, pero también hacerlo repetidas veces. Tienes el control total de tu proceso de aprendizaje.",
+            "service_3_description_short": "Aprenda ZMOT Y Comportamiento Del Consumidor A Su Propio Ritmo e Tiempo.",
+            "service_3_navbar_description": "Aprenda El ZMOT A Su Propio Ritmo",
             "get_a_quote": "Más Información"
         },
         "what_say": {
@@ -56,11 +64,31 @@
             "talking_3": "Contenido muy bueno, gracias por compartirlo."
         },
         "blog": {
-          "text": "¿Quieres estar actualizado acerca de ZMOT y Comportamiento del Consumidor, acessando contenido exclusivo y totalmente gratuito? Asegúrese de acceder a nuestros materiales de alta calidad y dichas prácticas sobre cómo hacer crecer su negocio.",
-          "title_1": "",
-          "title_2": "",
-          "title_3": "",
-          "read_more": "Lea Más"
+            "header": "BLOG",
+            "text": "¿Quiere Mantenerse Actualizado Sobre El ZMOT Y Los Asuntos De Comportamiento Del Consumidor? Asegúrese De Acceder A Nuestro Contenido Y Materiales Exclusivos Y Totalmente Gratuitos, Consejos Completos Sobre Cómo Escalar Su Negocio.",
+            "block_1_header": "Aprenda ZMOT Y Comportamiento Del Consumidor",
+            "block_1_text": "ZMOT es la clave para comprender al consumidor moderno y realizar estrategias de marketing digital efectivas para escalar su negocio.",
+            "block_1_alt": "No centro há um grupo de pessoas que estão e uma mesa de trabalho retangular de 5 lugares com 3 telas de computadores grandes. Na ponta esquerda temos duas pessoas conversando e apontando para uma das telas. Na ponta direita temos uma pessoa de pé utilizando um tablet, e logo ao lado dela há outra pessoa sentada no chão usando o notebook. No fundo existe elementos que lembram plantas e árvores, bem como  cartas e pontilhados representando eles se comunicando através dos dispositivos",
+            "block_1_link": "",
+            "block_2_header": "Experiencia Del Cliente: Cómo Mapear El Proceso De Compra",
+            "block_2_text": "Aprenda todo sobre la experiencia del cliente, el recorrido del cliente y cómo transmitir el mensaje correcto en el momento adecuado.",
+            "block_2_alt": "En el centro hay un avatar de un hombre y una mujer y detrás de ellos un sitio web de comercio electrónico de tamaño gigante. La mujer está parada del lado izquierdo, pensando qué comprar, y el hombre arrodillado del lado derecho con una gran tarjeta de crédito en la mano, como si estuviera comprando. A su alrededor hay bolsas de compras. Al fondo tenemos vegetación decorativa. La paleta de colores es violeta, naranja y azul.",
+            "block_2_link": "",
+            "block_3_header": "Economía Del Comportamiento: Cómo Influir En Los Clientes",
+            "block_3_text": "Con Economia Comportamental podrá comprender cómo sus clientes toman su decisión de compra e influir en ellos en ese proceso.",
+            "block_3_alt": "En el centro está el avatar de un hombre que coloca una bolsa de compras dentro de un carrito de supermercado. Al fondo hay 3 bolsas de compras gigantes, la de la izquierda la más pequeña, la del medio y la de la derecha la más grande. La paleta de colores es violeta, naranja claro y azul claro.",
+            "block_3_link": "",
+            "read_more": "Lea Más"
+        },
+        "faq": {
+            "question_1_question": "¿Qué Es El ZMOT Institute?",
+            "question_1_answer": "ZMOT Institute es una startup de marketing digital enfocada en ayudar a comprender las necesidades de sus clientes a través del ZMOT Framework de Google, y escalar sus negocios con las mejores estrategias de marketing de su clase.",
+            "question_2_question": "¿Por qué usted necesita del ZMOT Framework?",
+            "question_2_answer": "Entender el Comportamiento del Consumidor y ayudar a tus usuários durante el recorrido del cliente debe ser su prioridad número uno para construir un negocio exitoso. Tanto si eres un vendedor, o un empresario, su comunicación será mucho más eficiente si entiendes algunos conceptos básicos.",
+            "question_3_question": "Como El ZMOT Institute Lo Puede Ayudar?",
+            "question_3_answer": "Estamos aquí para ayudarlo a entender y poner en práctica el ZMOT en su día a día. No importa el tamaño de tu bolsillo, o disponibilidad de tiempo, siempre tendremos una solución para ayudarlo.",
+            "question_4_question": "¿Qué Tipo De Servicios Ofrece El ZMOT Institute?",
+            "question_4_answer": "En ZMOT Institute te ayudamos a comprender las necesidades y el comportamiento de tus consumidores. Puede contratar nuestros servicios de Marketing Digital para que analisemos el comportamiento de tu consumidor y mejoremos la Experiencia Del Cliente. O puede aprender a su propio ritmo e inscribirse en nuestros cursos de Marketing Digital. Si también desea encantar a su audiencia en un evento, tenemos premiados Ponentes para Conferencia que lo puende ayudar."
         }
     },
     "contact": {
@@ -68,6 +96,7 @@
             "title": "Contacta Ahora con los Mejores Expertos de ZMOT Institute",
             "description": "¡Ponte en contacto ahora! Háganos saber sus dudas y le ayudaremos a implementar ZMOT Framework. No importa el tamaño de su bolsillo, siempre hay una solución."
         },
+        "nav_description": "Vamos Ayudar Usted Y Sus Clientes",
         "banner": {
             "header": "Contacta Con Los Expertos De ZMOT",
             "text": "E-mail o Chat En Vivo, se elige la mejor opción",
@@ -100,7 +129,7 @@
         "accept": "ACEPTAR"
     },
     "footer": {
-        "text": "Estamos aquí para ayudarlo a comprender a los consumidores y hacer crecer su negocio.",
+        "text": "Estamos aquí para ayudarlo a comprender el Comportamiento del Consumidor y hacer Crecer Su Negocio con el Mejor de Marketing Digital  ",
         "services": {
             "text": "Servicios"
         },
@@ -121,6 +150,10 @@
             "title": "Blog del ZMOT Institute: Aprenda con los Mejores",
             "description": "El mejor sitio para aprender todo sobre el ZMOT Framework y temas relacionados con el Comportamiento del Consumidor. ¡Empieza ahora!"
         },
+        "headline": "BLOG Del ZMOT Institute",
+        "sub_headline": "Aprenda El Mejor Del Comportamiento Del Consumidor Y El Zmot Con El Instituto Zmot. Este Es El Lugar Adecuado Para Los Profesionales De Marketing, Los Emprendedores A Y Los Entusiastas De Marketing Digital.",
+        "nav_description": "Todo Sobre ZMOT Y Comportamiento Del Consumidor",
+        "related_posts": "Posts Relacionados",
         "opinion": {
             "title": "Opiniones sobre este contenido"
         },
@@ -137,46 +170,556 @@
           "comment": "Siéntase libre de compartir tu opinión aquí (requerido)"
         }
     },
-    "zmot_audit": {
-        "seo": {
-            "title": "Hackea el Comportamiento del Consumidor con ZMOT",
-            "description": "Comprenda las necesidades de sus clientes y transmita el mensaje correcto en el momento adecuado con ZMOT. Mejora los resultados de tu negocio."
-        },
-        "header": "Marketing Digital en High Level",
-        "text_1": "ZMOT es un framework diseñado por Google para describir cómo se comportan las personas durante el proceso de compra.",
-        "text_2": "Los negocios exitosos comprenden las necesidades de sus clientes y resuelven sus problemas. Sabiendo cómo su consumidor busca información, hace comparaciones, regatea y toma la decisión de compra, puedes enviar el mensaje correcto, en el momento correcto.",
-        "text_3": "Los expertos de ZMOT INSTITUTE lo ayudarán a rastrear las huellas digitales de sus consumidores y crear un plan maestro con las estrategias de marketing digital más eficientes utilizadas por las empresas de más rápido crecimiento en el mundo.",
-        "submit": "Quiero Recibir un Contacto"
-    },
-    "lectures_events": {
-        "seo": {
-            "title": "Encante las personas de su evento com una palestra de ZMOT",
-            "description": "Lleva el ZMOT a tu evento y deleita a tu audiencia. Nuestros +15 años de experiencia en eventos harán que la gente aplauda de pie. Gratis para estudiantes"
-        },
-        "header": "Deleite Su Audiencia Con ZMOT",
-        "text_1": "¿Está promocionando un evento sobre temas relacionados a Negocios o Marketing Digital? ¿Necesita un contenido de alta calidad para deleitar a su audiencia?",
-        "text_2": "Sea en una sala de clases, en un escenario o en un evento online, podemos ayudar a las personas a aprender e implementar el ZMOT en su pila de marketing y en su juego diario. Sumando nuestros +15 años de experiencia hablando en eventos con la importancia del ZMOT, su audiencia lo agradecerá por toda vida.",
-        "text_3": "No importa el tamaño de su evento, tenemos una solución para usted. ¡Prediquemos el ZMOT juntos!",
-        "submit": "Quiero ZMOT En Mi Evento"
-    },
-    "online_courses" : {
-        "seo": {
-            "title": "Curso Online de ZMOT. Aprenda a su propio ritmo",
-            "description": "Aprenda online con ZMOT Institute. Inscríbete en nuestro curso de ZMOT y obtén 1 hora de tutoría gratis. Usted en control de tu tiempo e conocimiento"
-        },
-        "header": "Aprenda ZMOT A Su Propio Ritmo",
-        "text_1": "Cursos Online son la solución perfecta si desea aprender contenido en profundidad, pero es una persona ocupada con una agenda apiñada.",
-        "text_2": "Hemos preparado un curso práctico e detallado sobre ZMOT, que no solo lo ayudará a aprender los conceptos, sino también a cómo implementar cosas, qué herramientas usar y las mejores prácticas que han estado usando las empresas de más rápido crecimiento en el mundo.",
-        "text_3": "También tendrá acceso completo a nuestro contenido exclusivo, además de una llamada virtual de tutoría de 1 hora con un experto del ZMOT INSTITUTE. Desarrola la mentalidad de crescimiento ahora.",
-        "submit": "Empezar Aprender ZMOT",
+    "contact_form": {
+        "lead_form_headline": "¿¡Vamos A Hablar!?",
+        "lead_form_sub_headline_1": "Programe ahora 1 hora de tutoría. Totalmente gratuito.",
+        "lead_form_sub_headline_2": "Estamos aquí para ayudarlo a comprender el Comportamiento del Consumidor y hacer Crecer Su Negocio.",
         "thank_you_title": "Gracias por contactarnos!",
-        "thank_you_message": "Agradecemos su interés en ZMOT Institute. ¡Uno de nuestros colegas se pondrá en contacto contigo pronto!"
+        "thank_you_message": "Agradecemos su interés en ZMOT Institute. ¡Uno de nuestros colegas se pondrá en contacto contigo pronto!",
+        "error_title": "Error de Envío",
+        "error_message": "Por Favor Pruebe Nuestro Chat Online",
+        "lead_form": {
+            "field_name": "¿Cuál Es Tu Nombre?",
+            "field_surname": "¿Cuál Es Tu Apellido?",
+            "field_email": "¿Cuál Es Tu Email?",
+            "field_phone": "¿Y Tu Numero De Telefono??",
+            "field_message": "Como Podemos Ayudarte? ¿Cuál Es Tu Duda?",
+            "submit": "ENVIAR INFORMACIÓN DE CONTACTO",
+            "privacy_1": "Privacidad De Los Datos Es Un Asunto Serio Para Nosotros. Comprenda Nuestra Política De ",
+            "privacy_2": "Privacidad De Datos.."
+        }
+    },
+    "marketing_services": {
+        "seo": {
+            "title": "Servicios de Marketing Digital Para Crecimiento Exponencial",
+            "description": "Servicios de Marketing Digital para ayudarlo a comprender lo que quieren los consumidores e implementar estrategias de marketing de crecimiento exponencial."
+        },
+        "hero":{
+            "headline": "Consultoría de Marketing Digital de Alto Nivel",
+            "sub_headline": "Conocer El Comportamiento De Los Consumidores, Hemos Ayudado A Enteder Lo Que Quiere El Cliente, Y Optimizar Sus Estrategias De Marketing Para Generar Un Crecimiento Exponencial",
+            "cta_1": "MÁS INFORMACIÓN",
+            "cta_2": "CHAT ONLINE",
+            "alt_image": "Computadora portátil grande en el centro, con un paisaje de árboles en la parte posterior. Hay tres avatares construyendo una tienda web en esta computadora portátil. La paleta de colores es naranja, amarillo y morado."
+        },
+        "what_we_do":{
+            "headline_1_text": "¿Qué Hacemos En Nuestros Servicios De Marketing Digital?",
+            "headline_2_text": "",
+            "sub_headline_1": "Lo Ayudaremos A Comprender Las Necesidades De Sus Consumidores Y Optimizar Su Marketing Mix Con ZMOT Framewokr",
+            "sub_headline_2": "Los Expertos Del Zmot Institute Lo Ayudarán A Identificar Las Pistas Digitales De Sus Consumidores Y A Crear Un Plan De Marketing Digital Para Entregar El Mensaje Correcto, En El Momento Adecuado, A Los Clientes Adecuados.",
+            "sub_headline_3": "¿Cómo Hacemos Nuestra Magia?",
+            "feature_1_header":"Analizando El Comportamiento Del Consumidor",
+            "feature_1_description":"Mapear El Recorrido Del Cliente Y Sus Puntos De Contacto Nos Permiten Comprender Toda La Experiencia.",
+            "feature_2_header":"Comprendiendo El Recorrido Del Cliente",
+            "feature_2_description":"Mapeando el recorrido del cliente de sus consumidores para saber cómo, dónde y cuándo interactúan con su marca.",
+            "feature_3_header":"Definiendo Personas",
+            "feature_3_description":"Creamos el perfil de sus clientes ideales y les damos vida.",
+            "feature_4_header":"Definiendo Las Misiones De Compra",
+            "feature_4_description":"Reconocemos los momentos y factores clave que influyen en su cliente durante el proceso de compra.",
+            "feature_5_header":"Optimizando La Experiencia Del Cliente",
+            "feature_5_description":"Te ayudamos a crear la mejor experiencia de cliente para satisfacer las necesidades de tus consumidores y lograr un NPS increíble.",
+            "feature_6_header":"Optimizando Su Plan De Marketing",
+            "feature_6_description":"La planificación es una gran parte del trabajo y lo ayudará a mantenerse enfocado en lo que importa para escalar su negocio.",
+            "feature_7_header":"Experimentando Y Aprendiendo",
+            "feature_7_description":"Entendemos la experiencia del cliente y ayuda a optimizar para aumentar las fuentes de energía nuclear.",
+            "feature_8_header":"Gestionando Sus Kpi",
+            "feature_8_description":"NorthStar Metric, Churn, MRR o NDR, lo que sea, lo ayudamos a estar en el camino correcto."
+        },
+        "how_we_do":{
+            "headline": "¿Cómo Hacemos Nuestros Servicios De Marketing Digital?",
+            "sub_headline": "Entregar Resultados A Tiempo Es Muy Importante Para Nosotros, Así Como Satisfacer Las Necesidades De Nuestros Clientes. Para Que Esto Suceda, Dividimos Nuestro Proyecto En 4 Pasos Principales:",
+            "step_1_header": "Definir Objetivos Comerciales",
+            "step_1_description": "Aprenderemos sobre su negocio, sus objetivos y acordaremos qué lograr para que nuestra asociación sea un éxito.",
+            "step_2_header": "Entender A Su Cliente",
+            "step_2_description": "Vamos hacer una inmersión en la mente, los comportamientos y las huellas digitales de su consumidor para comprender las necesidades de ellos.",
+            "step_3_header": "Mejorar La Experiencia Del Cliente",
+            "step_3_description": "Crearemos las mejores experiencias para lograr las necesidades del cliente y los objetivos comerciales de la compania.",
+            "step_4_header": "Conocer Resultados",
+            "step_4_description": "Tenemos las herramientas y los métodos para ayudarlo a deleitar a sus clientes y hacer que las cosas sucedan."
+        },
+        "customer_reviews": {
+            "headline": "¿Qué Piensan Nuestros Clientes?",
+            "sub_headline": "Veja Lo Que Dicen Las Personas Que Han Trabajado Con Nosotros",
+            "review_1_header": "Pensé que entendía sobre marketing, pero me mostraron un juego completamente nuevo.",
+            "review_1_name": "Gabriela E.",
+            "review_1_job": "Coordinadora de Marketing",
+            "review_2_header": "Lo recomiendo sin duda alguna. Saben lo que están haciendo y dan resultados.",
+            "review_2_name": "Samuel L.",
+            "review_2_job": "Pequeño Empresário",
+            "review_3_header": "Saben mucho sobre el comportamiento del consumidor y el marketing digital",
+            "review_3_name": "Roberto O.",
+            "review_3_job": "Assistente de Marketing",
+            "review_4_header": "Aprendí a entender las necesidades del cliente con hechos y no suposiciones",
+            "review_4_name": "Jorge K.",
+            "review_4_job": "Pasantía de Marketing",
+            "review_5_header": "Ellos son muy profesionales y cumplen lo que prometen",
+            "review_5_name": "Adriana P.",
+            "review_5_job": "Empreendedora"
+        },
+        "faq":{
+            "headline": "Preguntas Frecuentes (FAQs)",
+            "question_1_question": "¿Qué Es Un Servicio En El Marketing?",
+            "question_1_answer": "Un servicio de marketing es un conjunto de actividades, como planificar, desarrollar y analizar estrategias con objetivo de hacer el cliente comprar. Algunos ejemplos de servicios de marketing son: análisis del comportamiento del consumidor, optimización del recorrido del cliente, marketing en redes sociales, optimización de motores de búsqueda, entre muchos otros.",
+            "question_2_question": "¿Qué Se Hace En El Marketing Digital?",
+            "question_2_answer": "El marketing digital es un conjunto de herramientas y técnicas que buscan monitorear, planificar, desarrollar y analizar las estrategias de una empresa en la internet. Utiliza herramientas como las redes sociales, correo electrónico,  SEO y la producción de contenido para crear campañas más efectivas y específicas para un público objetivo.",
+            "question_3_question": "¿Cuáles Son Los Servicios De Marketing Digital?",
+            "question_3_answer_line_1": "Los tipos de servicios de marketing digital son:",
+            "question_3_answer_line_2": "1. Análisis del comportamiento del consumidor;",
+            "question_3_answer_line_3": "2. Gestión de redes sociales;",
+            "question_3_answer_line_4": "3. Optimización de la experiencia del cliente;",
+            "question_3_answer_line_5": "4. Anuncios y Publicidad online;",
+            "question_3_answer_line_6": "5. SEO y Producción de contenido.",
+            "question_4_question": "¿Qué Es Consultoría En Marketing Digital?",
+            "question_4_answer": "Una Consultoría de Marketing Digital tiene como objetivos asesorar, señalar fallas y soluciones, delinear estrategias y desarrollar métricas con el fin de ayudar al cliente a alcanzar sus objetivos de negócio.",
+            "question_5_question": "Cómo crecer en el mercado digital?",
+            "question_5_answer_line_1": "Para crecer en el mercado digital, hay algunos consejos prácticos:",
+            "question_5_answer_line_2": "1. Invertir en SEO",
+            "question_5_answer_line_3": "2. Conocer su consumo y sabe lo que tiene que ofrecer",
+            "question_5_answer_line_4": "3. Crear una red de contactos",
+            "question_5_answer_line_5": "4. Crear su propio blog",
+            "question_5_answer_line_6": "5. Manténgase sintonizado evaluaciones y revisiones",
+            "question_5_answer_line_7": "6. Manténgase al día",
+            "question_5_answer_line_8": "7. Conocer la Compra viaje de su cliente",
+            "question_5_answer_line_9": "8. Tenga un plan de marketing muy detallado con las estrategias y herramientas",
+            "question_5_answer_line_10": "9. Análisis Metrifique y resultados",
+            "question_6_question": "¿Qué Es Y Para Qué Sirve El Marketing Digital?",
+            "question_6_answer": "O el marketing digital es un conjunto de actividades que se practican online con propósito de hacer una empresa vendas más. Su objetivo es dar a conocer una idea, empresa, producto o servicio a través de recursos como correo electrónico, redes sociales, publicidad o cualquier otro recurso virtual.",
+            "question_7_question": "¿Cuál es la relación entre la experiencia del cliente y la satisfacción?",
+            "question_7_answer": "La experiencia y satisfacción del cliente están totalmente relacionados, ya que el primero es un factor crucial para el segundo. Esto se debe a que al proporcionar un simple, experiencia fácil y agradable para sus clientes, utilizando las técnicas de la experiencia del cliente (CX), el consumidor es más probable que se sienta satisfecho con la marca. Lo que también contribuye a críticas positivas y una enorme ganancia en la Palabra de comercialización de la boca.",
+            "question_8_question": "¿Cómo Funciona El Marketing Digital En Las Empresas?",
+            "question_8_answer": "Las empresas utilizan el marketing digital como una forma innovadora de optimizar y orientar sus negócios. Esto se debe a su capacidad de segmentación, que permite a las empresas mapear a sus consumidores, llegando a nichos de mercado con extrema precisión e de una forma mucho mas barata.",
+            "question_9_question": "¿Cómo Funciona El Marketing Digital En Los Negócios?",
+            "question_9_answer": "Las empresas utilizan el marketing digital como una forma innovadora de optimizar y orientar sus negócios. Esto se debe a su capacidad de segmentación, que permite a las empresas mapear a sus consumidores, llegando a nichos de mercado con extrema precisión e de una forma mucho mas barata."
+        }
+    },
+    "keynote_speakers": {
+        "seo": {
+            "title": "Ponentes Que La Gente Aplaudirá de Pie",
+            "description": "¿Buscando por Ponentes para Conferencia? Aquí en ZMOT Institute, encontrará Ponentes reconocidos de Marketing Digital, con más de 15 años de experiencia."
+        },
+        "hero": {
+            "headline": "Ponentes Para Conferencia",
+            "sub_headline": "Charlas sobre ZMOT y Comportamiento Del Consumidor Que Hacen La Gente Aplaudir De Pie",
+            "cta_1": "MAS INFORMACIONES",
+            "cta_2": "CHAT EN VIVO",
+            "alt_image": "héroe"
+        },
+        "why_hire": {
+            "headline": "Nuestros Ponentes Lo Pueden Ayudar",
+            "sub_headline": "En Instituto Zmot Encontrará Ponentes Con Experiencia Para Hablar Sobre Zmot, Comportamiento Del Consumidor Y Marketing Digital. Mira Por Qué Debería Contratarnos:",
+            "feature_1_header": "Ponentes Premiados",
+            "feature_1_description": "No hay mejor reconocimiento que un premio. personas premiadas demostraron estar a la vanguardia de su industria y pueden abrirle los ojos a un juego completamente nuevo.",
+            "feature_3_header": "Charla Online Y Presencial",
+            "feature_3_description": "No importa el medio, el mensaje siempre es más importante. Compartir historias y buenas prácticas son las cosas que nos motivan a despertarnos por la mañana.",
+            "feature_2_header": "+15 Años De Experiencia",
+            "feature_2_description": "Aprenda de profesionales que han demostrado su valía con el tiempo. aprende lo que se debe y no se debe hacer con personas con experiencia de vida real y sigue los atajos.",
+            "feature_4_header": "Contenido Práctico e Innovador",
+            "feature_4_description": "Para estar delante de su tiempo, debe superar sus límites. Estamos aquí para chocarlo, sorprenderlo y desafiarlo a pensar fuera de la caja."
+        },
+        "our_keynotes": {
+            "headline": "Charlas Para Encantar A Su Público",
+            "sub_headline": "Si Estás Promocionando Un Evento Y Buscas Un Contenido De Primera, Con Storytelling Envolvente, Nuestras Charlas Sobre Zmot Y Comportamiento Del Consumidor Son Lo Que Necesitas.",
+            "keynote_1_header": "Influido En El Comportamiento Del Consumidor Con Zmot",
+            "keynote_1_description": "Comprender el comportamiento del consumidor es esencial no solo para las personas de marketing y ventas, sino para todos en la empresa. En esta charla, le mostraremos cómo influir en el Customer Journey con ZMOT.",
+            "keynote_2_header": "ZMOT: El Santo Grial Del Marketing Digital",
+            "keynote_2_description": "¿Has pensado alguna vez que todo lo que hacemos en nuestra empresa es influir en las personas? Esta conferencia es ideal para ayudarlo a comprender la importancia del ZMOT, cómo puede influir en las decisiones de compra de las personas y cómo puede usar este framework.",
+            "keynote_3_header": "Trucos Para Influir En El Comportamiento Del Consumidor",
+            "keynote_3_description": "¿Necesita consejos y trucos poderosos sobre como influir en el comportamiento del consumidor y acer crescer su negocio? En esta charla, le mostramos algunos de los mejores trucos para usar en sus campañas de marketing.",
+            "custom_keynote_header": "¿Necesita Una Charla Personalizada?",
+            "custom_keynote_description": "¡Te Podemos Ayudar!",
+            "custom_keynote_cta": "ENTRAR EN CONTACTO"
+        },
+        "keynote_gallery": {
+            "headline": "Conferencias Y Eventos Que Hablamos",
+            "sub_headline": "Vea algunos de los eventos que participamos evangelizando sobre ZMOT y comportamiento del consumidor:",
+            "past_keynote_1_tag": "Tutoría",
+            "past_keynote_1_tag_type": "1",
+            "past_keynote_1_header": "Innovative Experiencia Mentoring",
+            "past_keynote_1_description": "Asta en tiempos de pandemia seguimos fomentando el espíritu empreendedor y el ZMOT, pero ahora es online. Es bueno ver tantas ideas geniales, personas enfocadas en resolver problemas de manera creativa y con tecnología.",
+            "past_keynote_1_speaker": "Rodrigo Wiethorn",
+            "past_keynote_1_date": "05/12/2020",
+            "past_keynote_2_tag": "Charla Online",
+            "past_keynote_2_tag_type": "2",
+            "past_keynote_2_header": "Live Hostinger Brasil",
+            "past_keynote_2_description": "Muy agradable charla con Hostinger Brasil sobre la importancia y el poder del ZMOT para las estrategias centradas en el cliente. Es genial ver cómo la empresa ha estado utilizando el ZMOT en su marketing y ha logrado resultados impresionantes.",
+            "past_keynote_2_speaker": "Rodrigo Wiethorn",
+            "past_keynote_2_date": "22/10/2020",
+            "past_keynote_3_tag": "Charla Online",
+            "past_keynote_3_tag_type": "2",
+            "past_keynote_3_header": "Planificación Comercial Ploomes",
+            "past_keynote_3_description": "Encantado de haber participado en esta discusión con el equipo de Ploomes sobre planificación empresarial. Discutimos cómo se pueden escalar las técnicas de marketing y ventas low touch para lograr resultados sorprendentes.",
+            "past_keynote_3_speaker": "Rodrigo Wiethorn",
+            "past_keynote_3_date": "16/09/2020",
+            "past_keynote_4_tag": "Charla Presencial",
+            "past_keynote_4_tag_type": "3",
+            "past_keynote_4_header": "Semana Académica de Contabilidad UFSC",
+            "past_keynote_4_description": "Compartimos con los estudiantes de Contabilidad de la Universidad UFSC cómo los profesionales de la contabilidad, considerados expertos en negocios, pueden usar el ZMOT y ayudar a sus clientes a escalar sus negocios.",
+            "past_keynote_4_speaker": "Rodrigo Wiethorn",
+            "past_keynote_4_date": "19/09/2019",
+            "past_keynote_5_tag": "Charla Presencial",
+            "past_keynote_5_tag_type": "3",
+            "past_keynote_5_header": "Se Juega En La Neta FEJESC",
+            "past_keynote_5_description": "En este evento de FEJESC (Junior Entrepreneurs League) presentamos el ZMOT y mostramos la importancia de este framework. Ambiente agradable y mui buenos feedbacks de los empresarios del futuro.",
+            "past_keynote_5_speaker": "Rodrigo Wiethorn",
+            "past_keynote_5_date": "13/04/2019",
+            "past_keynote_6_tag": "Webinar",
+            "past_keynote_6_tag_type": "4",
+            "past_keynote_6_header": "Semana de Marketing De Contenidos",
+            "past_keynote_6_description": "En asociación con lo time de Content Hackers, mostramos cómo se comportan los consumidores  y cómo los profesionales de marketing de contenido pueden utilizar el ZMOT para producir contenido mucho más atractivo.",
+            "past_keynote_6_speaker": "Rodrigo Wiethorn",
+            "past_keynote_6_date": "16/10/2018",
+            "past_keynote_7_tag": "Tutoría",
+            "past_keynote_7_tag_type": "1",
+            "past_keynote_7_header": "Innovadotiva Brasil Bootcamp",
+            "past_keynote_7_description": "Participamos de los ciclos de Mentorías en Bootcamp Regional de Innovativa Brasil. Es un prazer poder mostrar a los emprendedores que buscan escalar su negocio como el ZMOT puede ayudarlos.",
+            "past_keynote_7_speaker": "Rodrigo Wiethorn",
+            "past_keynote_7_date": "09/21/2018",
+            "past_keynote_8_tag": "Charla Presencial",
+            "past_keynote_8_tag_type": "3",
+            "past_keynote_8_header": "3R's De La Presencia Digital",
+            "past_keynote_8_description": "En asociación con SEBRAELab, hablamos sobre el comportamiento del consumidor y cómo el ZMOT puede ayudar a las pequeñas y microempresas a optimizar sus esfuerzos de marketing digital y escalar sus negocios.",
+            "past_keynote_8_speaker": "Rodrigo Wiethorn",
+            "past_keynote_8_date": "10/08/2018",
+            "past_keynote_9_tag": "Charla Presencial",
+            "past_keynote_9_tag_type": "3",
+            "past_keynote_9_header": "23 Dazidéia Floripa",
+            "past_keynote_9_description": "Participamos en la 23ª edicion de Dazidéia Floripa presentando sobre ZMOT, cómo se influye en el comportamiento del consumidor y cómo estos innovadores y futuros emprendedores pueden utilizar el framework para escalar um negocio.",
+            "past_keynote_9_speaker": "Rodrigo Wiethorn",
+            "past_keynote_9_date": "05/06/2018",
+            "past_keynote_10_tag": "Charla Online",
+            "past_keynote_10_tag_type": "2",
+            "past_keynote_10_header": "Semana De La Ciencia, Tecnología e Innovación UFSC",
+            "past_keynote_10_description": "En asociación con CALTIC (Centro Académico de Tecnología de la Información Libre de la Universidad UFSC) hicimos una conferencia online que mostraba cómo el ZMOT puede ayudar en la vida y carrera de los estudiantes de Tecnología de la Información.",
+            "past_keynote_10_speaker": "Rodrigo Wiethorn",
+            "past_keynote_10_date": "09/09/2017",
+            "past_keynote_11_tag": "Charla Presencial",
+            "past_keynote_11_tag_type": "3",
+            "past_keynote_11_header": "Universidad Estacio de Sá Y Google Business Group",
+            "past_keynote_11_description": "En asociación con la Universidad Estácio de Sá y Google Business Group en Florianópolis / SC, presentamos el ZMOT a los futuros profesionales del marketing y les mostramos la importancia del mercado online.",
+            "past_keynote_11_speaker": "Rodrigo Wiethorn",
+            "past_keynote_11_date": "06/09/2017",
+            "past_keynote_12_tag": "Palestra Presencial",
+            "past_keynote_12_tag_type": "3",
+            "past_keynote_12_header": "¿Cómo Pueden Los Periodistas Convertirse En Emprendedores?",
+            "past_keynote_12_description": "En asociación con Hostinger Brasil y ACATE, hablamos sobre cómo el ZMOT puede ayudar a los periodistas a comprender mejor el comportamiento onlie de las personas y cómo pueden usar la Internet para convertirse en emprendedores.",
+            "past_keynote_12_speaker": "Rodrigo Wiethorn",
+            "past_keynote_12_date": "04/09/2017"
+        },
+        "customer_review": {
+            "headline": "¿Qué Piensa El Publico?",
+            "sub_headline": "Vea Lo Que Dice La Gente Que Nos Contrato Y Escucho Nuestras Charlas:",
+            "review_1_header": "Me gustaría que había aprendido sobre el ZMOT hace mucho tiempo. Gracias por estos pensamientos inspiradores",
+            "review_1_name": "Marcela I.",
+            "review_1_job": "Estudiante de Marketing",
+            "review_2_header": "Me alegro de haberte contratado para nuestro evento. La gente se encantó mucho con tu charla",
+            "review_2_name": "Ana C.",
+            "review_2_job": "Organizadora de Eventos",
+            "review_3_header": "A nuestra audiencia le encanta su enfoque sobre marketing, ventas y comportamiento del consumidor",
+            "review_3_name": "Henrique L.",
+            "review_3_job": "Empreendedor Digital",
+            "review_4_header": "Aprendí a entender las necesidades del cliente con hechos y no suposiciones",
+            "review_4_name": "Diogo M.",
+            "review_4_job": "Consultor de Negocios",
+            "review_5_header": "¡Buenos consejos y trucos! Sus ideas definitivamente serán implementados",
+            "review_5_name": "Marcos J.",
+            "review_5_job": "Empresario"
+        },
+        "faq":{
+            "headline": "Preguntas Frecuentes (FAQs)",
+            "question_1_question": "¿Qué Es Un Ponente En Una Conferencia?",
+            "question_1_answer": "Un Ponente es una persona de referencia en su campo que tiene un alto dominio de la especialización. Transmite sus conocimientos en charlas y conferencias com objetivo de ensinar la gente sobre un tema.",
+            "question_2_question": "¿Cómo Se Llama La Persona Que Da Una Charla?",
+            "question_2_answer": "El Ponente es aquel que hace una presentación en una conferencia o evento. Es un experto en un tema específico que presentará al público y puede tener diferentes objetivos que van desde informar hasta persuadir.",
+            "question_3_question": "¿Dónde Buscar Ponentes?",
+            "question_3_answer_line_1": "Para encontrar un Ponente para su evento, siga estos 5 consejos:",
+            "question_3_answer_line_2": "1. Solicite referencias a su equipo, amigos y socios.",
+            "question_3_answer_line_3": "2. Busca en las redes sociales",
+            "question_3_answer_line_4": "3. Busca en Google;",
+            "question_3_answer_line_5": "4. Busca en YouTube;",
+            "question_3_answer_line_6": "5. Pídale referencias a su audiencia o clientes.",
+            "question_4_question": "¿Qué Explicaron Los Ponentes?",
+            "question_4_answer": "Los ponentes son aquellos que participan en un evento o congreso y que hicieron una presentación sobre un tema determinado, explicando su tema de mayor dominio, no que se consideren especialistas.",
+            "question_5_question": "¿Cómo Elegir Un Tema Para Una Conferencia?",
+            "question_5_answer": "La mejor manera de mejorar la experiencia del cliente tiene con su empresa es centrarse en el comportamiento que tienen los consumidores. Mediante la identificación de los puntos clave que muestran cómo ve el cliente e interactúa con la marca, es posible seleccionar las estrategias de marketing que van a generar los mejores resultados."
+        }
+    },
+    "online_courses": {
+        "seo": {
+            "title": "Cursos De Marketing Digital Para Hacer Crecer Su Negocio",
+            "description": "Nuestros Cursos De Marketing Digital Le Ayudarán A Hacer Crecer Su Negocio. Comprenda El Comportamiento Del Consumidor Y Eleve Sus Resultados De Marketing"
+        },
+        "hero": {
+            "headline": "Cursos de Marketing Digital",
+            "sub_headline": "Aprenda A Hacer Crecer Su Negocio Entendiendo El Comportamiento Del Consumidor Y Optimizando Su Customer Journey",
+            "cta_1": "MAS INFORMACIONES",
+            "cta_2": "CHAT EN VIVO",
+            "alt_image": "En el lado derecho hay un avatar de una mujer joven con su laptot. Parece que se está cursando algún tipo de curso digital, como  que estudiando. A un lado hay una lámpara de mesa y al otro una maceta con plantas."
+        },
+        "why_hire": {
+            "headline": "¿Por Qué Nuestros Cursos De Marketing Digital?",
+            "sub_headline": "Nuestros Cursos De Marketing Digital Son Perfectos Si Deseas Conocer En Profundidad Sobre Zmot Y Comportamiento Del Consumidor. Mira Por Que Deberías Inscribirse En Nuestros Cursos:",
+            "feature_1_header": "Instructores Premiados",
+            "feature_1_description": "Instructores ZMOT INSTITUTO tiene un historial envidiable. Al ser expertos en el ZMOT y el comportamiento del consumidor, que están más dispuestos a enseñar todo lo que necesita.",
+            "feature_3_header": "Charla Online Y Presencial",
+            "feature_3_description": "No importa el medio, el mensaje siempre es más importante. Compartir historias y buenas prácticas son las cosas que nos motivan a despertarnos por la mañana",
+            "feature_2_header": "+15 Años De Experiencia",
+            "feature_2_description": "Aprenda de profesionales que han demostrado su valía con el tiempo. aprende lo que se debe y no se debe hacer con personas con experiencia de vida real y sigue los atajos.",
+            "feature_4_header": "+2.000 personas capacitadas",
+            "feature_4_description": "Hemos capacitado a más de 2,000 personas, enseñándoles sobre ZMOT, comportamiento del consumidor y las mejores estrategias de marketing digital para hacer crecer sus negocios."
+        },
+        "our_courses": {
+            "headline": "Cursos de Marketing Digital Online",
+            "sub_headline": "Aprenda Sobre ZMOT Y  Comportamiento Del Consumidor A Su Propio Ritmo. Desde Principiantes Hasta Avanzados, Nuestros Cursos Le Ayudarán A Comprender Las Necesidades De Sus Clientes. Empiece A Aprender Ahora.",
+            "card_cta": "conocer curso",
+            "course_1_header": "Fundamentos Del Zmot: Aprenda Comportamiento Del Consumidor Online",
+            "course_1_description": "Ideal para aquellos que desean comenzar a aprender sobre el Framework del ZMOT y dar los primeros pasos para comprender el comportamiento del consumidor online.",
+            "course_1_score": "5.0",
+            "course_1_star_with": "100%",
+            "course_1_duration": "2",
+            "course_1_time_unit": "horas",
+            "course_1_img": "ZMOT_Fundamentals_es.jpg",
+            "course_2_header": "Comportamiento Del Consumidor de  A-Z",
+            "course_2_description": "Aprenda todo lo que necesita hacer para entender y satisfacer las necesidades de sus clientes desde el primer día. En este curso práctico, aprenderá a transmitir el mensaje correcto, en el momento correcto.",
+            "course_2_score": "4.8",
+            "course_2_star_with": "98%",
+            "course_2_duration": "13",
+            "course_2_time_unit": "horas",
+            "course_2_img": "Consumer_Behavior_From_A_To_Z_es.jpg",
+            "course_3_header": "Descubriendo Comportamiento Del Consumidor Con Google Analytics",
+            "course_3_description": "Para comprender el comportamiento del consumidor se pueden utilizar varias herramientas, pero Google Analytics es una de las mejores. Aprenda a utilizarla en su beneficio y descubra todo lo que necesita saber sobre sus clientes.",
+            "course_3_score": "4.8",
+            "course_3_star_with": "93%",
+            "course_3_duration": "4",
+            "course_3_time_unit": "horas",
+            "course_3_img": "Unvealing_Consumer_Behaviour_With_Google_Analytics_es.jpg",
+            "course_4_header": "Personas: Comprender Profundamente A Su Cliente",
+            "course_4_description": "Conocer las necesidades de sus clientes es un punto clave para satisfacerlas y transmitir el mensaje correcto. En este curso aprenderás todo lo necesario para conocer a tu cliente ideal.",
+            "course_4_score": "4.9",
+            "course_4_star_with": "96%",
+            "course_4_duration": "4",
+            "course_4_time_unit": "horas",
+            "course_4_img": "Personas_Know_Your_Customer_es.jpg",
+            "course_5_header": "Recorrido Del Cliente: Aprender A Crear, Analizar Y Optimizar",
+            "course_5_description": "Con el Recorrido del Cliente, se puede comprender cómo se comportan los clientes y las mejores estrategias de marketing para hablar con ellos. Le mostraremos cómo mapear el recorrido, analizarlo y optimizarlo para la conversión.",
+            "course_5_score": "4.8",
+            "course_5_star_with": "93%",
+            "course_5_duration": "6",
+            "course_5_time_unit": "horas",
+            "course_5_img": "Customer_Journey_es.jpg",
+            "custom_course_header": "¿Necesita Un Curso Personalizado?",
+            "custom_course_description": "¡Te podemos ayudar!",
+            "custom_course_cta": "ENTRAR EN CONTACTO"
+        },
+        "customer_reviews": {
+            "headline": "¿Qué Piensan Nuestros Alumnos?",
+            "sub_headline": "Vea lo que las personas que estudiaram con nosotros están diciendo!",
+            "review_1_header": "Muy bueno curso para aprender sobre el ZMOT y el comportamiento del consumidor. Me gustó el enfoque práctico.",
+            "review_1_name": "Carlos J.",
+            "review_1_job": "Assistente de Marketing",
+            "review_2_header": "Contenido fácil de consumir. Utilizaré los consejos y trucos com certeza.",
+            "review_2_name": "Marcos T.",
+            "review_2_job": "Publicista",
+            "review_3_header": "Debería ser obligatorio para todos los estudiantes de marketing.",
+            "review_3_name": "Barbara K.",
+            "review_3_job": "Estudiante",
+            "review_4_header": "Realmente me encantó el enfoque. Equilibrio correcto entre teoría y práctica.",
+            "review_4_name": "GManuela P.",
+            "review_4_job": "Empresária",
+            "review_5_header": "Continuem así ... uno de los mejores cursos que he hecho, fácilmente.",
+            "review_5_name": "Marcelo Q.",
+            "review_5_job": "Gerente de Marketing"
+        },
+        "faq": {
+            "headline": "Preguntas Frecuentes (FAQs)",
+            "question_1_question": "¿Cuánto Dura El Curso De Marketing Digital?",
+            "question_1_answer": "La duración de un curso de marketing digital puede variar según varios aspectos como la cantidad de módulos del curso y su modalidad (presencial, semi presencial, remoto).",
+            "question_2_question": "¿Cómo Iniciar En Marketing?",
+            "question_2_answer_line_1": "Para iniciarse en el marketing, se recomienda que desarrolle habilidades que lo ayuden a comenzar con las estrategias más simples como el marketing de contenidos. Algunos de los conocimientos esenciales son:",
+            "question_2_answer_line_2": "1. Conocer el comportamiento de su cliente",
+            "question_2_answer_line_3": "2. Conocer Search Engine Marketing (SEM)",
+            "question_2_answer_line_4": "3. Conocimiento de Google Analytics",
+            "question_2_answer_line_5": "4. Conocimiento de Google Ads",
+            "question_2_answer_line_6": "5. Conocimiento de Facebooks Ads",
+            "question_2_answer_line_7": "6. Conocimiento de Marketing de Afiliados",
+            "question_3_question": "¿Qué Son Los Cursos De Marketing Digital?",
+            "question_3_answer": "Los cursos de marketing digital son aquellos que tienen como objetivo enseñarle cómo utilizar estrategias, técnicas y herramientas digitales para mejorar el marketing de una empresa e hacer el negócio crescer.",
+            "question_4_question": "¿Que Aprendes En Marketing Digital?",
+            "question_4_answer": "Un curso de marketing digital le mostrará cómo utilizar estrategias virtuosas para publicitar, atraer y conquistar al público a través de Internet y los medios digitales.",
+            "question_5_question": "¿Qué Se Necesita Para Estudiar Marketing Digital?",
+            "question_5_answer": "Para estudiar marketing digital no es necesario tener ninguna especialización o conocimiento en el área, siendo esta un nicho que puede estar dirigida a cualquier profesional con propósito de vender."
+        }
+    },
+    "courses_consumer_behavior": {
+        "seo": {
+            "title": "Curso de Comportamiento del Consumidor Para Entender Tus Clientes",
+            "description": "Con Este Curso De Comportamiento Del Consumidor Aprenderás Cómo Se Comportan Las Personas Durante El Viaje Del Cliente Y Cómo Influir En Su Toma De Decisiones."
+        },
+        "hero": {
+            "headline": "Curso De Comportamento Do Consumidor De A - Z",
+            "sub_headline": "Aprenda las técnicas y herramientas adecuadas para comprender e influir en la toma de decisiones de su cliente",
+            "cta_1": "SABER MAIS",
+            "cta_2": "CHAT ONLINE",
+            "alt_image": "En el centro de la pantalla se encuentra el avatar de un joven consumidor junto a un celular grande, de su tamaño. Este teléfono celular alude a un sitio de compras y presenta elementos como un carrito de compras, descripción del producto y estrellas de calificación del cliente. Decorando el entorno del joven y el celular, se encuentran elementos como plantas, bolsas de compras, símbolos de descuento, entre otros."
+        },
+        "pricing": {
+            "headline": "¡¿Cuanto cuesta?!",
+            "sub_headline": "null",
+            "purchase_cta": "COMPRAR CURSO",
+            "box_highlight": "MÁS VENDIDO",
+            "tier1_Features": {
+                "header": "30 días Acceso",
+                "tooltip": "Tendrás acceso al curso durante 30 días a partir de la fecha de compra, después de lo cual ya no podrá acceder al curso.",
+                "price":"59",
+                "price_currency":"USD",
+                "feature1": "Acceso por 30 días",
+                "feature2": "Mira tantas veces como quieras",
+                "feature3": "Tareas praticas",
+                "feature4": "15 dias de Garantía de Devolución",
+                "feature5": "apoyo humano",
+                "feature6": "Tutoría Online",
+                "feature7": "Pago n cutas"
+            },
+            "tier2_Features": {
+                "header": "Acceso por 30 días",
+                "tooltip": "Tendrás acceso al curso durante 12 meses a partir de la fecha de compra, después de lo cual ya no podrá acceder al curso.",
+                "price":"215",
+                "feature8": ""
+            },
+            "tier3_Features": {
+                "header": "Acesso Ilimitado",
+                "tooltip": "Tendrás acceso ilimitado al curso, siempre que lo necesites, independientemente del tiempo que hayas hecho la compra.",
+                "price":"370",
+                "feature9": ""
+            }
+        },
+        "will_learn": {
+            "headline": "¿¡Que aprenderás!?",
+            "sub_headline": "null",
+            "feature_1_header": "Centrarse en el cliente",
+            "feature_1_description": "Aprenda a entender las necesidades de sus clientes y sea Customer Centric.",
+            "feature_2_header": "entender al cliente",
+            "feature_2_description": "Aprende a entender qué quiere el cliente, cuándo lo quiere y para qué lo quiere.",
+            "feature_3_header": "comunicarse correctamente",
+            "feature_3_description": "Aprenda a entregar el mensaje correcto, en el momento correcto, al cliente correcto.",
+            "feature_4_header": "Influir en la toma de decisiones",
+            "feature_4_description": "Comprenda cómo las personas toman decisiones y cómo puede influir en su percepción del valor.",
+            "feature_5_header": "mapear las huellas digitales",
+            "feature_5_description": "Aprenda a mapear las huellas digitales que deja su cliente durante el Customer Journey.",
+            "feature_6_header": "crear experimentos",
+            "feature_6_description": "Comprenda cómo crear experimentos para cambiar el comportamiento de sus clientes y aprovechar sus ventas."
+        },
+        "course_outline": {
+            "headline": "Contenido del curso",
+            "sub_headline": "null",
+            "module1": {
+                "name": "Importancia de comprender las necesidades del cliente",
+                "lesson1": "Centrarse en el cliente - Customer Centricity",
+                "lesson2": "Sucesso do Cliente - Customer Success",
+                "lesson3": "Experiência do Cliente - Customer Experience",
+                "lesson4": "Economia Comportamental - Behavior Economics"
+            },
+            "module2": {
+                "name": "Porque Compramos O Que Compramos",
+                "lesson1": "Como O Cérebro Funciona - Rápido vs Devagar",
+                "lesson2": "Como Tomamos Decisões",
+                "lesson3": "Necessidades Humanas",
+                "lesson4": "Objetivos Explícitos",
+                "lesson5": "Objetivos Implícitos",
+                "lesson6": "Pensamento Rápido",
+                "lesson7": "Heurísticas",
+                "lesson8": "Viés Cognitivo"
+            },
+            "module3": {
+                "name": "Comportamento do Consumidor Moderno",
+                "lesson1": "ZMOT - Zero Moment of Truth",
+                "lesson2": "Messy Middle"
+            },
+            "module4": {
+                "name": "Como Entender As Necessidades Do Seu Cliente",
+                "lesson1": "Personas",
+                "lesson2": "Mapa da Empatia",
+                "lesson3": "Arquétipos",
+                "lesson4": "Segmentação",
+                "lesson5": "Tipos de Clientes",
+                "lesson6": "Jornada do Cliente",
+                "lesson7": "Missões de Compra",
+                "lesson8": "NPS",
+                "lesson9": "Golden Questions"
+            },
+            "module5": {
+                "name": "Mapeando As Pegadas Digitais Do Seu Cliente",
+                "lesson1": "Mapa da Jornada do Cliente",
+                "lesson2": "Netnografia & Etnografia",
+                "lesson3": "SEO",
+                "lesson4": "Métricas e Indicadores"
+            },
+            "module6": {
+                "name": "Técnicas Para Hackear O Comportamento Do Consumidor",
+                "lesson1": "CREATE Framework",
+                "lesson2": "DECIDE Framework",
+                "lesson3": "Framing",
+                "lesson4": "Ancoragem",
+                "lesson5": "Priming (Pré Ativação)",
+                "lesson6": "Call to Actions (CTAs)",
+                "lesson7": "Herding (Efeito Manada)",
+                "lesson8": "Self Herding (Coerência)",
+                "lesson9": "Gatilhos Mentais"
+            },
+            "module7": {
+                "name": "Para Você Continuar Aprendendo",
+                "lesson1": "Dicas de Livros",
+                "lesson2": "Dicas de Ferramentas"
+            }
+        },
+        "customer_reviews": {
+            "headline": "Reviews sobre o curso",
+            "sub_headline": "See What People Which Enrolled Our Courses Are Saying:",
+            "review_1_header": "Curso muito legal, bem explicado e com exercícios bem práticos",
+            "review_1_name": "Miguel P.",
+            "review_1_job": "Analista de Marketing",
+            "review_1_alt": "Foto do cliente Miguel P. para ilustrar o depoimento dele sobre o curso",
+            "review_2_header": "Achei o curso bem completo e super bem explicado.",
+            "review_2_name": "Joel S.",
+            "review_2_job": "Empresário",
+            "review_2_alt": "Foto do cliente Joel S. para ilustrar o depoimento dele sobre o curso",
+            "review_3_header": "Essencial para quem quer ser Customer Centric",
+            "review_3_name": "Joana Q.",
+            "review_3_job": "Estudante",
+            "review_3_alt": "Foto da cliente Joana Q. para ilustrar o depoimento dela sobre o curso",
+            "review_4_header": "Abriu minha cabeça e vai me ajudar a entender melhor as necessidades dos meus clientes",
+            "review_4_name": "Luana I.",
+            "review_4_job": "Profissional de Marketing",
+            "review_4_alt": "Foto da cliente Luana I. para ilustrar o depoimento dela sobre o curso",
+            "review_5_header": "Tem muito conceito e ferramenta bacana, super recomendo!",
+            "review_5_name": "Jonas R.",
+            "review_5_job": "Administrador",
+            "review_5_alt": "Foto do cliente Jonas R. para ilustrar o depoimento dele sobre o curso"
+        },
+        "faq": {
+            "headline": "Dúvidas Frequentes",
+            "question_1_question": "É possível entender o comportamento do consumidor?",
+            "question_1_answer": "Com certeza! Com esse curso você vai entender que as pessoas se comportam com base em alguns padrões, e aprendendo esses modelos você vai conseguir entender a necessidade do se cliente e seu comunicar de uma forma mais efetiva.",
+            "question_2_question": "Vou aprender sobre comportamento do consumidor digital?",
+            "question_2_answer": "Sim! Você vai aprender não apenas o comportamento do consumidor digital, mas sobre comportamento do consumidor no geral. O Digital é uma parte importante da jornada do cliente, mas existem outros fatores tão importantes quanto o digital.",
+            "question_3_question": "Vou aprender sobre os tipos de consumidor?",
+            "question_3_answer": "Essa é a idéia! Vamos te ensinar não apenas como entender seu cliente, mas também como segmentar os tipos de consumidor de modo que você possa personalizar ao máximo suas comunicações.",
+            "question_4_question": "Vou aprender sobre hábitos de consumo?",
+            "question_4_answer": "Mais do que isso, você vai aprender como identificar hábitos de consumo da forma certa, e sempre que você tiver necessidade de entender melhor o seu cliente.",
+            "question_5_question": "O curso aborda o comportamento do consumidor pós pandemia?",
+            "question_5_answer": "Não exatamente, mas de certa forma sim. Como vamos te ensinar como entender o comportamento do consumidor, independente de pandemia ou não, você sempre estará atualizado e apto a entender seu cliente."
+        }
     },
     "placeholder": {
       "email": "Email",
       "name": "Nombre",
       "surname": "Apellido",
       "phone": "Teléfono"
+    },
+    "blog_slug": {
+        "btn_read_more" : "Sigue Leyendo",
+        "headline": "Buscar",
+        "sub_headline_1": "¿No Encontraste Lo Que Esperabas?",
+        "sub_headline_2": "Busca Por Más.",
+        "placeholder": "Haz Una Búsqueda Aquí"
     },
     "privacy":{
         "seo": {

@@ -1,31 +1,31 @@
 <template>
   <section class="pt-24 pb-8 bg-primary">
-    <div class="container mx-auto px-2 lg:px-4 flex flex-wrap flex-col md:flex-row">
+    <div class="container mx-auto px-2 lg:mx-12 lg:mt-4 flex flex-wrap flex-col md:flex-row">
       <div class="flex flex-col w-full h-full md:w-1/2 text-left">
-        <div class="mb-5">
-          <div class="h-125px" />
-        </div>
+        <div class="lg:mb-5">
+          <!-- <div class="h-125px" /> -->
+          </div>
         <div class="p-2">
-          <h1 class="text-51xl font-semibold text-white leading-tight break-words mb-12">
+          <h1 class="text-center lg:text-6xl lg:text-left font-semibold text-white leading-tight break-words mb-12">
             {{ $t('homepage.banner.header') }}
           </h1>
         </div>
         <div class="p-2">
-          <p class="text-3xl text-white font-light leading-relaxed mb-16">
+          <p class="text-2xl lg:text-3xl text-center lg:text-left  text-white font-normal leading-relaxed mb-8">
             {{ $t('homepage.banner.text') }}
           </p>
         </div>
       </div>
       <div class="w-full md:w-1/2 py-6 text-center">
         <img
-          class="w-full md:w-4/5 z-50"
-          :src="require('~/assets/img/header-zmot.jpg').src"
-          :srcset="require('~/assets/img/header-zmot.jpg').srcSet"
-          :blank-src="require('~/assets/img/header-zmot.jpg').placeholder"
+          class="w-full z-50"
+          :src="require('~/assets/img/zmot-header-background.jpg').src"
+          :srcset="require('~/assets/img/zmot-header-background.jpg').srcSet"
+          :blank-src="require('~/assets/img/zmot-header-background.jpg').placeholder"
           alt="women persona using cell phone, sitting on a side of a big cell phone with an ecommerce website. There is a nice landscape with plants"
         />
       </div>
-      <div class="w-full flex flex-wrap overflow-hidden pt-12">
+      <div class="w-full flex flex-wrap overflow-hidden pt-4">
         <div class="my-3 px-3 w-1/4 overflow-hidden">
           <img
             :src="require('~/assets/img/logos/google-white-logo.png').src"

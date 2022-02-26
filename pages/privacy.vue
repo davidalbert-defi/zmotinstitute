@@ -2,7 +2,7 @@
   <div id="privacy-policy-page" class="privacy-policy-page pt-20 pb-12 my-20">
     <section class="px-4">
       <div id="intro" class="container mx-auto mb-3">
-        <h1 class="text-black text-center pb-8 text-44xl">
+        <h1 class="text-black text-center pb-8">
           {{ $t('privacy.intro.title') }}
         </h1>
         <p>{{ $t('privacy.intro.text_1') }}</p>

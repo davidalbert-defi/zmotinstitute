@@ -1,5 +1,4 @@
 import axios from 'axios'
-
 export default {
   server: {
     host: '0.0.0.0',
@@ -15,10 +14,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'shortcut icon', href: '/favicon.png' },
-      { rel: 'canonical', href: 'https://zmotinstitute.com/' },
-      { rel: 'alternate', hreflang: 'en', href: 'https://zmotinstitute.com/' },
-      { rel: 'alternate', hreflang: 'es', href: 'https://zmotinstitute.com/es' },
-      { rel: 'alternate', hreflang: 'pt-br', href: 'https://zmotinstitute.com/pt-br' },
+      // { rel: 'canonical', href: 'https://zmotinstitute.com/' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }
@@ -46,6 +42,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~/plugins/bus',
+    '~/plugins/jsonld',
     { src: '~/plugins/ga', ssr: false },
     // { src: '~/plugins/recaptcha', ssr: false },
     { src: '~/plugins/aos', ssr: false },
@@ -70,6 +67,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/device',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-compress',
@@ -143,6 +141,10 @@ export default {
     'nuxt-hsts-module'
     // '@nuxtjs/gtm'
   ],
+  serverMiddleware: [
+    //server side redirects
+    '~/serverMiddleware/redirects',
+  ],
 
   // Hsts module configuration
   hsts: process.env.NODE_ENV === 'production',
@@ -209,7 +211,8 @@ export default {
     },
 
     routes: async () => {
-      const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts')
+      const { data } = await axios.get('https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100')
+      // https://thezmot.com/wp-json/wp/v2/posts?_embed=1&per_page=100
       const staticSitemap = [
         {
           url: '/',
@@ -244,27 +247,27 @@ export default {
           ]
         },
         {
-          url: '/online-courses',
+          url: '/digital-marketing-courses',
           links: [
-            { lang: 'en', url: '/online-courses' },
-            { lang: 'es', url: 'es/cursos-online' },
-            { lang: 'pt-br', url: 'pt-br/cursos-online' }
+            { lang: 'en', url: '/digital-marketing-courses' },
+            { lang: 'es', url: 'es/cursos-de-marketing-digital' },
+            { lang: 'pt-br', url: 'pt-br/cursos-de-marketing-digital' }
           ]
         },
         {
-          url: '/lectures-events',
+          url: '/keynote-speakers',
           links: [
-            { lang: 'en', url: '/lectures-events' },
-            { lang: 'es', url: 'es/conferencias-eventos' },
-            { lang: 'pt-br', url: 'pt-br/palestras-eventos' }
+            { lang: 'en', url: '/keynote-speakers' },
+            { lang: 'es', url: 'es/ponentes' },
+            { lang: 'pt-br', url: 'pt-br/palestrantes' }
           ]
         },
         {
-          url: '/zmot-audit',
+          url: '/digital-marketing-services',
           links: [
-            { lang: 'en', url: '/zmot-audit' },
-            { lang: 'es', url: 'es/auditoria-zmot' },
-            { lang: 'pt-br', url: 'pt-br/auditoria-zmot' }
+            { lang: 'en', url: '/digital-marketing-services' },
+            { lang: 'es', url: 'es/servicios-de-marketing-digital' },
+            { lang: 'pt-br', url: 'pt-br/consultoria-de-marketing-digital' }
           ]
         }
       ]
@@ -290,7 +293,8 @@ export default {
       if (isClient) {
         config.optimization.splitChunks.maxSize = 200000
       }
-
+      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader')
+      vueLoader.options.transformAssetUrls['img'] = ['src', 'data-src']
       config.module.rules.unshift({
         test: /\.jpe?g$/,
         use: {
@@ -328,8 +332,8 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Zmotinstitute',
-      short_name: 'Zmotinstitute',
+      name: 'zmotinstitute',
+      short_name: 'zmotinstitute',
       lang: 'en',
       theme_color: '#fc642e',
       background_color: '#ffffff',

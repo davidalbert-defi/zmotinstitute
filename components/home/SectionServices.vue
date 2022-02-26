@@ -1,14 +1,14 @@
 <template>
   <section class="services my-20 bg-white" data-aos="fade-zoom" data-aos-once="true">
     <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center">
+      <h2 class="text-center mb-8 text-4xl lg:text-6xl font-bold lg:mx-24">
         {{ $t('homepage.services.header') }}
       </h2>
-      <p id="zmot-audit" class="text-center">
+      <p id="zmot-audit" class="text-center text-gray-500 text-xl lg:text-2xl lg:mx-32 font-normal mb-12">
         {{ $t('homepage.services.sub_header') }}
       </p>
-      <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
-        <div class="lg:w-1/2 w-full overflow-hidden">
+      <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
+        <div class="lg:w-1/2 w-full overflow-hidden lg:my-auto">
           <img
             :src="require('~/assets/img/services/service-zmot_audit.png').src"
             :srcset="require('~/assets/img/services/service-zmot_audit.png').srcSet"
@@ -20,66 +20,72 @@
           <div class="card service--item mb-3">
             <div class="card-body">
               <div class="card-text">
-                <h2 class="h3 mb-4">
+                <h3 class="mb-8 font-bold text-center text-4xl">
                   {{ $t('homepage.services.service_1_header') }}
-                </h2>
+                </h3>
                 <div>
-                  <p class="mb-5 text-justify">
+                  <p class="text-center text-gray-500 text-xl lg:text-2xl font-normal">
                     <span>
                       {{ $t('homepage.services.service_1_description') }}
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('zmot-audit')">
-                  <a
-                    class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
-                    data-ga-slug="Get a Quote"
-                    role="button"
-                    tabindex="0"
-                  >
-                    <span>
-                      {{ $t('homepage.services.get_a_quote') }}
-                    </span>
-                  </a>
-                </nuxt-link>
+                  <div class="lg:px-24">
+                    <nuxt-link :to="localePath('digital-marketing-services')">
+                      <a
+                        id="btn_money_page_zmot-audit"
+                        class="mt-16  uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10"
+                        data-ga-slug="Get a Quote"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span>
+                          {{ $t('homepage.services.get_a_quote') }}
+                        </span>
+                      </a>
+                    </nuxt-link>
+                  </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
+      <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
         <div class="lg:w-1/2 w-full overflow-hidden">
           <div class="card service--item mb-3 text-right">
             <div class="card-body">
               <div class="card-text">
-                <h2 class="h3 mb-4">
+                <h3 class="mb-8 font-bold text-center text-4xl">
                   {{ $t('homepage.services.service_2_header') }}
-                </h2>
+                </h3>
                 <div>
-                  <p class="mb-5 text-justify">
+                  <p class="text-center text-gray-500 text-xl lg:text-2xl font-normal">
                     <span>
                       {{ $t('homepage.services.service_2_description') }}
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('lectures-events')">
-                  <a
-                    class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
-                    data-ga-slug="Get a Quote"
-                    role="button"
-                    tabindex="0"
-                  >
-                    <span>
-                      {{ $t('homepage.services.get_a_quote') }}
-                    </span>
-                  </a>
-                </nuxt-link>
+                  <div class="lg:px-24">
+                    <nuxt-link :to="localePath('keynote-speakers')">
+                      <a
+                        id="btn_money_page_lectures-events"
+                        class="mt-16  uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10"
+                        data-ga-slug="Get a Quote"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span>
+                          {{ $t('homepage.services.get_a_quote') }}
+                        </span>
+                      </a>
+                    </nuxt-link>
+                  </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="lg:w-1/2 w-full overflow-hidden">
+        <div class="lg:w-1/2 w-full overflow-hidden lg:my-auto">
           <img
             :src="require('~/assets/img/services/service-lecture.png').src"
             :srcset="require('~/assets/img/services/service-lecture.png').srcSet"
@@ -89,8 +95,8 @@
         </div>
       </div>
 
-      <div class="row flex flex-wrap flex-col md:flex-row my-8 overflow-hidden align-center">
-        <div class="lg:w-1/2 w-full overflow-hidden">
+      <div class="row flex flex-wrap flex-col md:flex-row my-12 lg:my-40 overflow-hidden align-center">
+        <div class="lg:w-1/2 w-full overflow-hidden lg:my-auto">
           <img
             :src="require('~/assets/img/services/service-online_course.png').src"
             :srcset="require('~/assets/img/services/service-online_course.png').srcSet"
@@ -102,29 +108,31 @@
           <div class="card service--item mb-3">
             <div class="card-body">
               <div class="card-text">
-                <h2 class="h3 mb-4">
+                <h3 class="mb-8 font-bold text-center text-4xl">
                   {{ $t('homepage.services.service_3_header') }}
-                </h2>
+                </h3>
                 <div>
-                  <p class="mb-5 medium text-justify">
+                  <p class="text-center text-gray-500 text-xl lg:text-2xl font-normal">
                     <span>
                       {{ $t('homepage.services.service_3_description') }}
                     </span>
                   </p>
                 </div>
-                <nuxt-link :to="localePath('online-courses')">
-                  <a
-                    id="CheckServicePage"
-                    class="inline-block text-center leading-normal border bg-indigo-700 text-white text-2xl w-full p-2 uppercase font-medium rounded-full"
-                    data-ga-slug="Get a Quote"
-                    role="button"
-                    tabindex="0"
-                  >
-                    <span>
-                      {{ $t('homepage.services.get_a_quote') }}
-                    </span>
-                  </a>
-                </nuxt-link>
+                  <div class="lg:px-24">
+                    <nuxt-link :to="localePath('digital-marketing-courses')">
+                      <a
+                        id="btn_money_page_online-courses"
+                        class="mt-16  uppercase flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-shinny md:py-4 md:text-lg md:px-10"
+                        data-ga-slug="Get a Quote"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span>
+                          {{ $t('homepage.services.get_a_quote') }}
+                        </span>
+                      </a>
+                    </nuxt-link>
+                  </div>
               </div>
             </div>
           </div>

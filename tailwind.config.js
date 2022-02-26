@@ -29,8 +29,11 @@ module.exports = {
       },
       colors: {
         // Configure your color palette here
-        primary: '#fc642e',
-        mpurple: '#6c38f8'
+        primary: '#f46322',
+        mpurple: '#6c38f8',
+        "orange-shinny": '#f46322',
+        "orange-mat": 'fcdbc0',
+        "green-shinny": '#27c444'
       }
     }
   }

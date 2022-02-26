@@ -1,7 +1,7 @@
 <template>
   <section id="contact-form" class="contact-form pt-20 bg-white">
     <div class="container mx-auto px-2 lg:px-4">
-      <h2 class="text-center text-45xl font-semibold mb-8 text-primary">
+      <h2 class="text-center font-semibold mb-8 text-primary">
         {{ $t('contact.form.contact') }}
       </h2>
       <p class="text-center text-primary text-xl font-normal">
@@ -125,16 +125,16 @@ export default {
     },
     showSuccessToast () {
       this.$swal({
-        title: this.$t('online_courses.thank_you_title'),
-        text: this.$t('online_courses.thank_you_message'),
+        title: this.$t('contact_form.thank_you_title'),
+        text: this.$t('contact_form.thank_you_message'),
         icon: 'success',
         button: 'OK'
       })
     },
     showErrorToast () {
       this.$swal({
-        title: 'Submit Failed',
-        text: 'Something went wrong with your submission.',
+        title: this.$t('contact_form.thank_you_error_title'),
+        text: this.$t('contact_form.thank_you_error_message'),
         icon: 'error',
         button: 'OK'
       })

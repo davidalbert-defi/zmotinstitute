@@ -1,4 +1,24 @@
 @import 'variable';
+@font-face {
+  font-family: 'Quicksand Semi-bold';
+  src: url('../font/Quicksand-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Regular';
+  src: url('../font/Quicksand-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Medium';
+  src: url('../font/Quicksand-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Light';
+  src: url('../font/Quicksand-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand Bold';
+  src: url('../font/Quicksand-Bold.ttf') format('truetype');
+}
 .form-control {
   display: block;
   width: 100%;
@@ -12,6 +32,20 @@
   background-clip: padding-box;
   //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.form-control-blog {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color:white;
+  background-color: #27c444;
+  border-color: #27c444;
+  background-clip: padding-box;
+  //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 input, textarea {
   border-radius: 0;
   border: 0;
@@ -22,7 +56,7 @@ input, textarea {
 input:focus, textarea:focus {
   outline: 0;
   border: 0;
-  border-bottom: 2px solid #e46c38;
+  border: 2px solid #e46c38;
   box-shadow: none;
 }
 textarea.form-control {
@@ -37,12 +71,12 @@ section.news-letter {
   padding: 5rem 0;
   background-color: $light_orange;
   color: $mat_purple;
-  h2 {
-    color: $mat_orange;
-  }
-  p {
-    color: #333 !important;
-  }
+  // h2 {
+  //   color: $mat_orange;
+  // }
+  // p {
+  //   color: #333 !important;
+  // }
 
   .search-form {
     position: relative;
