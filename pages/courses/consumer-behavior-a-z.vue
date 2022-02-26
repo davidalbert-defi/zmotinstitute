@@ -88,7 +88,7 @@ export default {
           name: this.$t('courses_consumer_behavior.faq.question_1_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('ourses_consumer_behavior.faq.question_1_answer')
+            text: this.$t('courses_consumer_behavior.faq.question_1_answer')
           }
         },
         {
@@ -96,7 +96,7 @@ export default {
           name: this.$t('courses_consumer_behavior.faq.question_2_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('ourses_consumer_behavior.faq.question_2_answer')
+            text: this.$t('courses_consumer_behavior.faq.question_2_answer')
           }
         },
         {
@@ -104,7 +104,7 @@ export default {
           name: this.$t('courses_consumer_behavior.faq.question_3_question'),
           acceptedAnswer: {
             '@type': 'Answer',
-            text: this.$t('ourses_consumer_behavior.faq.question_3_answer')
+            text: this.$t('courses_consumer_behavior.faq.question_3_answer')
           }
         }
       ]

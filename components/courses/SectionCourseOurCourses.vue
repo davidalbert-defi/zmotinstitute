@@ -80,7 +80,7 @@ export default {
         },
         {
           title: this.$t('online_courses.our_courses.course_2_header'),
-          href: '#contactform',
+          href: '/pt-br/curso-comportamento-do-consumidor',
           description: this.$t('online_courses.our_courses.course_2_description'),
           score: this.$t('online_courses.our_courses.course_2_score'),
           star_with: this.$t('online_courses.our_courses.course_2_star_with'),
