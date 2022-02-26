@@ -13,7 +13,7 @@
         <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           <div v-for="course in courses" :key="course.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
             <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" :src="course.imageUrl" alt="" data-not-lazy />
+              <img class="h-48 w-full object-contain md:object-fill" :src="course.imageUrl" alt="" data-not-lazy />
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">
@@ -69,16 +69,6 @@ export default {
     return {
       courses: [
         {
-          title: this.$t('online_courses.our_courses.course_1_header'),
-          href: '#contactform',
-          description: this.$t('online_courses.our_courses.course_1_description'),
-          score: this.$t('online_courses.our_courses.course_1_score'),
-          star_with: this.$t('online_courses.our_courses.course_1_star_with'),
-          duration: this.$t('online_courses.our_courses.course_1_duration'),
-          time_unit: this.$t('online_courses.our_courses.course_1_time_unit'),
-          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_1_img'))
-        },
-        {
           title: this.$t('online_courses.our_courses.course_2_header'),
           href: '/pt-br/curso-comportamento-do-consumidor',
           description: this.$t('online_courses.our_courses.course_2_description'),
@@ -87,6 +77,16 @@ export default {
           duration: this.$t('online_courses.our_courses.course_2_duration'),
           time_unit: this.$t('online_courses.our_courses.course_2_time_unit'),
           imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_2_img'))
+        },
+        {
+          title: this.$t('online_courses.our_courses.course_1_header'),
+          href: '#contactform',
+          description: this.$t('online_courses.our_courses.course_1_description'),
+          score: this.$t('online_courses.our_courses.course_1_score'),
+          star_with: this.$t('online_courses.our_courses.course_1_star_with'),
+          duration: this.$t('online_courses.our_courses.course_1_duration'),
+          time_unit: this.$t('online_courses.our_courses.course_1_time_unit'),
+          imageUrl: require('~/assets/img/online-courses-thumbnails/' + this.$t('online_courses.our_courses.course_1_img'))
         },
         {
           title: this.$t('online_courses.our_courses.course_3_header'),
