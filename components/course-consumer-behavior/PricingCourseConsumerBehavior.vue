@@ -83,7 +83,12 @@
                     </ul>
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
-                        <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50" aria-describedby="tier-hobby">
+                        <a 
+                        id="tier1_cta_button"
+                        href="https://pay.hotmart.com/F64721889V?offDiscount=30dsite" 
+                        class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50" 
+                        aria-describedby="tier-hobby"
+                        >
                           {{ $t('courses_consumer_behavior.pricing.purchase_cta') }}
                           </a>
                       </div>
@@ -148,7 +153,12 @@
                   </ul>
                   <div class="mt-10">
                     <div class="rounded-lg shadow-md">
-                      <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700" aria-describedby="tier-growth">
+                      <a 
+                      id="tier2_cta_button"
+                      href="https://pay.hotmart.com/F64721889V" 
+                      class="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700" 
+                      aria-describedby="tier-growth"
+                      >
                         {{ $t('courses_consumer_behavior.pricing.purchase_cta') }}
                         </a>
                     </div>
@@ -205,7 +215,11 @@
                     </ul>
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
-                        <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50" aria-describedby="tier-scale">
+                        <a 
+                        id="tier3_cta_button"
+                        href="https://pay.hotmart.com/F64721889V" 
+                        class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50" 
+                        aria-describedby="tier-scale">
                           {{ $t('courses_consumer_behavior.pricing.purchase_cta') }}
                         </a>
                       </div>

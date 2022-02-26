@@ -591,6 +591,8 @@
                 "tooltip": "You will have access to the course for 30 days from the date of purchase, after that you will no longer be able to access the course.",
                 "price":"59",
                 "price_currency":"USD",
+                "cta_url":"https://pay.hotmart.com/F64721889V?offDiscount=30dsite",
+                "cta_id":"tier1_cta_button",
                 "feature1": "Access during 30 days",
                 "feature2": "Watch As Many Times As You Want",
                 "feature3": "Hands On Practices",
@@ -603,6 +605,8 @@
                 "header": "12 months Access",
                 "tooltip": "You will have access to the course for 12 months from the date of purchase, after that you will no longer be able to access the course.",
                 "price":"215",
+                "cta_url":"https://pay.hotmart.com/F64721889V",
+                "cta_id":"tier2_cta_button",
                 "feature1": "Access during a whole year",
                 "feature6": "2 hours Online Mentoring",
                 "feature8": ""
@@ -611,6 +615,8 @@
                 "header": "Unlimited Access",
                 "tooltip": "You will have unlimited access to the course, whenever you need it, regardless of how long the purchase was made.",
                 "price":"370",
+                "cta_url":"https://pay.hotmart.com/F64721889V",
+                "cta_id":"tier3_cta_button",
                 "feature1": "always have access, it does not expire",
                 "feature6": "4 hours Online Mentoring",
                 "feature9": ""
